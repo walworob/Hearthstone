@@ -22,6 +22,7 @@ while command != "exit":
 
   command = raw_input(">>> ")
 
+  
   # Add a card to the collection
   if command[:8].upper() == "ADDCARD ":
   
@@ -43,6 +44,7 @@ while command != "exit":
       cursor.execute("UPDATE Possess SET amount=2 WHERE id=%s", [id])
     else:
       print "error: You already have two of that card"
+      
 
   # Delete a card from the collection
   elif command[:11].upper() == "DELETECARD ":
@@ -52,6 +54,7 @@ while command != "exit":
     # Test for validity
     id = validCard(card)
     if id == None:
+      print "error: Not a valid card"
       continue
     
     # Find how many of that card the user owns
@@ -65,7 +68,9 @@ while command != "exit":
       cursor.execute("UPDATE Possess SET amount=1 WHERE id=%s", [id])
     else:
       cursor.execute("DELETE FROM Possess WHERE id=%s", [id])
-      
+  
+  
+  # Add a deck to the users collection
   elif command[:8].upper() == "ADDDECK ":
     
     name = command[8:]
@@ -89,17 +94,13 @@ while command != "exit":
       id = validCard(card)
       if id == None:
         print "error: Invalid input, please verify the card name and that you are only inserting one or two"
-        
-      # Verify the user has the card
-      cursor.execute("SELECT amount FROM Possess WHERE id=%s", [id])
-      if cursor.fetchone() == None:
-        print "error: You don't own that card"
         continue
         
       # Check if the card is already in the deck
       cursor.execute("SELECT amount FROM Contain WHERE card_id=%s AND deck_id=%s", [id, deckID])
       if cursor.fetchone() != None:
         print "error: This card is already in the deck"
+        continue
         
       # Check if the card is valid for this class
       cursor.execute("SELECT playerClass FROM Cards WHERE id=%s", [id])
@@ -107,15 +108,105 @@ while command != "exit":
       if cardClass != None:
         if cardClass != Class:
           print "error: Can't add cards from other classes to this deck"
+          continue
+          
+      # Check and make sure the number of cards is valid
+      if number == 2:
+     
+        # Can only have one legendary in a deck
+        cursor.execute("SELECT rarity FROM Cards WHERE id=%s", [id])
+        rarity = cursor.fetchone()[0]
+        if rarity == "Legendary":
+          print "error: Can only have one of that card in a deck"
+          continue
+        
+        # Can't accidentally make a deck with 31 cards
+        if numCards == 29:
+          print "error: Only one card slot open"
+          continue
+          
+      # Invalid number of cards
+      elif number != 1:
+        print "error: Can only have one or two cards in a deck"
+        continue
+        
+      # Add the card to the deck
+      cursor.execute("INSERT INTO Contain (card_id, deck_id, amount) VALUES (%s, %s, %s)", [id, deckID, str(number)])
+      numCards += number
       
+      
+  # Delete a deck
+  elif command[:11].upper() == "DELETEDECK ":
+  
+    name = command[11:]
+    
+    # Get decks with that name
+    cursor.execute("SELECT class, cost FROM Decks WHERE name=%s", [name])
+    decks = cursor.fetchall()
+    
+    if decks == None:
+      print "error: A deck with that name does not exist"
+      
+    else:
+      deleteDeck = ""
+    
+      if len(decks) > 1:
+      
+        print "Which deck is correct?"
+        deckCount = 1
+        
+        for curDeck in decks:
+          output = deckCount + ") " + name + ", Class: " + curDeck[0] + ", Cost: " + curDeck[1]
+          print output
+          deckCount += 1
+        
+        deckNum = raw_input("Please enter the number of the deck you would like to delete: ")
+        while(1):
+        
+          try:
+            deleteDeck = decks[deckNum]
+          except:
+            deckNum = raw_input("Please enter a valid number: ")
+            continue
+          break
+      
+      # Only one deck
+      else:
+        deleteDeck = decks[0]
+        
+      cursor.execute("SELECT id FROM Decks WHERE name=%s AND class=%s AND cost=%s", [name, deleteDeck[0], deleteDeck[1]])
+      id = cursor.fetchone()[0]
+      cursor.execute("DELETE FROM Contain WHERE deck_id=%s")
+      cursor.execute("DELETE FROM Decks WHERE id=%s")
+        
+  
+  # Find which pack to get
+  elif command[:4].upper() == "PACK":
+  
+    chance = [0.71, 0.245, 0.04, 0.005]
+    enchantVal = [40, 100, 400, 1600]
+    disenchantVal = [5, 20, 100, 400]
+    classicAll = [188, 162, 74, 33]
+    gvgAll = [78, 74, 52, 20]
+    tgtAll = [49, 36, 27, 20]
+    classicMiss = [0, 0, 0, 0]
+    gvgMiss = [0, 0, 0, 0]
+    tgtMiss = [0, 0, 0, 0]
   
   
+
+
+
+
   # Unrecognized command
   else:
     if command != "exit":
       print "Unrecognized command. Available commands are:"
-      print "addcard <card name>"
-      print "deletecard <card name>"
+      print "addCard <card name>"
+      print "deleteCard <card name>"
+      print "addDeck <deck name>"
+      print "deleteDeck <deck name>"
+      print "pack"
       print "Use the command 'exit' to exit the program"
       
   
