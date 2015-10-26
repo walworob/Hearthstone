@@ -180,11 +180,28 @@ while command != "exit":
         
   
   # Find which pack to get
-  elif command[:4].upper() == "PACK":
+  elif command[:5].upper() == "PACK ":
   
-    chance = [0.71, 0.245, 0.04, 0.005]
-    enchantVal = [40, 100, 400, 1600]
-    disenchantVal = [5, 20, 100, 400]
+    chance = {
+      "Common": 0.71,
+      "Rare": 0.245,
+      "Epic": 0.04,
+      "Legendary": 0.005
+    }
+    enchantVal = {
+      "Common": 40,
+      "Rare": 100,
+      "Epic": 400,
+      "Legendary": 1600
+    }
+    disenchantVal = {
+      "Common": 5,
+      "Rare": 20,
+      "Epic": 100,
+      "Legendary": 400
+    }
+    
+    
     classicAll = [188, 162, 74, 33]
     gvgAll = [78, 74, 52, 20]
     tgtAll = [49, 36, 27, 20]
