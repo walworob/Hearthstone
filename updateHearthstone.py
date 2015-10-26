@@ -74,12 +74,12 @@ while command != "exit":
   elif command[:8].upper() == "ADDDECK ":
     
     name = command[8:]
-    Class = raw_input("Class: ").upper()
+    Class = raw_input("Class: ")
     reachable_ranks = raw_input("Reachable ranks: ")
     cost = raw_input("Cost: ")
     
     cursor.execute("INSERT INTO Decks (name, class, reachable_ranks, cost) VALUES (%s, %s, %s, %s)", [name, Class, reachable_ranks, cost])
-    cursor.execute("SELECT id FROM Decks WHERE name=%s AND class=%s AND reachable_ranks=%s AND cost=%s", [name, Class, reachable_ranks, cost])
+    cursor.execute("SELECT id FROM Decks WHERE name=%s AND class=%s AND reachable_ranks=%s AND cost=%s ORDER BY id DESC", [name, Class, reachable_ranks, cost])
     deckID = cursor.fetchone()[0]
     
     print "--- >>> <number of cards> <card name>"
@@ -87,13 +87,13 @@ while command != "exit":
     while numCards < 30:
     
       entry = raw_input("--- >>> ")
-      number = entry[0]
+      number = int(entry[0])
       card = entry[2:]
       
       # Test for validity
       id = validCard(card)
       if id == None:
-        print "error: Invalid input, please verify the card name and that you are only inserting one or two"
+        print "Verify the card name and that you are only inserting one or two"
         continue
         
       # Check if the card is already in the deck
@@ -144,7 +144,7 @@ while command != "exit":
     cursor.execute("SELECT class, cost FROM Decks WHERE name=%s", [name])
     decks = cursor.fetchall()
     
-    if decks == None:
+    if not decks:
       print "error: A deck with that name does not exist"
       
     else:
@@ -152,19 +152,19 @@ while command != "exit":
     
       if len(decks) > 1:
       
-        print "Which deck is correct?"
+        print "\nWhich deck is correct?"
         deckCount = 1
         
         for curDeck in decks:
-          output = deckCount + ") " + name + ", Class: " + curDeck[0] + ", Cost: " + curDeck[1]
+          output = str(deckCount) + ") " + name + ", Class: " + str(curDeck[0]) + ", Cost: " + str(curDeck[1])
           print output
           deckCount += 1
         
-        deckNum = raw_input("Please enter the number of the deck you would like to delete: ")
+        deckNum = raw_input("\nPlease enter the number of the deck you would like to delete: ")
         while(1):
         
           try:
-            deleteDeck = decks[deckNum]
+            deleteDeck = decks[int(deckNum) - 1]
           except:
             deckNum = raw_input("Please enter a valid number: ")
             continue
@@ -173,11 +173,10 @@ while command != "exit":
       # Only one deck
       else:
         deleteDeck = decks[0]
-        
+      
       cursor.execute("SELECT id FROM Decks WHERE name=%s AND class=%s AND cost=%s", [name, deleteDeck[0], deleteDeck[1]])
       id = cursor.fetchone()[0]
-      cursor.execute("DELETE FROM Contain WHERE deck_id=%s")
-      cursor.execute("DELETE FROM Decks WHERE id=%s")
+      cursor.execute("DELETE FROM Decks WHERE id=%s", [id])
         
   
   # Find which pack to get
@@ -197,7 +196,11 @@ while command != "exit":
 
 
 
-
+  # New line
+  elif command == "":
+    continue
+  
+  
   # Unrecognized command
   else:
     if command != "exit":
