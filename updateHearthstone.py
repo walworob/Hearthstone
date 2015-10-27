@@ -180,7 +180,7 @@ while command != "exit":
         
   
   # Find which pack to get
-  elif command[:4].upper() == "PACK":
+  elif command.upper() == "PACK":
   
     chance = {
       "Common": 0.71,
@@ -189,17 +189,20 @@ while command != "exit":
       "Legendary": 0.005
     }
     enchantVal = {
-      "Common": 40,
-      "Rare": 100,
-      "Epic": 400,
-      "Legendary": 1600
+      "Common": 40.0,
+      "Rare": 100.0,
+      "Epic": 400.0,
+      "Legendary": 1600.0
     }
     disenchantVal = {
-      "Common": 5,
-      "Rare": 20,
-      "Epic": 100,
-      "Legendary": 400
+      "Common": 5.0,
+      "Rare": 20.0,
+      "Epic": 100.0,
+      "Legendary": 400.0
     }
+    
+    print "\nHighest number has greatest value"
+    print "--------------------------------------"
     
     expansions = ["Classic", "Goblins vs Gnomes", "The Grand Tournament"]
     all = {}
@@ -210,27 +213,27 @@ while command != "exit":
       cursor.execute("SELECT SUM(P.amount) AS Amount, C.rarity FROM Possess P, Cards C WHERE P.id=C.id AND C.expansion=%s GROUP BY rarity", [curExp])
       amounts = cursor.fetchall()
       try:
-        all["Common"] = results[1][0]
-        all["Rare"] = results[4][0]
-        all["Epic"] = results[2][0]
+        all["Common"] = 2 * results[1][0]
+        all["Rare"] = 2 * results[4][0]
+        all["Epic"] = 2 * results[2][0]
         all["Legendary"] = results[3][0]
-        miss["Common"] = amounts[1][0] - results[1][0]
-        miss["Rare"] = amounts[4][0] - results[4][0]
-        miss["Epic"] = amounts[2][0] - results[2][0]
-        miss["Legendary"] = amounts[3][0] - results[3][0]
+        miss["Common"] = all["Common"] - amounts[1][0]
+        miss["Rare"] = all["Rare"] - amounts[4][0]
+        miss["Epic"] = all["Epic"] - amounts[2][0]
+        miss["Legendary"] = all["Legendary"] - amounts[3][0]
       except:
-        all["Common"] = results[0][0]
-        all["Rare"] = results[3][0]
-        all["Epic"] = results[1][0]
+        all["Common"] = 2 * results[0][0]
+        all["Rare"] = 2 * results[3][0]
+        all["Epic"] = 2 * results[1][0]
         all["Legendary"] = results[2][0]
-        miss["Common"] = amounts[0][0] - results[0][0]
-        miss["Rare"] = amounts[3][0] - results[3][0]
-        miss["Epic"] = amounts[1][0] - results[1][0]
-        miss["Legendary"] = amounts[2][0] - results[2][0]
+        miss["Common"] = all["Common"] - amounts[0][0]
+        miss["Rare"] = all["Rare"] - amounts[3][0]
+        miss["Epic"] = all["Epic"] - amounts[1][0]
+        miss["Legendary"] = all["Legendary"] - amounts[2][0]
       
       total = 0
       for i in ["Common", "Rare", "Epic", "Legendary"]:
-        val = chance[i] * ((all[i] - miss[i]) / all[i] * disenchantVal[i] + miss[i] / all[i] * enchantVal[i]) 
+        val = chance[i] * (float((all[i] - miss[i]) / all[i]) * disenchantVal[i] + float(miss[i] / all[i]) * enchantVal[i]) 
         total += val
         
       print curExp + ": " + str(total * 5)
