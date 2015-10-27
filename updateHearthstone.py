@@ -180,7 +180,7 @@ while command != "exit":
         
   
   # Find which pack to get
-  elif command[:5].upper() == "PACK ":
+  elif command[:5].upper() == "PACK":
   
     chance = {
       "Common": 0.71,
@@ -201,7 +201,25 @@ while command != "exit":
       "Legendary": 400
     }
     
-    
+    expansions = ["Classic", "Goblins vs Gnomes", "The Grand Tournament"]
+    data = {}
+    for curExp in expansions:
+      cursor.execute("SELECT count(*) FROM Cards WHERE expansion=%s GROUP BY rarity", [curExp])
+      results = cursor.fetchall()
+      data[curExp] = {}
+      try:
+        data[curExp]["Common"] = results[1][0]
+        data[curExp]["Rare"] = results[4][0]
+        data[curExp]["Epic"] = results[2][0]
+        data[curExp]["Legendary"] = results[3][0]
+      except:
+        data[curExp]["Common"] = results[0][0]
+        data[curExp]["Rare"] = results[3][0]
+        data[curExp]["Epic"] = results[1][0]
+        data[curExp]["Legendary"] = results[2][0]
+      
+      print data[curExp]
+      
     classicAll = [188, 162, 74, 33]
     gvgAll = [78, 74, 52, 20]
     tgtAll = [49, 36, 27, 20]
