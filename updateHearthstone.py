@@ -299,6 +299,7 @@ while command != "exit":
       print "addDeck <deck name>"
       print "deleteDeck <deck name>"
       print "pack"
+      print "canMake"
       print "Use the command 'exit' to exit the program"
       
   
