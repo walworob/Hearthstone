@@ -238,6 +238,48 @@ while command != "exit":
         
       print curExp + ": " + str(total * 5)
 
+      
+  # Find out decks the user can make
+  elif command.upper() == "CANMAKE":
+  
+    cursor.execute("SELECT * FROM Decks")
+    decks = cursor.fetchall()
+    
+    numCompleteDecks = 0
+    for curDeck in decks:
+      id = curDeck[0]
+      name = curDeck[1]
+      Class = curDeck[2]
+      reachableRanks = curDeck[3]
+      cost = curDeck[4]
+      
+      cursor.execute("SELECT card_id, amount FROM Contain WHERE deck_id=%s", id)
+      cards = cursor.fetchall()
+      
+      completeDeck = True
+      for curCard in cards:
+        
+        cursor.execute("SELECT id, amount FROM Possess WHERE id=%s", curCard[0])
+        results = cursor.fetchone()
+        try:
+          id = results[0]
+        except:
+          completeDeck = False
+          break
+        
+        amount = results[1]
+        if amount < curCard[1]:
+          completeDeck = False
+          break
+          
+      if completeDeck:
+        print str(numCompleteDecks + 1) + ") " + name + ", Class: " + Class + ", Cost: " + cost
+          
+        
+          
+        
+      
+  
   # New line
   elif command == "":
     continue
