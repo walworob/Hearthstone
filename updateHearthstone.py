@@ -273,7 +273,12 @@ while command != "exit":
           break
           
       if completeDeck:
-        print str(numCompleteDecks + 1) + ") " + name + ", Class: " + Class + ", Cost: " + cost
+        if numCompleteDecks == 0:
+          print "\n"
+        print str(numCompleteDecks + 1) + ") " + name + ", Class: " + Class + ", Cost: " + str(cost)
+        numCompleteDecks += 1
+        
+    print "\n"
           
         
           
