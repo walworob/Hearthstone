@@ -281,7 +281,48 @@ while command != "exit":
     print "\n"
           
         
-          
+  # Find the best card to craft
+  elif command.upper() == "WHATTOCRAFT":
+  
+    cards = []
+    
+    cursor.execute("SELECT DISTINCT c.id, c.name, c.rarity FROM Cards c, Contain d WHERE c.id=d.card_id ORDER BY c.playerClass, c.cost, c.type DESC, c.name")
+    rawCards = cursor.fetchall()
+    for card in rawCards:
+      newCard = {}
+      newCard["id"] = card[0]
+      newCard["name"] = card[1]
+      newCard["rarity"] = card[2]
+      cards.append(newCard)
+      
+    value = {"Common": 40, "Rare": 100, "Epic": 400, "Legendary": 1600}
+    for card in cards:
+      cursor.execute("SELECT amount FROM Possess WHERE id=%s", card["id"])
+      try:
+        num = int(cursor.fetchone()[0])
+        if num == 1:
+          cursor.execute("SELECT sum(amount) AS Total FROM Contain WHERE card_id=%s AND amount!=1", card["id"])
+          card["amount"] = (int(cursor.fetchone()[0]) / 2) * value[card["rarity"]]
+        else:
+          continue
+      except:    
+        cursor.execute("SELECT sum(amount) AS Total FROM Contain WHERE card_id=%s", card["id"])
+        card["amount"] = int(cursor.fetchone()[0]) * value[card["rarity"]]
+    
+    max = 0
+    idx = 0
+    for i in range(4):
+      for card in cards:
+        if card["amount"] > max:
+          max = card["amount"]
+          idx = card
+      print idx["name"]
+      cards.remove(idx)
+      max = 0
+      
+    
+      
+      
         
       
   
