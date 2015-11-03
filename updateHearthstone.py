@@ -7,6 +7,48 @@ def validCard(name):
   except:
     print "error: Not a valid card"
     return None
+    
+def getAmount(card):
+  return card["amount"]
+
+def getDeck(deckName):
+
+  # Get decks with that name
+  cursor.execute("SELECT class, cost FROM Decks WHERE name=%s", [name])
+  decks = cursor.fetchall()
+    
+  if not decks:
+    print "error: A deck with that name does not exist"
+    return None
+      
+  else:
+    deleteDeck = ""
+    
+    if len(decks) > 1:
+      
+      print "\nWhich deck is correct?"
+      deckCount = 1
+        
+      for curDeck in decks:
+        output = str(deckCount) + ") " + name + ", Class: " + str(curDeck[0]) + ", Cost: " + str(curDeck[1])
+        print output
+        deckCount += 1
+        
+      deckNum = raw_input("\nPlease enter the correct deck number: ")
+      while(1):
+        
+        try:
+          deleteDeck = decks[int(deckNum) - 1]
+        except:
+          deckNum = raw_input("Please enter a valid number: ")
+          continue
+        break
+      
+    # Only one deck
+    else:
+      deleteDeck = decks[0]
+      
+  return deleteDeck
 
 db = MySQLdb.connect(
   host = "localhost",
@@ -140,43 +182,11 @@ while command != "exit":
   
     name = command[11:]
     
-    # Get decks with that name
-    cursor.execute("SELECT class, cost FROM Decks WHERE name=%s", [name])
-    decks = cursor.fetchall()
-    
-    if not decks:
-      print "error: A deck with that name does not exist"
+    deleteDeck = getDeck(name)
       
-    else:
-      deleteDeck = ""
-    
-      if len(decks) > 1:
-      
-        print "\nWhich deck is correct?"
-        deckCount = 1
-        
-        for curDeck in decks:
-          output = str(deckCount) + ") " + name + ", Class: " + str(curDeck[0]) + ", Cost: " + str(curDeck[1])
-          print output
-          deckCount += 1
-        
-        deckNum = raw_input("\nPlease enter the number of the deck you would like to delete: ")
-        while(1):
-        
-          try:
-            deleteDeck = decks[int(deckNum) - 1]
-          except:
-            deckNum = raw_input("Please enter a valid number: ")
-            continue
-          break
-      
-      # Only one deck
-      else:
-        deleteDeck = decks[0]
-      
-      cursor.execute("SELECT id FROM Decks WHERE name=%s AND class=%s AND cost=%s", [name, deleteDeck[0], deleteDeck[1]])
-      id = cursor.fetchone()[0]
-      cursor.execute("DELETE FROM Decks WHERE id=%s", [id])
+    cursor.execute("SELECT id FROM Decks WHERE name=%s AND class=%s AND cost=%s", [name, deleteDeck[0], deleteDeck[1]])
+    id = cursor.fetchone()[0]
+    cursor.execute("DELETE FROM Decks WHERE id=%s", [id])
         
   
   # Find which pack to get
@@ -240,10 +250,17 @@ while command != "exit":
 
       
   # Find out decks the user can make
-  elif command.upper() == "CANMAKE":
+  elif command.upper() == "CANMAKE" or command[:8].upper() == "CANMAKE ":
   
-    cursor.execute("SELECT * FROM Decks")
+    if command.upper() == "CANMAKE":
+      cursor.execute("SELECT * FROM Decks")
+    else:
+        cursor.execute("SELECT * FROM Decks WHERE class=%s", command[8:])
+        
     decks = cursor.fetchall()
+    if not decks:
+      print "error: Not a valid class"
+      continue
     
     numCompleteDecks = 0
     for curDeck in decks:
@@ -293,6 +310,7 @@ while command != "exit":
       newCard["id"] = card[0]
       newCard["name"] = card[1]
       newCard["rarity"] = card[2]
+      newCard["amount"] = 0
       cards.append(newCard)
       
     value = {"Common": 40, "Rare": 100, "Epic": 400, "Legendary": 1600}
@@ -300,7 +318,7 @@ while command != "exit":
       cursor.execute("SELECT amount FROM Possess WHERE id=%s", card["id"])
       try:
         num = int(cursor.fetchone()[0])
-        if num == 1:
+        if (num == 1) and (card["rarity"] != "Legendary"):
           cursor.execute("SELECT sum(amount) AS Total FROM Contain WHERE card_id=%s AND amount!=1", card["id"])
           card["amount"] = (int(cursor.fetchone()[0]) / 2) * value[card["rarity"]]
         else:
@@ -308,21 +326,34 @@ while command != "exit":
       except:    
         cursor.execute("SELECT sum(amount) AS Total FROM Contain WHERE card_id=%s", card["id"])
         card["amount"] = int(cursor.fetchone()[0]) * value[card["rarity"]]
-    
-    max = 0
-    idx = 0
-    for i in range(4):
-      for card in cards:
-        if card["amount"] > max:
-          max = card["amount"]
-          idx = card
-      print idx["name"]
-      cards.remove(idx)
-      max = 0
       
+    cards.sort(key=getAmount, reverse=True)
+    for i in range(5):
+      print cards[i]["name"] + " will give you " + str(cards[i]["amount"]) + " value"
     
       
+  elif command[:10].upper() == "PRINTLIST ":
+    
+    name = command[10:]
+    
+    deckInfo = getDeck(name)
+    
+    cursor.execute("SELECT id FROM Decks WHERE name=%s AND class=%s AND cost=%s", [name, deckInfo[0], deckInfo[1]])
+    id = cursor.fetchone()[0]
+    
+    cursor.execute("SELECT c.name, d.amount FROM Cards c, Contain d WHERE c.id=d.card_id AND d.deck_id=%s ORDER BY c.playerClass DESC, c.cost, c.type DESC, c.name", id)
+    deck = cursor.fetchall()
+    for card in deck:
+      print str(card[1]) + "x " + card[0]
       
+  elif command[:11].upper() == "PRINTDECKS ":
+  
+    Class = command[11:]
+    
+    cursor.execute("SELECT name, cost FROM Decks WHERE class=%s", Class)
+    decks = cursor.fetchall()
+    for curDeck in decks:
+      print curDeck[0] + ", Cost: " + str(curDeck[1])
         
       
   
@@ -341,6 +372,7 @@ while command != "exit":
       print "deleteDeck <deck name>"
       print "pack"
       print "canMake"
+      print "whatToCraft"
       print "Use the command 'exit' to exit the program"
       
   
