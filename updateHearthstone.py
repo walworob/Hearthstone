@@ -119,8 +119,9 @@ while command != "exit":
     Class = raw_input("Class: ")
     reachable_ranks = raw_input("Reachable ranks: ")
     cost = raw_input("Cost: ")
+    last_updated = raw_input("Last updated: ")
     
-    cursor.execute("INSERT INTO Decks (name, class, reachable_ranks, cost) VALUES (%s, %s, %s, %s)", [name, Class, reachable_ranks, cost])
+    cursor.execute("INSERT INTO Decks (name, class, reachable_ranks, cost, last_updated) VALUES (%s, %s, %s, %s, %s)", [name, Class, reachable_ranks, cost, last_updated])
     cursor.execute("SELECT id FROM Decks WHERE name=%s AND class=%s AND reachable_ranks=%s AND cost=%s ORDER BY id DESC", [name, Class, reachable_ranks, cost])
     deckID = cursor.fetchone()[0]
     
@@ -183,6 +184,8 @@ while command != "exit":
     name = command[11:]
     
     deleteDeck = getDeck(name)
+    if deleteDeck == None:
+      continue
       
     cursor.execute("SELECT id FROM Decks WHERE name=%s AND class=%s AND cost=%s", [name, deleteDeck[0], deleteDeck[1]])
     id = cursor.fetchone()[0]
@@ -253,9 +256,9 @@ while command != "exit":
   elif command.upper() == "CANMAKE" or command[:8].upper() == "CANMAKE ":
   
     if command.upper() == "CANMAKE":
-      cursor.execute("SELECT * FROM Decks")
+      cursor.execute("SELECT * FROM Decks ORDER BY class, last_updated DESC")
     else:
-        cursor.execute("SELECT * FROM Decks WHERE class=%s", command[8:])
+      cursor.execute("SELECT * FROM Decks WHERE class=%s ORDER BY last_updated DESC", command[8:])
         
     decks = cursor.fetchall()
     if not decks:
@@ -337,6 +340,8 @@ while command != "exit":
     name = command[10:]
     
     deckInfo = getDeck(name)
+    if deckInfo == None:
+      continue
     
     cursor.execute("SELECT id FROM Decks WHERE name=%s AND class=%s AND cost=%s", [name, deckInfo[0], deckInfo[1]])
     id = cursor.fetchone()[0]
@@ -350,7 +355,7 @@ while command != "exit":
   
     Class = command[11:]
     
-    cursor.execute("SELECT name, cost FROM Decks WHERE class=%s", Class)
+    cursor.execute("SELECT name, cost FROM Decks WHERE class=%s ORDER BY last_updated DESC", Class)
     decks = cursor.fetchall()
     for curDeck in decks:
       print curDeck[0] + ", Cost: " + str(curDeck[1])
@@ -371,8 +376,10 @@ while command != "exit":
       print "addDeck <deck name>"
       print "deleteDeck <deck name>"
       print "pack"
-      print "canMake"
+      print "canMake [class name]"
       print "whatToCraft"
+      print "printDecks <class name>"
+      print "printList <deck name>"
       print "Use the command 'exit' to exit the program"
       
   
