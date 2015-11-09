@@ -63,6 +63,7 @@ command = ''
 while command != "exit":
 
   command = raw_input(">>> ")
+  print ""
 
   
   # Add a card to the collection
@@ -214,7 +215,7 @@ while command != "exit":
       "Legendary": 400.0
     }
     
-    print "\nHighest number has greatest value"
+    print "Highest number has greatest value"
     print "--------------------------------------"
     
     expansions = ["Classic", "Goblins vs Gnomes", "The Grand Tournament"]
@@ -293,12 +294,8 @@ while command != "exit":
           break
           
       if completeDeck:
-        if numCompleteDecks == 0:
-          print "\n"
         print str(numCompleteDecks + 1) + ") " + name + ", Class: " + Class + ", Cost: " + str(cost)
         numCompleteDecks += 1
-        
-    print "\n"
           
         
   # Find the best card to craft
@@ -386,4 +383,5 @@ while command != "exit":
   
   
   
-  db.commit()  
+  db.commit()
+  print ""
