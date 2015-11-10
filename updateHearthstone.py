@@ -356,6 +356,55 @@ while command != "exit":
     decks = cursor.fetchall()
     for curDeck in decks:
       print curDeck[0] + ", Cost: " + str(curDeck[1])
+      
+  elif command[:9].upper() == "EDITDECK ":
+  
+    name = command[9:]
+    deckInfo = getDeck(name)
+    if deckInfo == None:
+      continue
+      
+    cursor.execute("SELECT id FROM Decks WHERE name=%s AND class=%s AND cost=%s", [name, deckInfo[0], deckInfo[1]])
+    id = cursor.fetchone()[0]
+    
+    print "Use 'done' to stop editing"
+    print "--- >>> <card to replace> / <replacement card>"
+    cmd = raw_input("--- >>> ")
+    while cmd.upper() != "DONE":
+    
+      try:
+        toReplace = cmd[:cmd.index('/') - 1]
+        replacement = cmd[cmd.index('/') + 2:]
+      except:
+        print "error: Be sure to include '/' between card names"
+        continue
+      
+      toReplace = validCard(toReplace)
+      if toReplace == None:
+        continue
+      replacement = validCard(replacement)
+      if replacement == None:
+        continue
+        
+      cursor.execute("SELECT amount FROM Contain WHERE card_id=%s AND deck_id=%s", [toReplace, id])
+      if cursor.rowcount == 0:
+        print "error: that card isn't contained in this deck"
+        continue
+      
+      amount = cursor.fetchone()[0]
+      if amount == 1:
+        cursor.execute("DELETE FROM Contain WHERE card_id=%s AND deck_id=%s", [toReplace, id])
+      else:
+        cursor.execute("UPDATE Contain SET amount=1 WHERE card_id=%s AND deck_id=%s", [toReplace, id])
+        
+      cursor.execute("SELECT amount FROM Contain WHERE card_id=%s AND deck_id=%s", [replacement, id])
+      if cursor.rowcount == 0:
+        cursor.execute("INSERT INTO Contain (card_id, deck_id, amount) VALUES (%s, %s, %s)", [replacement, id, "1"])
+        
+      
+      
+    
+      
         
       
   
