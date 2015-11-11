@@ -409,9 +409,8 @@ while command != "exit":
       else:
         cursor.execute("UPDATE Contain SET amount=1 WHERE card_id=%s AND deck_id=%s", [toReplace, id])
         
-      cursor.execute("SELECT amount FROM Contain WHERE card_id=%s AND deck_id=%s", [replacement, id])
-      if cursor.rowcount == 0:
-        cursor.execute("INSERT INTO Contain (card_id, deck_id, amount) VALUES (%s, %s, %s)", [replacement, id, "1"])
+      if not insertCard(replacement, id):
+        continue
         
       
       
