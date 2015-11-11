@@ -49,6 +49,48 @@ def getDeck(deckName):
       deleteDeck = decks[0]
       
   return deleteDeck
+  
+def insertCard(cardID, deckID):
+
+  # Check the deck size
+  cursor.execute("SELECT sum(amount) FROM Contain WHERE deck_id=%s", deckID)
+  size = cursor.fetchone()[0]
+  if size == 30:
+    print "error: Deck already at max size"
+    return False
+    
+  # Check if the card is valid for this class
+  cursor.execute("SELECT playerClass FROM Cards WHERE id=%s", [cardID])
+  cardClass = cursor.fetchone()[0]
+  if cardClass != None:
+    cursor.execute("SELECT class FROM Decks WHERE id=%s", [deckID])
+    deckClass = cursor.fetchone()[0]
+    if cardClass != deckClass:
+      print "error: Can't add cards from other classes to this deck"
+      return False
+
+  # Check if the card is already in the deck
+  cursor.execute("SELECT amount FROM Contain WHERE card_id=%s AND deck_id=%s", [cardID, deckID])
+  if cursor.rowcount != 0:
+    amount = cursor.fetchone()[0]
+    if amount == 2:
+      print "error: Already have two of that card in this deck"
+      return False
+    else:
+      # Can only have one legendary
+      cursor.execute("SELECT rarity FROM Cards WHERE id=%s", [cardID])
+      rarity = cursor.fetchone()[0]
+      if rarity == "Legendary":
+        print "error: Can only have one of a legendary minion in a deck"
+        return False
+      else:
+        cursor.execute("UPDATE Contain SET amount=2 WHERE card_id=%s AND deck_id=%s", [cardID, deckID])
+  else:
+    cursor.execute("INSERT INTO Contain (card_id, deck_id, amount) VALUES (%s, %s, %s)", [id, deckID, "1"])
+  
+  return True
+
+  
 
 db = MySQLdb.connect(
   host = "localhost",
@@ -139,43 +181,13 @@ while command != "exit":
       if id == None:
         print "Verify the card name and that you are only inserting one or two"
         continue
-        
-      # Check if the card is already in the deck
-      cursor.execute("SELECT amount FROM Contain WHERE card_id=%s AND deck_id=%s", [id, deckID])
-      if cursor.fetchone() != None:
-        print "error: This card is already in the deck"
+      
+      if not insertCard(id, deckID):
         continue
-        
-      # Check if the card is valid for this class
-      cursor.execute("SELECT playerClass FROM Cards WHERE id=%s", [id])
-      cardClass = cursor.fetchone()[0]
-      if cardClass != None:
-        if cardClass != Class:
-          print "error: Can't add cards from other classes to this deck"
-          continue
-          
-      # Check and make sure the number of cards is valid
       if number == 2:
-     
-        # Can only have one legendary in a deck
-        cursor.execute("SELECT rarity FROM Cards WHERE id=%s", [id])
-        rarity = cursor.fetchone()[0]
-        if rarity == "Legendary":
-          print "error: Can only have one of that card in a deck"
+        if not insertCard(id, deckID):
           continue
-        
-        # Can't accidentally make a deck with 31 cards
-        if numCards == 29:
-          print "error: Only one card slot open"
-          continue
-          
-      # Invalid number of cards
-      elif number != 1:
-        print "error: Can only have one or two cards in a deck"
-        continue
-        
-      # Add the card to the deck
-      cursor.execute("INSERT INTO Contain (card_id, deck_id, amount) VALUES (%s, %s, %s)", [id, deckID, str(number)])
+      
       numCards += number
       
       
