@@ -1,5 +1,4 @@
 import json
-import MySQLdb
 
 JSON_datalist = r"""
 {
@@ -2342,7 +2341,7 @@ JSON_datalist = r"""
       "attack": 1,
       "health": 1,
       "text": "<b>Taunt</b>\n<b>Battlecry:</b> Copy a friendly minion's Attack and Health.",
-      "collectible": false,
+      "collectible": "false",
       "mechanics": [
         "Battlecry",
         "Taunt"
@@ -2355,14 +2354,7 @@ JSON_datalist = r"""
 dict = json.loads(JSON_datalist)
 
 list = dict["League of Explorers"]
-
-db = MySQLdb.connect(
-  host = "localhost",
-  user = "root",
-  passwd = "",
-  db = "hearthstone"
-)
-cursor = db.cursor()
+file = open("cards.txt", "a")
   
 for card in list:
 
@@ -2383,7 +2375,7 @@ for card in list:
       
   if collectible != "true":
     continue
-      
+
   try:
     id = card["id"]
     name = card["name"]
@@ -2391,7 +2383,7 @@ for card in list:
     rarity = card["rarity"]
   except:
     continue
-  
+
   try:
     race = card["race"]
   except:
@@ -2424,11 +2416,6 @@ for card in list:
   if rarity == "Free":
     rarity = "Basic"
     
-  cursor.execute("INSERT INTO Cards (id, name, cost, type, rarity, expansion, race, playerClass, attack, health, durability, howToGet, howToGetGold) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)", [id, name, cost, type, rarity, expansion, race, playerClass, attack, health, durability, howToGet, howToGetGold])
+  file.write(str(id) + "\t" + str(name) + "\t" + str(cost) + "\t" + str(type) + "\t" + str(rarity) + "\t" + str(expansion) + "\t" + str(race) + "\t" + str(playerClass) + "\t" + str(attack) + "\t" + str(health) + "\t" + str(durability) + "\t" + str(howToGet) + "\t" + str(howToGetGold) + "\n")
 
-db.commit()
-
-
-
-
-
+file.close()

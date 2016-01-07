@@ -1,5 +1,4 @@
 import json
-import MySQLdb
 
 JSON_Datalist = r"""
 {
@@ -15874,7 +15873,7 @@ JSON_Datalist = r"""
       "type": "Spell",
       "cost": 1,
       "text": "Deal $1 damage.",
-      "collectible": false,
+      "collectible": "false",
       "mechanics": [
         "AffectedBySpellPower"
       ]
@@ -18583,7 +18582,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry:</b> Shuffle an 'Ancient Curse' into your deck that deals 7 damage to you when drawn.",
       "flavor": "Warning: Do not expose to direct sunlight.",
       "artist": "Slawomir Maniak",
-      "collectible": true,
+      "collectible": "true",
       "mechanics": [
         "Battlecry"
       ]
@@ -18625,7 +18624,7 @@ JSON_Datalist = r"""
       "text": "Your hero can only take 1 damage at a time.",
       "flavor": "Try putting it on.  Wait, let me get my camera.",
       "artist": "Mike Sass",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Mage"
     },
     {
@@ -18656,7 +18655,7 @@ JSON_Datalist = r"""
       "text": "<b>Deathrattle:</b> Give a random friendly minion +3/+3.",
       "flavor": "He's actually a 1/1 who picked up the hammer from the last guy.",
       "artist": "Paul Mafayon",
-      "collectible": true,
+      "collectible": "true",
       "mechanics": [
         "Deathrattle"
       ]
@@ -18686,7 +18685,7 @@ JSON_Datalist = r"""
       "text": "Summon 7 Murlocs that died this game.",
       "flavor": "Theme song by Ellie Goldfin and Blagghghlrlrl Harris.",
       "artist": "Ryan Metcalf",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Paladin"
     },
     {
@@ -18700,7 +18699,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry: Discover</b> a powerful Artifact.",
       "flavor": "He's very good at retrieving artifacts.  From other people's museums.",
       "artist": "Alex Horley Orlandelli",
-      "collectible": true,
+      "collectible": "true",
       "elite": true,
       "mechanics": [
         "Battlecry"
@@ -18816,7 +18815,7 @@ JSON_Datalist = r"""
       "text": "Your <b>Battlecries</b> trigger twice.",
       "flavor": "Contains 75% more fiber than his brother Magni!",
       "artist": "Sam Nielson",
-      "collectible": true,
+      "collectible": "true",
       "elite": true,
       "mechanics": [
         "Aura"
@@ -18916,7 +18915,7 @@ JSON_Datalist = r"""
       "text": "Give your opponent a 'Cursed!' card.\nWhile they hold it, they take 2 damage on their turn.",
       "flavor": "This is what happens when Rafaam stubs his toe unexpectedly.",
       "artist": "Alex Horley Orlandelli",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Warlock"
     },
     {
@@ -18930,7 +18929,7 @@ JSON_Datalist = r"""
       "text": "Double all damage dealt to your hero.",
       "flavor": "The Curse is that you have to listen to \"MMMBop\" on repeat.",
       "artist": "Craig Mullins",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Warrior"
     },
     {
@@ -18963,7 +18962,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry: Discover</b> a\n1-Cost card.",
       "flavor": "I'm offering you a bargain here!  This amazing vacuum cleaner for your soul!",
       "artist": "George Davis",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Warlock",
       "mechanics": [
         "Battlecry"
@@ -18978,7 +18977,7 @@ JSON_Datalist = r"""
       "text": "<b>Secret:</b> When an opposing Hero Power is used, deal 5 damage to a random enemy.",
       "flavor": "Five years of tap-dancing lessons are FINALLY going to pay off!",
       "artist": "Zoltan Boros",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Hunter",
       "mechanics": [
         "Secret"
@@ -19007,7 +19006,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry:</b> Put a 1-Cost minion from each deck into the battlefield.",
       "flavor": "Dang.  This card is sweet.  Almost as sweet as Dessert Camel.",
       "artist": "Matt Dixon",
-      "collectible": true,
+      "collectible": "true",
       "race": "Beast",
       "playerClass": "Hunter",
       "mechanics": [
@@ -19016,14 +19015,14 @@ JSON_Datalist = r"""
     },
     {
       "id": "LOEA02_02",
-      "name": "Djinn’s Intuition",
+      "name": "Djinn's Intuition",
       "type": "Hero Power",
       "cost": 0,
       "text": "Draw a card.\nGive your opponent a Wish."
     },
     {
       "id": "LOEA02_02h",
-      "name": "Djinn’s Intuition",
+      "name": "Djinn's Intuition",
       "type": "Hero Power",
       "cost": 0,
       "text": "Draw a card. Gain a Mana Crystal. Give your opponent a Wish."
@@ -19087,7 +19086,7 @@ JSON_Datalist = r"""
       "cost": 4,
       "attack": 7,
       "health": 7,
-      "text": "Can’t attack unless it’s the only minion in the battlefield.",
+      "text": "Can't attack unless it's the only minion in the battlefield.",
       "flavor": "Don't blink!  Don't turn your back, don't look away, and DON'T BLINK.",
       "artist": "Jim Nelson",
       "collectible": true
@@ -19103,7 +19102,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry:</b> Shuffle the 'Map to the Golden Monkey'   into your deck.",
       "flavor": "A large part of her job entails not mixing up the Map to the Golden Monkey with the Map to Monkey Island.",
       "artist": "Luke Mancini",
-      "collectible": true,
+      "collectible": "true",
       "elite": true,
       "mechanics": [
         "Battlecry"
@@ -19157,7 +19156,7 @@ JSON_Datalist = r"""
       "text": "Choose an enemy minion.\nShuffle it into your deck.",
       "flavor": "It's perfectly safe as long as you remember to put in air holes.",
       "artist": "Alex Konstad",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Priest"
     },
     {
@@ -19186,7 +19185,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry: Discover</b> a spell.",
       "flavor": "Despite the name, he's a solid conjurer.",
       "artist": "Ben Zhang",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Mage",
       "mechanics": [
         "Battlecry"
@@ -19201,7 +19200,7 @@ JSON_Datalist = r"""
       "text": "Give your minions +2/+2.\nCosts (1) less for each Murloc you control.",
       "flavor": "Everyfin is cool when you're part of a murloc team!",
       "artist": "Andrius Matijoshius",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Shaman"
     },
     {
@@ -19213,7 +19212,7 @@ JSON_Datalist = r"""
       "text": "Deal $3 damage to all minions.\nShuffle this card into your opponent's deck.",
       "flavor": "MOM! DAD! DON'T TOUCH IT! IT'S EVIL!!!!!!",
       "artist": "Raymond Swanland",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Priest"
     },
     {
@@ -19232,7 +19231,7 @@ JSON_Datalist = r"""
       "text": "Give a minion +1/+1 and \"<b>Deathrattle:</b> Add an Explorer's Hat to your hand.\"",
       "flavor": "Harrison Jones was disappointed that he didn't get to be part of the League of Explorers, but his hat did.",
       "artist": "Joe Wilson",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Hunter"
     },
     {
@@ -19280,7 +19279,7 @@ JSON_Datalist = r"""
       "text": "<b>Taunt</b>",
       "flavor": "Fierce monkey.  That funky monkey.",
       "artist": "Peter Stapleton",
-      "collectible": true,
+      "collectible": "true",
       "race": "Beast",
       "playerClass": "Warrior",
       "mechanics": [
@@ -19310,7 +19309,7 @@ JSON_Datalist = r"""
       "text": "Deal $3 damage. Shuffle a 'Roaring Torch' into your deck that deals 6 damage.",
       "flavor": "Why does a forgotten torch turn into a roaring torch with no provocation?  It's one of life's many mysteries.",
       "artist": "Richard Wright",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Mage"
     },
     {
@@ -19330,7 +19329,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry:</b> If you control a Beast, gain <b>Taunt</b>.",
       "flavor": "This was the only job he could get after the dinosaur theme park debacle.",
       "artist": "Trent Kaniuga",
-      "collectible": true,
+      "collectible": "true",
       "mechanics": [
         "Battlecry"
       ]
@@ -19432,7 +19431,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry:</b> If you control another Mech, <b>Discover</b> a Mech.",
       "flavor": "A-1 and A-2 went nuts, when they should have gone bolts.",
       "artist": "Skan Srisuwan",
-      "collectible": true,
+      "collectible": "true",
       "race": "Mech",
       "mechanics": [
         "Battlecry"
@@ -19555,7 +19554,7 @@ JSON_Datalist = r"""
       "text": "<b>Deathrattle:</b> Deal 1 damage to a random enemy.",
       "flavor": "Deals damage when he croaks.",
       "artist": "Matt Dixon",
-      "collectible": true,
+      "collectible": "true",
       "race": "Beast",
       "mechanics": [
         "Deathrattle"
@@ -19626,7 +19625,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry: Discover</b> a\n3-Cost card.",
       "flavor": "It's amazing what you can do with super glue!",
       "artist": "Jaemin Kim",
-      "collectible": true,
+      "collectible": "true",
       "race": "Beast",
       "mechanics": [
         "Battlecry"
@@ -19643,7 +19642,7 @@ JSON_Datalist = r"""
       "text": "Both players have\n<b>Spell Damage +2</b>.",
       "flavor": "The REAL angry chicken!",
       "artist": "Mike Sass",
-      "collectible": true,
+      "collectible": "true",
       "race": "Beast",
       "playerClass": "Druid"
     },
@@ -19658,7 +19657,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry:</b> Set a minion's Attack and Health to 3.",
       "flavor": "U da man!  No, U da man!",
       "artist": "James Ryman",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Paladin",
       "mechanics": [
         "Battlecry"
@@ -19841,7 +19840,7 @@ JSON_Datalist = r"""
       "text": "<b>Deathrattle:</b> Summon a random 1-Cost minion.",
       "flavor": "Clever girl!",
       "artist": "Ben Zhang",
-      "collectible": true,
+      "collectible": "true",
       "race": "Beast",
       "playerClass": "Druid",
       "mechanics": [
@@ -19902,7 +19901,7 @@ JSON_Datalist = r"""
       "health": 1,
       "flavor": "High mortality rate, from often being hugged to death.",
       "artist": "Oliver Chipping",
-      "collectible": true,
+      "collectible": "true",
       "race": "Murloc"
     },
     {
@@ -19916,7 +19915,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry: Discover</b> a <b>Deathrattle</b> card.",
       "flavor": "He is forever cursing the kids who climb on the rails and the evil archeologists who animate the exhibits.",
       "artist": "Steve Prescott",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Priest",
       "mechanics": [
         "Battlecry"
@@ -19947,7 +19946,7 @@ JSON_Datalist = r"""
       "text": "Your cards cost (5).",
       "flavor": "If she had studied harder, she would have been a C+ witch.",
       "artist": "Ben Zhang",
-      "collectible": true,
+      "collectible": "true",
       "mechanics": [
         "Aura"
       ]
@@ -19969,7 +19968,7 @@ JSON_Datalist = r"""
       "text": "At the end of your turn, summon a 1/1 Scarab with <b>Taunt</b>.",
       "flavor": "No obsidian is safe around the Obsidian Destroyer!",
       "artist": "Anton Zemskov",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Warrior"
     },
     {
@@ -20026,7 +20025,7 @@ JSON_Datalist = r"""
       "text": "Destroy any minion damaged by this minion.",
       "flavor": "It could be worse.  It could be a Snake Pit.",
       "artist": "Bernie Kang",
-      "collectible": true,
+      "collectible": "true",
       "race": "Beast",
       "playerClass": "Rogue",
       "mechanics": [
@@ -20112,7 +20111,7 @@ JSON_Datalist = r"""
       "text": "<b>Choose One -</b>\n<b>Discover</b> a minion; or <b>Discover</b> a spell.",
       "flavor": "Was petrified when it found out it didn't make the cut for Azerothean Idol.",
       "artist": "A.J. Nazzaro",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Druid"
     },
     {
@@ -20144,7 +20143,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry:</b> If you have 6 other minions, gain +4/+4.",
       "flavor": "The Reliquary considers itself the equal of the League of Explorers.  The League of Explorers doesn't.",
       "artist": "Wayne Reynolds",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Warlock",
       "mechanics": [
         "Battlecry"
@@ -20161,7 +20160,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry:</b> If your deck contains no more than 1 of any card, fully heal your hero.",
       "flavor": "Reno is a four-time winner of the 'Best Accessorized Explorer' award.",
       "artist": "Tyson Murphy",
-      "collectible": true,
+      "collectible": "true",
       "elite": true,
       "mechanics": [
         "Battlecry"
@@ -20240,7 +20239,7 @@ JSON_Datalist = r"""
       "text": "After you play a <b>Battlecry</b> minion, deal 2 damage to a random enemy.",
       "flavor": "He's a very hungry elemental.",
       "artist": "Cole Eastburn",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Shaman"
     },
     {
@@ -20266,7 +20265,7 @@ JSON_Datalist = r"""
       "text": "<b>Secret:</b> When your opponent has at least 3 minions and plays another, destroy it.",
       "flavor": "You have chosen poorly.",
       "artist": "Zoltan Boros",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Paladin",
       "mechanics": [
         "Secret"
@@ -20343,7 +20342,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry: Discover</b> a new basic Hero Power.",
       "flavor": "In addition to fluent Common, he also speaks fourteen dialects of 'mrgl'.",
       "artist": "Matt Dixon",
-      "collectible": true,
+      "collectible": "true",
       "elite": true,
       "race": "Murloc",
       "mechanics": [
@@ -20625,7 +20624,7 @@ JSON_Datalist = r"""
       "text": "<b>Deathrattle:</b> Add a Coin to your hand.",
       "flavor": "After the guild broke up, he could no longer raid the tombs.",
       "artist": "Dave Allsop",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Rogue",
       "mechanics": [
         "Deathrattle"
@@ -20642,7 +20641,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry: Discover</b> a Beast.",
       "flavor": "Less serious than its cousin, the Grave Spider.",
       "artist": "Turovec Konstantin",
-      "collectible": true,
+      "collectible": "true",
       "race": "Beast",
       "mechanics": [
         "Battlecry"
@@ -20708,7 +20707,7 @@ JSON_Datalist = r"""
       "text": "Whenever you <b>Overload</b>, gain +1 Attack per locked Mana Crystal.",
       "flavor": "Sure, they're ugly, but they live in tunnels.  You try your beauty routine without natural light.",
       "artist": "Andrew Hou",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Shaman"
     },
     {
@@ -20722,7 +20721,7 @@ JSON_Datalist = r"""
       "text": "<b>Battlecry:</b> Choose a friendly minion. Gain a copy of its <b>Deathrattle</b> effect.",
       "flavor": "Still hunting for the ones who earthed him.",
       "artist": "Trent Kaniuga",
-      "collectible": true,
+      "collectible": "true",
       "playerClass": "Rogue",
       "mechanics": [
         "Battlecry"
@@ -20824,7 +20823,7 @@ JSON_Datalist = r"""
       "text": "<b>Deathrattle:</b> Summon three 2/2 Runts.",
       "flavor": "The fourth one fell off in a tragic accident.  They don't talk about it.",
       "artist": "Sam Nielson",
-      "collectible": true,
+      "collectible": "true",
       "mechanics": [
         "Deathrattle"
       ]
@@ -20878,7 +20877,7 @@ JSON_Datalist = r"""
       "attack": 1,
       "health": 1,
       "text": "<b>Taunt</b>\n<b>Battlecry:</b> Copy a friendly minion's Attack and Health.",
-      "collectible": false,
+      "collectible": "false",
       "mechanics": [
         "Battlecry",
         "Taunt"
@@ -20889,15 +20888,8 @@ JSON_Datalist = r"""
 """
 dict = json.loads(JSON_Datalist)
 
-db = MySQLdb.connect(
-  host = "localhost",
-  user = "root",
-  passwd = "",
-  db = "hearthstone"
-)
-cursor = db.cursor()
-
-categories = ["Basic", "Blackrock Mountain", "Classic", "Credits", "Curse of Naxxramas", "Debug", "Goblins vs Gnomes", "Hero Skins", "Missions", "Promotion", "Reward", "System", "Tavern Brawl", "The Grand Tournament"]
+categories = ["Basic", "Blackrock Mountain", "Classic", "Credits", "Curse of Naxxramas", "Debug", "Goblins vs Gnomes", "Hero Skins", "League of Explorers", "Missions", "Promotion", "Reward", "System", "Tavern Brawl", "The Grand Tournament"]
+file = open("cards.txt", "w")
 
 for curCat in categories:
 
@@ -20910,7 +20902,8 @@ for curCat in categories:
       if expansion != "Curse of Naxxramas":
         if expansion != "Goblins vs Gnomes": 
           if expansion != "The Grand Tournament":
-            expansion = "Classic"
+            if expansion != "League of Explorers":
+              expansion = "Classic"
   
     try:
       type = card["type"]
@@ -20939,39 +20932,39 @@ for curCat in categories:
     try:
       race = card["race"]
     except:
-      race = None
+      race = "NULL"
     try:
       playerClass = card["playerClass"]
     except:
-      playerClass = None
+      playerClass = "NULL"
     try:
       attack = card["attack"]
     except:
-      attack = None
+      attack = "NULL"
     try:
       health = card["health"]
     except:
-      health = None
+      health = "NULL"
     try:
       durability = card["durability"]
     except:
-      durability = None
+      durability = "NULL"
     try:
       howToGet = card["howToGet"]
     except:
-      howToGet = None
+      howToGet = "NULL"
     try:
       howToGetGold = card["howToGetGold"]
     except:
-      howToGetGold = None
+      howToGetGold = "NULL"
     
     if rarity == "Free":
       rarity = "Basic"
     
     #print id + ' ' + name + ' ' + cost + ' ' + type + ' ' + rarity + ' ' + race
-    cursor.execute("INSERT INTO Cards (id, name, cost, type, rarity, expansion, race, playerClass, attack, health, durability, howToGet, howToGetGold) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)", [id, name, cost, type, rarity, expansion, race, playerClass, attack, health, durability, howToGet, howToGetGold])
+    file.write(str(id) + "\t" + str(name) + "\t" + str(cost) + "\t" + str(type) + "\t" + str(rarity) + "\t" + str(expansion) + "\t" + str(race) + "\t" + str(playerClass) + "\t" + str(attack) + "\t" + str(health) + "\t" + str(durability) + "\t" + str(howToGet) + "\t" + str(howToGetGold) + "\n")
 
-db.commit()
+file.close()
 
 
 
