@@ -11,26 +11,26 @@ possess = {}
 def saveCards():
   cardsTXT = open("cards.txt", "w")
   for id in cards:
-    cardsTXT.write(id + "\t" + cards[id]["name"] + "\t" + cards[id]["mana"] + "\t" + cards[id]["type"] + "\t" + cards[id]["rarity"] + "\t" + cards[id]["expansion"] + "\t" + cards[id]["race"] + "\t" + cards[id]["class"] + "\t" + cards[id]["attack"] + "\t" + cards[id]["health"] + "\t" + cards[id]["durability"] + "\t" + cards[id]["howToGet"] + "\t" + cards[id]["howToGetGold"] + "\n")
+    cardsTXT.write(id + "~" + cards[id]["name"] + "~" + cards[id]["mana"] + "~" + cards[id]["type"] + "~" + cards[id]["rarity"] + "~" + cards[id]["expansion"] + "~" + cards[id]["race"] + "~" + cards[id]["class"] + "~" + cards[id]["attack"] + "~" + cards[id]["health"] + "~" + cards[id]["durability"] + "~" + cards[id]["howToGet"] + "~" + cards[id]["howToGetGold"] + "\n")
   cardsTXT.close()
   
 def saveDecks():
   decksTXT = open("decks.txt", "w")
   for id in decks:
-    decksTXT.write(id + "\t" + decks[id]["name"] + "\t" + decks[id]["class"] + "\t" + decks[id]["reachableRanks"] + "\t" + decks[id]["cost"] + "\t" + decks[id]["lastUpdated"] + "\n")
+    decksTXT.write(id + "~" + decks[id]["name"] + "~" + decks[id]["class"] + "~" + decks[id]["type"] + "~" + decks[id]["reachableRanks"] + "~" + str(decks[id]["cost"]) + "~" + decks[id]["lastUpdated"] + "\n")
   decksTXT.close()
   
 def saveContain():
   containTXT = open("contain.txt", "w")
   for id in contain:
     ids = id.split(",")
-    containTXT.write(ids[0] + "\t" + ids[1] + contain[id] + "\n")
+    containTXT.write(ids[0] + "," + ids[1] + "~" + str(contain[id]) + "\n")
   containTXT.close()
   
 def savePossess():
   possessTXT = open("possess.txt", "w")
   for id in possess:
-    possessTXT.write(id + "\t" + possess[id] + "\n")
+    possessTXT.write(id + "~" + str(possess[id]) + "\n")
   possessTXT.close()
 
 def validCard(name):
@@ -42,19 +42,13 @@ def validCard(name):
   return None
 
 def getAmount(card):
-  return card["amount"]
-  
-def sortDecks(deckList):
-  for x in range(0, len(deckList)):
-    for y in range(0, len(deckList)):
-      if deckList[x]["class"] > deckList[y]["class"]
-        
+  return card["amount"]        
 
 def getNewDeckID():
   highestID = 0
   for id in decks:
-    if id > highestID:
-      highestID = id
+    if int(id) > highestID:
+      highestID = int(id)
       
   return str(highestID + 1)
 
@@ -126,7 +120,7 @@ def canInsertCard(cardID, deckID):
   # Check if the card is already in the deck
   try:
     amount = contain[cardID + "," + deckID]
-    if amount == "2":
+    if amount == 2:
       print "error: Already have two of that card in this deck"
       return False
     else:
@@ -135,23 +129,23 @@ def canInsertCard(cardID, deckID):
         print "error: Can only have one of a legendary minion in a deck"
         return False
       else:
-        contain[cardID + "," + deckID] = "2"
+        contain[cardID + "," + deckID] = 2
   except:
-    contain[cardID + "," + deckID] = "1"
+    contain[cardID + "," + deckID] = 1
     
   return True
   
-def updateCost(id):
+def updateCost(deckID):
 
   cardSet = []
   for id in contain:
-    deckID = id.split(",")[1]
-    if deckID == id:
+    deckid = id.split(",")[1]
+    if deckid == id:
       card = []
       cardID = id.split(",")[0]
       card.append(cardID)
-      card.append(cardID]["rarity"])
-      card.append(cardID]["expansion"])
+      card.append(cards[cardID]["rarity"])
+      card.append(cards[cardID]["expansion"])
       card.append(contain[id])
       cardSet.append(card)
 
@@ -172,4 +166,4 @@ def updateCost(id):
       elif rarity == "Legendary":
         cost += (1600 * amount)
   
-  decks[id]["cost"] = str(cost)
+  decks[deckID]["cost"] = cost

@@ -1,740 +1,743 @@
-EX1_066	Acidic Swamp Ooze	2	Minion	Common	Classic	NULL	NULL	3	2	NULL	NULL	Unlocked at Rogue Level 57.
-CS2_041	Ancestral Healing	0	Spell	Basic	Classic	NULL	Shaman	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 15.
-NEW1_031	Animal Companion	3	Spell	Common	Classic	NULL	Hunter	NULL	NULL	NULL	Unlocked at Level 2.	Unlocked at Level 45.
-CS2_025	Arcane Explosion	2	Spell	Basic	Classic	NULL	Mage	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 28.
-CS2_023	Arcane Intellect	3	Spell	Basic	Classic	NULL	Mage	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 15.
-EX1_277	Arcane Missiles	1	Spell	Basic	Classic	NULL	Mage	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 32.
-DS1_185	Arcane Shot	1	Spell	Basic	Classic	NULL	Hunter	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 32.
-CS2_112	Arcanite Reaper	5	Weapon	Common	Classic	NULL	Warrior	5	NULL	2	Unlocked at Level 10.	Unlocked at Level 51.
-CS2_155	Archmage	6	Minion	Common	Classic	NULL	NULL	4	7	NULL	NULL	Unlocked at Mage Level 57.
-CS2_080	Assassin's Blade	5	Weapon	Common	Classic	NULL	Rogue	3	NULL	4	Unlocked at Level 2.	Unlocked at Level 32.
-CS2_076	Assassinate	5	Spell	Basic	Classic	NULL	Rogue	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 47.
-CS2_072	Backstab	0	Spell	Basic	Classic	NULL	Rogue	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 36.
-CS2_092	Blessing of Kings	4	Spell	Common	Classic	NULL	Paladin	NULL	NULL	NULL	Unlocked at Level 10.	Unlocked at Level 49.
-CS2_087	Blessing of Might	1	Spell	Basic	Classic	NULL	Paladin	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 45.
-CS2_172	Bloodfen Raptor	2	Minion	Basic	Classic	Beast	NULL	3	2	NULL	NULL	Unlocked at Hunter Level 57.
-CS2_046	Bloodlust	5	Spell	Common	Classic	NULL	Shaman	NULL	NULL	NULL	Unlocked at Level 2.	Unlocked at Level 40.
-CS2_173	Bluegill Warrior	2	Minion	Common	Classic	Murloc	NULL	2	1	NULL	NULL	Unlocked at Paladin Level 53.
-CS2_187	Booty Bay Bodyguard	5	Minion	Common	Classic	NULL	NULL	5	4	NULL	NULL	Unlocked at Shaman Level 55.
-CS2_200	Boulderfist Ogre	6	Minion	Basic	Classic	NULL	NULL	6	7	NULL	NULL	Unlocked at Warlock Level 51.
-CS2_103	Charge	3	Spell	Basic	Classic	NULL	Warrior	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 23.
-CS2_182	Chillwind Yeti	4	Minion	Common	Classic	NULL	NULL	4	5	NULL	NULL	Unlocked at Warrior Level 55.
-CS2_005	Claw	1	Spell	Basic	Classic	NULL	Druid	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 32.
-CS2_114	Cleave	2	Spell	Common	Classic	NULL	Warrior	NULL	NULL	NULL	Unlocked at Level 2.	Unlocked at Level 40.
-CS2_093	Consecration	4	Spell	Common	Classic	NULL	Paladin	NULL	NULL	NULL	Unlocked at Level 4.	Unlocked at Level 43.
-CS2_201	Core Hound	7	Minion	Common	Classic	Beast	NULL	9	5	NULL	NULL	Unlocked at Hunter Level 51.
-CS2_063	Corruption	1	Spell	Common	Classic	NULL	Warlock	NULL	NULL	NULL	Unlocked at Level 2.	Unlocked at Level 32.
-EX1_582	Dalaran Mage	3	Minion	Common	Classic	NULL	NULL	1	4	NULL	NULL	Unlocked at Mage Level 59.
-DS1_055	Darkscale Healer	5	Minion	Common	Classic	NULL	NULL	4	5	NULL	NULL	Unlocked at Priest Level 55.
-CS2_074	Deadly Poison	1	Spell	Basic	Classic	NULL	Rogue	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 43.
-CS2_236	Divine Spirit	2	Spell	Common	Classic	NULL	Priest	NULL	NULL	NULL	Unlocked at Level 2.	Unlocked at Level 28.
-EX1_025	Dragonling Mechanic	4	Minion	Common	Classic	NULL	NULL	2	4	NULL	NULL	Unlocked at Mage Level 53.
-CS2_061	Drain Life	3	Spell	Basic	Classic	NULL	Warlock	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 45.
-CS2_064	Dread Infernal	6	Minion	Common	Classic	Demon	Warlock	6	6	NULL	Unlocked at Level 10.	Unlocked at Level 23.
-CS2_189	Elven Archer	1	Minion	Common	Classic	NULL	NULL	1	1	NULL	NULL	Unlocked at Druid Level 57.
-CS2_108	Execute	1	Spell	Basic	Classic	NULL	Warrior	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 47.
-EX1_129	Fan of Knives	3	Spell	Common	Classic	NULL	Rogue	NULL	NULL	NULL	Unlocked at Level 4.	Unlocked at Level 29.
-CS2_106	Fiery War Axe	2	Weapon	Basic	Classic	NULL	Warrior	3	NULL	2	Unlocked at Level 1.	Unlocked at Level 49.
-CS2_042	Fire Elemental	6	Minion	Common	Classic	NULL	Shaman	6	5	NULL	Unlocked at Level 10.	Unlocked at Level 49.
-CS2_029	Fireball	4	Spell	Basic	Classic	NULL	Mage	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 44.
-CS2_032	Flamestrike	7	Spell	Common	Classic	NULL	Mage	NULL	NULL	NULL	Unlocked at Level 10.	Unlocked at Level 51.
-EX1_565	Flametongue Totem	2	Minion	Common	Classic	Totem	Shaman	0	3	NULL	Unlocked at Level 4.	Unlocked at Level 43.
-CS2_026	Frost Nova	3	Spell	Common	Classic	NULL	Mage	NULL	NULL	NULL	Unlocked at Level 6.	Unlocked at Level 23.
-CS2_037	Frost Shock	1	Spell	Basic	Classic	NULL	Shaman	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 32.
-CS2_024	Frostbolt	2	Spell	Common	Classic	NULL	Mage	NULL	NULL	NULL	Unlocked at Level 2.	Unlocked at Level 40.
-CS2_121	Frostwolf Grunt	2	Minion	Common	Classic	NULL	NULL	2	2	NULL	NULL	Unlocked at Shaman Level 57.
-CS2_226	Frostwolf Warlord	5	Minion	Common	Classic	NULL	NULL	4	4	NULL	NULL	Unlocked at Shaman Level 53.
-CS2_147	Gnomish Inventor	4	Minion	Common	Classic	NULL	NULL	2	4	NULL	NULL	Unlocked at Priest Level 57.
-CS1_042	Goldshire Footman	1	Minion	Common	Classic	NULL	NULL	1	2	NULL	NULL	Unlocked at Paladin Level 57.
-EX1_508	Grimscale Oracle	1	Minion	Common	Classic	Murloc	NULL	1	1	NULL	NULL	Unlocked at Warlock Level 53.
-CS2_088	Guardian of Kings	7	Minion	Common	Classic	NULL	Paladin	5	6	NULL	Unlocked at Level 8.	Unlocked at Level 47.
-EX1_399	Gurubashi Berserker	5	Minion	Common	Classic	NULL	NULL	2	7	NULL	NULL	Unlocked at Warlock Level 57.
-CS2_094	Hammer of Wrath	4	Spell	Basic	Classic	NULL	Paladin	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 32.
-EX1_371	Hand of Protection	1	Spell	Basic	Classic	NULL	Paladin	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 23.
-CS2_007	Healing Touch	3	Spell	Basic	Classic	NULL	Druid	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 15.
-CS2_062	Hellfire	4	Spell	Basic	Classic	NULL	Warlock	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 49.
-CS2_105	Heroic Strike	2	Spell	Basic	Classic	NULL	Warrior	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 15.
-EX1_246	Hex	3	Spell	Basic	Classic	NULL	Shaman	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 47.
-CS2_089	Holy Light	2	Spell	Basic	Classic	NULL	Paladin	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 15.
-CS1_112	Holy Nova	5	Spell	Common	Classic	NULL	Priest	NULL	NULL	NULL	Unlocked at Level 6.	Unlocked at Level 45.
-CS1_130	Holy Smite	1	Spell	Basic	Classic	NULL	Priest	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 23.
-DS1_070	Houndmaster	4	Minion	Basic	Classic	NULL	Hunter	4	3	NULL	Unlocked at Level 1.	Unlocked at Level 28.
-EX1_360	Humility	1	Spell	Common	Classic	NULL	Paladin	NULL	NULL	NULL	Unlocked at Level 6.	Unlocked at Level 28.
-CS2_084	Hunter's Mark	0	Spell	Common	Classic	NULL	Hunter	NULL	NULL	NULL	Unlocked at Level 6.	Unlocked at Level 40.
-EX1_169	Innervate	0	Spell	Basic	Classic	NULL	Druid	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 36.
-CS2_232	Ironbark Protector	8	Minion	Common	Classic	NULL	Druid	8	8	NULL	Unlocked at Level 10.	Unlocked at Level 49.
-CS2_141	Ironforge Rifleman	3	Minion	Common	Classic	NULL	NULL	2	2	NULL	NULL	Unlocked at Mage Level 55.
-CS2_125	Ironfur Grizzly	3	Minion	Common	Classic	Beast	NULL	3	3	NULL	NULL	Unlocked at Hunter Level 59.
-EX1_539	Kill Command	3	Spell	Common	Classic	NULL	Hunter	NULL	NULL	NULL	Unlocked at Level 10.	Unlocked at Level 49.
-CS2_142	Kobold Geomancer	2	Minion	Common	Classic	NULL	NULL	2	2	NULL	NULL	Unlocked at Warlock Level 59.
-NEW1_011	Kor'kron Elite	4	Minion	Common	Classic	NULL	Warrior	4	3	NULL	Unlocked at Level 4.	Unlocked at Level 44.
-CS2_091	Light's Justice	1	Weapon	Basic	Classic	NULL	Paladin	1	NULL	4	Unlocked at Level 1.	Unlocked at Level 36.
-CS2_162	Lord of the Arena	6	Minion	Common	Classic	NULL	NULL	6	5	NULL	NULL	Unlocked at Priest Level 59.
-CS2_118	Magma Rager	3	Minion	Basic	Classic	NULL	NULL	5	1	NULL	NULL	Unlocked at Shaman Level 51.
-CS2_009	Mark of the Wild	2	Spell	Basic	Classic	NULL	Druid	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 28.
-DS1_233	Mind Blast	2	Spell	Basic	Classic	NULL	Priest	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 15.
-CS1_113	Mind Control	10	Spell	Common	Classic	NULL	Priest	NULL	NULL	NULL	Unlocked at Level 10.	Unlocked at Level 49.
-CS2_003	Mind Vision	1	Spell	Common	Classic	NULL	Priest	NULL	NULL	NULL	Unlocked at Level 4.	Unlocked at Level 32.
-CS2_027	Mirror Image	1	Spell	Common	Classic	NULL	Mage	NULL	NULL	NULL	Unlocked at Level 4.	Unlocked at Level 36.
-CS2_008	Moonfire	0	Spell	Common	Classic	NULL	Druid	NULL	NULL	NULL	Unlocked at Level 6.	Unlocked at Level 40.
-EX1_302	Mortal Coil	1	Spell	Common	Classic	NULL	Warlock	NULL	NULL	NULL	Unlocked at Level 4.	Unlocked at Level 43.
-DS1_183	Multi-Shot	4	Spell	Basic	Classic	NULL	Hunter	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 36.
-CS2_168	Murloc Raider	1	Minion	Basic	Classic	Murloc	NULL	2	1	NULL	NULL	Unlocked at Priest Level 51.
-EX1_506	Murloc Tidehunter	2	Minion	Common	Classic	Murloc	NULL	2	1	NULL	NULL	Unlocked at Rogue Level 53.
-EX1_593	Nightblade	5	Minion	Basic	Classic	NULL	NULL	4	4	NULL	NULL	Unlocked at Druid Level 53.
-CS2_235	Northshire Cleric	1	Minion	Basic	Classic	NULL	Priest	1	3	NULL	Unlocked at Level 1.	Unlocked at Level 40.
-EX1_015	Novice Engineer	2	Minion	Basic	Classic	NULL	NULL	1	1	NULL	NULL	Unlocked at Druid Level 59.
-CS2_119	Oasis Snapjaw	4	Minion	Basic	Classic	Beast	NULL	2	7	NULL	NULL	Unlocked at Druid Level 51.
-CS2_197	Ogre Magi	4	Minion	Common	Classic	NULL	NULL	4	4	NULL	NULL	Unlocked at Warlock Level 55.
-CS2_022	Polymorph	4	Spell	Basic	Classic	NULL	Mage	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 47.
-CS2_004	Power Word: Shield	1	Spell	Basic	Classic	NULL	Priest	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 47.
-CS2_122	Raid Leader	3	Minion	Basic	Classic	NULL	NULL	2	2	NULL	NULL	Unlocked at Warrior Level 57.
-CS2_196	Razorfen Hunter	3	Minion	Common	Classic	NULL	NULL	2	3	NULL	NULL	Unlocked at Hunter Level 55.
-CS2_213	Reckless Rocketeer	6	Minion	Basic	Classic	NULL	NULL	5	2	NULL	NULL	Unlocked at Shaman Level 59.
-CS2_120	River Crocolisk	2	Minion	Basic	Classic	Beast	NULL	2	3	NULL	NULL	Unlocked at Druid Level 55.
-CS2_045	Rockbiter Weapon	1	Spell	Basic	Classic	NULL	Shaman	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 36.
-NEW1_003	Sacrificial Pact	0	Spell	Common	Classic	NULL	Warlock	NULL	NULL	NULL	Unlocked at Level 8.	Unlocked at Level 15.
-EX1_581	Sap	2	Spell	Basic	Classic	NULL	Rogue	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 40.
-CS2_011	Savage Roar	3	Spell	Common	Classic	NULL	Druid	NULL	NULL	NULL	Unlocked at Level 4.	Unlocked at Level 43.
-CS2_179	Sen'jin Shieldmasta	4	Minion	Basic	Classic	NULL	NULL	3	5	NULL	NULL	Unlocked at Rogue Level 59.
-CS2_057	Shadow Bolt	3	Spell	Basic	Classic	NULL	Warlock	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 47.
-EX1_622	Shadow Word: Death	3	Spell	Common	Classic	NULL	Priest	NULL	NULL	NULL	Unlocked at Level 8.	Unlocked at Level 43.
-CS2_234	Shadow Word: Pain	2	Spell	Basic	Classic	NULL	Priest	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 36.
-EX1_019	Shattered Sun Cleric	3	Minion	Common	Classic	NULL	NULL	3	2	NULL	NULL	Unlocked at Priest Level 53.
-EX1_606	Shield Block	3	Spell	Common	Classic	NULL	Warrior	NULL	NULL	NULL	Unlocked at Level 8.	Unlocked at Level 28.
-EX1_278	Shiv	2	Spell	Common	Classic	NULL	Rogue	NULL	NULL	NULL	Unlocked at Level 6.	Unlocked at Level 45.
-CS2_127	Silverback Patriarch	3	Minion	Common	Classic	Beast	NULL	1	4	NULL	NULL	Unlocked at Warrior Level 53.
-CS2_075	Sinister Strike	1	Spell	Basic	Classic	NULL	Rogue	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 15.
-EX1_308	Soulfire	1	Spell	Common	Classic	NULL	Warlock	NULL	NULL	NULL	Unlocked at Level 6.	Unlocked at Level 28.
-CS2_077	Sprint	7	Spell	Common	Classic	NULL	Rogue	NULL	NULL	NULL	Unlocked at Level 10.	Unlocked at Level 49.
-EX1_173	Starfire	6	Spell	Common	Classic	NULL	Druid	NULL	NULL	NULL	Unlocked at Level 2.	Unlocked at Level 45.
-CS2_237	Starving Buzzard	5	Minion	Common	Classic	Beast	Hunter	3	2	NULL	Unlocked at Level 4.	Unlocked at Level 47.
-CS2_171	Stonetusk Boar	1	Minion	Basic	Classic	Beast	NULL	1	1	NULL	NULL	Unlocked at Hunter Level 53.
-CS2_150	Stormpike Commando	5	Minion	Common	Classic	NULL	NULL	4	2	NULL	NULL	Unlocked at Paladin Level 51.
-CS2_222	Stormwind Champion	7	Minion	Common	Classic	NULL	NULL	6	6	NULL	NULL	Unlocked at Paladin Level 59.
-CS2_131	Stormwind Knight	4	Minion	Common	Classic	NULL	NULL	2	5	NULL	NULL	Unlocked at Paladin Level 55.
-EX1_306	Succubus	2	Minion	Basic	Classic	Demon	Warlock	4	3	NULL	Unlocked at Level 1.	Unlocked at Level 40.
-CS2_012	Swipe	4	Spell	Common	Classic	NULL	Druid	NULL	NULL	NULL	Unlocked at Level 8.	Unlocked at Level 47.
-DS1_175	Timber Wolf	1	Minion	Basic	Classic	Beast	Hunter	1	1	NULL	Unlocked at Level 1.	Unlocked at Level 23.
-EX1_244	Totemic Might	0	Spell	Common	Classic	NULL	Shaman	NULL	NULL	NULL	Unlocked at Level 6.	Unlocked at Level 28.
-DS1_184	Tracking	1	Spell	Basic	Classic	NULL	Hunter	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 15.
-CS2_097	Truesilver Champion	4	Weapon	Common	Classic	NULL	Paladin	4	NULL	2	Unlocked at Level 2.	Unlocked at Level 40.
-DS1_178	Tundra Rhino	5	Minion	Common	Classic	Beast	Hunter	2	5	NULL	Unlocked at Level 8.	Unlocked at Level 43.
-NEW1_004	Vanish	6	Spell	Common	Classic	NULL	Rogue	NULL	NULL	NULL	Unlocked at Level 8.	Unlocked at Level 23.
-CS2_065	Voidwalker	1	Minion	Basic	Classic	Demon	Warlock	1	3	NULL	Unlocked at Level 1.	Unlocked at Level 36.
-EX1_011	Voodoo Doctor	1	Minion	Basic	Classic	NULL	NULL	2	1	NULL	NULL	Unlocked at Rogue Level 55.
-CS2_186	War Golem	7	Minion	Common	Classic	NULL	NULL	7	7	NULL	NULL	Unlocked at Rogue Level 51.
-EX1_084	Warsong Commander	3	Minion	Basic	Classic	NULL	Warrior	2	3	NULL	Unlocked at Level 1.	Unlocked at Level 36.
-CS2_033	Water Elemental	4	Minion	Common	Classic	NULL	Mage	3	6	NULL	Unlocked at Level 8.	Unlocked at Level 49.
-EX1_400	Whirlwind	1	Spell	Common	Classic	NULL	Warrior	NULL	NULL	NULL	Unlocked at Level 6.	Unlocked at Level 32.
-CS2_013	Wild Growth	2	Spell	Basic	Classic	NULL	Druid	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 23.
-CS2_039	Windfury	2	Spell	Basic	Classic	NULL	Shaman	NULL	NULL	NULL	Unlocked at Level 1.	Unlocked at Level 23.
-EX1_587	Windspeaker	4	Minion	Common	Classic	NULL	Shaman	3	3	NULL	Unlocked at Level 8.	Unlocked at Level 45.
-CS2_124	Wolfrider	3	Minion	Basic	Classic	NULL	NULL	3	1	NULL	NULL	Unlocked at Warrior Level 59.
-BRM_016	Axe Flinger	4	Minion	Common	Blackrock Mountain	NULL	Warrior	2	5	NULL	Unlocked by completing the Warrior Class Challenge in Blackrock Mountain.	Can be crafted after completing the Warrior Class Challenge in Blackrock Mountain.
-BRM_034	Blackwing Corruptor	5	Minion	Common	Blackrock Mountain	NULL	NULL	5	4	NULL	Unlocked by defeating Maloriak in the Hidden Laboratory.	Can be crafted after defeating Maloriak in the Hidden Laboratory.
-BRM_033	Blackwing Technician	3	Minion	Common	Blackrock Mountain	NULL	NULL	2	4	NULL	Unlocked by defeating Baron Geddon in Molten Core.	Can be crafted after defeating Baron Geddon in Molten Core.
-BRM_031	Chromaggus	8	Minion	Legendary	Blackrock Mountain	Dragon	NULL	6	8	NULL	Unlocked by completing Blackwing Lair.	Can be crafted after completing Blackwing Lair.
-BRM_014	Core Rager	4	Minion	Rare	Blackrock Mountain	Beast	Hunter	4	4	NULL	Unlocked by defeating Highlord Omokk in Blackrock Spire.	Can be crafted after defeating Highlord Omokk in Blackrock Spire.
-BRM_008	Dark Iron Skulker	5	Minion	Rare	Blackrock Mountain	NULL	Rogue	4	3	NULL	Unlocked by completing the Rogue Class Challenge in Blackrock Mountain.	Can be crafted after completing the Rogue Class Challenge in Blackrock Mountain.
-BRM_005	Demonwrath	3	Spell	Rare	Blackrock Mountain	NULL	Warlock	NULL	NULL	NULL	Unlocked by completing the Warlock Class Challenge in Blackrock Mountain.	Can be crafted after completing the Warlock Class Challenge in Blackrock Mountain.
-BRM_018	Dragon Consort	5	Minion	Rare	Blackrock Mountain	Dragon	Paladin	5	5	NULL	Unlocked by defeating General Drakkisath in Blackrock Spire.	Can be crafted after defeating General Drakkisath in Blackrock Spire.
-BRM_022	Dragon Egg	1	Minion	Rare	Blackrock Mountain	NULL	NULL	0	2	NULL	Unlocked by defeating Rend Blackhand in Blackrock Spire.	Can be crafted after defeating Rend Blackhand in Blackrock Spire.
-BRM_003	Dragon's Breath	5	Spell	Common	Blackrock Mountain	NULL	Mage	NULL	NULL	NULL	Unlocked by completing the Mage Class Challenge in Blackrock Mountain.	Can be crafted after completing the Mage Class Challenge in Blackrock Mountain.
-BRM_020	Dragonkin Sorcerer	4	Minion	Common	Blackrock Mountain	Dragon	NULL	3	5	NULL	Unlocked by defeating Nefarian in the Hidden Laboratory.	Can be crafted after defeating Nefarian in the Hidden Laboratory.
-BRM_024	Drakonid Crusher	6	Minion	Common	Blackrock Mountain	Dragon	NULL	6	6	NULL	Unlocked by defeating Atramedes in the Hidden Laboratory.	Can be crafted after defeating Atramedes in the Hidden Laboratory.
-BRM_010	Druid of the Flame	3	Minion	Common	Blackrock Mountain	NULL	Druid	2	2	NULL	Unlocked by defeating Garr in Molten Core.	Can be crafted after defeating Garr in Molten Core.
-BRM_028	Emperor Thaurissan	6	Minion	Legendary	Blackrock Mountain	NULL	NULL	5	5	NULL	Unlocked by completing Blackrock Depths.	Can be crafted after completing Blackrock Depths.
-BRM_012	Fireguard Destroyer	4	Minion	Common	Blackrock Mountain	NULL	Shaman	3	6	NULL	Unlocked by defeating Lord Victor Nefarius in Blackwing Lair.	Can be crafted after defeating Lord Victor Nefarius in Blackwing Lair.
-BRM_002	Flamewaker	3	Minion	Rare	Blackrock Mountain	NULL	Mage	2	4	NULL	Unlocked by defeating Vaelastrasz in Blackwing Lair.	Can be crafted after defeating Vaelastrasz in Blackwing Lair.
-BRM_007	Gang Up	2	Spell	Common	Blackrock Mountain	NULL	Rogue	NULL	NULL	NULL	Unlocked by defeating the Dark Iron Arena in Blackrock Depths.	Can be crafted after defeating the Dark Iron Arena in Blackrock Depths.
-BRM_019	Grim Patron	5	Minion	Rare	Blackrock Mountain	NULL	NULL	3	3	NULL	Unlocked by defeating The Grim Guzzler in Blackrock Depths.	Can be crafted after defeating The Grim Guzzler in Blackrock Depths.
-BRM_026	Hungry Dragon	4	Minion	Common	Blackrock Mountain	Dragon	NULL	5	6	NULL	Unlocked by defeating Chromaggus in Blackwing Lair.	Can be crafted after defeating Chromaggus in Blackwing Lair.
-BRM_006	Imp Gang Boss	3	Minion	Common	Blackrock Mountain	Demon	Warlock	2	4	NULL	Unlocked by defeating Majordomo Executus in Molten Core.	Can be crafted after defeating Majordomo Executus in Molten Core.
-BRM_011	Lava Shock	2	Spell	Rare	Blackrock Mountain	NULL	Shaman	NULL	NULL	NULL	Unlocked by completing the Shaman Class Challenge in Blackrock Mountain.	Can be crafted after completing the Shaman Class Challenge in Blackrock Mountain.
-BRM_027	Majordomo Executus	9	Minion	Legendary	Blackrock Mountain	NULL	NULL	9	7	NULL	Unlocked by completing Molten Core.	Can be crafted after completing Molten Core.
-BRM_030	Nefarian	9	Minion	Legendary	Blackrock Mountain	Dragon	NULL	8	8	NULL	Unlocked by defeating every boss in Blackrock Mountain!	Can be crafted after completing the Hidden Laboratory.
-BRM_013	Quick Shot	2	Spell	Common	Blackrock Mountain	NULL	Hunter	NULL	NULL	NULL	Unlocked by completing the Hunter Class Challenge in Blackrock Mountain.	Can be crafted after completing the Hunter Class Challenge in Blackrock Mountain.
-BRM_029	Rend Blackhand	7	Minion	Legendary	Blackrock Mountain	NULL	NULL	8	4	NULL	Unlocked by completing Blackrock Spire.	Can be crafted after completing Blackrock Spire.
-BRM_017	Resurrect	2	Spell	Rare	Blackrock Mountain	NULL	Priest	NULL	NULL	NULL	Unlocked by defeating Emperor Thaurissan in Blackrock Depths.	Can be crafted after defeating Emperor Thaurissan in Blackrock Depths.
-BRM_015	Revenge	2	Spell	Rare	Blackrock Mountain	NULL	Warrior	NULL	NULL	NULL	Unlocked by defeating Razorgore in Blackwing Lair.	Can be crafted after defeating Razorgore in Blackwing Lair.
-BRM_001	Solemn Vigil	5	Spell	Common	Blackrock Mountain	NULL	Paladin	NULL	NULL	NULL	Unlocked by completing the Paladin Class Challenge in Blackrock Mountain.	Can be crafted after completing the Paladin Class Challenge in Blackrock Mountain.
-BRM_004	Twilight Whelp	1	Minion	Common	Blackrock Mountain	Dragon	Priest	2	1	NULL	Unlocked by completing the Priest Class Challenge in Blackrock Mountain.	Can be crafted after completing the Priest Class Challenge in Blackrock Mountain.
-BRM_025	Volcanic Drake	6	Minion	Common	Blackrock Mountain	Dragon	NULL	6	4	NULL	Unlocked by defeating Omnotron Defense System in the Hidden Laboratory.	Can be crafted after defeating Omnotron Defense System in the Hidden Laboratory.
-BRM_009	Volcanic Lumberer	9	Minion	Rare	Blackrock Mountain	NULL	Druid	7	8	NULL	Unlocked by completing the Druid Class Challenge in Blackrock Mountain.	Can be crafted after completing the Druid Class Challenge in Blackrock Mountain.
-EX1_097	Abomination	5	Minion	Rare	Classic	NULL	NULL	4	4	NULL	NULL	NULL
-CS2_188	Abusive Sergeant	1	Minion	Common	Classic	NULL	NULL	2	1	NULL	NULL	NULL
-EX1_007	Acolyte of Pain	3	Minion	Common	Classic	NULL	NULL	1	3	NULL	NULL	NULL
-NEW1_010	Al'Akir the Windlord	8	Minion	Legendary	Classic	NULL	Shaman	3	5	NULL	NULL	NULL
-EX1_006	Alarm-o-Bot	3	Minion	Rare	Classic	Mech	NULL	0	3	NULL	NULL	NULL
-EX1_382	Aldor Peacekeeper	3	Minion	Rare	Classic	NULL	Paladin	3	3	NULL	NULL	NULL
-EX1_561	Alexstrasza	9	Minion	Legendary	Classic	Dragon	NULL	8	8	NULL	NULL	NULL
-EX1_393	Amani Berserker	2	Minion	Common	Classic	NULL	NULL	2	3	NULL	NULL	NULL
-CS2_038	Ancestral Spirit	2	Spell	Rare	Classic	NULL	Shaman	NULL	NULL	NULL	NULL	NULL
-EX1_057	Ancient Brewmaster	4	Minion	Common	Classic	NULL	NULL	5	4	NULL	NULL	NULL
-EX1_584	Ancient Mage	4	Minion	Rare	Classic	NULL	NULL	2	5	NULL	NULL	NULL
-EX1_045	Ancient Watcher	2	Minion	Rare	Classic	NULL	NULL	4	5	NULL	NULL	NULL
-NEW1_008	Ancient of Lore	7	Minion	Epic	Classic	NULL	Druid	5	5	NULL	NULL	NULL
-EX1_178	Ancient of War	7	Minion	Epic	Classic	NULL	Druid	5	5	NULL	NULL	NULL
-EX1_009	Angry Chicken	1	Minion	Rare	Classic	Beast	NULL	1	1	NULL	NULL	NULL
-EX1_398	Arathi Weaponsmith	4	Minion	Common	Classic	NULL	Warrior	3	3	NULL	NULL	NULL
-EX1_089	Arcane Golem	3	Minion	Rare	Classic	NULL	NULL	4	2	NULL	NULL	NULL
-EX1_559	Archmage Antonidas	7	Minion	Legendary	Classic	NULL	Mage	5	7	NULL	NULL	NULL
-EX1_067	Argent Commander	6	Minion	Rare	Classic	NULL	NULL	4	2	NULL	NULL	NULL
-EX1_362	Argent Protector	2	Minion	Common	Classic	NULL	Paladin	2	2	NULL	NULL	NULL
-EX1_008	Argent Squire	1	Minion	Common	Classic	NULL	NULL	1	1	NULL	NULL	NULL
-EX1_402	Armorsmith	2	Minion	Rare	Classic	NULL	Warrior	1	4	NULL	NULL	NULL
-EX1_591	Auchenai Soulpriest	4	Minion	Rare	Classic	NULL	Priest	3	5	NULL	NULL	NULL
-EX1_384	Avenging Wrath	6	Spell	Epic	Classic	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-EX1_284	Azure Drake	5	Minion	Rare	Classic	Dragon	NULL	4	4	NULL	NULL	NULL
-EX1_320	Bane of Doom	5	Spell	Epic	Classic	NULL	Warlock	NULL	NULL	NULL	NULL	NULL
-EX1_249	Baron Geddon	7	Minion	Legendary	Classic	NULL	NULL	7	5	NULL	NULL	NULL
-EX1_392	Battle Rage	2	Spell	Common	Classic	NULL	Warrior	NULL	NULL	NULL	NULL	NULL
-EX1_549	Bestial Wrath	1	Spell	Epic	Classic	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-EX1_126	Betrayal	2	Spell	Common	Classic	NULL	Rogue	NULL	NULL	NULL	NULL	NULL
-EX1_005	Big Game Hunter	3	Minion	Epic	Classic	NULL	NULL	4	2	NULL	NULL	NULL
-EX1_570	Bite	4	Spell	Rare	Classic	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-CS2_233	Blade Flurry	2	Spell	Rare	Classic	NULL	Rogue	NULL	NULL	NULL	NULL	NULL
-EX1_355	Blessed Champion	5	Spell	Rare	Classic	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-EX1_363	Blessing of Wisdom	1	Spell	Common	Classic	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-CS2_028	Blizzard	6	Spell	Rare	Classic	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-CS2_059	Blood Imp	1	Minion	Common	Classic	Demon	Warlock	0	1	NULL	NULL	NULL
-EX1_590	Blood Knight	3	Minion	Epic	Classic	NULL	NULL	3	3	NULL	NULL	NULL
-EX1_012	Bloodmage Thalnos	2	Minion	Legendary	Classic	NULL	NULL	1	1	NULL	NULL	NULL
-NEW1_025	Bloodsail Corsair	1	Minion	Rare	Classic	Pirate	NULL	1	2	NULL	NULL	NULL
-NEW1_018	Bloodsail Raider	2	Minion	Common	Classic	Pirate	NULL	2	3	NULL	NULL	NULL
-EX1_407	Brawl	5	Spell	Epic	Classic	NULL	Warrior	NULL	NULL	NULL	NULL	NULL
-EX1_091	Cabal Shadow Priest	6	Minion	Epic	Classic	NULL	Priest	4	5	NULL	NULL	NULL
-EX1_110	Cairne Bloodhoof	6	Minion	Legendary	Classic	NULL	NULL	4	5	NULL	NULL	NULL
-NEW1_024	Captain Greenskin	5	Minion	Legendary	Classic	Pirate	NULL	5	4	NULL	NULL	NULL
-EX1_573	Cenarius	9	Minion	Legendary	Classic	NULL	Druid	5	8	NULL	NULL	NULL
-EX1_621	Circle of Healing	0	Spell	Common	Classic	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-CS2_073	Cold Blood	1	Spell	Common	Classic	NULL	Rogue	NULL	NULL	NULL	NULL	NULL
-EX1_050	Coldlight Oracle	3	Minion	Rare	Classic	Murloc	NULL	2	2	NULL	NULL	NULL
-EX1_103	Coldlight Seer	3	Minion	Rare	Classic	Murloc	NULL	2	3	NULL	NULL	NULL
-NEW1_036	Commanding Shout	2	Spell	Rare	Classic	NULL	Warrior	NULL	NULL	NULL	NULL	NULL
-EX1_128	Conceal	1	Spell	Common	Classic	NULL	Rogue	NULL	NULL	NULL	NULL	NULL
-EX1_275	Cone of Cold	4	Spell	Common	Classic	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-EX1_287	Counterspell	3	Spell	Rare	Classic	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-EX1_059	Crazed Alchemist	2	Minion	Rare	Classic	NULL	NULL	2	2	NULL	NULL	NULL
-EX1_603	Cruel Taskmaster	2	Minion	Common	Classic	NULL	Warrior	2	2	NULL	NULL	NULL
-EX1_595	Cult Master	4	Minion	Common	Classic	NULL	NULL	4	2	NULL	NULL	NULL
-EX1_046	Dark Iron Dwarf	4	Minion	Common	Classic	NULL	NULL	4	4	NULL	NULL	NULL
-EX1_617	Deadly Shot	3	Spell	Common	Classic	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-NEW1_030	Deathwing	10	Minion	Legendary	Classic	Dragon	NULL	12	12	NULL	NULL	NULL
-EX1_093	Defender of Argus	4	Minion	Rare	Classic	NULL	NULL	2	3	NULL	NULL	NULL
-EX1_131	Defias Ringleader	2	Minion	Common	Classic	NULL	Rogue	2	2	NULL	NULL	NULL
-EX1_102	Demolisher	3	Minion	Rare	Classic	Mech	NULL	1	4	NULL	NULL	NULL
-EX1_596	Demonfire	2	Spell	Common	Classic	NULL	Warlock	NULL	NULL	NULL	NULL	NULL
-EX1_162	Dire Wolf Alpha	2	Minion	Common	Classic	Beast	NULL	2	2	NULL	NULL	NULL
-EX1_349	Divine Favor	3	Spell	Rare	Classic	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-EX1_310	Doomguard	5	Minion	Rare	Classic	Demon	Warlock	5	7	NULL	NULL	NULL
-EX1_567	Doomhammer	5	Weapon	Epic	Classic	NULL	Shaman	2	NULL	8	NULL	NULL
-NEW1_021	Doomsayer	2	Minion	Epic	Classic	NULL	NULL	0	7	NULL	NULL	NULL
-NEW1_022	Dread Corsair	4	Minion	Common	Classic	Pirate	NULL	3	3	NULL	NULL	NULL
-EX1_165	Druid of the Claw	5	Minion	Common	Classic	NULL	Druid	4	4	NULL	NULL	NULL
-EX1_243	Dust Devil	1	Minion	Common	Classic	NULL	Shaman	3	1	NULL	NULL	NULL
-EX1_536	Eaglehorn Bow	3	Weapon	Rare	Classic	NULL	Hunter	3	NULL	2	NULL	NULL
-EX1_250	Earth Elemental	5	Minion	Epic	Classic	NULL	Shaman	7	8	NULL	NULL	NULL
-EX1_245	Earth Shock	1	Spell	Common	Classic	NULL	Shaman	NULL	NULL	NULL	NULL	NULL
-CS2_117	Earthen Ring Farseer	3	Minion	Common	Classic	NULL	NULL	3	3	NULL	NULL	NULL
-EX1_613	Edwin VanCleef	3	Minion	Legendary	Classic	NULL	Rogue	2	2	NULL	NULL	NULL
-EX1_170	Emperor Cobra	3	Minion	Rare	Classic	Beast	NULL	2	3	NULL	NULL	NULL
-EX1_619	Equality	2	Spell	Rare	Classic	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-EX1_274	Ethereal Arcanist	4	Minion	Rare	Classic	NULL	Mage	3	3	NULL	NULL	NULL
-EX1_124	Eviscerate	2	Spell	Common	Classic	NULL	Rogue	NULL	NULL	NULL	NULL	NULL
-EX1_537	Explosive Shot	5	Spell	Rare	Classic	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-EX1_610	Explosive Trap	2	Spell	Common	Classic	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-EX1_132	Eye for an Eye	1	Spell	Common	Classic	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-EX1_564	Faceless Manipulator	5	Minion	Epic	Classic	NULL	NULL	3	3	NULL	NULL	NULL
-NEW1_023	Faerie Dragon	2	Minion	Common	Classic	Dragon	NULL	3	2	NULL	NULL	NULL
-CS2_053	Far Sight	3	Spell	Epic	Classic	NULL	Shaman	NULL	NULL	NULL	NULL	NULL
-EX1_301	Felguard	3	Minion	Rare	Classic	Demon	Warlock	3	5	NULL	NULL	NULL
-CS1_069	Fen Creeper	5	Minion	Common	Classic	NULL	NULL	3	6	NULL	NULL	NULL
-EX1_248	Feral Spirit	3	Spell	Rare	Classic	NULL	Shaman	NULL	NULL	NULL	NULL	NULL
-EX1_319	Flame Imp	1	Minion	Common	Classic	Demon	Warlock	3	2	NULL	NULL	NULL
-EX1_544	Flare	2	Spell	Rare	Classic	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-tt_004	Flesheating Ghoul	3	Minion	Common	Classic	NULL	NULL	2	3	NULL	NULL	NULL
-EX1_571	Force of Nature	6	Spell	Epic	Classic	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-EX1_251	Forked Lightning	1	Spell	Common	Classic	NULL	Shaman	NULL	NULL	NULL	NULL	NULL
-EX1_611	Freezing Trap	2	Spell	Common	Classic	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-EX1_283	Frost Elemental	6	Minion	Common	Classic	NULL	NULL	5	5	NULL	NULL	NULL
-EX1_604	Frothing Berserker	3	Minion	Rare	Classic	NULL	Warrior	2	4	NULL	NULL	NULL
-EX1_095	Gadgetzan Auctioneer	6	Minion	Rare	Classic	NULL	NULL	4	4	NULL	NULL	NULL
-DS1_188	Gladiator's Longbow	7	Weapon	Epic	Classic	NULL	Hunter	5	NULL	2	NULL	NULL
-EX1_411	Gorehowl	7	Weapon	Epic	Classic	NULL	Warrior	7	NULL	1	NULL	NULL
-EX1_414	Grommash Hellscream	8	Minion	Legendary	Classic	NULL	Warrior	4	9	NULL	NULL	NULL
-NEW1_038	Gruul	8	Minion	Legendary	Classic	NULL	NULL	7	7	NULL	NULL	NULL
-EX1_558	Harrison Jones	5	Minion	Legendary	Classic	NULL	NULL	5	4	NULL	NULL	NULL
-EX1_556	Harvest Golem	3	Minion	Common	Classic	Mech	NULL	2	3	NULL	NULL	NULL
-EX1_137	Headcrack	3	Spell	Rare	Classic	NULL	Rogue	NULL	NULL	NULL	NULL	NULL
-NEW1_040	Hogger	6	Minion	Legendary	Classic	NULL	NULL	4	4	NULL	NULL	NULL
-EX1_624	Holy Fire	6	Spell	Rare	Classic	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-EX1_365	Holy Wrath	5	Spell	Rare	Classic	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-NEW1_017	Hungry Crab	1	Minion	Epic	Classic	Beast	NULL	1	2	NULL	NULL	NULL
-EX1_289	Ice Barrier	3	Spell	Common	Classic	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-EX1_295	Ice Block	3	Spell	Epic	Classic	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-CS2_031	Ice Lance	1	Spell	Common	Classic	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-EX1_614	Illidan Stormrage	6	Minion	Legendary	Classic	Demon	NULL	7	5	NULL	NULL	NULL
-EX1_597	Imp Master	3	Minion	Rare	Classic	NULL	NULL	1	5	NULL	NULL	NULL
-CS2_181	Injured Blademaster	3	Minion	Rare	Classic	NULL	NULL	4	7	NULL	NULL	NULL
-CS1_129	Inner Fire	1	Spell	Common	Classic	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-EX1_607	Inner Rage	0	Spell	Common	Classic	NULL	Warrior	NULL	NULL	NULL	NULL	NULL
-CS2_203	Ironbeak Owl	2	Minion	Common	Classic	Beast	NULL	2	1	NULL	NULL	NULL
-EX1_017	Jungle Panther	3	Minion	Common	Classic	Beast	NULL	4	2	NULL	NULL	NULL
-EX1_166	Keeper of the Grove	4	Minion	Rare	Classic	NULL	Druid	2	4	NULL	NULL	NULL
-NEW1_005	Kidnapper	6	Minion	Epic	Classic	NULL	Rogue	5	3	NULL	NULL	NULL
-EX1_543	King Krush	9	Minion	Legendary	Classic	Beast	Hunter	8	8	NULL	NULL	NULL
-EX1_014	King Mukla	3	Minion	Legendary	Classic	Beast	NULL	5	5	NULL	NULL	NULL
-EX1_612	Kirin Tor Mage	3	Minion	Rare	Classic	NULL	Mage	4	3	NULL	NULL	NULL
-NEW1_019	Knife Juggler	2	Minion	Rare	Classic	NULL	NULL	3	2	NULL	NULL	NULL
-EX1_241	Lava Burst	3	Spell	Rare	Classic	NULL	Shaman	NULL	NULL	NULL	NULL	NULL
-EX1_354	Lay on Hands	8	Spell	Epic	Classic	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-EX1_116	Leeroy Jenkins	5	Minion	Legendary	Classic	NULL	NULL	6	2	NULL	NULL	NULL
-EX1_029	Leper Gnome	1	Minion	Common	Classic	NULL	NULL	2	1	NULL	NULL	NULL
-EX1_238	Lightning Bolt	1	Spell	Common	Classic	NULL	Shaman	NULL	NULL	NULL	NULL	NULL
-EX1_259	Lightning Storm	3	Spell	Rare	Classic	NULL	Shaman	NULL	NULL	NULL	NULL	NULL
-EX1_335	Lightspawn	4	Minion	Common	Classic	NULL	Priest	0	5	NULL	NULL	NULL
-EX1_001	Lightwarden	1	Minion	Rare	Classic	NULL	NULL	1	2	NULL	NULL	NULL
-EX1_341	Lightwell	2	Minion	Rare	Classic	NULL	Priest	0	5	NULL	NULL	NULL
-EX1_096	Loot Hoarder	2	Minion	Common	Classic	NULL	NULL	2	1	NULL	NULL	NULL
-EX1_323	Lord Jaraxxus	9	Minion	Legendary	Classic	Demon	Warlock	3	15	NULL	NULL	NULL
-EX1_100	Lorewalker Cho	2	Minion	Legendary	Classic	NULL	NULL	0	4	NULL	NULL	NULL
-EX1_082	Mad Bomber	2	Minion	Common	Classic	NULL	NULL	3	2	NULL	NULL	NULL
-EX1_563	Malygos	9	Minion	Legendary	Classic	Dragon	NULL	4	12	NULL	NULL	NULL
-EX1_055	Mana Addict	2	Minion	Rare	Classic	NULL	NULL	1	3	NULL	NULL	NULL
-EX1_575	Mana Tide Totem	3	Minion	Rare	Classic	Totem	Shaman	0	3	NULL	NULL	NULL
-EX1_616	Mana Wraith	2	Minion	Rare	Classic	NULL	NULL	2	2	NULL	NULL	NULL
-NEW1_012	Mana Wyrm	1	Minion	Common	Classic	NULL	Mage	1	3	NULL	NULL	NULL
-EX1_155	Mark of Nature	3	Spell	Common	Classic	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-EX1_626	Mass Dispel	4	Spell	Rare	Classic	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-NEW1_037	Master Swordsmith	2	Minion	Rare	Classic	NULL	NULL	1	3	NULL	NULL	NULL
-NEW1_014	Master of Disguise	4	Minion	Rare	Classic	NULL	Rogue	4	4	NULL	NULL	NULL
-NEW1_029	Millhouse Manastorm	2	Minion	Legendary	Classic	NULL	NULL	4	4	NULL	NULL	NULL
-EX1_085	Mind Control Tech	3	Minion	Rare	Classic	NULL	NULL	3	3	NULL	NULL	NULL
-EX1_345	Mindgames	4	Spell	Epic	Classic	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-EX1_294	Mirror Entity	3	Spell	Common	Classic	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-EX1_533	Misdirection	2	Spell	Rare	Classic	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-EX1_396	Mogu'shan Warden	4	Minion	Common	Classic	NULL	NULL	1	7	NULL	NULL	NULL
-EX1_620	Molten Giant	20	Minion	Epic	Classic	NULL	NULL	8	8	NULL	NULL	NULL
-EX1_408	Mortal Strike	4	Spell	Rare	Classic	NULL	Warrior	NULL	NULL	NULL	NULL	NULL
-EX1_105	Mountain Giant	12	Minion	Epic	Classic	NULL	NULL	8	8	NULL	NULL	NULL
-EX1_509	Murloc Tidecaller	1	Minion	Rare	Classic	Murloc	NULL	1	2	NULL	NULL	NULL
-EX1_507	Murloc Warleader	3	Minion	Epic	Classic	Murloc	NULL	3	3	NULL	NULL	NULL
-EX1_557	Nat Pagle	2	Minion	Legendary	Classic	NULL	NULL	0	4	NULL	NULL	NULL
-EX1_161	Naturalize	1	Spell	Common	Classic	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-EX1_130	Noble Sacrifice	1	Spell	Common	Classic	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-EX1_164	Nourish	5	Spell	Rare	Classic	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-EX1_560	Nozdormu	9	Minion	Legendary	Classic	Dragon	NULL	8	8	NULL	NULL	NULL
-EX1_562	Onyxia	9	Minion	Legendary	Classic	Dragon	NULL	8	8	NULL	NULL	NULL
-EX1_522	Patient Assassin	2	Minion	Epic	Classic	NULL	Rogue	1	1	NULL	NULL	NULL
-EX1_133	Perdition's Blade	3	Weapon	Rare	Classic	NULL	Rogue	2	NULL	2	NULL	NULL
-EX1_076	Pint-Sized Summoner	2	Minion	Rare	Classic	NULL	NULL	2	2	NULL	NULL	NULL
-EX1_313	Pit Lord	4	Minion	Epic	Classic	Demon	Warlock	5	6	NULL	NULL	NULL
-EX1_316	Power Overwhelming	1	Spell	Common	Classic	NULL	Warlock	NULL	NULL	NULL	NULL	NULL
-EX1_160	Power of the Wild	2	Spell	Common	Classic	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-EX1_145	Preparation	0	Spell	Epic	Classic	NULL	Rogue	NULL	NULL	NULL	NULL	NULL
-EX1_583	Priestess of Elune	6	Minion	Common	Classic	NULL	NULL	5	4	NULL	NULL	NULL
-EX1_350	Prophet Velen	7	Minion	Legendary	Classic	NULL	Priest	7	7	NULL	NULL	NULL
-EX1_279	Pyroblast	10	Spell	Epic	Classic	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-EX1_044	Questing Adventurer	3	Minion	Rare	Classic	NULL	NULL	2	2	NULL	NULL	NULL
-EX1_412	Raging Worgen	3	Minion	Common	Classic	NULL	NULL	3	3	NULL	NULL	NULL
-EX1_298	Ragnaros the Firelord	8	Minion	Legendary	Classic	NULL	NULL	8	8	NULL	NULL	NULL
-CS2_104	Rampage	2	Spell	Common	Classic	NULL	Warrior	NULL	NULL	NULL	NULL	NULL
-CS2_161	Ravenholdt Assassin	7	Minion	Rare	Classic	NULL	NULL	7	5	NULL	NULL	NULL
-EX1_136	Redemption	1	Spell	Common	Classic	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-EX1_379	Repentance	1	Spell	Common	Classic	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-EX1_134	SI:7 Agent	3	Minion	Rare	Classic	NULL	Rogue	3	3	NULL	NULL	NULL
-EX1_578	Savagery	1	Spell	Rare	Classic	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-EX1_534	Savannah Highmane	6	Minion	Rare	Classic	Beast	Hunter	6	5	NULL	NULL	NULL
-EX1_020	Scarlet Crusader	3	Minion	Common	Classic	NULL	NULL	3	1	NULL	NULL	NULL
-EX1_531	Scavenging Hyena	2	Minion	Common	Classic	Beast	Hunter	2	2	NULL	NULL	NULL
-EX1_586	Sea Giant	10	Minion	Epic	Classic	NULL	NULL	8	8	NULL	NULL	NULL
-EX1_080	Secretkeeper	1	Minion	Rare	Classic	NULL	NULL	1	2	NULL	NULL	NULL
-EX1_317	Sense Demons	3	Spell	Common	Classic	NULL	Warlock	NULL	NULL	NULL	NULL	NULL
-EX1_334	Shadow Madness	4	Spell	Rare	Classic	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-EX1_303	Shadowflame	4	Spell	Rare	Classic	NULL	Warlock	NULL	NULL	NULL	NULL	NULL
-EX1_625	Shadowform	3	Spell	Epic	Classic	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-EX1_144	Shadowstep	0	Spell	Common	Classic	NULL	Rogue	NULL	NULL	NULL	NULL	NULL
-EX1_410	Shield Slam	1	Spell	Epic	Classic	NULL	Warrior	NULL	NULL	NULL	NULL	NULL
-EX1_405	Shieldbearer	1	Minion	Common	Classic	NULL	NULL	0	4	NULL	NULL	NULL
-EX1_332	Silence	0	Spell	Common	Classic	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-CS2_151	Silver Hand Knight	5	Minion	Common	Classic	NULL	NULL	4	4	NULL	NULL	NULL
-EX1_023	Silvermoon Guardian	4	Minion	Common	Classic	NULL	NULL	3	3	NULL	NULL	NULL
-EX1_309	Siphon Soul	6	Spell	Rare	Classic	NULL	Warlock	NULL	NULL	NULL	NULL	NULL
-EX1_391	Slam	2	Spell	Common	Classic	NULL	Warrior	NULL	NULL	NULL	NULL	NULL
-EX1_554	Snake Trap	2	Spell	Epic	Classic	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-EX1_609	Snipe	2	Spell	Common	Classic	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-EX1_608	Sorcerer's Apprentice	2	Minion	Common	Classic	NULL	Mage	3	2	NULL	NULL	NULL
-EX1_158	Soul of the Forest	4	Spell	Common	Classic	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-NEW1_027	Southsea Captain	3	Minion	Epic	Classic	Pirate	NULL	3	3	NULL	NULL	NULL
-CS2_146	Southsea Deckhand	1	Minion	Common	Classic	Pirate	NULL	2	1	NULL	NULL	NULL
-tt_010	Spellbender	3	Spell	Epic	Classic	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-EX1_048	Spellbreaker	4	Minion	Common	Classic	NULL	NULL	4	3	NULL	NULL	NULL
-CS2_221	Spiteful Smith	5	Minion	Common	Classic	NULL	NULL	4	6	NULL	NULL	NULL
-NEW1_041	Stampeding Kodo	5	Minion	Rare	Classic	Beast	NULL	3	5	NULL	NULL	NULL
-NEW1_007	Starfall	5	Spell	Rare	Classic	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-EX1_247	Stormforged Axe	2	Weapon	Common	Classic	NULL	Shaman	2	NULL	3	NULL	NULL
-EX1_028	Stranglethorn Tiger	5	Minion	Common	Classic	Beast	NULL	5	5	NULL	NULL	NULL
-EX1_315	Summoning Portal	4	Minion	Common	Classic	NULL	Warlock	0	4	NULL	NULL	NULL
-EX1_058	Sunfury Protector	2	Minion	Rare	Classic	NULL	NULL	2	3	NULL	NULL	NULL
-EX1_032	Sunwalker	6	Minion	Rare	Classic	NULL	NULL	4	5	NULL	NULL	NULL
-EX1_366	Sword of Justice	3	Weapon	Epic	Classic	NULL	Paladin	1	NULL	5	NULL	NULL
-EX1_016	Sylvanas Windrunner	6	Minion	Legendary	Classic	NULL	NULL	5	5	NULL	NULL	NULL
-EX1_390	Tauren Warrior	3	Minion	Common	Classic	NULL	NULL	2	3	NULL	NULL	NULL
-EX1_623	Temple Enforcer	6	Minion	Common	Classic	NULL	Priest	6	6	NULL	NULL	NULL
-EX1_577	The Beast	6	Minion	Legendary	Classic	Beast	NULL	9	7	NULL	NULL	NULL
-EX1_002	The Black Knight	6	Minion	Legendary	Classic	NULL	NULL	4	5	NULL	NULL	NULL
-EX1_339	Thoughtsteal	3	Spell	Common	Classic	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-EX1_021	Thrallmar Farseer	3	Minion	Common	Classic	NULL	NULL	2	3	NULL	NULL	NULL
-EX1_083	Tinkmaster Overspark	3	Minion	Legendary	Classic	NULL	NULL	3	3	NULL	NULL	NULL
-EX1_383	Tirion Fordring	8	Minion	Legendary	Classic	NULL	Paladin	6	6	NULL	NULL	NULL
-EX1_043	Twilight Drake	4	Minion	Rare	Classic	Dragon	NULL	4	1	NULL	NULL	NULL
-EX1_312	Twisting Nether	8	Spell	Epic	Classic	NULL	Warlock	NULL	NULL	NULL	NULL	NULL
-EX1_258	Unbound Elemental	3	Minion	Common	Classic	NULL	Shaman	2	4	NULL	NULL	NULL
-EX1_538	Unleash the Hounds	3	Spell	Common	Classic	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-EX1_409	Upgrade!	1	Spell	Rare	Classic	NULL	Warrior	NULL	NULL	NULL	NULL	NULL
-EX1_594	Vaporize	3	Spell	Rare	Classic	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-CS2_227	Venture Co. Mercenary	5	Minion	Common	Classic	NULL	NULL	7	6	NULL	NULL	NULL
-NEW1_026	Violet Teacher	4	Minion	Rare	Classic	NULL	NULL	3	5	NULL	NULL	NULL
-EX1_304	Void Terror	3	Minion	Rare	Classic	Demon	Warlock	3	3	NULL	NULL	NULL
-NEW1_020	Wild Pyromancer	2	Minion	Rare	Classic	NULL	NULL	3	2	NULL	NULL	NULL
-EX1_033	Windfury Harpy	6	Minion	Common	Classic	NULL	NULL	4	5	NULL	NULL	NULL
-CS2_231	Wisp	0	Minion	Common	Classic	NULL	NULL	1	1	NULL	NULL	NULL
-EX1_010	Worgen Infiltrator	1	Minion	Common	Classic	NULL	NULL	2	1	NULL	NULL	NULL
-EX1_154	Wrath	2	Spell	Common	Classic	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-CS2_169	Young Dragonhawk	1	Minion	Common	Classic	Beast	NULL	1	1	NULL	NULL	NULL
-EX1_004	Young Priestess	1	Minion	Rare	Classic	NULL	NULL	2	1	NULL	NULL	NULL
-EX1_049	Youthful Brewmaster	2	Minion	Common	Classic	NULL	NULL	3	2	NULL	NULL	NULL
-EX1_572	Ysera	9	Minion	Legendary	Classic	Dragon	NULL	4	12	NULL	NULL	NULL
-FP1_026	Anub'ar Ambusher	4	Minion	Common	Curse of Naxxramas	NULL	Rogue	5	5	NULL	Unlocked by completing the Rogue Class Challenge in Naxxramas.	Can be crafted after completing the Rogue Class Challenge in Naxxramas.
-FP1_020	Avenge	1	Spell	Common	Curse of Naxxramas	NULL	Paladin	NULL	NULL	NULL	Unlocked by completing the Paladin Class Challenge in Naxxramas.	Can be crafted after completing the Paladin Class Challenge in Naxxramas.
-FP1_031	Baron Rivendare	4	Minion	Legendary	Curse of Naxxramas	NULL	NULL	1	7	NULL	Unlocked by completing the Military Quarter.	Can be crafted after completing the Military Quarter.
-FP1_029	Dancing Swords	3	Minion	Common	Curse of Naxxramas	NULL	NULL	4	4	NULL	Unlocked by defeating Instructor Razuvious in the Military Quarter.	Can be crafted after defeating Instructor Razuvious in the Military Quarter.
-FP1_023	Dark Cultist	3	Minion	Common	Curse of Naxxramas	NULL	Priest	3	4	NULL	Unlocked by completing the Priest Class Challenge in Naxxramas.	Can be crafted after completing the Priest Class Challenge in Naxxramas.
-FP1_021	Death's Bite	4	Weapon	Common	Curse of Naxxramas	NULL	Warrior	4	NULL	2	Unlocked by completing the Warrior Class Challenge in Naxxramas.	Can be crafted after completing the Warrior Class Challenge in Naxxramas.
-FP1_009	Deathlord	3	Minion	Rare	Curse of Naxxramas	NULL	NULL	2	8	NULL	Unlocked by defeating The Four Horsemen in the Military Quarter.	Can be crafted after defeating The Four Horsemen in the Military Quarter.
-FP1_018	Duplicate	3	Spell	Common	Curse of Naxxramas	NULL	Mage	NULL	NULL	NULL	Unlocked by completing the Mage Class Challenge in Naxxramas.	Can be crafted after completing the Mage Class Challenge in Naxxramas.
-FP1_003	Echoing Ooze	2	Minion	Epic	Curse of Naxxramas	NULL	NULL	1	2	NULL	Unlocked by defeating Sapphiron in the Frostwyrm Lair.	Can be crafted after defeating Sapphiron in the Frostwyrm Lair.
-FP1_015	Feugen	5	Minion	Legendary	Curse of Naxxramas	NULL	NULL	4	7	NULL	Unlocked by completing the Construct Quarter.	Can be crafted after completing the Construct Quarter.
-FP1_002	Haunted Creeper	2	Minion	Common	Curse of Naxxramas	Beast	NULL	1	2	NULL	Unlocked by defeating Anub'Rekhan in the Arachnid Quarter.	Can be crafted after defeating Anub'Rekhan in the Arachnid Quarter.
-FP1_013	Kel'Thuzad	8	Minion	Legendary	Curse of Naxxramas	NULL	NULL	6	8	NULL	Unlocked by defeating every boss in Naxxramas!	Can be crafted after defeating every boss in Naxxramas!
-FP1_030	Loatheb	5	Minion	Legendary	Curse of Naxxramas	NULL	NULL	5	5	NULL	Unlocked by completing the Plague Quarter.	Can be crafted after completing the Plague Quarter.
-FP1_004	Mad Scientist	2	Minion	Common	Curse of Naxxramas	NULL	NULL	2	2	NULL	Unlocked by defeating Grobbulus in the Construct Quarter.	Can be crafted after defeating Grobbulus in the Construct Quarter.
-FP1_010	Maexxna	6	Minion	Legendary	Curse of Naxxramas	Beast	NULL	2	8	NULL	Unlocked by completing the Arachnid Quarter.	Can be crafted after completing the Arachnid Quarter.
-FP1_017	Nerub'ar Weblord	2	Minion	Common	Curse of Naxxramas	NULL	NULL	1	4	NULL	Unlocked by defeating Grand Widow Faerlina in the Arachnid Quarter.	Can be crafted after defeating Grand Widow Faerlina in the Arachnid Quarter.
-FP1_007	Nerubian Egg	2	Minion	Rare	Curse of Naxxramas	NULL	NULL	0	2	NULL	Unlocked by defeating Maexxna in the Arachnid Quarter.	Can be crafted after defeating Maexxna in the Arachnid Quarter.
-FP1_019	Poison Seeds	4	Spell	Common	Curse of Naxxramas	NULL	Druid	NULL	NULL	NULL	Unlocked by completing the Druid Class Challenge in Naxxramas.	Can be crafted after completing the Druid Class Challenge in Naxxramas.
-FP1_025	Reincarnate	2	Spell	Common	Curse of Naxxramas	NULL	Shaman	NULL	NULL	NULL	Unlocked by completing the Shaman Class Challenge in Naxxramas.	Can be crafted after completing the Shaman Class Challenge in Naxxramas.
-FP1_005	Shade of Naxxramas	3	Minion	Epic	Curse of Naxxramas	NULL	NULL	2	2	NULL	Unlocked by defeating Kel'Thuzad in the Frostwyrm Lair.	Can be crafted after defeating Kel'Thuzad in the Frostwyrm Lair.
-FP1_012	Sludge Belcher	5	Minion	Rare	Curse of Naxxramas	NULL	NULL	3	5	NULL	Unlocked by defeating Loatheb in the Plague Quarter.	Can be crafted after defeating Loatheb in the Plague Quarter.
-FP1_008	Spectral Knight	5	Minion	Common	Curse of Naxxramas	NULL	NULL	4	6	NULL	Unlocked by defeating Gothik the Harvester in the Military Quarter.	Can be crafted after defeating Gothik the Harvester in the Military Quarter.
-FP1_014	Stalagg	5	Minion	Legendary	Curse of Naxxramas	NULL	NULL	7	4	NULL	Unlocked by completing the Construct Quarter.	Can be crafted after completing the Construct Quarter.
-FP1_027	Stoneskin Gargoyle	3	Minion	Common	Curse of Naxxramas	NULL	NULL	1	4	NULL	Unlocked by defeating Noth the Plaguebringer in the Plague Quarter.	Can be crafted after defeating Noth the Plaguebringer in the Plague Quarter.
-FP1_028	Undertaker	1	Minion	Common	Curse of Naxxramas	NULL	NULL	1	2	NULL	Unlocked by defeating Patchwerk in the Construct Quarter.	Can be crafted after defeating Patchwerk in the Construct Quarter.
-FP1_024	Unstable Ghoul	2	Minion	Common	Curse of Naxxramas	NULL	NULL	1	3	NULL	Unlocked by defeating Heigan the Unclean in the Plague Quarter.	Can be crafted after defeating Heigan the Unclean in the Plague Quarter.
-FP1_022	Voidcaller	4	Minion	Common	Curse of Naxxramas	Demon	Warlock	3	4	NULL	Unlocked by completing the Warlock Class Challenge in Naxxramas.	Can be crafted after completing the Warlock Class Challenge in Naxxramas.
-FP1_016	Wailing Soul	4	Minion	Rare	Curse of Naxxramas	NULL	NULL	3	5	NULL	Unlocked by defeating Thaddius in the Construct Quarter.	Can be crafted after defeating Thaddius in the Construct Quarter.
-FP1_011	Webspinner	1	Minion	Common	Curse of Naxxramas	Beast	Hunter	1	1	NULL	Unlocked by completing the Hunter Class Challenge in Naxxramas.	Can be crafted after completing the Hunter Class Challenge in Naxxramas.
-FP1_001	Zombie Chow	1	Minion	Common	Curse of Naxxramas	NULL	NULL	2	3	NULL	Unlocked by defeating Gluth in the Construct Quarter.	Can be crafted after defeating Gluth in the Construct Quarter.
-GVG_029	Ancestor's Call	4	Spell	Epic	Goblins vs Gnomes	NULL	Shaman	NULL	NULL	NULL	NULL	NULL
-GVG_077	Anima Golem	6	Minion	Epic	Goblins vs Gnomes	Mech	Warlock	9	9	NULL	NULL	NULL
-GVG_085	Annoy-o-Tron	2	Minion	Common	Goblins vs Gnomes	Mech	NULL	1	2	NULL	NULL	NULL
-GVG_030	Anodized Robo Cub	2	Minion	Common	Goblins vs Gnomes	Mech	Druid	2	2	NULL	NULL	NULL
-GVG_069	Antique Healbot	5	Minion	Common	Goblins vs Gnomes	Mech	NULL	3	3	NULL	NULL	NULL
-GVG_091	Arcane Nullifier X-21	4	Minion	Rare	Goblins vs Gnomes	Mech	NULL	2	5	NULL	NULL	NULL
-GVG_119	Blingtron 3000	5	Minion	Legendary	Goblins vs Gnomes	Mech	NULL	3	4	NULL	NULL	NULL
-GVG_063	Bolvar Fordragon	5	Minion	Legendary	Goblins vs Gnomes	NULL	Paladin	1	7	NULL	NULL	NULL
-GVG_099	Bomb Lobber	5	Minion	Rare	Goblins vs Gnomes	NULL	NULL	3	3	NULL	NULL	NULL
-GVG_050	Bouncing Blade	3	Spell	Epic	Goblins vs Gnomes	NULL	Warrior	NULL	NULL	NULL	NULL	NULL
-GVG_068	Burly Rockjaw Trogg	4	Minion	Common	Goblins vs Gnomes	NULL	NULL	3	5	NULL	NULL	NULL
-GVG_017	Call Pet	2	Spell	Rare	Goblins vs Gnomes	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-GVG_121	Clockwork Giant	12	Minion	Epic	Goblins vs Gnomes	Mech	NULL	8	8	NULL	NULL	NULL
-GVG_082	Clockwork Gnome	1	Minion	Common	Goblins vs Gnomes	Mech	NULL	2	1	NULL	NULL	NULL
-GVG_062	Cobalt Guardian	5	Minion	Rare	Goblins vs Gnomes	Mech	Paladin	6	3	NULL	NULL	NULL
-GVG_073	Cobra Shot	5	Spell	Common	Goblins vs Gnomes	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-GVG_059	Coghammer	3	Weapon	Epic	Goblins vs Gnomes	NULL	Paladin	2	NULL	3	NULL	NULL
-GVG_013	Cogmaster	1	Minion	Common	Goblins vs Gnomes	NULL	NULL	1	2	NULL	NULL	NULL
-GVG_024	Cogmaster's Wrench	3	Weapon	Epic	Goblins vs Gnomes	NULL	Rogue	1	NULL	3	NULL	NULL
-GVG_038	Crackle	2	Spell	Common	Goblins vs Gnomes	NULL	Shaman	NULL	NULL	NULL	NULL	NULL
-GVG_052	Crush	7	Spell	Epic	Goblins vs Gnomes	NULL	Warrior	NULL	NULL	NULL	NULL	NULL
-GVG_041	Dark Wispers	6	Spell	Epic	Goblins vs Gnomes	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-GVG_015	Darkbomb	2	Spell	Common	Goblins vs Gnomes	NULL	Warlock	NULL	NULL	NULL	NULL	NULL
-GVG_019	Demonheart	5	Spell	Epic	Goblins vs Gnomes	NULL	Warlock	NULL	NULL	NULL	NULL	NULL
-GVG_110	Dr. Boom	7	Minion	Legendary	Goblins vs Gnomes	NULL	NULL	7	7	NULL	NULL	NULL
-GVG_080	Druid of the Fang	5	Minion	Common	Goblins vs Gnomes	NULL	Druid	4	4	NULL	NULL	NULL
-GVG_066	Dunemaul Shaman	4	Minion	Rare	Goblins vs Gnomes	NULL	Shaman	5	4	NULL	NULL	NULL
-GVG_005	Echo of Medivh	4	Spell	Epic	Goblins vs Gnomes	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-GVG_107	Enhance-o Mechano	4	Minion	Epic	Goblins vs Gnomes	Mech	NULL	3	2	NULL	NULL	NULL
-GVG_076	Explosive Sheep	2	Minion	Common	Goblins vs Gnomes	Mech	NULL	1	1	NULL	NULL	NULL
-GVG_026	Feign Death	2	Spell	Epic	Goblins vs Gnomes	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-GVG_020	Fel Cannon	4	Minion	Rare	Goblins vs Gnomes	Mech	Warlock	3	5	NULL	NULL	NULL
-GVG_016	Fel Reaver	5	Minion	Epic	Goblins vs Gnomes	Mech	NULL	8	8	NULL	NULL	NULL
-GVG_007	Flame Leviathan	7	Minion	Legendary	Goblins vs Gnomes	Mech	Mage	7	7	NULL	NULL	NULL
-GVG_001	Flamecannon	2	Spell	Common	Goblins vs Gnomes	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-GVG_100	Floating Watcher	5	Minion	Common	Goblins vs Gnomes	Demon	Warlock	4	4	NULL	NULL	NULL
-GVG_084	Flying Machine	3	Minion	Common	Goblins vs Gnomes	Mech	NULL	1	4	NULL	NULL	NULL
-GVG_113	Foe Reaper 4000	8	Minion	Legendary	Goblins vs Gnomes	Mech	NULL	6	9	NULL	NULL	NULL
-GVG_079	Force-Tank MAX	8	Minion	Common	Goblins vs Gnomes	Mech	NULL	7	7	NULL	NULL	NULL
-GVG_049	Gahz'rilla	7	Minion	Legendary	Goblins vs Gnomes	Beast	Hunter	6	9	NULL	NULL	NULL
-GVG_117	Gazlowe	6	Minion	Legendary	Goblins vs Gnomes	NULL	NULL	3	6	NULL	NULL	NULL
-GVG_081	Gilblin Stalker	2	Minion	Common	Goblins vs Gnomes	NULL	NULL	2	3	NULL	NULL	NULL
-GVG_043	Glaivezooka	2	Weapon	Common	Goblins vs Gnomes	NULL	Hunter	2	NULL	2	NULL	NULL
-GVG_098	Gnomeregan Infantry	3	Minion	Common	Goblins vs Gnomes	NULL	NULL	1	4	NULL	NULL	NULL
-GVG_092	Gnomish Experimenter	3	Minion	Rare	Goblins vs Gnomes	NULL	NULL	3	2	NULL	NULL	NULL
-GVG_023	Goblin Auto-Barber	2	Minion	Common	Goblins vs Gnomes	Mech	Rogue	3	2	NULL	NULL	NULL
-GVG_004	Goblin Blastmage	4	Minion	Rare	Goblins vs Gnomes	NULL	Mage	5	4	NULL	NULL	NULL
-GVG_095	Goblin Sapper	3	Minion	Rare	Goblins vs Gnomes	NULL	NULL	2	4	NULL	NULL	NULL
-GVG_032	Grove Tender	3	Minion	Rare	Goblins vs Gnomes	NULL	Druid	2	4	NULL	NULL	NULL
-GVG_120	Hemet Nesingwary	5	Minion	Legendary	Goblins vs Gnomes	NULL	NULL	6	3	NULL	NULL	NULL
-GVG_104	Hobgoblin	3	Minion	Epic	Goblins vs Gnomes	NULL	NULL	2	3	NULL	NULL	NULL
-GVG_089	Illuminator	3	Minion	Rare	Goblins vs Gnomes	NULL	NULL	2	4	NULL	NULL	NULL
-GVG_045	Imp-losion	4	Spell	Rare	Goblins vs Gnomes	NULL	Warlock	NULL	NULL	NULL	NULL	NULL
-GVG_056	Iron Juggernaut	6	Minion	Legendary	Goblins vs Gnomes	Mech	Warrior	6	5	NULL	NULL	NULL
-GVG_027	Iron Sensei	3	Minion	Rare	Goblins vs Gnomes	Mech	Rogue	2	2	NULL	NULL	NULL
-GVG_094	Jeeves	4	Minion	Rare	Goblins vs Gnomes	Mech	NULL	1	4	NULL	NULL	NULL
-GVG_106	Junkbot	5	Minion	Epic	Goblins vs Gnomes	Mech	NULL	1	5	NULL	NULL	NULL
-GVG_074	Kezan Mystic	4	Minion	Rare	Goblins vs Gnomes	NULL	NULL	4	3	NULL	NULL	NULL
-GVG_046	King of Beasts	5	Minion	Rare	Goblins vs Gnomes	Beast	Hunter	2	6	NULL	NULL	NULL
-GVG_012	Light of the Naaru	1	Spell	Rare	Goblins vs Gnomes	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-GVG_008	Lightbomb	6	Spell	Epic	Goblins vs Gnomes	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-GVG_097	Lil' Exorcist	3	Minion	Rare	Goblins vs Gnomes	NULL	NULL	2	3	NULL	NULL	NULL
-GVG_071	Lost Tallstrider	4	Minion	Common	Goblins vs Gnomes	Beast	NULL	5	4	NULL	NULL	NULL
-GVG_090	Madder Bomber	5	Minion	Rare	Goblins vs Gnomes	NULL	NULL	5	4	NULL	NULL	NULL
-GVG_021	Mal'Ganis	9	Minion	Legendary	Goblins vs Gnomes	Demon	Warlock	9	7	NULL	NULL	NULL
-GVG_035	Malorne	7	Minion	Legendary	Goblins vs Gnomes	Beast	Druid	9	7	NULL	NULL	NULL
-GVG_034	Mech-Bear-Cat	6	Minion	Rare	Goblins vs Gnomes	Mech	Druid	7	6	NULL	NULL	NULL
-GVG_078	Mechanical Yeti	4	Minion	Common	Goblins vs Gnomes	Mech	NULL	4	5	NULL	NULL	NULL
-GVG_006	Mechwarper	2	Minion	Common	Goblins vs Gnomes	Mech	NULL	2	3	NULL	NULL	NULL
-GVG_116	Mekgineer Thermaplugg	9	Minion	Legendary	Goblins vs Gnomes	Mech	NULL	9	7	NULL	NULL	NULL
-GVG_048	Metaltooth Leaper	3	Minion	Rare	Goblins vs Gnomes	Mech	Hunter	3	3	NULL	NULL	NULL
-GVG_103	Micro Machine	2	Minion	Common	Goblins vs Gnomes	Mech	NULL	1	2	NULL	NULL	NULL
-GVG_111	Mimiron's Head	5	Minion	Legendary	Goblins vs Gnomes	Mech	NULL	4	5	NULL	NULL	NULL
-GVG_109	Mini-Mage	4	Minion	Epic	Goblins vs Gnomes	NULL	NULL	4	1	NULL	NULL	NULL
-GVG_018	Mistress of Pain	2	Minion	Rare	Goblins vs Gnomes	Demon	Warlock	1	4	NULL	NULL	NULL
-GVG_112	Mogor the Ogre	6	Minion	Legendary	Goblins vs Gnomes	NULL	NULL	7	6	NULL	NULL	NULL
-GVG_061	Muster for Battle	3	Spell	Rare	Goblins vs Gnomes	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-GVG_042	Neptulon	7	Minion	Legendary	Goblins vs Gnomes	NULL	Shaman	7	7	NULL	NULL	NULL
-GVG_065	Ogre Brute	3	Minion	Common	Goblins vs Gnomes	NULL	NULL	4	4	NULL	NULL	NULL
-GVG_088	Ogre Ninja	5	Minion	Rare	Goblins vs Gnomes	NULL	Rogue	6	6	NULL	NULL	NULL
-GVG_054	Ogre Warmaul	3	Weapon	Common	Goblins vs Gnomes	NULL	Warrior	4	NULL	2	NULL	NULL
-GVG_025	One-eyed Cheat	2	Minion	Rare	Goblins vs Gnomes	Pirate	Rogue	4	1	NULL	NULL	NULL
-GVG_096	Piloted Shredder	4	Minion	Common	Goblins vs Gnomes	Mech	NULL	4	3	NULL	NULL	NULL
-GVG_105	Piloted Sky Golem	6	Minion	Epic	Goblins vs Gnomes	Mech	NULL	6	4	NULL	NULL	NULL
-GVG_036	Powermace	3	Weapon	Rare	Goblins vs Gnomes	NULL	Shaman	3	NULL	2	NULL	NULL
-GVG_064	Puddlestomper	2	Minion	Common	Goblins vs Gnomes	Murloc	NULL	3	2	NULL	NULL	NULL
-GVG_060	Quartermaster	5	Minion	Epic	Goblins vs Gnomes	NULL	Paladin	2	5	NULL	NULL	NULL
-GVG_108	Recombobulator	2	Minion	Epic	Goblins vs Gnomes	NULL	NULL	3	2	NULL	NULL	NULL
-GVG_031	Recycle	6	Spell	Rare	Goblins vs Gnomes	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-GVG_047	Sabotage	4	Spell	Epic	Goblins vs Gnomes	NULL	Rogue	NULL	NULL	NULL	NULL	NULL
-GVG_070	Salty Dog	5	Minion	Common	Goblins vs Gnomes	Pirate	NULL	7	4	NULL	NULL	NULL
-GVG_101	Scarlet Purifier	3	Minion	Rare	Goblins vs Gnomes	NULL	Paladin	4	3	NULL	NULL	NULL
-GVG_055	Screwjank Clunker	4	Minion	Rare	Goblins vs Gnomes	Mech	Warrior	2	5	NULL	NULL	NULL
-GVG_057	Seal of Light	2	Spell	Common	Goblins vs Gnomes	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-GVG_009	Shadowbomber	1	Minion	Epic	Goblins vs Gnomes	NULL	Priest	2	1	NULL	NULL	NULL
-GVG_072	Shadowboxer	2	Minion	Rare	Goblins vs Gnomes	Mech	Priest	2	3	NULL	NULL	NULL
-GVG_058	Shielded Minibot	2	Minion	Common	Goblins vs Gnomes	Mech	Paladin	2	2	NULL	NULL	NULL
-GVG_053	Shieldmaiden	6	Minion	Rare	Goblins vs Gnomes	NULL	Warrior	5	5	NULL	NULL	NULL
-GVG_075	Ship's Cannon	2	Minion	Common	Goblins vs Gnomes	NULL	NULL	2	3	NULL	NULL	NULL
-GVG_011	Shrinkmeister	2	Minion	Common	Goblins vs Gnomes	NULL	Priest	3	2	NULL	NULL	NULL
-GVG_086	Siege Engine	5	Minion	Rare	Goblins vs Gnomes	Mech	Warrior	5	5	NULL	NULL	NULL
-GVG_040	Siltfin Spiritwalker	4	Minion	Epic	Goblins vs Gnomes	Murloc	Shaman	2	5	NULL	NULL	NULL
-GVG_114	Sneed's Old Shredder	8	Minion	Legendary	Goblins vs Gnomes	Mech	NULL	5	7	NULL	NULL	NULL
-GVG_002	Snowchugger	2	Minion	Common	Goblins vs Gnomes	Mech	Mage	2	3	NULL	NULL	NULL
-GVG_123	Soot Spewer	3	Minion	Rare	Goblins vs Gnomes	Mech	Mage	3	3	NULL	NULL	NULL
-GVG_044	Spider Tank	3	Minion	Common	Goblins vs Gnomes	Mech	NULL	3	4	NULL	NULL	NULL
-GVG_087	Steamwheedle Sniper	2	Minion	Epic	Goblins vs Gnomes	NULL	Hunter	2	3	NULL	NULL	NULL
-GVG_067	Stonesplinter Trogg	2	Minion	Common	Goblins vs Gnomes	NULL	NULL	2	3	NULL	NULL	NULL
-GVG_093	Target Dummy	0	Minion	Rare	Goblins vs Gnomes	Mech	NULL	0	2	NULL	NULL	NULL
-GVG_022	Tinker's Sharpsword Oil	4	Spell	Common	Goblins vs Gnomes	NULL	Rogue	NULL	NULL	NULL	NULL	NULL
-GVG_102	Tinkertown Technician	3	Minion	Common	Goblins vs Gnomes	NULL	NULL	3	3	NULL	NULL	NULL
-GVG_115	Toshley	6	Minion	Legendary	Goblins vs Gnomes	NULL	NULL	5	7	NULL	NULL	NULL
-GVG_028	Trade Prince Gallywix	6	Minion	Legendary	Goblins vs Gnomes	NULL	Rogue	5	8	NULL	NULL	NULL
-GVG_033	Tree of Life	9	Spell	Epic	Goblins vs Gnomes	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-GVG_118	Troggzor the Earthinator	7	Minion	Legendary	Goblins vs Gnomes	NULL	NULL	6	6	NULL	NULL	NULL
-GVG_003	Unstable Portal	2	Spell	Rare	Goblins vs Gnomes	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-GVG_083	Upgraded Repair Bot	5	Minion	Rare	Goblins vs Gnomes	Mech	Priest	5	5	NULL	NULL	NULL
-GVG_010	Velen's Chosen	3	Spell	Common	Goblins vs Gnomes	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-GVG_039	Vitality Totem	2	Minion	Rare	Goblins vs Gnomes	Totem	Shaman	0	3	NULL	NULL	NULL
-GVG_014	Vol'jin	5	Minion	Legendary	Goblins vs Gnomes	NULL	Priest	6	2	NULL	NULL	NULL
-GVG_051	Warbot	1	Minion	Common	Goblins vs Gnomes	Mech	Warrior	1	3	NULL	NULL	NULL
-GVG_122	Wee Spellstopper	4	Minion	Epic	Goblins vs Gnomes	NULL	Mage	2	5	NULL	NULL	NULL
-GVG_037	Whirling Zap-o-matic	2	Minion	Common	Goblins vs Gnomes	Mech	Shaman	3	2	NULL	NULL	NULL
-LOE_110	Ancient Shade	4	Minion	Rare	League of Explorers	NULL	NULL	7	4	NULL	NULL	NULL
-LOE_119	Animated Armor	4	Minion	Rare	League of Explorers	NULL	Mage	4	4	NULL	NULL	NULL
-LOE_061	Anubisath Sentinel	5	Minion	Common	League of Explorers	NULL	NULL	4	4	NULL	NULL	NULL
-LOE_026	Anyfin Can Happen	10	Spell	Rare	League of Explorers	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-LOE_092	Arch-Thief Rafaam	9	Minion	Legendary	League of Explorers	NULL	NULL	7	8	NULL	NULL	NULL
-LOE_077	Brann Bronzebeard	3	Minion	Legendary	League of Explorers	NULL	NULL	2	4	NULL	NULL	NULL
-LOE_007	Curse of Rafaam	2	Spell	Common	League of Explorers	NULL	Warlock	NULL	NULL	NULL	NULL	NULL
-LOE_118	Cursed Blade	1	Weapon	Rare	League of Explorers	NULL	Warrior	2	NULL	3	NULL	NULL
-LOE_023	Dark Peddler	2	Minion	Common	League of Explorers	NULL	Warlock	2	2	NULL	NULL	NULL
-LOE_021	Dart Trap	2	Spell	Common	League of Explorers	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-LOE_020	Desert Camel	3	Minion	Common	League of Explorers	Beast	Hunter	2	4	NULL	NULL	NULL
-LOE_079	Elise Starseeker	4	Minion	Legendary	League of Explorers	NULL	NULL	3	5	NULL	NULL	NULL
-LOE_104	Entomb	6	Spell	Common	League of Explorers	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-LOE_003	Ethereal Conjurer	5	Minion	Common	League of Explorers	NULL	Mage	6	3	NULL	NULL	NULL
-LOE_113	Everyfin is Awesome	7	Spell	Rare	League of Explorers	NULL	Shaman	NULL	NULL	NULL	NULL	NULL
-LOE_111	Excavated Evil	5	Spell	Rare	League of Explorers	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-LOE_105	Explorer's Hat	2	Spell	Rare	League of Explorers	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-LOE_022	Fierce Monkey	3	Minion	Common	League of Explorers	Beast	Warrior	3	4	NULL	NULL	NULL
-LOE_002	Forgotten Torch	3	Spell	Common	League of Explorers	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-LOE_073	Fossilized Devilsaur	8	Minion	Common	League of Explorers	NULL	NULL	8	8	NULL	NULL	NULL
-LOE_039	Gorillabot A-3	4	Minion	Common	League of Explorers	Mech	NULL	3	4	NULL	NULL	NULL
-LOE_046	Huge Toad	2	Minion	Common	League of Explorers	Beast	NULL	3	2	NULL	NULL	NULL
-LOE_029	Jeweled Scarab	2	Minion	Common	League of Explorers	Beast	NULL	1	1	NULL	NULL	NULL
-LOE_051	Jungle Moonkin	4	Minion	Rare	League of Explorers	Beast	Druid	4	4	NULL	NULL	NULL
-LOE_017	Keeper of Uldaman	4	Minion	Common	League of Explorers	NULL	Paladin	3	4	NULL	NULL	NULL
-LOE_050	Mounted Raptor	3	Minion	Common	League of Explorers	Beast	Druid	3	2	NULL	NULL	NULL
-LOEA10_3	Murloc Tinyfin	0	Minion	Common	League of Explorers	Murloc	NULL	1	1	NULL	NULL	NULL
-LOE_006	Museum Curator	2	Minion	Common	League of Explorers	NULL	Priest	1	2	NULL	NULL	NULL
-LOE_038	Naga Sea Witch	5	Minion	Epic	League of Explorers	NULL	NULL	5	5	NULL	NULL	NULL
-LOE_009	Obsidian Destroyer	7	Minion	Common	League of Explorers	NULL	Warrior	7	7	NULL	NULL	NULL
-LOE_010	Pit Snake	1	Minion	Common	League of Explorers	Beast	Rogue	2	1	NULL	NULL	NULL
-LOE_115	Raven Idol	1	Spell	Common	League of Explorers	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-LOE_116	Reliquary Seeker	1	Minion	Rare	League of Explorers	NULL	Warlock	1	1	NULL	NULL	NULL
-LOE_011	Reno Jackson	6	Minion	Legendary	League of Explorers	NULL	NULL	4	6	NULL	NULL	NULL
-LOE_016	Rumbling Elemental	4	Minion	Common	League of Explorers	NULL	Shaman	2	6	NULL	NULL	NULL
-LOE_027	Sacred Trial	1	Spell	Common	League of Explorers	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-LOE_076	Sir Finley Mrrgglton	1	Minion	Legendary	League of Explorers	Murloc	NULL	1	3	NULL	NULL	NULL
-LOE_012	Tomb Pillager	4	Minion	Common	League of Explorers	NULL	Rogue	5	4	NULL	NULL	NULL
-LOE_047	Tomb Spider	4	Minion	Common	League of Explorers	Beast	NULL	3	3	NULL	NULL	NULL
-LOE_018	Tunnel Trogg	1	Minion	Common	League of Explorers	NULL	Shaman	1	3	NULL	NULL	NULL
-LOE_019	Unearthed Raptor	3	Minion	Rare	League of Explorers	NULL	Rogue	3	4	NULL	NULL	NULL
-LOE_089	Wobbling Runts	6	Minion	Rare	League of Explorers	NULL	NULL	2	6	NULL	NULL	NULL
-PRO_001	Elite Tauren Chieftain	5	Minion	Legendary	Classic	NULL	NULL	5	5	NULL	NULL	Awarded at BlizzCon 2013.
-EX1_112	Gelbin Mekkatorque	6	Minion	Legendary	Classic	NULL	NULL	6	6	NULL	NULL	This was rewarded to players who helped test the Store during the Beta.
-NEW1_016	Captain's Parrot	2	Minion	Epic	Classic	Beast	NULL	1	1	NULL	Unlocked when you have all the Pirates from the Classic Set.	Unlocked when you have all the Golden Pirates from the Expert Set.
-EX1_062	Old Murk-Eye	4	Minion	Legendary	Classic	Murloc	NULL	2	4	NULL	Unlocked when you have all the Murlocs from the Classic Set.	Unlocked when you have all the Golden Murlocs from the Expert and Basic Sets.
-AT_063	Acidmaw	7	Minion	Legendary	The Grand Tournament	Beast	Hunter	4	2	NULL	NULL	NULL
-AT_071	Alexstrasza's Champion	2	Minion	Rare	The Grand Tournament	NULL	Warrior	2	3	NULL	NULL	NULL
-AT_053	Ancestral Knowledge	2	Spell	Common	The Grand Tournament	NULL	Shaman	NULL	NULL	NULL	NULL	NULL
-AT_036	Anub'arak	9	Minion	Legendary	The Grand Tournament	NULL	Rogue	8	4	NULL	NULL	NULL
-AT_004	Arcane Blast	1	Spell	Epic	The Grand Tournament	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-AT_087	Argent Horserider	3	Minion	Common	The Grand Tournament	NULL	NULL	2	1	NULL	NULL	NULL
-AT_077	Argent Lance	2	Weapon	Rare	The Grand Tournament	NULL	Paladin	2	NULL	2	NULL	NULL
-AT_109	Argent Watchman	2	Minion	Rare	The Grand Tournament	NULL	NULL	2	4	NULL	NULL	NULL
-AT_108	Armored Warhorse	4	Minion	Rare	The Grand Tournament	Beast	NULL	5	3	NULL	NULL	NULL
-AT_043	Astral Communion	4	Spell	Epic	The Grand Tournament	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-AT_045	Aviana	9	Minion	Legendary	The Grand Tournament	NULL	Druid	5	5	NULL	NULL	NULL
-AT_062	Ball of Spiders	6	Spell	Rare	The Grand Tournament	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-AT_064	Bash	3	Spell	Common	The Grand Tournament	NULL	Warrior	NULL	NULL	NULL	NULL	NULL
-AT_060	Bear Trap	2	Spell	Common	The Grand Tournament	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-AT_035	Beneath the Grounds	3	Spell	Epic	The Grand Tournament	NULL	Rogue	NULL	NULL	NULL	NULL	NULL
-AT_124	Bolf Ramshield	6	Minion	Legendary	The Grand Tournament	NULL	NULL	3	9	NULL	NULL	NULL
-AT_068	Bolster	2	Spell	Common	The Grand Tournament	NULL	Warrior	NULL	NULL	NULL	NULL	NULL
-AT_089	Boneguard Lieutenant	2	Minion	Common	The Grand Tournament	NULL	NULL	3	2	NULL	NULL	NULL
-AT_059	Brave Archer	1	Minion	Common	The Grand Tournament	NULL	Hunter	2	1	NULL	NULL	NULL
-AT_029	Buccaneer	1	Minion	Common	The Grand Tournament	Pirate	Rogue	2	1	NULL	NULL	NULL
-AT_033	Burgle	3	Spell	Rare	The Grand Tournament	NULL	Rogue	NULL	NULL	NULL	NULL	NULL
-AT_102	Captured Jormungar	7	Minion	Common	The Grand Tournament	Beast	NULL	5	9	NULL	NULL	NULL
-AT_050	Charged Hammer	4	Weapon	Epic	The Grand Tournament	NULL	Shaman	2	NULL	4	NULL	NULL
-AT_123	Chillmaw	7	Minion	Legendary	The Grand Tournament	Dragon	NULL	6	6	NULL	NULL	NULL
-AT_096	Clockwork Knight	5	Minion	Common	The Grand Tournament	Mech	NULL	5	5	NULL	NULL	NULL
-AT_008	Coldarra Drake	6	Minion	Epic	The Grand Tournament	Dragon	Mage	6	6	NULL	NULL	NULL
-AT_110	Coliseum Manager	3	Minion	Rare	The Grand Tournament	NULL	NULL	2	5	NULL	NULL	NULL
-AT_073	Competitive Spirit	1	Spell	Rare	The Grand Tournament	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-AT_018	Confessor Paletress	7	Minion	Legendary	The Grand Tournament	NULL	Priest	5	4	NULL	NULL	NULL
-AT_016	Confuse	2	Spell	Epic	The Grand Tournament	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-AT_015	Convert	2	Spell	Rare	The Grand Tournament	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-AT_121	Crowd Favorite	4	Minion	Epic	The Grand Tournament	NULL	NULL	4	4	NULL	NULL	NULL
-AT_031	Cutpurse	2	Minion	Rare	The Grand Tournament	NULL	Rogue	2	2	NULL	NULL	NULL
-AT_006	Dalaran Aspirant	4	Minion	Common	The Grand Tournament	NULL	Mage	3	5	NULL	NULL	NULL
-AT_025	Dark Bargain	6	Spell	Epic	The Grand Tournament	NULL	Warlock	NULL	NULL	NULL	NULL	NULL
-AT_038	Darnassus Aspirant	2	Minion	Rare	The Grand Tournament	NULL	Druid	2	3	NULL	NULL	NULL
-AT_024	Demonfuse	2	Spell	Common	The Grand Tournament	Demon	Warlock	NULL	NULL	NULL	NULL	NULL
-AT_047	Draenei Totemcarver	4	Minion	Rare	The Grand Tournament	NULL	Shaman	4	4	NULL	NULL	NULL
-AT_083	Dragonhawk Rider	3	Minion	Common	The Grand Tournament	NULL	NULL	3	3	NULL	NULL	NULL
-AT_063t	Dreadscale	3	Minion	Legendary	The Grand Tournament	Beast	Hunter	4	2	NULL	NULL	NULL
-AT_019	Dreadsteed	4	Minion	Epic	The Grand Tournament	Demon	Warlock	1	1	NULL	NULL	NULL
-AT_042	Druid of the Saber	2	Minion	Common	The Grand Tournament	NULL	Druid	2	1	NULL	NULL	NULL
-AT_081	Eadric the Pure	7	Minion	Legendary	The Grand Tournament	NULL	Paladin	3	7	NULL	NULL	NULL
-AT_002	Effigy	3	Spell	Rare	The Grand Tournament	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-AT_051	Elemental Destruction	3	Spell	Epic	The Grand Tournament	NULL	Shaman	NULL	NULL	NULL	NULL	NULL
-AT_078	Enter the Coliseum	6	Spell	Epic	The Grand Tournament	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-AT_114	Evil Heckler	4	Minion	Common	The Grand Tournament	NULL	NULL	5	4	NULL	NULL	NULL
-AT_131	Eydis Darkbane	3	Minion	Legendary	The Grand Tournament	NULL	NULL	3	4	NULL	NULL	NULL
-AT_003	Fallen Hero	2	Minion	Rare	The Grand Tournament	NULL	Mage	3	2	NULL	NULL	NULL
-AT_020	Fearsome Doomguard	7	Minion	Common	The Grand Tournament	Demon	Warlock	6	8	NULL	NULL	NULL
-AT_115	Fencing Coach	3	Minion	Rare	The Grand Tournament	NULL	NULL	2	2	NULL	NULL	NULL
-AT_022	Fist of Jaraxxus	4	Spell	Rare	The Grand Tournament	NULL	Warlock	NULL	NULL	NULL	NULL	NULL
-AT_129	Fjola Lightbane	3	Minion	Legendary	The Grand Tournament	NULL	NULL	3	4	NULL	NULL	NULL
-AT_094	Flame Juggler	2	Minion	Common	The Grand Tournament	NULL	NULL	2	3	NULL	NULL	NULL
-AT_001	Flame Lance	5	Spell	Common	The Grand Tournament	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-AT_055	Flash Heal	1	Spell	Common	The Grand Tournament	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-AT_093	Frigid Snobold	4	Minion	Common	The Grand Tournament	NULL	NULL	2	6	NULL	NULL	NULL
-AT_120	Frost Giant	10	Minion	Epic	The Grand Tournament	NULL	NULL	8	8	NULL	NULL	NULL
-AT_133	Gadgetzan Jouster	1	Minion	Common	The Grand Tournament	NULL	NULL	1	2	NULL	NULL	NULL
-AT_080	Garrison Commander	2	Minion	Epic	The Grand Tournament	NULL	NULL	2	3	NULL	NULL	NULL
-AT_122	Gormok the Impaler	4	Minion	Legendary	The Grand Tournament	NULL	NULL	4	4	NULL	NULL	NULL
-AT_118	Grand Crusader	6	Minion	Epic	The Grand Tournament	NULL	NULL	5	5	NULL	NULL	NULL
-AT_048	Healing Wave	3	Spell	Rare	The Grand Tournament	NULL	Shaman	NULL	NULL	NULL	NULL	NULL
-AT_011	Holy Champion	4	Minion	Common	The Grand Tournament	NULL	Priest	3	5	NULL	NULL	NULL
-AT_092	Ice Rager	3	Minion	Common	The Grand Tournament	NULL	NULL	5	2	NULL	NULL	NULL
-AT_125	Icehowl	9	Minion	Legendary	The Grand Tournament	NULL	NULL	10	10	NULL	NULL	NULL
-AT_105	Injured Kvaldir	1	Minion	Rare	The Grand Tournament	NULL	NULL	2	4	NULL	NULL	NULL
-AT_132	Justicar Trueheart	6	Minion	Legendary	The Grand Tournament	NULL	NULL	6	3	NULL	NULL	NULL
-AT_065	King's Defender	3	Weapon	Rare	The Grand Tournament	NULL	Warrior	3	NULL	2	NULL	NULL
-AT_058	King's Elekk	2	Minion	Common	The Grand Tournament	Beast	Hunter	3	2	NULL	NULL	NULL
-AT_041	Knight of the Wild	7	Minion	Rare	The Grand Tournament	NULL	Druid	6	6	NULL	NULL	NULL
-AT_099	Kodorider	6	Minion	Epic	The Grand Tournament	NULL	NULL	3	5	NULL	NULL	NULL
-AT_119	Kvaldir Raider	5	Minion	Common	The Grand Tournament	NULL	NULL	4	4	NULL	NULL	NULL
-AT_084	Lance Carrier	2	Minion	Common	The Grand Tournament	NULL	NULL	1	2	NULL	NULL	NULL
-AT_106	Light's Champion	3	Minion	Rare	The Grand Tournament	NULL	NULL	4	3	NULL	NULL	NULL
-AT_037	Living Roots	1	Spell	Common	The Grand Tournament	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-AT_061	Lock and Load	2	Spell	Epic	The Grand Tournament	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-AT_082	Lowly Squire	1	Minion	Common	The Grand Tournament	NULL	NULL	1	2	NULL	NULL	NULL
-AT_067	Magnataur Alpha	4	Minion	Epic	The Grand Tournament	NULL	Warrior	5	3	NULL	NULL	NULL
-AT_085	Maiden of the Lake	4	Minion	Common	The Grand Tournament	NULL	NULL	2	6	NULL	NULL	NULL
-AT_112	Master Jouster	6	Minion	Rare	The Grand Tournament	NULL	NULL	5	6	NULL	NULL	NULL
-AT_117	Master of Ceremonies	3	Minion	Epic	The Grand Tournament	NULL	NULL	4	2	NULL	NULL	NULL
-AT_088	Mogor's Champion	6	Minion	Rare	The Grand Tournament	NULL	NULL	8	5	NULL	NULL	NULL
-AT_090	Mukla's Champion	5	Minion	Common	The Grand Tournament	Beast	NULL	4	3	NULL	NULL	NULL
-AT_044	Mulch	3	Spell	Epic	The Grand Tournament	NULL	Druid	NULL	NULL	NULL	NULL	NULL
-AT_076	Murloc Knight	4	Minion	Common	The Grand Tournament	Murloc	Paladin	3	4	NULL	NULL	NULL
-AT_079	Mysterious Challenger	6	Minion	Epic	The Grand Tournament	NULL	Paladin	6	6	NULL	NULL	NULL
-AT_127	Nexus-Champion Saraad	5	Minion	Legendary	The Grand Tournament	NULL	NULL	4	5	NULL	NULL	NULL
-AT_103	North Sea Kraken	9	Minion	Common	The Grand Tournament	NULL	NULL	9	7	NULL	NULL	NULL
-AT_066	Orgrimmar Aspirant	3	Minion	Common	The Grand Tournament	NULL	Warrior	3	3	NULL	NULL	NULL
-AT_101	Pit Fighter	5	Minion	Common	The Grand Tournament	NULL	NULL	5	6	NULL	NULL	NULL
-AT_034	Poisoned Blade	4	Weapon	Epic	The Grand Tournament	NULL	Rogue	1	NULL	3	NULL	NULL
-AT_005	Polymorph: Boar	3	Spell	Rare	The Grand Tournament	NULL	Mage	NULL	NULL	NULL	NULL	NULL
-AT_013	Power Word: Glory	1	Spell	Common	The Grand Tournament	NULL	Priest	NULL	NULL	NULL	NULL	NULL
-AT_056	Powershot	3	Spell	Rare	The Grand Tournament	NULL	Hunter	NULL	NULL	NULL	NULL	NULL
-AT_010	Ram Wrangler	5	Minion	Rare	The Grand Tournament	NULL	Hunter	3	3	NULL	NULL	NULL
-AT_113	Recruiter	5	Minion	Epic	The Grand Tournament	NULL	NULL	5	4	NULL	NULL	NULL
-AT_111	Refreshment Vendor	4	Minion	Common	The Grand Tournament	NULL	NULL	3	5	NULL	NULL	NULL
-AT_009	Rhonin	8	Minion	Legendary	The Grand Tournament	NULL	Mage	7	7	NULL	NULL	NULL
-AT_086	Saboteur	3	Minion	Rare	The Grand Tournament	NULL	NULL	4	3	NULL	NULL	NULL
-AT_039	Savage Combatant	4	Minion	Rare	The Grand Tournament	Beast	Druid	5	4	NULL	NULL	NULL
-AT_130	Sea Reaver	6	Minion	Epic	The Grand Tournament	NULL	Warrior	6	7	NULL	NULL	NULL
-AT_074	Seal of Champions	3	Spell	Common	The Grand Tournament	NULL	Paladin	NULL	NULL	NULL	NULL	NULL
-AT_028	Shado-Pan Rider	5	Minion	Common	The Grand Tournament	NULL	Rogue	3	7	NULL	NULL	NULL
-AT_014	Shadowfiend	3	Minion	Epic	The Grand Tournament	NULL	Priest	3	3	NULL	NULL	NULL
-AT_032	Shady Dealer	3	Minion	Rare	The Grand Tournament	NULL	Rogue	4	3	NULL	NULL	NULL
-AT_098	Sideshow Spelleater	6	Minion	Epic	The Grand Tournament	NULL	NULL	6	5	NULL	NULL	NULL
-AT_095	Silent Knight	3	Minion	Common	The Grand Tournament	NULL	NULL	2	2	NULL	NULL	NULL
-AT_100	Silver Hand Regent	3	Minion	Common	The Grand Tournament	NULL	NULL	3	3	NULL	NULL	NULL
-AT_070	Skycap'n Kragg	7	Minion	Legendary	The Grand Tournament	Pirate	NULL	4	6	NULL	NULL	NULL
-AT_069	Sparring Partner	2	Minion	Rare	The Grand Tournament	NULL	Warrior	3	2	NULL	NULL	NULL
-AT_012	Spawn of Shadows	4	Minion	Rare	The Grand Tournament	NULL	Priest	5	4	NULL	NULL	NULL
-AT_007	Spellslinger	3	Minion	Common	The Grand Tournament	NULL	Mage	3	4	NULL	NULL	NULL
-AT_057	Stablemaster	3	Minion	Epic	The Grand Tournament	NULL	Hunter	4	2	NULL	NULL	NULL
-AT_054	The Mistcaller	6	Minion	Legendary	The Grand Tournament	NULL	Shaman	4	4	NULL	NULL	NULL
-AT_128	The Skeleton Knight	6	Minion	Legendary	The Grand Tournament	NULL	NULL	7	4	NULL	NULL	NULL
-AT_049	Thunder Bluff Valiant	5	Minion	Rare	The Grand Tournament	NULL	Shaman	3	6	NULL	NULL	NULL
-AT_021	Tiny Knight of Evil	2	Minion	Rare	The Grand Tournament	Demon	Warlock	3	2	NULL	NULL	NULL
-AT_052	Totem Golem	2	Minion	Common	The Grand Tournament	Totem	Shaman	3	4	NULL	NULL	NULL
-AT_097	Tournament Attendee	1	Minion	Common	The Grand Tournament	NULL	NULL	2	1	NULL	NULL	NULL
-AT_091	Tournament Medic	4	Minion	Common	The Grand Tournament	NULL	NULL	1	8	NULL	NULL	NULL
-AT_104	Tuskarr Jouster	5	Minion	Rare	The Grand Tournament	NULL	Paladin	5	5	NULL	NULL	NULL
-AT_046	Tuskarr Totemic	3	Minion	Common	The Grand Tournament	NULL	Shaman	3	2	NULL	NULL	NULL
-AT_017	Twilight Guardian	4	Minion	Epic	The Grand Tournament	Dragon	NULL	2	6	NULL	NULL	NULL
-AT_030	Undercity Valiant	2	Minion	Common	The Grand Tournament	NULL	Rogue	3	2	NULL	NULL	NULL
-AT_072	Varian Wrynn	10	Minion	Legendary	The Grand Tournament	NULL	Warrior	7	7	NULL	NULL	NULL
-AT_023	Void Crusher	6	Minion	Rare	The Grand Tournament	Demon	Warlock	5	4	NULL	NULL	NULL
-AT_075	Warhorse Trainer	3	Minion	Common	The Grand Tournament	NULL	Paladin	2	4	NULL	NULL	NULL
-AT_040	Wildwalker	4	Minion	Common	The Grand Tournament	NULL	Druid	4	4	NULL	NULL	NULL
-AT_027	Wilfred Fizzlebang	6	Minion	Legendary	The Grand Tournament	NULL	Warlock	4	4	NULL	NULL	NULL
-AT_026	Wrathguard	2	Minion	Common	The Grand Tournament	Demon	Warlock	4	3	NULL	NULL	NULL
-AT_116	Wyrmrest Agent	2	Minion	Rare	The Grand Tournament	NULL	Priest	1	4	NULL	NULL	NULL
+EX1_066~Acidic Swamp Ooze~2~Minion~Basic~Classic~NULL~NULL~3~2~NULL~NULL~Unlocked at Rogue Level 57.
+CS2_041~Ancestral Healing~0~Spell~Basic~Classic~NULL~Shaman~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 15.
+NEW1_031~Animal Companion~3~Spell~Basic~Classic~NULL~Hunter~NULL~NULL~NULL~Unlocked at Level 2.~Unlocked at Level 45.
+CS2_025~Arcane Explosion~2~Spell~Basic~Classic~NULL~Mage~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 28.
+CS2_023~Arcane Intellect~3~Spell~Basic~Classic~NULL~Mage~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 15.
+EX1_277~Arcane Missiles~1~Spell~Basic~Classic~NULL~Mage~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 32.
+DS1_185~Arcane Shot~1~Spell~Basic~Classic~NULL~Hunter~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 32.
+CS2_112~Arcanite Reaper~5~Weapon~Basic~Classic~NULL~Warrior~5~NULL~2~Unlocked at Level 10.~Unlocked at Level 51.
+CS2_155~Archmage~6~Minion~Basic~Classic~NULL~NULL~4~7~NULL~NULL~Unlocked at Mage Level 57.
+CS2_080~Assassin's Blade~5~Weapon~Basic~Classic~NULL~Rogue~3~NULL~4~Unlocked at Level 2.~Unlocked at Level 32.
+CS2_076~Assassinate~5~Spell~Basic~Classic~NULL~Rogue~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 47.
+CS2_072~Backstab~0~Spell~Basic~Classic~NULL~Rogue~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 36.
+CS2_092~Blessing of Kings~4~Spell~Basic~Classic~NULL~Paladin~NULL~NULL~NULL~Unlocked at Level 10.~Unlocked at Level 49.
+CS2_087~Blessing of Might~1~Spell~Basic~Classic~NULL~Paladin~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 45.
+CS2_172~Bloodfen Raptor~2~Minion~Basic~Classic~Beast~NULL~3~2~NULL~NULL~Unlocked at Hunter Level 57.
+CS2_046~Bloodlust~5~Spell~Basic~Classic~NULL~Shaman~NULL~NULL~NULL~Unlocked at Level 2.~Unlocked at Level 40.
+CS2_173~Bluegill Warrior~2~Minion~Basic~Classic~Murloc~NULL~2~1~NULL~NULL~Unlocked at Paladin Level 53.
+CS2_187~Booty Bay Bodyguard~5~Minion~Basic~Classic~NULL~NULL~5~4~NULL~NULL~Unlocked at Shaman Level 55.
+CS2_200~Boulderfist Ogre~6~Minion~Basic~Classic~NULL~NULL~6~7~NULL~NULL~Unlocked at Warlock Level 51.
+CS2_103~Charge~3~Spell~Basic~Classic~NULL~Warrior~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 23.
+CS2_182~Chillwind Yeti~4~Minion~Basic~Classic~NULL~NULL~4~5~NULL~NULL~Unlocked at Warrior Level 55.
+CS2_005~Claw~1~Spell~Basic~Classic~NULL~Druid~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 32.
+CS2_114~Cleave~2~Spell~Basic~Classic~NULL~Warrior~NULL~NULL~NULL~Unlocked at Level 2.~Unlocked at Level 40.
+CS2_093~Consecration~4~Spell~Basic~Classic~NULL~Paladin~NULL~NULL~NULL~Unlocked at Level 4.~Unlocked at Level 43.
+CS2_201~Core Hound~7~Minion~Basic~Classic~Beast~NULL~9~5~NULL~NULL~Unlocked at Hunter Level 51.
+CS2_063~Corruption~1~Spell~Basic~Classic~NULL~Warlock~NULL~NULL~NULL~Unlocked at Level 2.~Unlocked at Level 32.
+EX1_582~Dalaran Mage~3~Minion~Basic~Classic~NULL~NULL~1~4~NULL~NULL~Unlocked at Mage Level 59.
+DS1_055~Darkscale Healer~5~Minion~Basic~Classic~NULL~NULL~4~5~NULL~NULL~Unlocked at Priest Level 55.
+CS2_074~Deadly Poison~1~Spell~Basic~Classic~NULL~Rogue~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 43.
+CS2_236~Divine Spirit~2~Spell~~Basic~Classic~NULL~Priest~NULL~NULL~NULL~Unlocked at Level 2.~Unlocked at Level 28.
+EX1_025~Dragonling Mechanic~4~Minion~Basic~Classic~NULL~NULL~2~4~NULL~NULL~Unlocked at Mage Level 53.
+CS2_061~Drain Life~3~Spell~Basic~Classic~NULL~Warlock~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 45.
+CS2_064~Dread Infernal~6~Minion~Basic~Classic~Demon~Warlock~6~6~NULL~Unlocked at Level 10.~Unlocked at Level 23.
+CS2_189~Elven Archer~1~Minion~Basic~Classic~NULL~NULL~1~1~NULL~NULL~Unlocked at Druid Level 57.
+CS2_108~Execute~1~Spell~Basic~Classic~NULL~Warrior~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 47.
+EX1_129~Fan of Knives~3~Spell~Basic~Classic~NULL~Rogue~NULL~NULL~NULL~Unlocked at Level 4.~Unlocked at Level 29.
+CS2_106~Fiery War Axe~2~Weapon~Basic~Classic~NULL~Warrior~3~NULL~2~Unlocked at Level 1.~Unlocked at Level 49.
+CS2_042~Fire Elemental~6~Minion~Basic~Classic~NULL~Shaman~6~5~NULL~Unlocked at Level 10.~Unlocked at Level 49.
+CS2_029~Fireball~4~Spell~Basic~Classic~NULL~Mage~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 44.
+CS2_032~Flamestrike~7~Spell~Basic~Classic~NULL~Mage~NULL~NULL~NULL~Unlocked at Level 10.~Unlocked at Level 51.
+EX1_565~Flametongue Totem~2~Minion~Basic~Classic~Totem~Shaman~0~3~NULL~Unlocked at Level 4.~Unlocked at Level 43.
+CS2_026~Frost Nova~3~Spell~Basic~Classic~NULL~Mage~NULL~NULL~NULL~Unlocked at Level 6.~Unlocked at Level 23.
+CS2_037~Frost Shock~1~Spell~Basic~Classic~NULL~Shaman~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 32.
+CS2_024~Frostbolt~2~Spell~Basic~Classic~NULL~Mage~NULL~NULL~NULL~Unlocked at Level 2.~Unlocked at Level 40.
+CS2_121~Frostwolf Grunt~2~Minion~Basic~Classic~NULL~NULL~2~2~NULL~NULL~Unlocked at Shaman Level 57.
+CS2_226~Frostwolf Warlord~5~Minion~Basic~Classic~NULL~NULL~4~4~NULL~NULL~Unlocked at Shaman Level 53.
+CS2_147~Gnomish Inventor~4~Minion~Basic~Classic~NULL~NULL~2~4~NULL~NULL~Unlocked at Priest Level 57.
+CS1_042~Goldshire Footman~1~Minion~Basic~Classic~NULL~NULL~1~2~NULL~NULL~Unlocked at Paladin Level 57.
+EX1_508~Grimscale Oracle~1~Minion~Basic~Classic~Murloc~NULL~1~1~NULL~NULL~Unlocked at Warlock Level 53.
+CS2_088~Guardian of Kings~7~Minion~Basic~Classic~NULL~Paladin~5~6~NULL~Unlocked at Level 8.~Unlocked at Level 47.
+EX1_399~Gurubashi Berserker~5~Minion~Basic~Classic~NULL~NULL~2~7~NULL~NULL~Unlocked at Warlock Level 57.
+CS2_094~Hammer of Wrath~4~Spell~Basic~Classic~NULL~Paladin~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 32.
+EX1_371~Hand of Protection~1~Spell~Basic~Classic~NULL~Paladin~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 23.
+CS2_007~Healing Touch~3~Spell~Basic~Classic~NULL~Druid~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 15.
+CS2_062~Hellfire~4~Spell~Basic~Classic~NULL~Warlock~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 49.
+CS2_105~Heroic Strike~2~Spell~Basic~Classic~NULL~Warrior~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 15.
+EX1_246~Hex~3~Spell~Basic~Classic~NULL~Shaman~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 47.
+CS2_089~Holy Light~2~Spell~Basic~Classic~NULL~Paladin~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 15.
+CS1_112~Holy Nova~5~Spell~Basic~Classic~NULL~Priest~NULL~NULL~NULL~Unlocked at Level 6.~Unlocked at Level 45.
+CS1_130~Holy Smite~1~Spell~Basic~Classic~NULL~Priest~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 23.
+DS1_070~Houndmaster~4~Minion~Basic~Classic~NULL~Hunter~4~3~NULL~Unlocked at Level 1.~Unlocked at Level 28.
+EX1_360~Humility~1~Spell~Basic~Classic~NULL~Paladin~NULL~NULL~NULL~Unlocked at Level 6.~Unlocked at Level 28.
+CS2_084~Hunter's Mark~0~Spell~Basic~Classic~NULL~Hunter~NULL~NULL~NULL~Unlocked at Level 6.~Unlocked at Level 40.
+EX1_169~Innervate~0~Spell~Basic~Classic~NULL~Druid~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 36.
+CS2_232~Ironbark Protector~8~Minion~Basic~Classic~NULL~Druid~8~8~NULL~Unlocked at Level 10.~Unlocked at Level 49.
+CS2_141~Ironforge Rifleman~3~Minion~Basic~Classic~NULL~NULL~2~2~NULL~NULL~Unlocked at Mage Level 55.
+CS2_125~Ironfur Grizzly~3~Minion~Basic~Classic~Beast~NULL~3~3~NULL~NULL~Unlocked at Hunter Level 59.
+EX1_539~Kill Command~3~Spell~Basic~Classic~NULL~Hunter~NULL~NULL~NULL~Unlocked at Level 10.~Unlocked at Level 49.
+CS2_142~Kobold Geomancer~2~Minion~Basic~Classic~NULL~NULL~2~2~NULL~NULL~Unlocked at Warlock Level 59.
+NEW1_011~Kor'kron Elite~4~Minion~Basic~Classic~NULL~Warrior~4~3~NULL~Unlocked at Level 4.~Unlocked at Level 44.
+CS2_091~Light's Justice~1~Weapon~Basic~Classic~NULL~Paladin~1~NULL~4~Unlocked at Level 1.~Unlocked at Level 36.
+CS2_162~Lord of the Arena~6~Minion~Basic~Classic~NULL~NULL~6~5~NULL~NULL~Unlocked at Priest Level 59.
+CS2_118~Magma Rager~3~Minion~Basic~Classic~NULL~NULL~5~1~NULL~NULL~Unlocked at Shaman Level 51.
+CS2_009~Mark of the Wild~2~Spell~Basic~Classic~NULL~Druid~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 28.
+DS1_233~Mind Blast~2~Spell~Basic~Classic~NULL~Priest~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 15.
+CS1_113~Mind Control~10~Spell~Basic~Classic~NULL~Priest~NULL~NULL~NULL~Unlocked at Level 10.~Unlocked at Level 49.
+CS2_003~Mind Vision~1~Spell~Basic~Classic~NULL~Priest~NULL~NULL~NULL~Unlocked at Level 4.~Unlocked at Level 32.
+CS2_027~Mirror Image~1~Spell~Basic~Classic~NULL~Mage~NULL~NULL~NULL~Unlocked at Level 4.~Unlocked at Level 36.
+CS2_008~Moonfire~0~Spell~Basic~Classic~NULL~Druid~NULL~NULL~NULL~Unlocked at Level 6.~Unlocked at Level 40.
+EX1_302~Mortal Coil~1~Spell~Basic~Classic~NULL~Warlock~NULL~NULL~NULL~Unlocked at Level 4.~Unlocked at Level 43.
+DS1_183~Multi-Shot~4~Spell~Basic~Classic~NULL~Hunter~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 36.
+CS2_168~Murloc Raider~1~Minion~Basic~Classic~Murloc~NULL~2~1~NULL~NULL~Unlocked at Priest Level 51.
+EX1_506~Murloc Tidehunter~2~Minion~Basic~Classic~Murloc~NULL~2~1~NULL~NULL~Unlocked at Rogue Level 53.
+EX1_593~Nightblade~5~Minion~Basic~Classic~NULL~NULL~4~4~NULL~NULL~Unlocked at Druid Level 53.
+CS2_235~Northshire Cleric~1~Minion~Basic~Classic~NULL~Priest~1~3~NULL~Unlocked at Level 1.~Unlocked at Level 40.
+EX1_015~Novice Engineer~2~Minion~Basic~Classic~NULL~NULL~1~1~NULL~NULL~Unlocked at Druid Level 59.
+CS2_119~Oasis Snapjaw~4~Minion~Basic~Classic~Beast~NULL~2~7~NULL~NULL~Unlocked at Druid Level 51.
+CS2_197~Ogre Magi~4~Minion~Basic~Classic~NULL~NULL~4~4~NULL~NULL~Unlocked at Warlock Level 55.
+CS2_022~Polymorph~4~Spell~Basic~Classic~NULL~Mage~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 47.
+CS2_004~Power Word: Shield~1~Spell~Basic~Classic~NULL~Priest~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 47.
+CS2_122~Raid Leader~3~Minion~Basic~Classic~NULL~NULL~2~2~NULL~NULL~Unlocked at Warrior Level 57.
+CS2_196~Razorfen Hunter~3~Minion~Basic~Classic~NULL~NULL~2~3~NULL~NULL~Unlocked at Hunter Level 55.
+CS2_213~Reckless Rocketeer~6~Minion~Basic~Classic~NULL~NULL~5~2~NULL~NULL~Unlocked at Shaman Level 59.
+CS2_120~River Crocolisk~2~Minion~Basic~Classic~Beast~NULL~2~3~NULL~NULL~Unlocked at Druid Level 55.
+CS2_045~Rockbiter Weapon~1~Spell~Basic~Classic~NULL~Shaman~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 36.
+NEW1_003~Sacrificial Pact~0~Spell~Basic~Classic~NULL~Warlock~NULL~NULL~NULL~Unlocked at Level 8.~Unlocked at Level 15.
+EX1_581~Sap~2~Spell~Basic~Classic~NULL~Rogue~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 40.
+CS2_011~Savage Roar~3~Spell~Basic~Classic~NULL~Druid~NULL~NULL~NULL~Unlocked at Level 4.~Unlocked at Level 43.
+CS2_179~Sen'jin Shieldmasta~4~Minion~Basic~Classic~NULL~NULL~3~5~NULL~NULL~Unlocked at Rogue Level 59.
+CS2_057~Shadow Bolt~3~Spell~Basic~Classic~NULL~Warlock~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 47.
+EX1_622~Shadow Word: Death~3~Spell~Basic~Classic~NULL~Priest~NULL~NULL~NULL~Unlocked at Level 8.~Unlocked at Level 43.
+CS2_234~Shadow Word: Pain~2~Spell~Basic~Classic~NULL~Priest~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 36.
+EX1_019~Shattered Sun Cleric~3~Minion~Basic~Classic~NULL~NULL~3~2~NULL~NULL~Unlocked at Priest Level 53.
+EX1_606~Shield Block~3~Spell~Basic~Classic~NULL~Warrior~NULL~NULL~NULL~Unlocked at Level 8.~Unlocked at Level 28.
+EX1_278~Shiv~2~Spell~~Basic~Classic~NULL~Rogue~NULL~NULL~NULL~Unlocked at Level 6.~Unlocked at Level 45.
+CS2_127~Silverback Patriarch~3~Minion~Basic~Classic~Beast~NULL~1~4~NULL~NULL~Unlocked at Warrior Level 53.
+CS2_075~Sinister Strike~1~Spell~Basic~Classic~NULL~Rogue~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 15.
+EX1_308~Soulfire~1~Spell~Basic~Classic~NULL~Warlock~NULL~NULL~NULL~Unlocked at Level 6.~Unlocked at Level 28.
+CS2_077~Sprint~7~Spell~Basic~Classic~NULL~Rogue~NULL~NULL~NULL~Unlocked at Level 10.~Unlocked at Level 49.
+EX1_173~Starfire~6~Spell~Basic~Classic~NULL~Druid~NULL~NULL~NULL~Unlocked at Level 2.~Unlocked at Level 45.
+CS2_237~Starving Buzzard~5~Minion~Basic~Classic~Beast~Hunter~3~2~NULL~Unlocked at Level 4.~Unlocked at Level 47.
+CS2_171~Stonetusk Boar~1~Minion~Basic~Classic~Beast~NULL~1~1~NULL~NULL~Unlocked at Hunter Level 53.
+CS2_150~Stormpike Commando~5~Minion~Basic~Classic~NULL~NULL~4~2~NULL~NULL~Unlocked at Paladin Level 51.
+CS2_222~Stormwind Champion~7~Minion~Basic~Classic~NULL~NULL~6~6~NULL~NULL~Unlocked at Paladin Level 59.
+CS2_131~Stormwind Knight~4~Minion~Basic~Classic~NULL~NULL~2~5~NULL~NULL~Unlocked at Paladin Level 55.
+EX1_306~Succubus~2~Minion~Basic~Classic~Demon~Warlock~4~3~NULL~Unlocked at Level 1.~Unlocked at Level 40.
+CS2_012~Swipe~4~Spell~Basic~Classic~NULL~Druid~NULL~NULL~NULL~Unlocked at Level 8.~Unlocked at Level 47.
+DS1_175~Timber Wolf~1~Minion~Basic~Classic~Beast~Hunter~1~1~NULL~Unlocked at Level 1.~Unlocked at Level 23.
+EX1_244~Totemic Might~0~Spell~Basic~Classic~NULL~Shaman~NULL~NULL~NULL~Unlocked at Level 6.~Unlocked at Level 28.
+DS1_184~Tracking~1~Spell~Basic~Classic~NULL~Hunter~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 15.
+CS2_097~Truesilver Champion~4~Weapon~Basic~Classic~NULL~Paladin~4~NULL~2~Unlocked at Level 2.~Unlocked at Level 40.
+DS1_178~Tundra Rhino~5~Minion~Basic~Classic~Beast~Hunter~2~5~NULL~Unlocked at Level 8.~Unlocked at Level 43.
+NEW1_004~Vanish~6~Spell~Basic~Classic~NULL~Rogue~NULL~NULL~NULL~Unlocked at Level 8.~Unlocked at Level 23.
+CS2_065~Voidwalker~1~Minion~Basic~Classic~Demon~Warlock~1~3~NULL~Unlocked at Level 1.~Unlocked at Level 36.
+EX1_011~Voodoo Doctor~1~Minion~Basic~Classic~NULL~NULL~2~1~NULL~NULL~Unlocked at Rogue Level 55.
+CS2_186~War Golem~7~Minion~Basic~Classic~NULL~NULL~7~7~NULL~NULL~Unlocked at Rogue Level 51.
+EX1_084~Warsong Commander~3~Minion~Basic~Classic~NULL~Warrior~2~3~NULL~Unlocked at Level 1.~Unlocked at Level 36.
+CS2_033~Water Elemental~4~Minion~Basic~Classic~NULL~Mage~3~6~NULL~Unlocked at Level 8.~Unlocked at Level 49.
+EX1_400~Whirlwind~1~Spell~Basic~Classic~NULL~Warrior~NULL~NULL~NULL~Unlocked at Level 6.~Unlocked at Level 32.
+CS2_013~Wild Growth~2~Spell~Basic~Classic~NULL~Druid~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 23.
+CS2_039~Windfury~2~Spell~Basic~Classic~NULL~Shaman~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 23.
+EX1_587~Windspeaker~4~Minion~Basic~Classic~NULL~Shaman~3~3~NULL~Unlocked at Level 8.~Unlocked at Level 45.
+CS2_124~Wolfrider~3~Minion~Basic~Classic~NULL~NULL~3~1~NULL~NULL~Unlocked at Warrior Level 59.
+BRM_016~Axe Flinger~4~Minion~Common~Blackrock Mountain~NULL~Warrior~2~5~NULL~Unlocked by completing the Warrior Class Challenge in Blackrock Mountain.~Can be crafted after completing the Warrior Class Challenge in Blackrock Mountain.
+BRM_034~Blackwing Corruptor~5~Minion~Common~Blackrock Mountain~NULL~NULL~5~4~NULL~Unlocked by defeating Maloriak in the Hidden Laboratory.~Can be crafted after defeating Maloriak in the Hidden Laboratory.
+BRM_033~Blackwing Technician~3~Minion~Common~Blackrock Mountain~NULL~NULL~2~4~NULL~Unlocked by defeating Baron Geddon in Molten Core.~Can be crafted after defeating Baron Geddon in Molten Core.
+BRM_031~Chromaggus~8~Minion~Legendary~Blackrock Mountain~Dragon~NULL~6~8~NULL~Unlocked by completing Blackwing Lair.~Can be crafted after completing Blackwing Lair.
+BRM_014~Core Rager~4~Minion~Rare~Blackrock Mountain~Beast~Hunter~4~4~NULL~Unlocked by defeating Highlord Omokk in Blackrock Spire.~Can be crafted after defeating Highlord Omokk in Blackrock Spire.
+BRM_008~Dark Iron Skulker~5~Minion~Rare~Blackrock Mountain~NULL~Rogue~4~3~NULL~Unlocked by completing the Rogue Class Challenge in Blackrock Mountain.~Can be crafted after completing the Rogue Class Challenge in Blackrock Mountain.
+BRM_005~Demonwrath~3~Spell~Rare~Blackrock Mountain~NULL~Warlock~NULL~NULL~NULL~Unlocked by completing the Warlock Class Challenge in Blackrock Mountain.~Can be crafted after completing the Warlock Class Challenge in Blackrock Mountain.
+BRM_018~Dragon Consort~5~Minion~Rare~Blackrock Mountain~Dragon~Paladin~5~5~NULL~Unlocked by defeating General Drakkisath in Blackrock Spire.~Can be crafted after defeating General Drakkisath in Blackrock Spire.
+BRM_022~Dragon Egg~1~Minion~Rare~Blackrock Mountain~NULL~NULL~0~2~NULL~Unlocked by defeating Rend Blackhand in Blackrock Spire.~Can be crafted after defeating Rend Blackhand in Blackrock Spire.
+BRM_003~Dragon's Breath~5~Spell~Common~Blackrock Mountain~NULL~Mage~NULL~NULL~NULL~Unlocked by completing the Mage Class Challenge in Blackrock Mountain.~Can be crafted after completing the Mage Class Challenge in Blackrock Mountain.
+BRM_020~Dragonkin Sorcerer~4~Minion~Common~Blackrock Mountain~Dragon~NULL~3~5~NULL~Unlocked by defeating Nefarian in the Hidden Laboratory.~Can be crafted after defeating Nefarian in the Hidden Laboratory.
+BRM_024~Drakonid Crusher~6~Minion~Common~Blackrock Mountain~Dragon~NULL~6~6~NULL~Unlocked by defeating Atramedes in the Hidden Laboratory.~Can be crafted after defeating Atramedes in the Hidden Laboratory.
+BRM_010~Druid of the Flame~3~Minion~Common~Blackrock Mountain~NULL~Druid~2~2~NULL~Unlocked by defeating Garr in Molten Core.~Can be crafted after defeating Garr in Molten Core.
+BRM_028~Emperor Thaurissan~6~Minion~Legendary~Blackrock Mountain~NULL~NULL~5~5~NULL~Unlocked by completing Blackrock Depths.~Can be crafted after completing Blackrock Depths.
+BRM_012~Fireguard Destroyer~4~Minion~Common~Blackrock Mountain~NULL~Shaman~3~6~NULL~Unlocked by defeating Lord Victor Nefarius in Blackwing Lair.~Can be crafted after defeating Lord Victor Nefarius in Blackwing Lair.
+BRM_002~Flamewaker~3~Minion~Rare~Blackrock Mountain~NULL~Mage~2~4~NULL~Unlocked by defeating Vaelastrasz in Blackwing Lair.~Can be crafted after defeating Vaelastrasz in Blackwing Lair.
+BRM_007~Gang Up~2~Spell~Common~Blackrock Mountain~NULL~Rogue~NULL~NULL~NULL~Unlocked by defeating the Dark Iron Arena in Blackrock Depths.~Can be crafted after defeating the Dark Iron Arena in Blackrock Depths.
+BRM_019~Grim Patron~5~Minion~Rare~Blackrock Mountain~NULL~NULL~3~3~NULL~Unlocked by defeating The Grim Guzzler in Blackrock Depths.~Can be crafted after defeating The Grim Guzzler in Blackrock Depths.
+BRM_026~Hungry Dragon~4~Minion~Common~Blackrock Mountain~Dragon~NULL~5~6~NULL~Unlocked by defeating Chromaggus in Blackwing Lair.~Can be crafted after defeating Chromaggus in Blackwing Lair.
+BRM_006~Imp Gang Boss~3~Minion~Common~Blackrock Mountain~Demon~Warlock~2~4~NULL~Unlocked by defeating Majordomo Executus in Molten Core.~Can be crafted after defeating Majordomo Executus in Molten Core.
+BRM_011~Lava Shock~2~Spell~Rare~Blackrock Mountain~NULL~Shaman~NULL~NULL~NULL~Unlocked by completing the Shaman Class Challenge in Blackrock Mountain.~Can be crafted after completing the Shaman Class Challenge in Blackrock Mountain.
+BRM_027~Majordomo Executus~9~Minion~Legendary~Blackrock Mountain~NULL~NULL~9~7~NULL~Unlocked by completing Molten Core.~Can be crafted after completing Molten Core.
+BRM_030~Nefarian~9~Minion~Legendary~Blackrock Mountain~Dragon~NULL~8~8~NULL~Unlocked by defeating every boss in Blackrock Mountain!~Can be crafted after completing the Hidden Laboratory.
+BRM_013~Quick Shot~2~Spell~Common~Blackrock Mountain~NULL~Hunter~NULL~NULL~NULL~Unlocked by completing the Hunter Class Challenge in Blackrock Mountain.~Can be crafted after completing the Hunter Class Challenge in Blackrock Mountain.
+BRM_029~Rend Blackhand~7~Minion~Legendary~Blackrock Mountain~NULL~NULL~8~4~NULL~Unlocked by completing Blackrock Spire.~Can be crafted after completing Blackrock Spire.
+BRM_017~Resurrect~2~Spell~Rare~Blackrock Mountain~NULL~Priest~NULL~NULL~NULL~Unlocked by defeating Emperor Thaurissan in Blackrock Depths.~Can be crafted after defeating Emperor Thaurissan in Blackrock Depths.
+BRM_015~Revenge~2~Spell~Rare~Blackrock Mountain~NULL~Warrior~NULL~NULL~NULL~Unlocked by defeating Razorgore in Blackwing Lair.~Can be crafted after defeating Razorgore in Blackwing Lair.
+BRM_001~Solemn Vigil~5~Spell~Common~Blackrock Mountain~NULL~Paladin~NULL~NULL~NULL~Unlocked by completing the Paladin Class Challenge in Blackrock Mountain.~Can be crafted after completing the Paladin Class Challenge in Blackrock Mountain.
+BRM_004~Twilight Whelp~1~Minion~Common~Blackrock Mountain~Dragon~Priest~2~1~NULL~Unlocked by completing the Priest Class Challenge in Blackrock Mountain.~Can be crafted after completing the Priest Class Challenge in Blackrock Mountain.
+BRM_025~Volcanic Drake~6~Minion~Common~Blackrock Mountain~Dragon~NULL~6~4~NULL~Unlocked by defeating Omnotron Defense System in the Hidden Laboratory.~Can be crafted after defeating Omnotron Defense System in the Hidden Laboratory.
+BRM_009~Volcanic Lumberer~9~Minion~Rare~Blackrock Mountain~NULL~Druid~7~8~NULL~Unlocked by completing the Druid Class Challenge in Blackrock Mountain.~Can be crafted after completing the Druid Class Challenge in Blackrock Mountain.
+EX1_097~Abomination~5~Minion~Rare~Classic~NULL~NULL~4~4~NULL~NULL~NULL
+CS2_188~Abusive Sergeant~1~Minion~Common~Classic~NULL~NULL~2~1~NULL~NULL~NULL
+EX1_007~Acolyte of Pain~3~Minion~Common~Classic~NULL~NULL~1~3~NULL~NULL~NULL
+NEW1_010~Al'Akir the Windlord~8~Minion~Legendary~Classic~NULL~Shaman~3~5~NULL~NULL~NULL
+EX1_006~Alarm-o-Bot~3~Minion~Rare~Classic~Mech~NULL~0~3~NULL~NULL~NULL
+EX1_382~Aldor Peacekeeper~3~Minion~Rare~Classic~NULL~Paladin~3~3~NULL~NULL~NULL
+EX1_561~Alexstrasza~9~Minion~Legendary~Classic~Dragon~NULL~8~8~NULL~NULL~NULL
+EX1_393~Amani Berserker~2~Minion~Common~Classic~NULL~NULL~2~3~NULL~NULL~NULL
+CS2_038~Ancestral Spirit~2~Spell~Rare~Classic~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+EX1_057~Ancient Brewmaster~4~Minion~Common~Classic~NULL~NULL~5~4~NULL~NULL~NULL
+EX1_584~Ancient Mage~4~Minion~Rare~Classic~NULL~NULL~2~5~NULL~NULL~NULL
+EX1_045~Ancient Watcher~2~Minion~Rare~Classic~NULL~NULL~4~5~NULL~NULL~NULL
+NEW1_008~Ancient of Lore~7~Minion~Epic~Classic~NULL~Druid~5~5~NULL~NULL~NULL
+EX1_178~Ancient of War~7~Minion~Epic~Classic~NULL~Druid~5~5~NULL~NULL~NULL
+EX1_009~Angry Chicken~1~Minion~Rare~Classic~Beast~NULL~1~1~NULL~NULL~NULL
+EX1_398~Arathi Weaponsmith~4~Minion~Common~Classic~NULL~Warrior~3~3~NULL~NULL~NULL
+EX1_089~Arcane Golem~3~Minion~Rare~Classic~NULL~NULL~4~2~NULL~NULL~NULL
+EX1_559~Archmage Antonidas~7~Minion~Legendary~Classic~NULL~Mage~5~7~NULL~NULL~NULL
+EX1_067~Argent Commander~6~Minion~Rare~Classic~NULL~NULL~4~2~NULL~NULL~NULL
+EX1_362~Argent Protector~2~Minion~Common~Classic~NULL~Paladin~2~2~NULL~NULL~NULL
+EX1_008~Argent Squire~1~Minion~Common~Classic~NULL~NULL~1~1~NULL~NULL~NULL
+EX1_402~Armorsmith~2~Minion~Rare~Classic~NULL~Warrior~1~4~NULL~NULL~NULL
+EX1_591~Auchenai Soulpriest~4~Minion~Rare~Classic~NULL~Priest~3~5~NULL~NULL~NULL
+EX1_384~Avenging Wrath~6~Spell~Epic~Classic~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+EX1_284~Azure Drake~5~Minion~Rare~Classic~Dragon~NULL~4~4~NULL~NULL~NULL
+EX1_320~Bane of Doom~5~Spell~Epic~Classic~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+EX1_249~Baron Geddon~7~Minion~Legendary~Classic~NULL~NULL~7~5~NULL~NULL~NULL
+EX1_392~Battle Rage~2~Spell~Common~Classic~NULL~Warrior~NULL~NULL~NULL~NULL~NULL
+EX1_549~Bestial Wrath~1~Spell~Epic~Classic~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+EX1_126~Betrayal~2~Spell~Common~Classic~NULL~Rogue~NULL~NULL~NULL~NULL~NULL
+EX1_005~Big Game Hunter~3~Minion~Epic~Classic~NULL~NULL~4~2~NULL~NULL~NULL
+EX1_570~Bite~4~Spell~Rare~Classic~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+CS2_233~Blade Flurry~2~Spell~Rare~Classic~NULL~Rogue~NULL~NULL~NULL~NULL~NULL
+EX1_355~Blessed Champion~5~Spell~Rare~Classic~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+EX1_363~Blessing of Wisdom~1~Spell~Common~Classic~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+CS2_028~Blizzard~6~Spell~Rare~Classic~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+CS2_059~Blood Imp~1~Minion~Common~Classic~Demon~Warlock~0~1~NULL~NULL~NULL
+EX1_590~Blood Knight~3~Minion~Epic~Classic~NULL~NULL~3~3~NULL~NULL~NULL
+EX1_012~Bloodmage Thalnos~2~Minion~Legendary~Classic~NULL~NULL~1~1~NULL~NULL~NULL
+NEW1_025~Bloodsail Corsair~1~Minion~Rare~Classic~Pirate~NULL~1~2~NULL~NULL~NULL
+NEW1_018~Bloodsail Raider~2~Minion~Common~Classic~Pirate~NULL~2~3~NULL~NULL~NULL
+EX1_407~Brawl~5~Spell~Epic~Classic~NULL~Warrior~NULL~NULL~NULL~NULL~NULL
+EX1_091~Cabal Shadow Priest~6~Minion~Epic~Classic~NULL~Priest~4~5~NULL~NULL~NULL
+EX1_110~Cairne Bloodhoof~6~Minion~Legendary~Classic~NULL~NULL~4~5~NULL~NULL~NULL
+NEW1_024~Captain Greenskin~5~Minion~Legendary~Classic~Pirate~NULL~5~4~NULL~NULL~NULL
+EX1_573~Cenarius~9~Minion~Legendary~Classic~NULL~Druid~5~8~NULL~NULL~NULL
+EX1_621~Circle of Healing~0~Spell~Common~Classic~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+CS2_073~Cold Blood~1~Spell~Common~Classic~NULL~Rogue~NULL~NULL~NULL~NULL~NULL
+EX1_050~Coldlight Oracle~3~Minion~Rare~Classic~Murloc~NULL~2~2~NULL~NULL~NULL
+EX1_103~Coldlight Seer~3~Minion~Rare~Classic~Murloc~NULL~2~3~NULL~NULL~NULL
+NEW1_036~Commanding Shout~2~Spell~Rare~Classic~NULL~Warrior~NULL~NULL~NULL~NULL~NULL
+EX1_128~Conceal~1~Spell~Common~Classic~NULL~Rogue~NULL~NULL~NULL~NULL~NULL
+EX1_275~Cone of Cold~4~Spell~Common~Classic~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+EX1_287~Counterspell~3~Spell~Rare~Classic~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+EX1_059~Crazed Alchemist~2~Minion~Rare~Classic~NULL~NULL~2~2~NULL~NULL~NULL
+EX1_603~Cruel Taskmaster~2~Minion~Common~Classic~NULL~Warrior~2~2~NULL~NULL~NULL
+EX1_595~Cult Master~4~Minion~Common~Classic~NULL~NULL~4~2~NULL~NULL~NULL
+EX1_046~Dark Iron Dwarf~4~Minion~Common~Classic~NULL~NULL~4~4~NULL~NULL~NULL
+EX1_617~Deadly Shot~3~Spell~Common~Classic~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+NEW1_030~Deathwing~10~Minion~Legendary~Classic~Dragon~NULL~12~12~NULL~NULL~NULL
+EX1_093~Defender of Argus~4~Minion~Rare~Classic~NULL~NULL~2~3~NULL~NULL~NULL
+EX1_131~Defias Ringleader~2~Minion~Common~Classic~NULL~Rogue~2~2~NULL~NULL~NULL
+EX1_102~Demolisher~3~Minion~Rare~Classic~Mech~NULL~1~4~NULL~NULL~NULL
+EX1_596~Demonfire~2~Spell~Common~Classic~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+EX1_162~Dire Wolf Alpha~2~Minion~Common~Classic~Beast~NULL~2~2~NULL~NULL~NULL
+EX1_349~Divine Favor~3~Spell~Rare~Classic~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+EX1_310~Doomguard~5~Minion~Rare~Classic~Demon~Warlock~5~7~NULL~NULL~NULL
+EX1_567~Doomhammer~5~Weapon~Epic~Classic~NULL~Shaman~2~NULL~8~NULL~NULL
+NEW1_021~Doomsayer~2~Minion~Epic~Classic~NULL~NULL~0~7~NULL~NULL~NULL
+NEW1_022~Dread Corsair~4~Minion~Common~Classic~Pirate~NULL~3~3~NULL~NULL~NULL
+EX1_165~Druid of the Claw~5~Minion~Common~Classic~NULL~Druid~4~4~NULL~NULL~NULL
+EX1_243~Dust Devil~1~Minion~Common~Classic~NULL~Shaman~3~1~NULL~NULL~NULL
+EX1_536~Eaglehorn Bow~3~Weapon~Rare~Classic~NULL~Hunter~3~NULL~2~NULL~NULL
+EX1_250~Earth Elemental~5~Minion~Epic~Classic~NULL~Shaman~7~8~NULL~NULL~NULL
+EX1_245~Earth Shock~1~Spell~Common~Classic~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+CS2_117~Earthen Ring Farseer~3~Minion~Common~Classic~NULL~NULL~3~3~NULL~NULL~NULL
+EX1_613~Edwin VanCleef~3~Minion~Legendary~Classic~NULL~Rogue~2~2~NULL~NULL~NULL
+EX1_170~Emperor Cobra~3~Minion~Rare~Classic~Beast~NULL~2~3~NULL~NULL~NULL
+EX1_619~Equality~2~Spell~Rare~Classic~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+EX1_274~Ethereal Arcanist~4~Minion~Rare~Classic~NULL~Mage~3~3~NULL~NULL~NULL
+EX1_124~Eviscerate~2~Spell~Common~Classic~NULL~Rogue~NULL~NULL~NULL~NULL~NULL
+EX1_537~Explosive Shot~5~Spell~Rare~Classic~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+EX1_610~Explosive Trap~2~Spell~Common~Classic~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+EX1_132~Eye for an Eye~1~Spell~Common~Classic~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+EX1_564~Faceless Manipulator~5~Minion~Epic~Classic~NULL~NULL~3~3~NULL~NULL~NULL
+NEW1_023~Faerie Dragon~2~Minion~Common~Classic~Dragon~NULL~3~2~NULL~NULL~NULL
+CS2_053~Far Sight~3~Spell~Epic~Classic~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+EX1_301~Felguard~3~Minion~Rare~Classic~Demon~Warlock~3~5~NULL~NULL~NULL
+CS1_069~Fen Creeper~5~Minion~Common~Classic~NULL~NULL~3~6~NULL~NULL~NULL
+EX1_248~Feral Spirit~3~Spell~Rare~Classic~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+EX1_319~Flame Imp~1~Minion~Common~Classic~Demon~Warlock~3~2~NULL~NULL~NULL
+EX1_544~Flare~2~Spell~Rare~Classic~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+tt_004~Flesheating Ghoul~3~Minion~Common~Classic~NULL~NULL~2~3~NULL~NULL~NULL
+EX1_571~Force of Nature~6~Spell~Epic~Classic~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+EX1_251~Forked Lightning~1~Spell~Common~Classic~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+EX1_611~Freezing Trap~2~Spell~Common~Classic~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+EX1_283~Frost Elemental~6~Minion~Common~Classic~NULL~NULL~5~5~NULL~NULL~NULL
+EX1_604~Frothing Berserker~3~Minion~Rare~Classic~NULL~Warrior~2~4~NULL~NULL~NULL
+EX1_095~Gadgetzan Auctioneer~6~Minion~Rare~Classic~NULL~NULL~4~4~NULL~NULL~NULL
+DS1_188~Gladiator's Longbow~7~Weapon~Epic~Classic~NULL~Hunter~5~NULL~2~NULL~NULL
+EX1_411~Gorehowl~7~Weapon~Epic~Classic~NULL~Warrior~7~NULL~1~NULL~NULL
+EX1_414~Grommash Hellscream~8~Minion~Legendary~Classic~NULL~Warrior~4~9~NULL~NULL~NULL
+NEW1_038~Gruul~8~Minion~Legendary~Classic~NULL~NULL~7~7~NULL~NULL~NULL
+EX1_558~Harrison Jones~5~Minion~Legendary~Classic~NULL~NULL~5~4~NULL~NULL~NULL
+EX1_556~Harvest Golem~3~Minion~Common~Classic~Mech~NULL~2~3~NULL~NULL~NULL
+EX1_137~Headcrack~3~Spell~Rare~Classic~NULL~Rogue~NULL~NULL~NULL~NULL~NULL
+NEW1_040~Hogger~6~Minion~Legendary~Classic~NULL~NULL~4~4~NULL~NULL~NULL
+EX1_624~Holy Fire~6~Spell~Rare~Classic~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+EX1_365~Holy Wrath~5~Spell~Rare~Classic~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+NEW1_017~Hungry Crab~1~Minion~Epic~Classic~Beast~NULL~1~2~NULL~NULL~NULL
+EX1_289~Ice Barrier~3~Spell~Common~Classic~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+EX1_295~Ice Block~3~Spell~Epic~Classic~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+CS2_031~Ice Lance~1~Spell~Common~Classic~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+EX1_614~Illidan Stormrage~6~Minion~Legendary~Classic~Demon~NULL~7~5~NULL~NULL~NULL
+EX1_597~Imp Master~3~Minion~Rare~Classic~NULL~NULL~1~5~NULL~NULL~NULL
+CS2_181~Injured Blademaster~3~Minion~Rare~Classic~NULL~NULL~4~7~NULL~NULL~NULL
+CS1_129~Inner Fire~1~Spell~Common~Classic~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+EX1_607~Inner Rage~0~Spell~Common~Classic~NULL~Warrior~NULL~NULL~NULL~NULL~NULL
+CS2_203~Ironbeak Owl~2~Minion~Common~Classic~Beast~NULL~2~1~NULL~NULL~NULL
+EX1_017~Jungle Panther~3~Minion~Common~Classic~Beast~NULL~4~2~NULL~NULL~NULL
+EX1_166~Keeper of the Grove~4~Minion~Rare~Classic~NULL~Druid~2~4~NULL~NULL~NULL
+NEW1_005~Kidnapper~6~Minion~Epic~Classic~NULL~Rogue~5~3~NULL~NULL~NULL
+EX1_543~King Krush~9~Minion~Legendary~Classic~Beast~Hunter~8~8~NULL~NULL~NULL
+EX1_014~King Mukla~3~Minion~Legendary~Classic~Beast~NULL~5~5~NULL~NULL~NULL
+EX1_612~Kirin Tor Mage~3~Minion~Rare~Classic~NULL~Mage~4~3~NULL~NULL~NULL
+NEW1_019~Knife Juggler~2~Minion~Rare~Classic~NULL~NULL~3~2~NULL~NULL~NULL
+EX1_241~Lava Burst~3~Spell~Rare~Classic~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+EX1_354~Lay on Hands~8~Spell~Epic~Classic~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+EX1_116~Leeroy Jenkins~5~Minion~Legendary~Classic~NULL~NULL~6~2~NULL~NULL~NULL
+EX1_029~Leper Gnome~1~Minion~Common~Classic~NULL~NULL~2~1~NULL~NULL~NULL
+EX1_238~Lightning Bolt~1~Spell~Common~Classic~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+EX1_259~Lightning Storm~3~Spell~Rare~Classic~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+EX1_335~Lightspawn~4~Minion~Common~Classic~NULL~Priest~0~5~NULL~NULL~NULL
+EX1_001~Lightwarden~1~Minion~Rare~Classic~NULL~NULL~1~2~NULL~NULL~NULL
+EX1_341~Lightwell~2~Minion~Rare~Classic~NULL~Priest~0~5~NULL~NULL~NULL
+EX1_096~Loot Hoarder~2~Minion~Common~Classic~NULL~NULL~2~1~NULL~NULL~NULL
+EX1_323~Lord Jaraxxus~9~Minion~Legendary~Classic~Demon~Warlock~3~15~NULL~NULL~NULL
+EX1_100~Lorewalker Cho~2~Minion~Legendary~Classic~NULL~NULL~0~4~NULL~NULL~NULL
+EX1_082~Mad Bomber~2~Minion~Common~Classic~NULL~NULL~3~2~NULL~NULL~NULL
+EX1_563~Malygos~9~Minion~Legendary~Classic~Dragon~NULL~4~12~NULL~NULL~NULL
+EX1_055~Mana Addict~2~Minion~Rare~Classic~NULL~NULL~1~3~NULL~NULL~NULL
+EX1_575~Mana Tide Totem~3~Minion~Rare~Classic~Totem~Shaman~0~3~NULL~NULL~NULL
+EX1_616~Mana Wraith~2~Minion~Rare~Classic~NULL~NULL~2~2~NULL~NULL~NULL
+NEW1_012~Mana Wyrm~1~Minion~Common~Classic~NULL~Mage~1~3~NULL~NULL~NULL
+EX1_155~Mark of Nature~3~Spell~Common~Classic~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+EX1_626~Mass Dispel~4~Spell~Rare~Classic~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+NEW1_037~Master Swordsmith~2~Minion~Rare~Classic~NULL~NULL~1~3~NULL~NULL~NULL
+NEW1_014~Master of Disguise~4~Minion~Rare~Classic~NULL~Rogue~4~4~NULL~NULL~NULL
+NEW1_029~Millhouse Manastorm~2~Minion~Legendary~Classic~NULL~NULL~4~4~NULL~NULL~NULL
+EX1_085~Mind Control Tech~3~Minion~Rare~Classic~NULL~NULL~3~3~NULL~NULL~NULL
+EX1_345~Mindgames~4~Spell~Epic~Classic~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+EX1_294~Mirror Entity~3~Spell~Common~Classic~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+EX1_533~Misdirection~2~Spell~Rare~Classic~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+EX1_396~Mogu'shan Warden~4~Minion~Common~Classic~NULL~NULL~1~7~NULL~NULL~NULL
+EX1_620~Molten Giant~20~Minion~Epic~Classic~NULL~NULL~8~8~NULL~NULL~NULL
+EX1_408~Mortal Strike~4~Spell~Rare~Classic~NULL~Warrior~NULL~NULL~NULL~NULL~NULL
+EX1_105~Mountain Giant~12~Minion~Epic~Classic~NULL~NULL~8~8~NULL~NULL~NULL
+EX1_509~Murloc Tidecaller~1~Minion~Rare~Classic~Murloc~NULL~1~2~NULL~NULL~NULL
+EX1_507~Murloc Warleader~3~Minion~Epic~Classic~Murloc~NULL~3~3~NULL~NULL~NULL
+EX1_557~Nat Pagle~2~Minion~Legendary~Classic~NULL~NULL~0~4~NULL~NULL~NULL
+EX1_161~Naturalize~1~Spell~Common~Classic~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+EX1_130~Noble Sacrifice~1~Spell~Common~Classic~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+EX1_164~Nourish~5~Spell~Rare~Classic~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+EX1_560~Nozdormu~9~Minion~Legendary~Classic~Dragon~NULL~8~8~NULL~NULL~NULL
+EX1_562~Onyxia~9~Minion~Legendary~Classic~Dragon~NULL~8~8~NULL~NULL~NULL
+EX1_522~Patient Assassin~2~Minion~Epic~Classic~NULL~Rogue~1~1~NULL~NULL~NULL
+EX1_133~Perdition's Blade~3~Weapon~Rare~Classic~NULL~Rogue~2~NULL~2~NULL~NULL
+EX1_076~Pint-Sized Summoner~2~Minion~Rare~Classic~NULL~NULL~2~2~NULL~NULL~NULL
+EX1_313~Pit Lord~4~Minion~Epic~Classic~Demon~Warlock~5~6~NULL~NULL~NULL
+EX1_316~Power Overwhelming~1~Spell~Common~Classic~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+EX1_160~Power of the Wild~2~Spell~Common~Classic~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+EX1_145~Preparation~0~Spell~Epic~Classic~NULL~Rogue~NULL~NULL~NULL~NULL~NULL
+EX1_583~Priestess of Elune~6~Minion~Common~Classic~NULL~NULL~5~4~NULL~NULL~NULL
+EX1_350~Prophet Velen~7~Minion~Legendary~Classic~NULL~Priest~7~7~NULL~NULL~NULL
+EX1_279~Pyroblast~10~Spell~Epic~Classic~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+EX1_044~Questing Adventurer~3~Minion~Rare~Classic~NULL~NULL~2~2~NULL~NULL~NULL
+EX1_412~Raging Worgen~3~Minion~Common~Classic~NULL~NULL~3~3~NULL~NULL~NULL
+EX1_298~Ragnaros the Firelord~8~Minion~Legendary~Classic~NULL~NULL~8~8~NULL~NULL~NULL
+CS2_104~Rampage~2~Spell~Common~Classic~NULL~Warrior~NULL~NULL~NULL~NULL~NULL
+CS2_161~Ravenholdt Assassin~7~Minion~Rare~Classic~NULL~NULL~7~5~NULL~NULL~NULL
+EX1_136~Redemption~1~Spell~Common~Classic~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+EX1_379~Repentance~1~Spell~Common~Classic~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+EX1_134~SI:7 Agent~3~Minion~Rare~Classic~NULL~Rogue~3~3~NULL~NULL~NULL
+EX1_578~Savagery~1~Spell~Rare~Classic~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+EX1_534~Savannah Highmane~6~Minion~Rare~Classic~Beast~Hunter~6~5~NULL~NULL~NULL
+EX1_020~Scarlet Crusader~3~Minion~Common~Classic~NULL~NULL~3~1~NULL~NULL~NULL
+EX1_531~Scavenging Hyena~2~Minion~Common~Classic~Beast~Hunter~2~2~NULL~NULL~NULL
+EX1_586~Sea Giant~10~Minion~Epic~Classic~NULL~NULL~8~8~NULL~NULL~NULL
+EX1_080~Secretkeeper~1~Minion~Rare~Classic~NULL~NULL~1~2~NULL~NULL~NULL
+EX1_317~Sense Demons~3~Spell~Common~Classic~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+EX1_334~Shadow Madness~4~Spell~Rare~Classic~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+EX1_303~Shadowflame~4~Spell~Rare~Classic~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+EX1_625~Shadowform~3~Spell~Epic~Classic~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+EX1_144~Shadowstep~0~Spell~Common~Classic~NULL~Rogue~NULL~NULL~NULL~NULL~NULL
+EX1_410~Shield Slam~1~Spell~Epic~Classic~NULL~Warrior~NULL~NULL~NULL~NULL~NULL
+EX1_405~Shieldbearer~1~Minion~Common~Classic~NULL~NULL~0~4~NULL~NULL~NULL
+EX1_332~Silence~0~Spell~Common~Classic~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+CS2_151~Silver Hand Knight~5~Minion~Common~Classic~NULL~NULL~4~4~NULL~NULL~NULL
+EX1_023~Silvermoon Guardian~4~Minion~Common~Classic~NULL~NULL~3~3~NULL~NULL~NULL
+EX1_309~Siphon Soul~6~Spell~Rare~Classic~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+EX1_391~Slam~2~Spell~Common~Classic~NULL~Warrior~NULL~NULL~NULL~NULL~NULL
+EX1_554~Snake Trap~2~Spell~Epic~Classic~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+EX1_609~Snipe~2~Spell~Common~Classic~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+EX1_608~Sorcerer's Apprentice~2~Minion~Common~Classic~NULL~Mage~3~2~NULL~NULL~NULL
+EX1_158~Soul of the Forest~4~Spell~Common~Classic~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+NEW1_027~Southsea Captain~3~Minion~Epic~Classic~Pirate~NULL~3~3~NULL~NULL~NULL
+CS2_146~Southsea Deckhand~1~Minion~Common~Classic~Pirate~NULL~2~1~NULL~NULL~NULL
+tt_010~Spellbender~3~Spell~Epic~Classic~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+EX1_048~Spellbreaker~4~Minion~Common~Classic~NULL~NULL~4~3~NULL~NULL~NULL
+CS2_221~Spiteful Smith~5~Minion~Common~Classic~NULL~NULL~4~6~NULL~NULL~NULL
+NEW1_041~Stampeding Kodo~5~Minion~Rare~Classic~Beast~NULL~3~5~NULL~NULL~NULL
+NEW1_007~Starfall~5~Spell~Rare~Classic~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+EX1_247~Stormforged Axe~2~Weapon~Common~Classic~NULL~Shaman~2~NULL~3~NULL~NULL
+EX1_028~Stranglethorn Tiger~5~Minion~Common~Classic~Beast~NULL~5~5~NULL~NULL~NULL
+EX1_315~Summoning Portal~4~Minion~Common~Classic~NULL~Warlock~0~4~NULL~NULL~NULL
+EX1_058~Sunfury Protector~2~Minion~Rare~Classic~NULL~NULL~2~3~NULL~NULL~NULL
+EX1_032~Sunwalker~6~Minion~Rare~Classic~NULL~NULL~4~5~NULL~NULL~NULL
+EX1_366~Sword of Justice~3~Weapon~Epic~Classic~NULL~Paladin~1~NULL~5~NULL~NULL
+EX1_016~Sylvanas Windrunner~6~Minion~Legendary~Classic~NULL~NULL~5~5~NULL~NULL~NULL
+EX1_390~Tauren Warrior~3~Minion~Common~Classic~NULL~NULL~2~3~NULL~NULL~NULL
+EX1_623~Temple Enforcer~6~Minion~Common~Classic~NULL~Priest~6~6~NULL~NULL~NULL
+EX1_577~The Beast~6~Minion~Legendary~Classic~Beast~NULL~9~7~NULL~NULL~NULL
+EX1_002~The Black Knight~6~Minion~Legendary~Classic~NULL~NULL~4~5~NULL~NULL~NULL
+EX1_339~Thoughtsteal~3~Spell~Common~Classic~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+EX1_021~Thrallmar Farseer~3~Minion~Common~Classic~NULL~NULL~2~3~NULL~NULL~NULL
+EX1_083~Tinkmaster Overspark~3~Minion~Legendary~Classic~NULL~NULL~3~3~NULL~NULL~NULL
+EX1_383~Tirion Fordring~8~Minion~Legendary~Classic~NULL~Paladin~6~6~NULL~NULL~NULL
+EX1_043~Twilight Drake~4~Minion~Rare~Classic~Dragon~NULL~4~1~NULL~NULL~NULL
+EX1_312~Twisting Nether~8~Spell~Epic~Classic~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+EX1_258~Unbound Elemental~3~Minion~Common~Classic~NULL~Shaman~2~4~NULL~NULL~NULL
+EX1_538~Unleash the Hounds~3~Spell~Common~Classic~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+EX1_409~Upgrade!~1~Spell~Rare~Classic~NULL~Warrior~NULL~NULL~NULL~NULL~NULL
+EX1_594~Vaporize~3~Spell~Rare~Classic~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+CS2_227~Venture Co. Mercenary~5~Minion~Common~Classic~NULL~NULL~7~6~NULL~NULL~NULL
+NEW1_026~Violet Teacher~4~Minion~Rare~Classic~NULL~NULL~3~5~NULL~NULL~NULL
+EX1_304~Void Terror~3~Minion~Rare~Classic~Demon~Warlock~3~3~NULL~NULL~NULL
+NEW1_020~Wild Pyromancer~2~Minion~Rare~Classic~NULL~NULL~3~2~NULL~NULL~NULL
+EX1_033~Windfury Harpy~6~Minion~Common~Classic~NULL~NULL~4~5~NULL~NULL~NULL
+CS2_231~Wisp~0~Minion~Common~Classic~NULL~NULL~1~1~NULL~NULL~NULL
+EX1_010~Worgen Infiltrator~1~Minion~Common~Classic~NULL~NULL~2~1~NULL~NULL~NULL
+EX1_154~Wrath~2~Spell~Common~Classic~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+CS2_169~Young Dragonhawk~1~Minion~Common~Classic~Beast~NULL~1~1~NULL~NULL~NULL
+EX1_004~Young Priestess~1~Minion~Rare~Classic~NULL~NULL~2~1~NULL~NULL~NULL
+EX1_049~Youthful Brewmaster~2~Minion~Common~Classic~NULL~NULL~3~2~NULL~NULL~NULL
+EX1_572~Ysera~9~Minion~Legendary~Classic~Dragon~NULL~4~12~NULL~NULL~NULL
+FP1_026~Anub'ar Ambusher~4~Minion~Common~Curse of Naxxramas~NULL~Rogue~5~5~NULL~Unlocked by completing the Rogue Class Challenge in Naxxramas.~Can be crafted after completing the Rogue Class Challenge in Naxxramas.
+FP1_020~Avenge~1~Spell~Common~Curse of Naxxramas~NULL~Paladin~NULL~NULL~NULL~Unlocked by completing the Paladin Class Challenge in Naxxramas.~Can be crafted after completing the Paladin Class Challenge in Naxxramas.
+FP1_031~Baron Rivendare~4~Minion~Legendary~Curse of Naxxramas~NULL~NULL~1~7~NULL~Unlocked by completing the Military Quarter.~Can be crafted after completing the Military Quarter.
+FP1_029~Dancing Swords~3~Minion~Common~Curse of Naxxramas~NULL~NULL~4~4~NULL~Unlocked by defeating Instructor Razuvious in the Military Quarter.~Can be crafted after defeating Instructor Razuvious in the Military Quarter.
+FP1_023~Dark Cultist~3~Minion~Common~Curse of Naxxramas~NULL~Priest~3~4~NULL~Unlocked by completing the Priest Class Challenge in Naxxramas.~Can be crafted after completing the Priest Class Challenge in Naxxramas.
+FP1_021~Death's Bite~4~Weapon~Common~Curse of Naxxramas~NULL~Warrior~4~NULL~2~Unlocked by completing the Warrior Class Challenge in Naxxramas.~Can be crafted after completing the Warrior Class Challenge in Naxxramas.
+FP1_009~Deathlord~3~Minion~Rare~Curse of Naxxramas~NULL~NULL~2~8~NULL~Unlocked by defeating The Four Horsemen in the Military Quarter.~Can be crafted after defeating The Four Horsemen in the Military Quarter.
+FP1_018~Duplicate~3~Spell~Common~Curse of Naxxramas~NULL~Mage~NULL~NULL~NULL~Unlocked by completing the Mage Class Challenge in Naxxramas.~Can be crafted after completing the Mage Class Challenge in Naxxramas.
+FP1_003~Echoing Ooze~2~Minion~Epic~Curse of Naxxramas~NULL~NULL~1~2~NULL~Unlocked by defeating Sapphiron in the Frostwyrm Lair.~Can be crafted after defeating Sapphiron in the Frostwyrm Lair.
+FP1_015~Feugen~5~Minion~Legendary~Curse of Naxxramas~NULL~NULL~4~7~NULL~Unlocked by completing the Construct Quarter.~Can be crafted after completing the Construct Quarter.
+FP1_002~Haunted Creeper~2~Minion~Common~Curse of Naxxramas~Beast~NULL~1~2~NULL~Unlocked by defeating Anub'Rekhan in the Arachnid Quarter.~Can be crafted after defeating Anub'Rekhan in the Arachnid Quarter.
+FP1_013~Kel'Thuzad~8~Minion~Legendary~Curse of Naxxramas~NULL~NULL~6~8~NULL~Unlocked by defeating every boss in Naxxramas!~Can be crafted after defeating every boss in Naxxramas!
+FP1_030~Loatheb~5~Minion~Legendary~Curse of Naxxramas~NULL~NULL~5~5~NULL~Unlocked by completing the Plague Quarter.~Can be crafted after completing the Plague Quarter.
+FP1_004~Mad Scientist~2~Minion~Common~Curse of Naxxramas~NULL~NULL~2~2~NULL~Unlocked by defeating Grobbulus in the Construct Quarter.~Can be crafted after defeating Grobbulus in the Construct Quarter.
+FP1_010~Maexxna~6~Minion~Legendary~Curse of Naxxramas~Beast~NULL~2~8~NULL~Unlocked by completing the Arachnid Quarter.~Can be crafted after completing the Arachnid Quarter.
+FP1_017~Nerub'ar Weblord~2~Minion~Common~Curse of Naxxramas~NULL~NULL~1~4~NULL~Unlocked by defeating Grand Widow Faerlina in the Arachnid Quarter.~Can be crafted after defeating Grand Widow Faerlina in the Arachnid Quarter.
+FP1_007~Nerubian Egg~2~Minion~Rare~Curse of Naxxramas~NULL~NULL~0~2~NULL~Unlocked by defeating Maexxna in the Arachnid Quarter.~Can be crafted after defeating Maexxna in the Arachnid Quarter.
+FP1_019~Poison Seeds~4~Spell~Common~Curse of Naxxramas~NULL~Druid~NULL~NULL~NULL~Unlocked by completing the Druid Class Challenge in Naxxramas.~Can be crafted after completing the Druid Class Challenge in Naxxramas.
+FP1_025~Reincarnate~2~Spell~Common~Curse of Naxxramas~NULL~Shaman~NULL~NULL~NULL~Unlocked by completing the Shaman Class Challenge in Naxxramas.~Can be crafted after completing the Shaman Class Challenge in Naxxramas.
+FP1_005~Shade of Naxxramas~3~Minion~Epic~Curse of Naxxramas~NULL~NULL~2~2~NULL~Unlocked by defeating Kel'Thuzad in the Frostwyrm Lair.~Can be crafted after defeating Kel'Thuzad in the Frostwyrm Lair.
+FP1_012~Sludge Belcher~5~Minion~Rare~Curse of Naxxramas~NULL~NULL~3~5~NULL~Unlocked by defeating Loatheb in the Plague Quarter.~Can be crafted after defeating Loatheb in the Plague Quarter.
+FP1_008~Spectral Knight~5~Minion~Common~Curse of Naxxramas~NULL~NULL~4~6~NULL~Unlocked by defeating Gothik the Harvester in the Military Quarter.~Can be crafted after defeating Gothik the Harvester in the Military Quarter.
+FP1_014~Stalagg~5~Minion~Legendary~Curse of Naxxramas~NULL~NULL~7~4~NULL~Unlocked by completing the Construct Quarter.~Can be crafted after completing the Construct Quarter.
+FP1_027~Stoneskin Gargoyle~3~Minion~Common~Curse of Naxxramas~NULL~NULL~1~4~NULL~Unlocked by defeating Noth the Plaguebringer in the Plague Quarter.~Can be crafted after defeating Noth the Plaguebringer in the Plague Quarter.
+FP1_028~Undertaker~1~Minion~Common~Curse of Naxxramas~NULL~NULL~1~2~NULL~Unlocked by defeating Patchwerk in the Construct Quarter.~Can be crafted after defeating Patchwerk in the Construct Quarter.
+FP1_024~Unstable Ghoul~2~Minion~Common~Curse of Naxxramas~NULL~NULL~1~3~NULL~Unlocked by defeating Heigan the Unclean in the Plague Quarter.~Can be crafted after defeating Heigan the Unclean in the Plague Quarter.
+FP1_022~Voidcaller~4~Minion~Common~Curse of Naxxramas~Demon~Warlock~3~4~NULL~Unlocked by completing the Warlock Class Challenge in Naxxramas.~Can be crafted after completing the Warlock Class Challenge in Naxxramas.
+FP1_016~Wailing Soul~4~Minion~Rare~Curse of Naxxramas~NULL~NULL~3~5~NULL~Unlocked by defeating Thaddius in the Construct Quarter.~Can be crafted after defeating Thaddius in the Construct Quarter.
+FP1_011~Webspinner~1~Minion~Common~Curse of Naxxramas~Beast~Hunter~1~1~NULL~Unlocked by completing the Hunter Class Challenge in Naxxramas.~Can be crafted after completing the Hunter Class Challenge in Naxxramas.
+FP1_001~Zombie Chow~1~Minion~Common~Curse of Naxxramas~NULL~NULL~2~3~NULL~Unlocked by defeating Gluth in the Construct Quarter.~Can be crafted after defeating Gluth in the Construct Quarter.
+GVG_029~Ancestor's Call~4~Spell~Epic~Goblins vs Gnomes~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+GVG_077~Anima Golem~6~Minion~Epic~Goblins vs Gnomes~Mech~Warlock~9~9~NULL~NULL~NULL
+GVG_085~Annoy-o-Tron~2~Minion~Common~Goblins vs Gnomes~Mech~NULL~1~2~NULL~NULL~NULL
+GVG_030~Anodized Robo Cub~2~Minion~Common~Goblins vs Gnomes~Mech~Druid~2~2~NULL~NULL~NULL
+GVG_069~Antique Healbot~5~Minion~Common~Goblins vs Gnomes~Mech~NULL~3~3~NULL~NULL~NULL
+GVG_091~Arcane Nullifier X-21~4~Minion~Rare~Goblins vs Gnomes~Mech~NULL~2~5~NULL~NULL~NULL
+GVG_119~Blingtron 3000~5~Minion~Legendary~Goblins vs Gnomes~Mech~NULL~3~4~NULL~NULL~NULL
+GVG_063~Bolvar Fordragon~5~Minion~Legendary~Goblins vs Gnomes~NULL~Paladin~1~7~NULL~NULL~NULL
+GVG_099~Bomb Lobber~5~Minion~Rare~Goblins vs Gnomes~NULL~NULL~3~3~NULL~NULL~NULL
+GVG_050~Bouncing Blade~3~Spell~Epic~Goblins vs Gnomes~NULL~Warrior~NULL~NULL~NULL~NULL~NULL
+GVG_068~Burly Rockjaw Trogg~4~Minion~Common~Goblins vs Gnomes~NULL~NULL~3~5~NULL~NULL~NULL
+GVG_017~Call Pet~2~Spell~Rare~Goblins vs Gnomes~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+GVG_121~Clockwork Giant~12~Minion~Epic~Goblins vs Gnomes~Mech~NULL~8~8~NULL~NULL~NULL
+GVG_082~Clockwork Gnome~1~Minion~Common~Goblins vs Gnomes~Mech~NULL~2~1~NULL~NULL~NULL
+GVG_062~Cobalt Guardian~5~Minion~Rare~Goblins vs Gnomes~Mech~Paladin~6~3~NULL~NULL~NULL
+GVG_073~Cobra Shot~5~Spell~Common~Goblins vs Gnomes~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+GVG_059~Coghammer~3~Weapon~Epic~Goblins vs Gnomes~NULL~Paladin~2~NULL~3~NULL~NULL
+GVG_013~Cogmaster~1~Minion~Common~Goblins vs Gnomes~NULL~NULL~1~2~NULL~NULL~NULL
+GVG_024~Cogmaster's Wrench~3~Weapon~Epic~Goblins vs Gnomes~NULL~Rogue~1~NULL~3~NULL~NULL
+GVG_038~Crackle~2~Spell~Common~Goblins vs Gnomes~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+GVG_052~Crush~7~Spell~Epic~Goblins vs Gnomes~NULL~Warrior~NULL~NULL~NULL~NULL~NULL
+GVG_041~Dark Wispers~6~Spell~Epic~Goblins vs Gnomes~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+GVG_015~Darkbomb~2~Spell~Common~Goblins vs Gnomes~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+GVG_019~Demonheart~5~Spell~Epic~Goblins vs Gnomes~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+GVG_110~Dr. Boom~7~Minion~Legendary~Goblins vs Gnomes~NULL~NULL~7~7~NULL~NULL~NULL
+GVG_080~Druid of the Fang~5~Minion~Common~Goblins vs Gnomes~NULL~Druid~4~4~NULL~NULL~NULL
+GVG_066~Dunemaul Shaman~4~Minion~Rare~Goblins vs Gnomes~NULL~Shaman~5~4~NULL~NULL~NULL
+GVG_005~Echo of Medivh~4~Spell~Epic~Goblins vs Gnomes~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+GVG_107~Enhance-o Mechano~4~Minion~Epic~Goblins vs Gnomes~Mech~NULL~3~2~NULL~NULL~NULL
+GVG_076~Explosive Sheep~2~Minion~Common~Goblins vs Gnomes~Mech~NULL~1~1~NULL~NULL~NULL
+GVG_026~Feign Death~2~Spell~Epic~Goblins vs Gnomes~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+GVG_020~Fel Cannon~4~Minion~Rare~Goblins vs Gnomes~Mech~Warlock~3~5~NULL~NULL~NULL
+GVG_016~Fel Reaver~5~Minion~Epic~Goblins vs Gnomes~Mech~NULL~8~8~NULL~NULL~NULL
+GVG_007~Flame Leviathan~7~Minion~Legendary~Goblins vs Gnomes~Mech~Mage~7~7~NULL~NULL~NULL
+GVG_001~Flamecannon~2~Spell~Common~Goblins vs Gnomes~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+GVG_100~Floating Watcher~5~Minion~Common~Goblins vs Gnomes~Demon~Warlock~4~4~NULL~NULL~NULL
+GVG_084~Flying Machine~3~Minion~Common~Goblins vs Gnomes~Mech~NULL~1~4~NULL~NULL~NULL
+GVG_113~Foe Reaper 4000~8~Minion~Legendary~Goblins vs Gnomes~Mech~NULL~6~9~NULL~NULL~NULL
+GVG_079~Force-Tank MAX~8~Minion~Common~Goblins vs Gnomes~Mech~NULL~7~7~NULL~NULL~NULL
+GVG_049~Gahz'rilla~7~Minion~Legendary~Goblins vs Gnomes~Beast~Hunter~6~9~NULL~NULL~NULL
+GVG_117~Gazlowe~6~Minion~Legendary~Goblins vs Gnomes~NULL~NULL~3~6~NULL~NULL~NULL
+GVG_081~Gilblin Stalker~2~Minion~Common~Goblins vs Gnomes~NULL~NULL~2~3~NULL~NULL~NULL
+GVG_043~Glaivezooka~2~Weapon~Common~Goblins vs Gnomes~NULL~Hunter~2~NULL~2~NULL~NULL
+GVG_098~Gnomeregan Infantry~3~Minion~Common~Goblins vs Gnomes~NULL~NULL~1~4~NULL~NULL~NULL
+GVG_092~Gnomish Experimenter~3~Minion~Rare~Goblins vs Gnomes~NULL~NULL~3~2~NULL~NULL~NULL
+GVG_023~Goblin Auto-Barber~2~Minion~Common~Goblins vs Gnomes~Mech~Rogue~3~2~NULL~NULL~NULL
+GVG_004~Goblin Blastmage~4~Minion~Rare~Goblins vs Gnomes~NULL~Mage~5~4~NULL~NULL~NULL
+GVG_095~Goblin Sapper~3~Minion~Rare~Goblins vs Gnomes~NULL~NULL~2~4~NULL~NULL~NULL
+GVG_032~Grove Tender~3~Minion~Rare~Goblins vs Gnomes~NULL~Druid~2~4~NULL~NULL~NULL
+GVG_120~Hemet Nesingwary~5~Minion~Legendary~Goblins vs Gnomes~NULL~NULL~6~3~NULL~NULL~NULL
+GVG_104~Hobgoblin~3~Minion~Epic~Goblins vs Gnomes~NULL~NULL~2~3~NULL~NULL~NULL
+GVG_089~Illuminator~3~Minion~Rare~Goblins vs Gnomes~NULL~NULL~2~4~NULL~NULL~NULL
+GVG_045~Imp-losion~4~Spell~Rare~Goblins vs Gnomes~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+GVG_056~Iron Juggernaut~6~Minion~Legendary~Goblins vs Gnomes~Mech~Warrior~6~5~NULL~NULL~NULL
+GVG_027~Iron Sensei~3~Minion~Rare~Goblins vs Gnomes~Mech~Rogue~2~2~NULL~NULL~NULL
+GVG_094~Jeeves~4~Minion~Rare~Goblins vs Gnomes~Mech~NULL~1~4~NULL~NULL~NULL
+GVG_106~Junkbot~5~Minion~Epic~Goblins vs Gnomes~Mech~NULL~1~5~NULL~NULL~NULL
+GVG_074~Kezan Mystic~4~Minion~Rare~Goblins vs Gnomes~NULL~NULL~4~3~NULL~NULL~NULL
+GVG_046~King of Beasts~5~Minion~Rare~Goblins vs Gnomes~Beast~Hunter~2~6~NULL~NULL~NULL
+GVG_012~Light of the Naaru~1~Spell~Rare~Goblins vs Gnomes~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+GVG_008~Lightbomb~6~Spell~Epic~Goblins vs Gnomes~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+GVG_097~Lil' Exorcist~3~Minion~Rare~Goblins vs Gnomes~NULL~NULL~2~3~NULL~NULL~NULL
+GVG_071~Lost Tallstrider~4~Minion~Common~Goblins vs Gnomes~Beast~NULL~5~4~NULL~NULL~NULL
+GVG_090~Madder Bomber~5~Minion~Rare~Goblins vs Gnomes~NULL~NULL~5~4~NULL~NULL~NULL
+GVG_021~Mal'Ganis~9~Minion~Legendary~Goblins vs Gnomes~Demon~Warlock~9~7~NULL~NULL~NULL
+GVG_035~Malorne~7~Minion~Legendary~Goblins vs Gnomes~Beast~Druid~9~7~NULL~NULL~NULL
+GVG_034~Mech-Bear-Cat~6~Minion~Rare~Goblins vs Gnomes~Mech~Druid~7~6~NULL~NULL~NULL
+GVG_078~Mechanical Yeti~4~Minion~Common~Goblins vs Gnomes~Mech~NULL~4~5~NULL~NULL~NULL
+GVG_006~Mechwarper~2~Minion~Common~Goblins vs Gnomes~Mech~NULL~2~3~NULL~NULL~NULL
+GVG_116~Mekgineer Thermaplugg~9~Minion~Legendary~Goblins vs Gnomes~Mech~NULL~9~7~NULL~NULL~NULL
+GVG_048~Metaltooth Leaper~3~Minion~Rare~Goblins vs Gnomes~Mech~Hunter~3~3~NULL~NULL~NULL
+GVG_103~Micro Machine~2~Minion~Common~Goblins vs Gnomes~Mech~NULL~1~2~NULL~NULL~NULL
+GVG_111~Mimiron's Head~5~Minion~Legendary~Goblins vs Gnomes~Mech~NULL~4~5~NULL~NULL~NULL
+GVG_109~Mini-Mage~4~Minion~Epic~Goblins vs Gnomes~NULL~NULL~4~1~NULL~NULL~NULL
+GVG_018~Mistress of Pain~2~Minion~Rare~Goblins vs Gnomes~Demon~Warlock~1~4~NULL~NULL~NULL
+GVG_112~Mogor the Ogre~6~Minion~Legendary~Goblins vs Gnomes~NULL~NULL~7~6~NULL~NULL~NULL
+GVG_061~Muster for Battle~3~Spell~Rare~Goblins vs Gnomes~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+GVG_042~Neptulon~7~Minion~Legendary~Goblins vs Gnomes~NULL~Shaman~7~7~NULL~NULL~NULL
+GVG_065~Ogre Brute~3~Minion~Common~Goblins vs Gnomes~NULL~NULL~4~4~NULL~NULL~NULL
+GVG_088~Ogre Ninja~5~Minion~Rare~Goblins vs Gnomes~NULL~Rogue~6~6~NULL~NULL~NULL
+GVG_054~Ogre Warmaul~3~Weapon~Common~Goblins vs Gnomes~NULL~Warrior~4~NULL~2~NULL~NULL
+GVG_025~One-eyed Cheat~2~Minion~Rare~Goblins vs Gnomes~Pirate~Rogue~4~1~NULL~NULL~NULL
+GVG_096~Piloted Shredder~4~Minion~Common~Goblins vs Gnomes~Mech~NULL~4~3~NULL~NULL~NULL
+GVG_105~Piloted Sky Golem~6~Minion~Epic~Goblins vs Gnomes~Mech~NULL~6~4~NULL~NULL~NULL
+GVG_036~Powermace~3~Weapon~Rare~Goblins vs Gnomes~NULL~Shaman~3~NULL~2~NULL~NULL
+GVG_064~Puddlestomper~2~Minion~Common~Goblins vs Gnomes~Murloc~NULL~3~2~NULL~NULL~NULL
+GVG_060~Quartermaster~5~Minion~Epic~Goblins vs Gnomes~NULL~Paladin~2~5~NULL~NULL~NULL
+GVG_108~Recombobulator~2~Minion~Epic~Goblins vs Gnomes~NULL~NULL~3~2~NULL~NULL~NULL
+GVG_031~Recycle~6~Spell~Rare~Goblins vs Gnomes~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+GVG_047~Sabotage~4~Spell~Epic~Goblins vs Gnomes~NULL~Rogue~NULL~NULL~NULL~NULL~NULL
+GVG_070~Salty Dog~5~Minion~Common~Goblins vs Gnomes~Pirate~NULL~7~4~NULL~NULL~NULL
+GVG_101~Scarlet Purifier~3~Minion~Rare~Goblins vs Gnomes~NULL~Paladin~4~3~NULL~NULL~NULL
+GVG_055~Screwjank Clunker~4~Minion~Rare~Goblins vs Gnomes~Mech~Warrior~2~5~NULL~NULL~NULL
+GVG_057~Seal of Light~2~Spell~Common~Goblins vs Gnomes~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+GVG_009~Shadowbomber~1~Minion~Epic~Goblins vs Gnomes~NULL~Priest~2~1~NULL~NULL~NULL
+GVG_072~Shadowboxer~2~Minion~Rare~Goblins vs Gnomes~Mech~Priest~2~3~NULL~NULL~NULL
+GVG_058~Shielded Minibot~2~Minion~Common~Goblins vs Gnomes~Mech~Paladin~2~2~NULL~NULL~NULL
+GVG_053~Shieldmaiden~6~Minion~Rare~Goblins vs Gnomes~NULL~Warrior~5~5~NULL~NULL~NULL
+GVG_075~Ship's Cannon~2~Minion~Common~Goblins vs Gnomes~NULL~NULL~2~3~NULL~NULL~NULL
+GVG_011~Shrinkmeister~2~Minion~Common~Goblins vs Gnomes~NULL~Priest~3~2~NULL~NULL~NULL
+GVG_086~Siege Engine~5~Minion~Rare~Goblins vs Gnomes~Mech~Warrior~5~5~NULL~NULL~NULL
+GVG_040~Siltfin Spiritwalker~4~Minion~Epic~Goblins vs Gnomes~Murloc~Shaman~2~5~NULL~NULL~NULL
+GVG_114~Sneed's Old Shredder~8~Minion~Legendary~Goblins vs Gnomes~Mech~NULL~5~7~NULL~NULL~NULL
+GVG_002~Snowchugger~2~Minion~Common~Goblins vs Gnomes~Mech~Mage~2~3~NULL~NULL~NULL
+GVG_123~Soot Spewer~3~Minion~Rare~Goblins vs Gnomes~Mech~Mage~3~3~NULL~NULL~NULL
+GVG_044~Spider Tank~3~Minion~Common~Goblins vs Gnomes~Mech~NULL~3~4~NULL~NULL~NULL
+GVG_087~Steamwheedle Sniper~2~Minion~Epic~Goblins vs Gnomes~NULL~Hunter~2~3~NULL~NULL~NULL
+GVG_067~Stonesplinter Trogg~2~Minion~Common~Goblins vs Gnomes~NULL~NULL~2~3~NULL~NULL~NULL
+GVG_093~Target Dummy~0~Minion~Rare~Goblins vs Gnomes~Mech~NULL~0~2~NULL~NULL~NULL
+GVG_022~Tinker's Sharpsword Oil~4~Spell~Common~Goblins vs Gnomes~NULL~Rogue~NULL~NULL~NULL~NULL~NULL
+GVG_102~Tinkertown Technician~3~Minion~Common~Goblins vs Gnomes~NULL~NULL~3~3~NULL~NULL~NULL
+GVG_115~Toshley~6~Minion~Legendary~Goblins vs Gnomes~NULL~NULL~5~7~NULL~NULL~NULL
+GVG_028~Trade Prince Gallywix~6~Minion~Legendary~Goblins vs Gnomes~NULL~Rogue~5~8~NULL~NULL~NULL
+GVG_033~Tree of Life~9~Spell~Epic~Goblins vs Gnomes~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+GVG_118~Troggzor the Earthinator~7~Minion~Legendary~Goblins vs Gnomes~NULL~NULL~6~6~NULL~NULL~NULL
+GVG_003~Unstable Portal~2~Spell~Rare~Goblins vs Gnomes~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+GVG_083~Upgraded Repair Bot~5~Minion~Rare~Goblins vs Gnomes~Mech~Priest~5~5~NULL~NULL~NULL
+GVG_010~Velen's Chosen~3~Spell~Common~Goblins vs Gnomes~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+GVG_039~Vitality Totem~2~Minion~Rare~Goblins vs Gnomes~Totem~Shaman~0~3~NULL~NULL~NULL
+GVG_014~Vol'jin~5~Minion~Legendary~Goblins vs Gnomes~NULL~Priest~6~2~NULL~NULL~NULL
+GVG_051~Warbot~1~Minion~Common~Goblins vs Gnomes~Mech~Warrior~1~3~NULL~NULL~NULL
+GVG_122~Wee Spellstopper~4~Minion~Epic~Goblins vs Gnomes~NULL~Mage~2~5~NULL~NULL~NULL
+GVG_037~Whirling Zap-o-matic~2~Minion~Common~Goblins vs Gnomes~Mech~Shaman~3~2~NULL~NULL~NULL
+LOE_110~Ancient Shade~4~Minion~Rare~League of Explorers~NULL~NULL~7~4~NULL~NULL~NULL
+LOE_119~Animated Armor~4~Minion~Rare~League of Explorers~NULL~Mage~4~4~NULL~NULL~NULL
+LOE_061~Anubisath Sentinel~5~Minion~Common~League of Explorers~NULL~NULL~4~4~NULL~NULL~NULL
+LOE_026~Anyfin Can Happen~10~Spell~Rare~League of Explorers~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+LOE_092~Arch-Thief Rafaam~9~Minion~Legendary~League of Explorers~NULL~NULL~7~8~NULL~NULL~NULL
+LOE_077~Brann Bronzebeard~3~Minion~Legendary~League of Explorers~NULL~NULL~2~4~NULL~NULL~NULL
+LOE_007~Curse of Rafaam~2~Spell~Common~League of Explorers~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+LOE_118~Cursed Blade~1~Weapon~Rare~League of Explorers~NULL~Warrior~2~NULL~3~NULL~NULL
+LOE_023~Dark Peddler~2~Minion~Common~League of Explorers~NULL~Warlock~2~2~NULL~NULL~NULL
+LOE_021~Dart Trap~2~Spell~Common~League of Explorers~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+LOE_020~Desert Camel~3~Minion~Common~League of Explorers~Beast~Hunter~2~4~NULL~NULL~NULL
+LOE_053~Djinni of Zephyrs~5~Minion~Epic~League of Explorers~NULL~NULL~4~6~NULL~NULL~NULL
+LOE_107~Eerie Statue~4~Minion~Rare~League of Explorers~NULL~NULL~7~7~NULL~NULL~NULL
+LOE_079~Elise Starseeker~4~Minion~Legendary~League of Explorers~NULL~NULL~3~5~NULL~NULL~NULL
+LOE_104~Entomb~6~Spell~Common~League of Explorers~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+LOE_003~Ethereal Conjurer~5~Minion~Common~League of Explorers~NULL~Mage~6~3~NULL~NULL~NULL
+LOE_113~Everyfin is Awesome~7~Spell~Rare~League of Explorers~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+LOE_111~Excavated Evil~5~Spell~Rare~League of Explorers~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+LOE_105~Explorer's Hat~2~Spell~Rare~League of Explorers~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+LOE_022~Fierce Monkey~3~Minion~Common~League of Explorers~Beast~Warrior~3~4~NULL~NULL~NULL
+LOE_002~Forgotten Torch~3~Spell~Common~League of Explorers~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+LOE_073~Fossilized Devilsaur~8~Minion~Common~League of Explorers~NULL~NULL~8~8~NULL~NULL~NULL
+LOE_039~Gorillabot A-3~4~Minion~Common~League of Explorers~Mech~NULL~3~4~NULL~NULL~NULL
+LOE_046~Huge Toad~2~Minion~Common~League of Explorers~Beast~NULL~3~2~NULL~NULL~NULL
+LOE_029~Jeweled Scarab~2~Minion~Common~League of Explorers~Beast~NULL~1~1~NULL~NULL~NULL
+LOE_051~Jungle Moonkin~4~Minion~Rare~League of Explorers~Beast~Druid~4~4~NULL~NULL~NULL
+LOE_017~Keeper of Uldaman~4~Minion~Common~League of Explorers~NULL~Paladin~3~4~NULL~NULL~NULL
+LOE_050~Mounted Raptor~3~Minion~Common~League of Explorers~Beast~Druid~3~2~NULL~NULL~NULL
+LOEA10_3~Murloc Tinyfin~0~Minion~Common~League of Explorers~Murloc~NULL~1~1~NULL~NULL~NULL
+LOE_006~Museum Curator~2~Minion~Common~League of Explorers~NULL~Priest~1~2~NULL~NULL~NULL
+LOE_038~Naga Sea Witch~5~Minion~Epic~League of Explorers~NULL~NULL~5~5~NULL~NULL~NULL
+LOE_009~Obsidian Destroyer~7~Minion~Common~League of Explorers~NULL~Warrior~7~7~NULL~NULL~NULL
+LOE_010~Pit Snake~1~Minion~Common~League of Explorers~Beast~Rogue~2~1~NULL~NULL~NULL
+LOE_115~Raven Idol~1~Spell~Common~League of Explorers~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+LOE_116~Reliquary Seeker~1~Minion~Rare~League of Explorers~NULL~Warlock~1~1~NULL~NULL~NULL
+LOE_011~Reno Jackson~6~Minion~Legendary~League of Explorers~NULL~NULL~4~6~NULL~NULL~NULL
+LOE_016~Rumbling Elemental~4~Minion~Common~League of Explorers~NULL~Shaman~2~6~NULL~NULL~NULL
+LOE_027~Sacred Trial~1~Spell~Common~League of Explorers~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+LOE_076~Sir Finley Mrrgglton~1~Minion~Legendary~League of Explorers~Murloc~NULL~1~3~NULL~NULL~NULL
+LOE_086~Summoning Stone~5~Minion~Rare~League of Explorers~NULL~NULL~0~6~NULL~NULL~NULL
+LOE_012~Tomb Pillager~4~Minion~Common~League of Explorers~NULL~Rogue~5~4~NULL~NULL~NULL
+LOE_047~Tomb Spider~4~Minion~Common~League of Explorers~Beast~NULL~3~3~NULL~NULL~NULL
+LOE_018~Tunnel Trogg~1~Minion~Common~League of Explorers~NULL~Shaman~1~3~NULL~NULL~NULL
+LOE_019~Unearthed Raptor~3~Minion~Rare~League of Explorers~NULL~Rogue~3~4~NULL~NULL~NULL
+LOE_089~Wobbling Runts~6~Minion~Rare~League of Explorers~NULL~NULL~2~6~NULL~NULL~NULL
+PRO_001~Elite Tauren Chieftain~5~Minion~Legendary~Classic~NULL~NULL~5~5~NULL~NULL~Awarded at BlizzCon 2013.
+EX1_112~Gelbin Mekkatorque~6~Minion~Legendary~Classic~NULL~NULL~6~6~NULL~NULL~This was rewarded to players who helped test the Store during the Beta.
+NEW1_016~Captain's Parrot~2~Minion~Epic~Classic~Beast~NULL~1~1~NULL~Unlocked when you have all the Pirates from the Classic Set.~Unlocked when you have all the Golden Pirates from the Expert Set.
+EX1_062~Old Murk-Eye~4~Minion~Legendary~Classic~Murloc~NULL~2~4~NULL~Unlocked when you have all the Murlocs from the Classic Set.~Unlocked when you have all the Golden Murlocs from the Expert and Basic Sets.
+AT_063~Acidmaw~7~Minion~Legendary~The Grand Tournament~Beast~Hunter~4~2~NULL~NULL~NULL
+AT_071~Alexstrasza's Champion~2~Minion~Rare~The Grand Tournament~NULL~Warrior~2~3~NULL~NULL~NULL
+AT_053~Ancestral Knowledge~2~Spell~Common~The Grand Tournament~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+AT_036~Anub'arak~9~Minion~Legendary~The Grand Tournament~NULL~Rogue~8~4~NULL~NULL~NULL
+AT_004~Arcane Blast~1~Spell~Epic~The Grand Tournament~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+AT_087~Argent Horserider~3~Minion~Common~The Grand Tournament~NULL~NULL~2~1~NULL~NULL~NULL
+AT_077~Argent Lance~2~Weapon~Rare~The Grand Tournament~NULL~Paladin~2~NULL~2~NULL~NULL
+AT_109~Argent Watchman~2~Minion~Rare~The Grand Tournament~NULL~NULL~2~4~NULL~NULL~NULL
+AT_108~Armored Warhorse~4~Minion~Rare~The Grand Tournament~Beast~NULL~5~3~NULL~NULL~NULL
+AT_043~Astral Communion~4~Spell~Epic~The Grand Tournament~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+AT_045~Aviana~9~Minion~Legendary~The Grand Tournament~NULL~Druid~5~5~NULL~NULL~NULL
+AT_062~Ball of Spiders~6~Spell~Rare~The Grand Tournament~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+AT_064~Bash~3~Spell~Common~The Grand Tournament~NULL~Warrior~NULL~NULL~NULL~NULL~NULL
+AT_060~Bear Trap~2~Spell~Common~The Grand Tournament~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+AT_035~Beneath the Grounds~3~Spell~Epic~The Grand Tournament~NULL~Rogue~NULL~NULL~NULL~NULL~NULL
+AT_124~Bolf Ramshield~6~Minion~Legendary~The Grand Tournament~NULL~NULL~3~9~NULL~NULL~NULL
+AT_068~Bolster~2~Spell~Common~The Grand Tournament~NULL~Warrior~NULL~NULL~NULL~NULL~NULL
+AT_089~Boneguard Lieutenant~2~Minion~Common~The Grand Tournament~NULL~NULL~3~2~NULL~NULL~NULL
+AT_059~Brave Archer~1~Minion~Common~The Grand Tournament~NULL~Hunter~2~1~NULL~NULL~NULL
+AT_029~Buccaneer~1~Minion~Common~The Grand Tournament~Pirate~Rogue~2~1~NULL~NULL~NULL
+AT_033~Burgle~3~Spell~Rare~The Grand Tournament~NULL~Rogue~NULL~NULL~NULL~NULL~NULL
+AT_102~Captured Jormungar~7~Minion~Common~The Grand Tournament~Beast~NULL~5~9~NULL~NULL~NULL
+AT_050~Charged Hammer~4~Weapon~Epic~The Grand Tournament~NULL~Shaman~2~NULL~4~NULL~NULL
+AT_123~Chillmaw~7~Minion~Legendary~The Grand Tournament~Dragon~NULL~6~6~NULL~NULL~NULL
+AT_096~Clockwork Knight~5~Minion~Common~The Grand Tournament~Mech~NULL~5~5~NULL~NULL~NULL
+AT_008~Coldarra Drake~6~Minion~Epic~The Grand Tournament~Dragon~Mage~6~6~NULL~NULL~NULL
+AT_110~Coliseum Manager~3~Minion~Rare~The Grand Tournament~NULL~NULL~2~5~NULL~NULL~NULL
+AT_073~Competitive Spirit~1~Spell~Rare~The Grand Tournament~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+AT_018~Confessor Paletress~7~Minion~Legendary~The Grand Tournament~NULL~Priest~5~4~NULL~NULL~NULL
+AT_016~Confuse~2~Spell~Epic~The Grand Tournament~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+AT_015~Convert~2~Spell~Rare~The Grand Tournament~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+AT_121~Crowd Favorite~4~Minion~Epic~The Grand Tournament~NULL~NULL~4~4~NULL~NULL~NULL
+AT_031~Cutpurse~2~Minion~Rare~The Grand Tournament~NULL~Rogue~2~2~NULL~NULL~NULL
+AT_006~Dalaran Aspirant~4~Minion~Common~The Grand Tournament~NULL~Mage~3~5~NULL~NULL~NULL
+AT_025~Dark Bargain~6~Spell~Epic~The Grand Tournament~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+AT_038~Darnassus Aspirant~2~Minion~Rare~The Grand Tournament~NULL~Druid~2~3~NULL~NULL~NULL
+AT_024~Demonfuse~2~Spell~Common~The Grand Tournament~Demon~Warlock~NULL~NULL~NULL~NULL~NULL
+AT_047~Draenei Totemcarver~4~Minion~Rare~The Grand Tournament~NULL~Shaman~4~4~NULL~NULL~NULL
+AT_083~Dragonhawk Rider~3~Minion~Common~The Grand Tournament~NULL~NULL~3~3~NULL~NULL~NULL
+AT_063t~Dreadscale~3~Minion~Legendary~The Grand Tournament~Beast~Hunter~4~2~NULL~NULL~NULL
+AT_019~Dreadsteed~4~Minion~Epic~The Grand Tournament~Demon~Warlock~1~1~NULL~NULL~NULL
+AT_042~Druid of the Saber~2~Minion~Common~The Grand Tournament~NULL~Druid~2~1~NULL~NULL~NULL
+AT_081~Eadric the Pure~7~Minion~Legendary~The Grand Tournament~NULL~Paladin~3~7~NULL~NULL~NULL
+AT_002~Effigy~3~Spell~Rare~The Grand Tournament~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+AT_051~Elemental Destruction~3~Spell~Epic~The Grand Tournament~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+AT_078~Enter the Coliseum~6~Spell~Epic~The Grand Tournament~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+AT_114~Evil Heckler~4~Minion~Common~The Grand Tournament~NULL~NULL~5~4~NULL~NULL~NULL
+AT_131~Eydis Darkbane~3~Minion~Legendary~The Grand Tournament~NULL~NULL~3~4~NULL~NULL~NULL
+AT_003~Fallen Hero~2~Minion~Rare~The Grand Tournament~NULL~Mage~3~2~NULL~NULL~NULL
+AT_020~Fearsome Doomguard~7~Minion~Common~The Grand Tournament~Demon~Warlock~6~8~NULL~NULL~NULL
+AT_115~Fencing Coach~3~Minion~Rare~The Grand Tournament~NULL~NULL~2~2~NULL~NULL~NULL
+AT_022~Fist of Jaraxxus~4~Spell~Rare~The Grand Tournament~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+AT_129~Fjola Lightbane~3~Minion~Legendary~The Grand Tournament~NULL~NULL~3~4~NULL~NULL~NULL
+AT_094~Flame Juggler~2~Minion~Common~The Grand Tournament~NULL~NULL~2~3~NULL~NULL~NULL
+AT_001~Flame Lance~5~Spell~Common~The Grand Tournament~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+AT_055~Flash Heal~1~Spell~Common~The Grand Tournament~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+AT_093~Frigid Snobold~4~Minion~Common~The Grand Tournament~NULL~NULL~2~6~NULL~NULL~NULL
+AT_120~Frost Giant~10~Minion~Epic~The Grand Tournament~NULL~NULL~8~8~NULL~NULL~NULL
+AT_133~Gadgetzan Jouster~1~Minion~Common~The Grand Tournament~NULL~NULL~1~2~NULL~NULL~NULL
+AT_080~Garrison Commander~2~Minion~Epic~The Grand Tournament~NULL~NULL~2~3~NULL~NULL~NULL
+AT_122~Gormok the Impaler~4~Minion~Legendary~The Grand Tournament~NULL~NULL~4~4~NULL~NULL~NULL
+AT_118~Grand Crusader~6~Minion~Epic~The Grand Tournament~NULL~NULL~5~5~NULL~NULL~NULL
+AT_048~Healing Wave~3~Spell~Rare~The Grand Tournament~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+AT_011~Holy Champion~4~Minion~Common~The Grand Tournament~NULL~Priest~3~5~NULL~NULL~NULL
+AT_092~Ice Rager~3~Minion~Common~The Grand Tournament~NULL~NULL~5~2~NULL~NULL~NULL
+AT_125~Icehowl~9~Minion~Legendary~The Grand Tournament~NULL~NULL~10~10~NULL~NULL~NULL
+AT_105~Injured Kvaldir~1~Minion~Rare~The Grand Tournament~NULL~NULL~2~4~NULL~NULL~NULL
+AT_132~Justicar Trueheart~6~Minion~Legendary~The Grand Tournament~NULL~NULL~6~3~NULL~NULL~NULL
+AT_065~King's Defender~3~Weapon~Rare~The Grand Tournament~NULL~Warrior~3~NULL~2~NULL~NULL
+AT_058~King's Elekk~2~Minion~Common~The Grand Tournament~Beast~Hunter~3~2~NULL~NULL~NULL
+AT_041~Knight of the Wild~7~Minion~Rare~The Grand Tournament~NULL~Druid~6~6~NULL~NULL~NULL
+AT_099~Kodorider~6~Minion~Epic~The Grand Tournament~NULL~NULL~3~5~NULL~NULL~NULL
+AT_119~Kvaldir Raider~5~Minion~Common~The Grand Tournament~NULL~NULL~4~4~NULL~NULL~NULL
+AT_084~Lance Carrier~2~Minion~Common~The Grand Tournament~NULL~NULL~1~2~NULL~NULL~NULL
+AT_106~Light's Champion~3~Minion~Rare~The Grand Tournament~NULL~NULL~4~3~NULL~NULL~NULL
+AT_037~Living Roots~1~Spell~Common~The Grand Tournament~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+AT_061~Lock and Load~2~Spell~Epic~The Grand Tournament~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+AT_082~Lowly Squire~1~Minion~Common~The Grand Tournament~NULL~NULL~1~2~NULL~NULL~NULL
+AT_067~Magnataur Alpha~4~Minion~Epic~The Grand Tournament~NULL~Warrior~5~3~NULL~NULL~NULL
+AT_085~Maiden of the Lake~4~Minion~Common~The Grand Tournament~NULL~NULL~2~6~NULL~NULL~NULL
+AT_112~Master Jouster~6~Minion~Rare~The Grand Tournament~NULL~NULL~5~6~NULL~NULL~NULL
+AT_117~Master of Ceremonies~3~Minion~Epic~The Grand Tournament~NULL~NULL~4~2~NULL~NULL~NULL
+AT_088~Mogor's Champion~6~Minion~Rare~The Grand Tournament~NULL~NULL~8~5~NULL~NULL~NULL
+AT_090~Mukla's Champion~5~Minion~Common~The Grand Tournament~Beast~NULL~4~3~NULL~NULL~NULL
+AT_044~Mulch~3~Spell~Epic~The Grand Tournament~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+AT_076~Murloc Knight~4~Minion~Common~The Grand Tournament~Murloc~Paladin~3~4~NULL~NULL~NULL
+AT_079~Mysterious Challenger~6~Minion~Epic~The Grand Tournament~NULL~Paladin~6~6~NULL~NULL~NULL
+AT_127~Nexus-Champion Saraad~5~Minion~Legendary~The Grand Tournament~NULL~NULL~4~5~NULL~NULL~NULL
+AT_103~North Sea Kraken~9~Minion~Common~The Grand Tournament~NULL~NULL~9~7~NULL~NULL~NULL
+AT_066~Orgrimmar Aspirant~3~Minion~Common~The Grand Tournament~NULL~Warrior~3~3~NULL~NULL~NULL
+AT_101~Pit Fighter~5~Minion~Common~The Grand Tournament~NULL~NULL~5~6~NULL~NULL~NULL
+AT_034~Poisoned Blade~4~Weapon~Epic~The Grand Tournament~NULL~Rogue~1~NULL~3~NULL~NULL
+AT_005~Polymorph: Boar~3~Spell~Rare~The Grand Tournament~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+AT_013~Power Word: Glory~1~Spell~Common~The Grand Tournament~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+AT_056~Powershot~3~Spell~Rare~The Grand Tournament~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+AT_010~Ram Wrangler~5~Minion~Rare~The Grand Tournament~NULL~Hunter~3~3~NULL~NULL~NULL
+AT_113~Recruiter~5~Minion~Epic~The Grand Tournament~NULL~NULL~5~4~NULL~NULL~NULL
+AT_111~Refreshment Vendor~4~Minion~Common~The Grand Tournament~NULL~NULL~3~5~NULL~NULL~NULL
+AT_009~Rhonin~8~Minion~Legendary~The Grand Tournament~NULL~Mage~7~7~NULL~NULL~NULL
+AT_086~Saboteur~3~Minion~Rare~The Grand Tournament~NULL~NULL~4~3~NULL~NULL~NULL
+AT_039~Savage Combatant~4~Minion~Rare~The Grand Tournament~Beast~Druid~5~4~NULL~NULL~NULL
+AT_130~Sea Reaver~6~Minion~Epic~The Grand Tournament~NULL~Warrior~6~7~NULL~NULL~NULL
+AT_074~Seal of Champions~3~Spell~Common~The Grand Tournament~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+AT_028~Shado-Pan Rider~5~Minion~Common~The Grand Tournament~NULL~Rogue~3~7~NULL~NULL~NULL
+AT_014~Shadowfiend~3~Minion~Epic~The Grand Tournament~NULL~Priest~3~3~NULL~NULL~NULL
+AT_032~Shady Dealer~3~Minion~Rare~The Grand Tournament~NULL~Rogue~4~3~NULL~NULL~NULL
+AT_098~Sideshow Spelleater~6~Minion~Epic~The Grand Tournament~NULL~NULL~6~5~NULL~NULL~NULL
+AT_095~Silent Knight~3~Minion~Common~The Grand Tournament~NULL~NULL~2~2~NULL~NULL~NULL
+AT_100~Silver Hand Regent~3~Minion~Common~The Grand Tournament~NULL~NULL~3~3~NULL~NULL~NULL
+AT_070~Skycap'n Kragg~7~Minion~Legendary~The Grand Tournament~Pirate~NULL~4~6~NULL~NULL~NULL
+AT_069~Sparring Partner~2~Minion~Rare~The Grand Tournament~NULL~Warrior~3~2~NULL~NULL~NULL
+AT_012~Spawn of Shadows~4~Minion~Rare~The Grand Tournament~NULL~Priest~5~4~NULL~NULL~NULL
+AT_007~Spellslinger~3~Minion~Common~The Grand Tournament~NULL~Mage~3~4~NULL~NULL~NULL
+AT_057~Stablemaster~3~Minion~Epic~The Grand Tournament~NULL~Hunter~4~2~NULL~NULL~NULL
+AT_054~The Mistcaller~6~Minion~Legendary~The Grand Tournament~NULL~Shaman~4~4~NULL~NULL~NULL
+AT_128~The Skeleton Knight~6~Minion~Legendary~The Grand Tournament~NULL~NULL~7~4~NULL~NULL~NULL
+AT_049~Thunder Bluff Valiant~5~Minion~Rare~The Grand Tournament~NULL~Shaman~3~6~NULL~NULL~NULL
+AT_021~Tiny Knight of Evil~2~Minion~Rare~The Grand Tournament~Demon~Warlock~3~2~NULL~NULL~NULL
+AT_052~Totem Golem~2~Minion~Common~The Grand Tournament~Totem~Shaman~3~4~NULL~NULL~NULL
+AT_097~Tournament Attendee~1~Minion~Common~The Grand Tournament~NULL~NULL~2~1~NULL~NULL~NULL
+AT_091~Tournament Medic~4~Minion~Common~The Grand Tournament~NULL~NULL~1~8~NULL~NULL~NULL
+AT_104~Tuskarr Jouster~5~Minion~Rare~The Grand Tournament~NULL~Paladin~5~5~NULL~NULL~NULL
+AT_046~Tuskarr Totemic~3~Minion~Common~The Grand Tournament~NULL~Shaman~3~2~NULL~NULL~NULL
+AT_017~Twilight Guardian~4~Minion~Epic~The Grand Tournament~Dragon~NULL~2~6~NULL~NULL~NULL
+AT_030~Undercity Valiant~2~Minion~Common~The Grand Tournament~NULL~Rogue~3~2~NULL~NULL~NULL
+AT_072~Varian Wrynn~10~Minion~Legendary~The Grand Tournament~NULL~Warrior~7~7~NULL~NULL~NULL
+AT_023~Void Crusher~6~Minion~Rare~The Grand Tournament~Demon~Warlock~5~4~NULL~NULL~NULL
+AT_075~Warhorse Trainer~3~Minion~Common~The Grand Tournament~NULL~Paladin~2~4~NULL~NULL~NULL
+AT_040~Wildwalker~4~Minion~Common~The Grand Tournament~NULL~Druid~4~4~NULL~NULL~NULL
+AT_027~Wilfred Fizzlebang~6~Minion~Legendary~The Grand Tournament~NULL~Warlock~4~4~NULL~NULL~NULL
+AT_026~Wrathguard~2~Minion~Common~The Grand Tournament~Demon~Warlock~4~3~NULL~NULL~NULL
+AT_116~Wyrmrest Agent~2~Minion~Rare~The Grand Tournament~NULL~Priest~1~4~NULL~NULL~NULL

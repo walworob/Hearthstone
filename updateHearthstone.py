@@ -3,7 +3,7 @@ from helper import *
 
 cardsTXT = open("cards.txt", "r")
 for line in cardsTXT:
-  list = line.split("\t")
+  list = line.split("~")
   id = list[0]
   info = {"name": list[1], "mana": list[2], "type": list[3], "rarity": list[4], "expansion": list[5], "race": list[6], "class": list[7], "attack": list[8], "health": list[9], "durability": list[10], "howToGet": list[11], "howToGetGold": list[12]}
   cards[id] = info
@@ -11,22 +11,22 @@ cardsTXT.close()
 
 decksTXT = open("decks.txt", "r")
 for line in decksTXT:
-  list = line.split("\t")
+  list = line.split("~")
   id = list[0]
-  info = {"name": list[1], "class": list[2], "reachableRanks": list[3], "cost": list[4], "lastUpdated": list[5]}
+  info = {"name": list[1], "class": list[2], "type": list[3], "reachableRanks": list[4], "cost": int(list[5]), "lastUpdated": list[6]}
   decks[id] = info
 decksTXT.close()
 
 containTXT = open("contain.txt", "r")
 for line in containTXT:
-  list = line.split("\t")
-  id = list[0] + "," + list[1]
-  contain[id] = list[2]
+  list = line.split("~")
+  id = list[0]
+  contain[id] = int(list[1])
 containTXT.close()
 
 possessTXT = open("possess.txt", "r")
 for line in possessTXT:
-  list = line.split("\t")
+  list = line.split("~")
   possess[list[0]] = int(list[1])
 possessTXT.close()
 
@@ -52,18 +52,19 @@ while command != "exit":
 
     # Find how many of that card the user owns and add it if the user doesn't own it
     try:
-      number = int(possess[id])
-    except:
-      possess[id] = "1"
+      number = possess[id]
 
-    if number == 1:
-      possess[id] = "2"
-    elif number == 2:
-      print "error: You already have two of that card"
-      continue
-    else:
-      print "Unspecified error"
-      continue
+      if number == 1:
+        possess[id] = 2
+      elif number == 2:
+        print "error: You already have two of that card"
+        continue
+      else:
+        print "Unspecified error"
+        continue
+        
+    except:
+      possess[id] = 2
 
     # Commit
     savePossess()
@@ -82,16 +83,16 @@ while command != "exit":
 
     # Find how many of that card the user owns
     try:
-      number = int(possess[id])
+      number = possess[id]
     except:
       print "error: You do not own that card"
       continue
 
     # Update database based on amount
     if number == 1:
-      possess[id] = "0"
+      possess.pop(id, 0)
     elif number == 2:
-      possess[id] = "1"
+      possess[id] = 1
     else:
       print "Unspecified error"
       continue
@@ -106,10 +107,18 @@ while command != "exit":
 
     name = command[8:]
     Class = raw_input("Class: ")
+    if Class not in CLASS_LIST:
+	  print "error: Not a valid class"
+	  continue
+    type = raw_input("Type: ")
     reachableRanks = raw_input("Reachable ranks: ")
+    if reachableRanks == "":
+	  reachableRanks == "NULL"
+    last_Updated = raw_input("Last updated:")
 
     deckID = getNewDeckID()
-    info = {"name": name, "class": Class, "reachableRanks": reachableRanks, "cost": "0", "lastUpdated": datetime.today().strftime("%Y/%m/%d")}
+    info = {"name": name, "class": Class, "type": type, "reachableRanks": reachableRanks, "cost": 0, "lastUpdated": last_Updated}
+    decks[deckID] = info;
 
     print "--- >>> <number of cards> <card name>"
     numCards = 0
@@ -190,29 +199,29 @@ while command != "exit":
 
       # Get count of all cards
       results = {
-        "Common": 0,
-        "Rare": 0,
-        "Epic": 0,
-        "Legendary": 0
+        "Common": 0.0,
+        "Rare": 0.0,
+        "Epic": 0.0,
+        "Legendary": 0.0
       }
       amounts = {
-        "Common": 0,
-        "Rare": 0,
-        "Epic": 0,
-        "Legendary": 0
+        "Common": 0.0,
+        "Rare": 0.0,
+        "Epic": 0.0,
+        "Legendary": 0.0
       }
       for id in cards:
         if cards[id]["expansion"] == curExp and cards[id]["rarity"] != "Basic":
-          results[cards[id]["rarity"]] += 1
+          results[cards[id]["rarity"]] += 2
           try:
             amounts[cards[id]["rarity"]] += possess[id]
           except:
             continue
 
-      all["Common"] = 2 * results["Common"]
-      all["Rare"] = 2 * results["Rare"]
-      all["Epic"] = 2 * results["Epic"]
-      all["Legendary"] = results["Legendary"]
+      all["Common"] = results["Common"]
+      all["Rare"] = results["Rare"]
+      all["Epic"] = results["Epic"]
+      all["Legendary"] = results["Legendary"] / 2
       miss["Common"] = all["Common"] - amounts["Common"]
       miss["Rare"] = all["Rare"] - amounts["Rare"]
       miss["Epic"] = all["Epic"] - amounts["Epic"]
@@ -224,7 +233,6 @@ while command != "exit":
         total += val
 
       print curExp + ": " + str(total * 5)
-      print ""
 
 
   # Find out decks the user can make
