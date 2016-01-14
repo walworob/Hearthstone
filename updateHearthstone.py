@@ -11,6 +11,8 @@ cardsTXT.close()
 
 decksTXT = open("decks.txt", "r")
 for line in decksTXT:
+  if line == "\n":
+    continue
   list = line.split("~")
   id = list[0]
   info = {"name": list[1], "class": list[2], "type": list[3], "reachableRanks": list[4], "cost": int(list[5]), "lastUpdated": list[6]}
@@ -247,8 +249,6 @@ while command != "exit":
         deck.append(decks[id]["cost"])
         deck.append(decks[id]["lastUpdated"])
         deckList.append(deck)
-
-      sortDecks(deckList)
 
     else:
       cursor.execute("SELECT * FROM Decks WHERE class=%s ORDER BY last_updated DESC", command[8:])

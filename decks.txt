@@ -1,22 +1,62 @@
-20~Cheap Lord Victor Nefarius / Nefarian Deck (Heroic Mode)~Druid~solo~NULL~0~2015/04/23
-21~Legendary Chromaggus Deck (Heroic Mode)~Druid~solo~NULL~0~2015/04/23
-22~Mid-budget High Justice Grimstone Deck (Heroic Mode)~Druid~solo~NULL~0~2015/04/02
-1~Legendary Sottle's Fast~Druid~meta~Legend~0~2016/01/10
-3~Legendary Fast~Druid~meta~Legend~0~2015/11/11
-2~Legendary Aggro/Rush~Druid~meta~Legend~0~2015/11/20
-5~Fatigue~Druid~unique~5~0~2015/11/06
-4~Legendary Ramp~Druid~meta~Legend~0~2015/11/04
-7~Token Hobgoblin~Druid~unique~3-1~0~2015/11/06
-6~Legendary Dragon Ramp~Druid~unique~3-Legend~0~2015/11/06
-9~Legendary Mech Aggro/Rush~Druid~unique~Legend~0~2015/10/21
-8~Legendary Token~Druid~unique~3-Legend~0~2015/11/05
-11~Cheap~Druid~budget~15-12~0~2015/12/16
-10~Beast Midrange~Druid~unique~3-1~0~2015/09/30
-13~Mid Budget Aggro/Rush~Druid~budget~Legend~0~2015/11/05
-12~Mid Budget Fast~Druid~budget~3-Legend~0~2015/11/05
-15~Cheap Rafaam Unleashed Deck (Heroic Mode)~Druid~solo~NULL~0~2015/12/10
-14~Mid Budget Ramp~Druid~budget~5~0~2015/11/05
-17~Cheap Archaedas Token Deck (Heroic Mode)~Druid~solo~NULL~0~2015/11/19
-16~Cheap Lady Naz'jar Deck (Heroic Mode)~Druid~solo~NULL~0~2015/12/04
-19~Vaelastrasz the Corrupt Deck (Heroic Mode)~Druid~solo~NULL~0~2015/04/23
-18~Cheap Temple Escape Deck (Heroic Mode)~Druid~solo~NULL~0~2015/11/12
+24~Legendary Sottle's Midrange~Hunter~meta~Legend~4120~2015/11/11
+
+25~Face Aggro/Rush~Hunter~meta~Legend~1460~2015/10/28
+
+26~Face Aggro/Rush Anti-Aggro~Hunter~meta~Legend~1100~2015/10/28
+
+27~Hybrid~Hunter~meta~Legend~1120~2015/05/19
+
+20~Cheap Lord Victor Nefarius / Nefarian Deck (Heroic Mode)~Druid~solo~NULL~1540~2015/04/23
+
+21~Legendary Chromaggus Deck (Heroic Mode)~Druid~solo~NULL~8440~2015/04/23
+
+22~Mid-budget High Justice Grimstone Deck (Heroic Mode)~Druid~solo~NULL~4880~2015/04/02
+
+23~Legendary Midrange~Hunter~meta~Legend~2520~2015/11/11
+
+28~Legendary Control~Hunter~unique~5-3~9980~2015/11/06
+
+29~Legendary Beast Midrange~Hunter~unique~Legend~1480~2015/09/16
+
+1~Legendary Sottle's Fast~Druid~meta~Legend~5820~2016/01/10
+
+3~Legendary Fast~Druid~meta~Legend~4840~2015/11/11
+
+2~Legendary Aggro/Rush~Druid~meta~Legend~4200~2015/11/20
+
+5~Fatigue~Druid~unique~5~2560~2015/11/06
+
+4~Legendary Ramp~Druid~meta~Legend~5800~2015/11/04
+
+7~Token Hobgoblin~Druid~unique~3-1~2540~2015/11/06
+
+6~Legendary Dragon Ramp~Druid~unique~3-Legend~5100~2015/11/06
+
+9~Legendary Mech Aggro/Rush~Druid~unique~Legend~4160~2015/10/21
+
+8~Legendary Token~Druid~unique~3-Legend~4000~2015/11/05
+
+11~Cheap~Druid~budget~15-12~1000~2015/12/16
+
+10~Beast Midrange~Druid~unique~3-1~3740~2015/09/30
+
+13~Mid Budget Aggro/Rush~Druid~budget~Legend~2440~2015/11/05
+
+12~Mid Budget Fast~Druid~budget~3-Legend~2640~2015/11/05
+
+15~Cheap Rafaam Unleashed Deck (Heroic Mode)~Druid~solo~NULL~4200~2015/12/10
+
+14~Mid Budget Ramp~Druid~budget~5~2800~2015/11/05
+
+17~Cheap Archaedas Token Deck (Heroic Mode)~Druid~solo~NULL~2280~2015/11/19
+
+16~Cheap Lady Naz'jar Deck (Heroic Mode)~Druid~solo~NULL~1920~2015/12/04
+
+19~Vaelastrasz the Corrupt Deck (Heroic Mode)~Druid~solo~NULL~1600~2015/04/23
+
+18~Cheap Temple Escape Deck (Heroic Mode)~Druid~solo~NULL~2880~2015/11/12
+
+31~Cheap Rend Blackhand Deck (Heroic Mode)~Hunter~solo~~980~2015/04/16
+30~Cheap Vaelastrasz the Corrupt Deck (Heroic Mode)~Hunter~solo~~1040~2015/04/24
+
+32~Low-budget Ragnaros/Executus Deck (Heroic Mode)~Hunter~solo~~3080~2015/04/10

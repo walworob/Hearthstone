@@ -17,7 +17,7 @@ def saveCards():
 def saveDecks():
   decksTXT = open("decks.txt", "w")
   for id in decks:
-    decksTXT.write(id + "~" + decks[id]["name"] + "~" + decks[id]["class"] + "~" + decks[id]["type"] + "~" + decks[id]["reachableRanks"] + "~" + str(decks[id]["cost"]) + "~" + decks[id]["lastUpdated"] + "\n")
+    decksTXT.write(id + "~" + decks[id]["name"] + "~" + decks[id]["class"] + "~" + decks[id]["type"] + "~" + decks[id]["reachableRanks"] + "~" + str(decks[id]["cost"]) + "~" + decks[id]["lastUpdated"] + '\n')
   decksTXT.close()
   
 def saveContain():
@@ -33,6 +33,8 @@ def savePossess():
     possessTXT.write(id + "~" + str(possess[id]) + "\n")
   possessTXT.close()
 
+  
+  
 def validCard(name):
   for id in cards:
     if cards[id]["name"] == name:
@@ -41,9 +43,13 @@ def validCard(name):
   print "error: Not a valid card"
   return None
 
+  
+  
 def getAmount(card):
   return card["amount"]        
 
+  
+  
 def getNewDeckID():
   highestID = 0
   for id in decks:
@@ -52,6 +58,8 @@ def getNewDeckID():
       
   return str(highestID + 1)
 
+  
+  
 def getDeck(deckName):
 
   # Get decks with that name
@@ -71,7 +79,7 @@ def getDeck(deckName):
   else:
     deleteDeck = ""
     
-    if len(decks) > 1:
+    if len(deckList) > 1:
       
       print "\nWhich deck is correct?"
       deckCount = 1
@@ -96,7 +104,9 @@ def getDeck(deckName):
       deleteDeck = deckList[0]
       
   return deleteDeck[0]
-  
+
+
+
 def canInsertCard(cardID, deckID):
 
   # Check the deck size
@@ -134,13 +144,15 @@ def canInsertCard(cardID, deckID):
     contain[cardID + "," + deckID] = 1
     
   return True
-  
+
+
+
 def updateCost(deckID):
 
   cardSet = []
   for id in contain:
     deckid = id.split(",")[1]
-    if deckid == id:
+    if deckid == deckID:
       card = []
       cardID = id.split(",")[0]
       card.append(cardID)
@@ -167,3 +179,85 @@ def updateCost(deckID):
         cost += (1600 * amount)
   
   decks[deckID]["cost"] = cost
+
+
+
+# These functions will measure if deckA is higher than deckB and return true or false
+# Ties go to deckA
+def higherType(deckA, deckB):
+  a = deckA["type"].upper()
+  b = deckB["type"].upper()
+  if a != "META":
+    if a != "UNIQUE":
+      if a != "BUDGET":
+        return b == "SOLO"
+      else:
+        return b == "SOLO" or b == "UNIQUE"
+    else:
+      return b != "META"
+  else:
+    return True
+
+def isHigher(deckA, deckB):
+  if deckA["class"] == deckB["class"]:
+    if deckA["type"] == deckB["type"]:
+      if deckA["lastUpdated"] == deckB["lastUpdated"]:
+        return True
+      else:
+        return deckA["lastUpdated"] > deckB["lastUpdated"]
+    else:
+      return higherType(deckA, deckB)
+  else:
+    return deckA["class"] < deckB["class"]
+    
+def sortDecks(deckList):
+  
+  if len(deckList) == 1:
+    return deckList
+  
+  firstHalf = deckList[:len(deckList)]
+  secondHalf = deckList[len(deckList):]
+  firstHalf = sortDecks(firstHalf)
+  secondHalf = sortDecks(secondHalf)
+  
+  i = 0
+  j = 0
+  k = 0
+  while (i != len(firstHalf) and j != len(secondHalf) ):
+    if i != len(firstHalf) and j != len(secondHalf):
+      if isHigher(firstHalf[i], secondHalf[j]):
+        deckList[k] = dict(firstHalf[i])
+        k += 1
+        i += 1
+      else:
+        deckList[k] = dict(secondHalf[j])
+        k += 1
+        j += 1
+    else:
+      if i == len(firstHalf):
+        deckList[k] = dict(secondHalf[j])
+        k += 1
+        j += 1
+      else:
+        deckList[k] = dict(firstHalf[i])
+        k += 1
+        i += 1
+  
+  return deckList
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
