@@ -15,7 +15,7 @@ for line in decksTXT:
     continue
   list = line.split("~")
   id = list[0]
-  info = {"name": list[1], "class": list[2], "type": list[3], "reachableRanks": list[4], "cost": int(list[5]), "lastUpdated": list[6]}
+  info = {"name": list[1], "class": list[2], "type": list[3], "cost": int(list[4]), "lastUpdated": list[5]}
   decks[id] = info
 decksTXT.close()
 
@@ -66,7 +66,7 @@ while command != "exit":
         continue
         
     except:
-      possess[id] = 2
+      possess[id] = 1
 
     # Commit
     savePossess()
@@ -110,12 +110,12 @@ while command != "exit":
     name = command[8:]
     Class = raw_input("Class: ")
     if Class not in CLASS_LIST:
-	  print "error: Not a valid class"
-	  continue
+      print "error: Not a valid class"
+      continue
     type = raw_input("Type: ")
     reachableRanks = raw_input("Reachable ranks: ")
     if reachableRanks == "":
-	  reachableRanks == "NULL"
+      reachableRanks == "NULL"
     last_Updated = raw_input("Last updated:")
 
     deckID = getNewDeckID()
@@ -138,11 +138,11 @@ while command != "exit":
 
       if not canInsertCard(id, deckID):
         continue
-      numCards += 1
       if number == 2:
         if not canInsertCard(id, deckID):
           continue
         numCards += 1
+      numCards += 1
 
     # Commit
     updateCost(deckID)
@@ -162,10 +162,12 @@ while command != "exit":
       continue
 
     decks.pop(deleteDeck, None)
+    # MUST GO THROUGH AND DELETE RELEVEANT ITEMS FROM CONTAIN
     print ""
 
     # Commit
     saveDecks()
+    saveContain()
 
 
 
@@ -434,3 +436,8 @@ while command != "exit":
       print "printList <deck name>"
       print "editDeck <deckname>"
       print "Use the command 'exit' to exit the program"
+
+# Final commit
+saveDecks()
+saveContain()
+savePossess()

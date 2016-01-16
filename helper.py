@@ -8,27 +8,21 @@ decks = {}
 contain = {}
 possess = {}
 
-def saveCards():
-  cardsTXT = open("cards.txt", "w")
-  for id in cards:
-    cardsTXT.write(id + "~" + cards[id]["name"] + "~" + cards[id]["mana"] + "~" + cards[id]["type"] + "~" + cards[id]["rarity"] + "~" + cards[id]["expansion"] + "~" + cards[id]["race"] + "~" + cards[id]["class"] + "~" + cards[id]["attack"] + "~" + cards[id]["health"] + "~" + cards[id]["durability"] + "~" + cards[id]["howToGet"] + "~" + cards[id]["howToGetGold"] + "\n")
-  cardsTXT.close()
-  
 def saveDecks():
-  decksTXT = open("decks.txt", "w")
+  decksTXT = open("decks.txt", "wb")
   for id in decks:
-    decksTXT.write(id + "~" + decks[id]["name"] + "~" + decks[id]["class"] + "~" + decks[id]["type"] + "~" + decks[id]["reachableRanks"] + "~" + str(decks[id]["cost"]) + "~" + decks[id]["lastUpdated"] + '\n')
+    decksTXT.write(id + "~" + decks[id]["name"] + "~" + decks[id]["class"] + "~" + decks[id]["type"] + "~" + str(decks[id]["cost"]) + "~" + decks[id]["lastUpdated"] + '\n')
   decksTXT.close()
   
 def saveContain():
-  containTXT = open("contain.txt", "w")
+  containTXT = open("contain.txt", "wb")
   for id in contain:
     ids = id.split(",")
     containTXT.write(ids[0] + "," + ids[1] + "~" + str(contain[id]) + "\n")
   containTXT.close()
   
 def savePossess():
-  possessTXT = open("possess.txt", "w")
+  possessTXT = open("possess.txt", "wb")
   for id in possess:
     possessTXT.write(id + "~" + str(possess[id]) + "\n")
   possessTXT.close()
