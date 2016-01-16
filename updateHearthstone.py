@@ -1,6 +1,7 @@
 from datetime import datetime
 from helper import *
 
+# Import "database" into memory
 cardsTXT = open("cards.txt", "r")
 for line in cardsTXT:
   list = line.split("~")
@@ -113,15 +114,13 @@ while command != "exit":
       print "error: Not a valid class"
       continue
     type = raw_input("Type: ")
-    reachableRanks = raw_input("Reachable ranks: ")
-    if reachableRanks == "":
-      reachableRanks == "NULL"
-    last_Updated = raw_input("Last updated:")
 
+    # Insert new deck information into memory
     deckID = getNewDeckID()
-    info = {"name": name, "class": Class, "type": type, "reachableRanks": reachableRanks, "cost": 0, "lastUpdated": last_Updated}
+    info = {"name": name, "class": Class, "type": type, "cost": 0, "lastUpdated": datetime.today().strftime("%Y/%m/%d")}
     decks[deckID] = info;
 
+    # Ask for cards until the total number of cards is equal to 30
     print "--- >>> <number of cards> <card name>"
     numCards = 0
     while numCards < 30:
@@ -136,6 +135,8 @@ while command != "exit":
         print "Verify the card name and that you are only inserting one or two"
         continue
 
+      # Insert cards into contain, but make sure (if they're inserting two) that both entries are valid
+      # before inserting them
       if not canInsertCard(id, deckID):
         continue
       if number == 2:
@@ -144,7 +145,7 @@ while command != "exit":
         numCards += 1
       numCards += 1
 
-    # Commit
+    # Update deck cost and then commit
     updateCost(deckID)
     saveDecks()
     saveContain()
