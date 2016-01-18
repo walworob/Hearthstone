@@ -453,7 +453,7 @@ while command != "exit":
       print "whatToCraft [class name]"
       print "printDecks <class name>"
       print "printList <deck name>"
-      print "editDeck <deckname>"
+      print "editDeck <deck name>"
       print "Use the command 'exit' to exit the program"
 
 # Final commit
