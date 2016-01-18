@@ -354,29 +354,36 @@ while command != "exit":
 
     name = command[10:]
 
-    deckInfo = getDeck(name)
-    if deckInfo == None:
+    deckID = getDeck(name)
+    if deckID == None:
       continue
 
-    cursor.execute("SELECT id FROM Decks WHERE name=%s AND class=%s AND cost=%s", [name, deckInfo[0], deckInfo[1]])
-    id = cursor.fetchone()[0]
+    cardList = []
+    for ids in contain:
+      if deckID == ids.split(",")[1]:
+        cardList.append(ids.split(",")[0])
 
-    cursor.execute("SELECT c.name, d.amount FROM Cards c, Contain d WHERE c.id=d.card_id AND d.deck_id=%s ORDER BY c.playerClass DESC, c.cost, c.type DESC, c.name", id)
-    deck = cursor.fetchall()
+    cardList = sortCards(cardList)
+     
     print ""
-    for card in deck:
-      print str(card[1]) + "x " + card[0]
+    for card in cardList:
+      print str(contain[card + "," + deckID]) + "x " + cards[card]["name"]
     print ""
 
   elif command[:11].upper() == "PRINTDECKS ":
 
-    Class = command[11:]
+    Class = command[11:].lower().title()
 
-    cursor.execute("SELECT name, cost FROM Decks WHERE class=%s ORDER BY last_updated DESC", Class)
-    decks = cursor.fetchall()
+    deckList = []
+    for id in decks:
+      if decks[id]["class"] == Class:
+        deckList.append(id)
+        
+    deckList = sortDecks(deckList)
+
     print ""
-    for curDeck in decks:
-      print curDeck[0] + ", Cost: " + str(curDeck[1])
+    for curDeck in deckList:
+      print decks[curDeck]["name"] + ", Cost: " + str(decks[curDeck]["cost"])
     print ""
 
 

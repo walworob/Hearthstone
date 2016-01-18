@@ -13,91 +13,87 @@ def saveDecks():
   for id in decks:
     decksTXT.write(id + "~" + decks[id]["name"] + "~" + decks[id]["class"] + "~" + decks[id]["type"] + "~" + str(decks[id]["cost"]) + "~" + decks[id]["lastUpdated"] + '\n')
   decksTXT.close()
-  
+
 def saveContain():
   containTXT = open("contain.txt", "wb")
   for id in contain:
     ids = id.split(",")
     containTXT.write(ids[0] + "," + ids[1] + "~" + str(contain[id]) + "\n")
   containTXT.close()
-  
+
 def savePossess():
   possessTXT = open("possess.txt", "wb")
   for id in possess:
     possessTXT.write(id + "~" + str(possess[id]) + "\n")
   possessTXT.close()
 
-  
-  
+
+
 def validCard(name):
   for id in cards:
     if cards[id]["name"] == name:
       return id
-      
+
   print "error: Not a valid card"
   return None
 
-  
-  
+
+
 def getAmount(card):
   return card["amount"]        
 
-  
-  
+
+
 def getNewDeckID():
   highestID = 0
   for id in decks:
     if int(id) > highestID:
       highestID = int(id)
-      
+
   return str(highestID + 1)
 
-  
-  
+
+
 def getDeck(deckName):
 
   # Get decks with that name
   deckList = []
   for id in decks:
     if decks[id]["name"] == deckName:
-      deck = []
-      deck.append(id)
-      deck.append(decks[id]["class"])
-      deck.append(decks[id]["cost"])
-      deckList.append(deck)
-    
+      deckList.append(id)
+
   if not deckList:
     print "error: A deck with that name does not exist"
     return None
-      
+
   else:
-    deleteDeck = ""
-    
+    returnDeck = ""
+
     if len(deckList) > 1:
-      
+
       print "\nWhich deck is correct?"
       deckCount = 1
-        
+
       for deck in deckList:
-        output = str(deckCount) + ") " + deckName + ", Class: " + str(deck[1]) + ", Cost: " + str(deck[2])
+        output = str(deckCount) + ") " + deckName + ", Class: " + decks[deck]["class"] + ", Cost: " + str(decks[deck]["cost"])
         print output
         deckCount += 1
-        
+
       deckNum = raw_input("\nPlease enter the correct deck number: ")
       while(1):
-        
+
         try:
-          deleteDeck = deckList[int(deckNum) - 1]
+          returnDeck = deckList[int(deckNum) - 1]
         except:
           deckNum = raw_input("Please enter a valid number: ")
           continue
         break
-      
+
     # Only one deck
     else:
-      deleteDeck = deckList[0]
-      
-  return deleteDeck[0]
+      returnDeck = deckList[0]
+
+  return returnDeck
 
 
 
@@ -112,7 +108,7 @@ def canInsertCard(cardID, deckID):
   if size >= 30:
     print "error: Deck already at max size"
     return False
-    
+
   # Check if the card is valid for this class
   cardClass = cards[cardID]["class"]
   if cardClass != "NULL":
@@ -136,7 +132,7 @@ def canInsertCard(cardID, deckID):
         contain[cardID + "," + deckID] = 2
   except:
     contain[cardID + "," + deckID] = 1
-    
+
   return True
 
 
@@ -173,7 +169,7 @@ def updateCost(deckID):
         cost += (1600 * amount)
       elif rarity != "Basic":
         print "error: " + rarity + " is not a recognized rarity. " + cardID
-  
+
   decks[deckID]["cost"] = cost
 
 
@@ -192,44 +188,60 @@ def higherType(a, b):
   else:
     return True
 
-def isHigher(deckA, deckB):
-  if decks[deckA]["type"] == decks[deckB]["type"]:
-    if decks[deckA]["class"] == decks[deckB]["class"]:
-      if decks[deckA]["lastUpdated"] == decks[deckB]["lastUpdated"]:
+def deckIsHigher(deckA, deckB):
+  a = decks[deckA]
+  b = decks[deckB]
+  if a["type"] == b["type"]:
+    if a["class"] == b["class"]:
+      if a["lastUpdated"] == b["lastUpdated"]:
         return True
       else:
-        return decks[deckA]["lastUpdated"] > decks[deckB]["lastUpdated"]
+        return a["lastUpdated"] > b["lastUpdated"]
     else:
-      return decks[deckA]["class"] < decks[deckB]["class"]
+      return a["class"] < b["class"]
   else:
-    return higherType(decks[deckA]["type"].upper(), decks[deckB]["type"].upper())
-    
+    return higherType(a["type"].upper(), b["type"].upper())
+
 def sortDecks(deckList):
 
   for x in range(0, len(deckList)):
     curBest = x
     for y in range(x, len(deckList)):
-      if isHigher(deckList[y], deckList[curBest]):
+      if deckIsHigher(deckList[y], deckList[curBest]):
         curBest = y
-        
+
     temp = deckList[x]
     deckList[x] = deckList[curBest]
     deckList[curBest] = temp
-  
+
   return deckList
 
 
 
+def cardIsHigher(cardA, cardB):
+  a = cards[cardA]
+  b = cards[cardB]
+  if a["class"] == b["class"]:
+    if a["mana"] == b["mana"]:
+      if a["type"] == b["type"]:
+        return a["name"] < b["name"]
+      else:
+        a["type"] < b["type"]
+    else:
+      return a["mana"] < b["mana"]
+  else:
+    return b["class"] == "NULL"
+      
+def sortCards(cardList):
 
+  for x in range(0, len(cardList)):
+    curBest = x
+    for y in range(x, len(cardList)):
+      if cardIsHigher(cardList[y], cardList[curBest]):
+        curBest = y
 
+    temp = cardList[x]
+    cardList[x] = cardList[curBest]
+    cardList[curBest] = temp
 
-
-
-
-
-
-
-
-
-
-
+  return cardList

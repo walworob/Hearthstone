@@ -1,5 +1,3 @@
-165~Mid Budget Control~Warrior~BUDGET~6720~2015/11/10
-
 133~Cheap Omnotron Defense System Deck (Heroic Mode)~Shaman~SOLO~2240~2015/04/30
 
 132~Mid-Budget Omnotron Defense System Deck (Heroic Mode)~Shaman~SOLO~4240~2015/04/30
@@ -18,7 +16,7 @@
 
 138~Reno Jackson Highlander Combo~Warlock~META~6880~2015/12/16
 
-166~Cheap Giantfin Deck (Heroic Mode)~Warrior~SOLO~1080~2015/12/04
+93~Cheap Slitherspear Deck (Heroic Mode)~Priest~SOLO~2040~2015/12/03
 
 24~Legendary Sottle's Midrange~Hunter~META~4120~2015/11/11
 
@@ -32,23 +30,23 @@
 
 21~Legendary Chromaggus Deck (Heroic Mode)~Druid~SOLO~8440~2015/04/23
 
-22~Mid-BUDGET High Justice Grimstone Deck (Heroic Mode)~Druid~SOLO~4880~2015/04/02
+22~Mid-Budget High Justice Grimstone Deck (Heroic Mode)~Druid~SOLO~4880~2015/04/02
 
 23~Legendary Midrange~Hunter~META~2520~2015/11/11
 
-160~Legendary Fatigue Control~Warrior~UNIQUE~12760~2015/10/08
+95~Cheap Nefarian and Onyxia Deck (Heroic Mode)~Priest~SOLO~920~2015/04/30
 
 28~Legendary Control~Hunter~UNIQUE~9980~2015/11/06
 
 29~Legendary Beast Midrange~Hunter~UNIQUE~1480~2015/09/16
 
-161~Mech Aggro/Rush~Warrior~UNIQUE~1760~2015/09/30
+94~Cheap Sun Raider Phaerix Deck (Heroic Mode)~Priest~SOLO~1100~2015/11/12
 
 4~Legendary Ramp~Druid~META~5800~2015/11/04
 
 8~Legendary Token~Druid~UNIQUE~4000~2015/11/05
 
-163~Aggro/Rush~Warrior~UNIQUE~960~2015/05/30
+96~Cheap Razorgore the Untamed Deck (Heroic Mode)~Priest~SOLO~2760~2015/04/23
 
 120~Legendary Coren Direbrew Deck (Heroic Mode)~Rogue~SOLO~11180~2015/04/02
 
@@ -70,6 +68,8 @@
 
 129~Low Budget Midrange~Shaman~BUDGET~1360~2015/12/29
 
+91~Cheap~Priest~BUDGET~1000~2016/01/04
+
 59~Low-Budget Chromaggus Deck (Heroic Mode)~Mage~SOLO~4660~2015/04/24
 
 58~Cheap Atramedes Deck (Heroic Mode)~Mage~SOLO~1080~2015/04/30
@@ -90,7 +90,7 @@
 
 52~Cheap Temple Escape Deck (Heroic Mode)~Mage~SOLO~1400~2015/11/12
 
-164~Raging Worgen OTK~Warrior~UNIQUE~1760~2015/02/19
+90~Randuin Wrynn~Priest~UNIQUE~18660~2015/06/17
 
 115~Cheap Lord Slitherspear Deck (Heroic Mode)~Rogue~SOLO~3480~2015/12/04
 
@@ -116,7 +116,7 @@
 
 81~Cheap Lord Victor Nefarius / Nefarian Deck (Heroic Mode)~Paladin~SOLO~3160~2015/04/23
 
-119~Mid-BUDGET High Justice Grimstone Deck (Heroic Mode)~Rogue~SOLO~2700~2015/04/02
+119~Mid-Budget High Justice Grimstone Deck (Heroic Mode)~Rogue~SOLO~2700~2015/04/02
 
 87~Grinder/China~Priest~UNIQUE~5220~2015/11/08
 
@@ -127,6 +127,8 @@
 3~Legendary Fast~Druid~META~4840~2015/11/11
 
 7~Token Hobgoblin~Druid~UNIQUE~2540~2015/11/06
+
+92~Mid Budget Control~Priest~BUDGET~2720~2015/12/29
 
 108~Mill~Rogue~UNIQUE~3240~2015/11/20
 
@@ -154,7 +156,7 @@
 
 33~Legendary Freeze~Mage~META~6920~2015/11/20
 
-32~Low-BUDGET Ragnaros/Executus Deck (Heroic Mode)~Hunter~SOLO~3080~2015/04/10
+32~Low-Budget Ragnaros/Executus Deck (Heroic Mode)~Hunter~SOLO~3080~2015/04/10
 
 31~Cheap Rend Blackhand Deck (Heroic Mode)~Hunter~SOLO~980~2015/04/16
 
@@ -167,8 +169,6 @@
 35~Legendary Sottle's Tempo~Mage~META~4980~2015/11/11
 
 34~Legendary Reno Jackson Freeze~Mage~META~7180~2015/11/20
-
-162~Legendary Control~Warrior~UNIQUE~10640~2015/09/23
 
 60~Low-Budget Baron Geddon Freeze Deck (Heroic Mode)~Mage~SOLO~3180~2015/04/10
 
@@ -198,9 +198,9 @@
 
 2~Legendary Aggro/Rush~Druid~META~4200~2015/11/20
 
-167~Cheap Chieftain Scarvash Control Deck (Heroic Mode)~Warrior~SOLO~5640~2015/11/19
-
 6~Legendary Dragon Ramp~Druid~UNIQUE~5100~2015/11/06
+
+97~Cheap Chromaggus Deck (Heroic Mode)~Priest~SOLO~2000~2015/04/23
 
 99~Legendary General Drakkisath Deck (Heroic Mode)~Priest~SOLO~12880~2015/04/16
 
@@ -208,23 +208,23 @@
 
 168~Cheap Garr Deck (Heroic Mode)~Warrior~SOLO~1200~2015/04/10
 
-169~Mid-BUDGET Emperor Thaurissan Deck (Heroic Mode)~Warrior~SOLO~1880~2015/04/02
+169~Mid-Budget Emperor Thaurissan Deck (Heroic Mode)~Warrior~SOLO~1880~2015/04/02
 
-91~Cheap~Priest~BUDGET~1000~2016/01/04
+164~Raging Worgen OTK~Warrior~UNIQUE~1760~2015/02/19
 
-90~Randuin Wrynn~Priest~UNIQUE~18660~2015/06/17
+165~Mid Budget Control~Warrior~BUDGET~6720~2015/11/10
 
-93~Cheap Slitherspear Deck (Heroic Mode)~Priest~SOLO~2040~2015/12/03
+166~Cheap Giantfin Deck (Heroic Mode)~Warrior~SOLO~1080~2015/12/04
 
-92~Mid Budget Control~Priest~BUDGET~2720~2015/12/29
+167~Cheap Chieftain Scarvash Control Deck (Heroic Mode)~Warrior~SOLO~5640~2015/11/19
 
-95~Cheap Nefarian and Onyxia Deck (Heroic Mode)~Priest~SOLO~920~2015/04/30
+160~Legendary Fatigue Control~Warrior~UNIQUE~12760~2015/10/08
 
-94~Cheap Sun Raider Phaerix Deck (Heroic Mode)~Priest~SOLO~1100~2015/11/12
+161~Mech Aggro/Rush~Warrior~UNIQUE~1760~2015/09/30
 
-97~Cheap Chromaggus Deck (Heroic Mode)~Priest~SOLO~2000~2015/04/23
+162~Legendary Control~Warrior~UNIQUE~10640~2015/09/23
 
-96~Cheap Razorgore the Untamed Deck (Heroic Mode)~Priest~SOLO~2760~2015/04/23
+163~Aggro/Rush~Warrior~UNIQUE~960~2015/05/30
 
 11~Cheap~Druid~BUDGET~1000~2015/12/16
 
