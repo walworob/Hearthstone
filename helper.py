@@ -180,67 +180,43 @@ def updateCost(deckID):
 
 # These functions will measure if deckA is higher than deckB and return true or false
 # Ties go to deckA
-def higherType(deckA, deckB):
-  a = deckA["type"].upper()
-  b = deckB["type"].upper()
+def higherType(a, b):
   if a != "META":
     if a != "UNIQUE":
       if a != "BUDGET":
         return b == "SOLO"
       else:
-        return b == "SOLO" or b == "UNIQUE"
+        return b == "SOLO" or b == "BUDGET"
     else:
       return b != "META"
   else:
     return True
 
 def isHigher(deckA, deckB):
-  if deckA["class"] == deckB["class"]:
-    if deckA["type"] == deckB["type"]:
-      if deckA["lastUpdated"] == deckB["lastUpdated"]:
+  if decks[deckA]["type"] == decks[deckB]["type"]:
+    if decks[deckA]["class"] == decks[deckB]["class"]:
+      if decks[deckA]["lastUpdated"] == decks[deckB]["lastUpdated"]:
         return True
       else:
-        return deckA["lastUpdated"] > deckB["lastUpdated"]
+        return decks[deckA]["lastUpdated"] > decks[deckB]["lastUpdated"]
     else:
-      return higherType(deckA, deckB)
+      return decks[deckA]["class"] < decks[deckB]["class"]
   else:
-    return deckA["class"] < deckB["class"]
+    return higherType(decks[deckA]["type"].upper(), decks[deckB]["type"].upper())
     
 def sortDecks(deckList):
-  
-  if len(deckList) == 1:
-    return deckList
-  
-  firstHalf = deckList[:len(deckList)/2]
-  secondHalf = deckList[len(deckList)/2:]
-  firstHalf = sortDecks(firstHalf)
-  secondHalf = sortDecks(secondHalf)
-  
-  i = 0
-  j = 0
-  k = 0
-  while (i != len(firstHalf) and j != len(secondHalf) ):
-    if i != len(firstHalf) and j != len(secondHalf):
-      if isHigher(firstHalf[i], secondHalf[j]):
-        deckList[k] = dict(firstHalf[i])
-        k += 1
-        i += 1
-      else:
-        deckList[k] = dict(secondHalf[j])
-        k += 1
-        j += 1
-    else:
-      if i == len(firstHalf):
-        deckList[k] = dict(secondHalf[j])
-        k += 1
-        j += 1
-      else:
-        deckList[k] = dict(firstHalf[i])
-        k += 1
-        i += 1
+
+  for x in range(0, len(deckList)):
+    curBest = x
+    for y in range(x, len(deckList)):
+      if isHigher(deckList[y], deckList[curBest]):
+        curBest = y
+        
+    temp = deckList[x]
+    deckList[x] = deckList[curBest]
+    deckList[curBest] = temp
   
   return deckList
-  
 
 
 

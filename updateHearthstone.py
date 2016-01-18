@@ -33,8 +33,7 @@ for line in possessTXT:
   possess[list[0]] = int(list[1])
 possessTXT.close()
 
-
-
+  
 command = ''
 
 while command != "exit":
@@ -113,7 +112,7 @@ while command != "exit":
     if Class not in CLASS_LIST:
       print "error: Not a valid class"
       continue
-    type = raw_input("Type: ")
+    type = raw_input("Type: ").upper()
 
     # Insert new deck information into memory
     deckID = getNewDeckID()
@@ -254,52 +253,41 @@ while command != "exit":
     deckList = []
     if command.upper() == "CANMAKE":
       for id in decks:
-        deck = []
-        deck.append(id)
-        deck.append(decks[id]["class"])
-        deck.append(decks[id]["cost"])
-        deck.append(decks[id]["lastUpdated"])
-        deckList.append(deck)
-
+        deckList.append(id)
     else:
-      cursor.execute("SELECT * FROM Decks WHERE class=%s ORDER BY last_updated DESC", command[8:])
-
-    decks = cursor.fetchall()
-    if not decks:
+      for id in decks:
+        if decks[id]["class"] == command[8:].lower().title():
+          deckList.append(id)
+    
+    if not deckList:
       print "error: Not a valid class"
       continue
+      
+    deckList = sortDecks(deckList)
+
 
     print ""
-    numCompleteDecks = 0
-    for curDeck in decks:
-      id = curDeck[0]
-      name = curDeck[1]
-      Class = curDeck[2]
-      reachableRanks = curDeck[3]
-      cost = curDeck[4]
-
-      cursor.execute("SELECT card_id, amount FROM Contain WHERE deck_id=%s", id)
-      cards = cursor.fetchall()
-
+    curType = ""
+    for curDeck in deckList:
       completeDeck = True
-      for curCard in cards:
-
-        cursor.execute("SELECT id, amount FROM Possess WHERE id=%s", curCard[0])
-        results = cursor.fetchone()
-        try:
-          id = results[0]
-        except:
-          completeDeck = False
-          break
-        
-        amount = results[1]
-        if amount < curCard[1]:
-          completeDeck = False
-          break
-
+      for ids in contain:
+        id = ids.split(",")
+        if curDeck == id[1]:
+          try:
+            if possess[id[0]] < contain[ids]:
+              completeDeck = False
+              break
+          except:
+            completeDeck = False
+            break
+          
       if completeDeck:
-        print str(numCompleteDecks + 1) + ") " + name + ", Class: " + Class + ", Cost: " + str(cost)
-        numCompleteDecks += 1
+        if decks[curDeck]["type"] != curType:
+          print ""
+          print decks[curDeck]["type"].lower().title() + " decks"
+          print "----------------"
+          curType = decks[curDeck]["type"]
+        print decks[curDeck]["name"] + ", Class: " + decks[curDeck]["class"] + ", Cost: " + str(decks[curDeck]["cost"])
 
     print ""
 
@@ -307,36 +295,45 @@ while command != "exit":
   # Find the best card to craft
   elif command.upper() == "WHATTOCRAFT":
 
-    cards = []
-
-    cursor.execute("SELECT DISTINCT c.id, c.name, c.rarity FROM Cards c, Contain d WHERE c.id=d.card_id ORDER BY c.playerClass, c.cost, c.type DESC, c.name")
-    rawCards = cursor.fetchall()
-    for card in rawCards:
-      newCard = {}
-      newCard["id"] = card[0]
-      newCard["name"] = card[1]
-      newCard["rarity"] = card[2]
-      newCard["amount"] = 0
-      cards.append(newCard)
-
-    value = {"Common": 40, "Rare": 100, "Epic": 400, "Legendary": 1600}
-    for card in cards:
-      cursor.execute("SELECT amount FROM Possess WHERE id=%s", card["id"])
+    cardSet = {}
+    for ids in contain:
+      id = ids.split(",")[0]
+      if decks[ids.split(",")[1]]["type"].upper() == "SOLO":
+        continue
+      amount = contain[ids]
+      
       try:
-        num = int(cursor.fetchone()[0])
-        if (num == 1) and (card["rarity"] != "Legendary"):
-          cursor.execute("SELECT sum(amount) AS Total FROM Contain WHERE card_id=%s AND amount!=1", card["id"])
-          card["amount"] = (int(cursor.fetchone()[0]) / 2) * value[card["rarity"]]
+        cardSet[id][str(amount)] += 1
+      except:
+        cardSet[id] = {
+          "1": 0,
+          "2": 0
+        }
+        cardSet[id][str(amount)] += 1
+    
+    finalVals = {}
+    value = {"Common": 40, "Rare": 100, "Epic": 400, "Legendary": 1600}
+    for id in cardSet:
+      try:
+        amount = possess[id]
+        if (amount == 1) and (cards[id]["rarity"] != "Legendary"):
+          finalVals[id] = cardSet[id]["2"] * value[cards[id]["rarity"]]
         else:
           continue
-      except:    
-        cursor.execute("SELECT sum(amount) AS Total FROM Contain WHERE card_id=%s", card["id"])
-        card["amount"] = int(cursor.fetchone()[0]) * value[card["rarity"]]
+      except:
+        finalVals[id] = (cardSet[id]["1"] + cardSet[id]["2"]) * value[cards[id]["rarity"]]
 
-    cards.sort(key=getAmount, reverse=True)
     print ""
     for i in range(5):
-      print cards[i]["name"] + " will give you " + str(cards[i]["amount"]) + " value"
+      cost = 0
+      saveID = ""
+      for id in finalVals:
+        if finalVals[id] > cost:
+          cost = finalVals[id]
+          saveID = id
+      print cards[saveID]["name"] + " will give you " + str(cost) + " value"
+      finalVals[saveID] = -1
+
     print ""
 
 
