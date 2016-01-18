@@ -79,7 +79,7 @@ def getDeck(deckName):
       deckCount = 1
         
       for deck in deckList:
-        output = str(deckCount) + ") " + name + ", Class: " + str(deck[1]) + ", Cost: " + str(deck[2])
+        output = str(deckCount) + ") " + deckName + ", Class: " + str(deck[1]) + ", Cost: " + str(deck[2])
         print output
         deckCount += 1
         
@@ -171,6 +171,8 @@ def updateCost(deckID):
         cost += (400 * amount)
       elif rarity == "Legendary":
         cost += (1600 * amount)
+      elif rarity != "Basic":
+        print "error: " + rarity + " is not a recognized rarity. " + cardID
   
   decks[deckID]["cost"] = cost
 
@@ -209,8 +211,8 @@ def sortDecks(deckList):
   if len(deckList) == 1:
     return deckList
   
-  firstHalf = deckList[:len(deckList)]
-  secondHalf = deckList[len(deckList):]
+  firstHalf = deckList[:len(deckList)/2]
+  secondHalf = deckList[len(deckList)/2:]
   firstHalf = sortDecks(firstHalf)
   secondHalf = sortDecks(secondHalf)
   

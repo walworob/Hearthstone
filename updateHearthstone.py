@@ -118,6 +118,7 @@ while command != "exit":
     # Insert new deck information into memory
     deckID = getNewDeckID()
     info = {"name": name, "class": Class, "type": type, "cost": 0, "lastUpdated": datetime.today().strftime("%Y/%m/%d")}
+    print datetime.today().strftime("%Y/%m/%d")
     decks[deckID] = info;
 
     # Ask for cards until the total number of cards is equal to 30
@@ -155,7 +156,6 @@ while command != "exit":
   # Delete a deck
   elif command[:11].upper() == "DELETEDECK ":
 
-    print ""
     name = command[11:]
 
     deleteDeck = getDeck(name)
@@ -163,8 +163,15 @@ while command != "exit":
       continue
 
     decks.pop(deleteDeck, None)
-    # MUST GO THROUGH AND DELETE RELEVEANT ITEMS FROM CONTAIN
-    print ""
+
+    toDelete = []
+    for ids in contain:
+      id = ids.split(",")[1]
+      if id == deleteDeck:
+        toDelete.append(ids)
+    
+    for id in toDelete:
+      contain.pop(id, 0)
 
     # Commit
     saveDecks()
@@ -240,6 +247,7 @@ while command != "exit":
       print curExp + ": " + str(total * 5)
 
 
+      
   # Find out decks the user can make
   elif command.upper() == "CANMAKE" or command[:8].upper() == "CANMAKE ":
 
