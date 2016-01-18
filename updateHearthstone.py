@@ -293,13 +293,23 @@ while command != "exit":
 
 
   # Find the best card to craft
-  elif command.upper() == "WHATTOCRAFT":
+  elif command.upper() == "WHATTOCRAFT" or command[:12].upper() == "WHATTOCRAFT ":
 
+    if command[:12].upper() == "WHATTOCRAFT ":
+      Class = command[12:].lower().title()
+      if Class not in CLASS_LIST:
+        print "error: Invalid class"
+        continue
+      
     cardSet = {}
     for ids in contain:
       id = ids.split(",")[0]
       if decks[ids.split(",")[1]]["type"].upper() == "SOLO":
         continue
+      if command[:12].upper() == "WHATTOCRAFT ":
+        if command[12:].lower().title() != decks[ids.split(",")[1]]["class"]:
+          continue
+
       amount = contain[ids]
       
       try:
@@ -324,15 +334,18 @@ while command != "exit":
         finalVals[id] = (cardSet[id]["1"] + cardSet[id]["2"]) * value[cards[id]["rarity"]]
 
     print ""
-    for i in range(5):
+    for i in range(10):
       cost = 0
       saveID = ""
       for id in finalVals:
         if finalVals[id] > cost:
           cost = finalVals[id]
           saveID = id
-      print cards[saveID]["name"] + " will give you " + str(cost) + " value"
-      finalVals[saveID] = -1
+      try:
+        print cards[saveID]["name"] + " will give you " + str(cost) + " value"
+        finalVals[saveID] = -1
+      except:
+        continue
 
     print ""
 
@@ -437,7 +450,7 @@ while command != "exit":
       print "deleteDeck <deck name>"
       print "pack"
       print "canMake [class name]"
-      print "whatToCraft"
+      print "whatToCraft [class name]"
       print "printDecks <class name>"
       print "printList <deck name>"
       print "editDeck <deckname>"
