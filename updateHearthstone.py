@@ -6,7 +6,7 @@ cardsTXT = open("cards.txt", "r")
 for line in cardsTXT:
   list = line.split("~")
   id = list[0]
-  info = {"name": list[1], "mana": list[2], "type": list[3], "rarity": list[4], "expansion": list[5], "race": list[6], "class": list[7], "attack": list[8], "health": list[9], "durability": list[10], "howToGet": list[11], "howToGetGold": list[12]}
+  info = {"name": list[1], "mana": int(list[2]), "type": list[3], "rarity": list[4], "expansion": list[5], "race": list[6], "class": list[7], "attack": list[8], "health": list[9], "durability": list[10], "howToGet": list[11], "howToGetGold": list[12]}
   cards[id] = info
 cardsTXT.close()
 

@@ -226,9 +226,9 @@ def cardIsHigher(cardA, cardB):
       if a["type"] == b["type"]:
         return a["name"] < b["name"]
       else:
-        a["type"] < b["type"]
+        return a["type"] > b["type"]
     else:
-      return a["mana"] < b["mana"]
+      return int(a["mana"]) < int(b["mana"])
   else:
     return b["class"] == "NULL"
       
