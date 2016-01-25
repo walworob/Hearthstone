@@ -114,7 +114,7 @@ def canInsertCard(cardID, deckID):
   if cardClass != "NULL":
     deckClass = decks[deckID]["class"]
     if cardClass != deckClass:
-      print "error: Card not in the same class as this deck"
+      print "error: " + cards[cardID]["name"] + " not in the same class as this deck"
       return False
 
   # Check if the card is already in the deck

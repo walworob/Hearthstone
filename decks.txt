@@ -155,7 +155,6 @@
 38~Legendary Secretless Tempo~Mage~META~5860~2015/08/31
 
 33~Legendary Freeze~Mage~META~6920~2015/11/20
-
 32~Low-Budget Ragnaros/Executus Deck (Heroic Mode)~Hunter~SOLO~3080~2015/04/10
 
 31~Cheap Rend Blackhand Deck (Heroic Mode)~Hunter~SOLO~980~2015/04/16

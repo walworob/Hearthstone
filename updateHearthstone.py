@@ -390,12 +390,7 @@ while command != "exit":
   elif command[:9].upper() == "EDITDECK ":
 
     name = command[9:]
-    deckInfo = getDeck(name)
-    if deckInfo == None:
-      continue
-
-    cursor.execute("SELECT id FROM Decks WHERE name=%s AND class=%s AND cost=%s", [name, deckInfo[0], deckInfo[1]])
-    id = cursor.fetchone()[0]
+    deckID = getDeck(name)
 
     print "Use 'done' to stop editing"
     print "--- >>> <card to replace> / <replacement card>"
@@ -419,26 +414,35 @@ while command != "exit":
         cmd = raw_input("--- >>> ")
         continue
 
-      cursor.execute("SELECT amount FROM Contain WHERE card_id=%s AND deck_id=%s", [toReplace, id])
-      if cursor.rowcount == 0:
-        print "error: that card isn't contained in this deck"
+      if (toReplace == replacement):
+        print "error: Please enter two different cards"
         cmd = raw_input("--- >>> ")
         continue
 
-      amount = cursor.fetchone()[0]
-      if amount == 1:
-        cursor.execute("DELETE FROM Contain WHERE card_id=%s AND deck_id=%s", [toReplace, id])
-      else:
-        cursor.execute("UPDATE Contain SET amount=1 WHERE card_id=%s AND deck_id=%s", [toReplace, id])
+      try:
+        amount = contain[toReplace + "," + deckID]
+        if amount == 1:
+          contain.pop(toReplace + "," + deckID, 0)
+        elif amount == 2:
+          contain[toReplace + "," + deckID] = 1
 
+        if not canInsertCard(replacement, deckID):
+          contain[toReplace + "," + deckID] = amount
+          cmd = raw_input("--- >>> ")
+          continue
 
-      if not canInsertCard(replacement, id):
+      except:
+        print "error: " + cards[toReplace]["name"] + " isn't contained in this deck"
         cmd = raw_input("--- >>> ")
         continue
 
       cmd = raw_input("--- >>> ")
 
-    updateCost(id)
+    # Commit
+    decks[deckID]["lastUpdated"] = datetime.today().strftime("%Y/%m/%d")
+    updateCost(deckID)
+    saveDecks()
+    saveContain()
     print ""        
 
 
