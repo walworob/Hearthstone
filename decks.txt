@@ -153,6 +153,7 @@
 38~Legendary Secretless Tempo~Mage~META~5860~2015/08/31
 
 33~Legendary Freeze~Mage~META~6920~2016/01/23
+
 32~Low-Budget Ragnaros/Executus Deck (Heroic Mode)~Hunter~SOLO~3080~2015/04/10
 
 31~Cheap Rend Blackhand Deck (Heroic Mode)~Hunter~SOLO~980~2015/04/16
@@ -190,8 +191,11 @@
 69~Reno Jackson Highlander Midrange~Paladin~UNIQUE~8480~2015/11/16
 
 175~Handlock~Warlock~META~6340~2016/01/25
+
 174~Legendary Malygos Freeze~Mage~UNIQUE~8520~2016/01/23
+
 173~Legendary Mech~Mage~META~4280~2016/01/23
+
 172~Zoo~Warlock~META~2760~2016/01/16
 
 171~Mid Budget Raptor Deathrattle Tempo~Rogue~BUDGET~3320~2016/01/16
