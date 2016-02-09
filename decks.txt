@@ -93,6 +93,7 @@
 164~Raging Worgen OTK~Warrior~UNIQUE~1760~2015/02/19
 
 178~Aggro Freeze~Mage~UNIQUE~3100~2016/02/07
+
 115~Cheap Lord Slitherspear Deck (Heroic Mode)~Rogue~SOLO~3480~2015/12/04
 
 114~Low Budget Oil~Rogue~BUDGET~1960~2015/11/08
@@ -125,9 +126,10 @@
 
 85~Legendary Dragon~Priest~META~5680~2016/01/28
 
+141~Legendary Zoo Midrange~Warlock~META~5880~2015/11/16
+
 3~Legendary Fast~Druid~META~4840~2015/11/11
 
-177~Silence Midrange~Druid~UNIQUE~6480~2016/02/07
 7~Token Hobgoblin~Druid~UNIQUE~2540~2015/11/06
 
 108~Mill~Rogue~UNIQUE~3240~2015/11/20
@@ -173,6 +175,7 @@
 162~Legendary Control~Warrior~UNIQUE~10640~2015/09/23
 
 176~Egg Token~Druid~UNIQUE~820~2016/02/07
+
 60~Low-Budget Baron Geddon Freeze Deck (Heroic Mode)~Mage~SOLO~3180~2015/04/10
 
 61~High Justice Grimstone Freeze Deck (Heroic Mode)~Mage~SOLO~5440~2015/04/02
@@ -319,7 +322,7 @@
 
 140~Flood Zoo~Warlock~META~5100~2015/11/24
 
-141~Legendary Zoo Midrange~Warlock~META~5880~2015/11/16
+177~Silence Midrange~Druid~UNIQUE~6480~2016/02/07
 
 148~Legendary Demonlock~Warlock~UNIQUE~8120~2015/04/12
 
