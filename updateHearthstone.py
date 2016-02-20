@@ -465,8 +465,3 @@ while command != "exit":
       print "printList <deck name>"
       print "editDeck <deck name>"
       print "Use the command 'exit' to exit the program"
-
-# Final commit
-saveDecks()
-saveContain()
-savePossess()
