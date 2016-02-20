@@ -26,15 +26,14 @@
 
 26~Face Aggro/Rush Anti-Aggro~Hunter~META~1100~2015/10/28
 
-27~Hybrid~Hunter~META~1120~2015/05/19
-
+27~Hybrid~Hunter~META~1460~2016/02/20
 20~Cheap Lord Victor Nefarius / Nefarian Deck (Heroic Mode)~Druid~SOLO~1540~2015/04/23
 
 21~Legendary Chromaggus Deck (Heroic Mode)~Druid~SOLO~8440~2015/04/23
 
 22~Mid-Budget High Justice Grimstone Deck (Heroic Mode)~Druid~SOLO~4880~2015/04/02
 
-23~Legendary Midrange~Hunter~META~2520~2015/11/11
+23~Legendary Midrange~Hunter~META~2520~2016/02/20
 
 160~Legendary Fatigue Control~Warrior~UNIQUE~12760~2015/10/08
 
@@ -52,7 +51,7 @@
 
 120~Legendary Coren Direbrew Deck (Heroic Mode)~Rogue~SOLO~11180~2015/04/02
 
-121~Face Aggro~Shaman~META~1960~2015/12/05
+121~Face Aggro~Shaman~META~2000~2016/02/20
 
 122~Legendary Midrange~Shaman~META~2500~2015/11/20
 
@@ -91,6 +90,8 @@
 52~Cheap Temple Escape Deck (Heroic Mode)~Mage~SOLO~1400~2015/11/12
 
 164~Raging Worgen OTK~Warrior~UNIQUE~1760~2015/02/19
+
+66~Secrets Anti-Aggro Midrange~Paladin~META~5320~2015/10/27
 
 178~Aggro Freeze~Mage~UNIQUE~3100~2016/02/07
 
@@ -188,7 +189,7 @@
 
 65~Legendary Midrange~Paladin~META~9000~2015/11/20
 
-66~Secrets Anti-Aggro Midrange~Paladin~META~5320~2015/10/27
+179~Legendary Egg Secret Midrange~Paladin~UNIQUE~5340~2016/02/20
 
 67~Secrets Aggro/Rush~Paladin~META~2280~2015/08/31
 

@@ -117,7 +117,6 @@ while command != "exit":
     # Insert new deck information into memory
     deckID = getNewDeckID()
     info = {"name": name, "class": Class, "type": type, "cost": 0, "lastUpdated": datetime.today().strftime("%Y/%m/%d")}
-    print datetime.today().strftime("%Y/%m/%d")
     decks[deckID] = info;
 
     # Ask for cards until the total number of cards is equal to 30
