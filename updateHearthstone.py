@@ -390,6 +390,8 @@ while command != "exit":
 
     name = command[9:]
     deckID = getDeck(name)
+    if deckID == None:
+      continue
 
     print "Use 'done' to stop editing"
     print "--- >>> <card to replace> / <replacement card>"
