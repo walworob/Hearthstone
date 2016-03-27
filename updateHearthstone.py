@@ -187,12 +187,7 @@ while command != "exit":
       "Epic": 0.04,
       "Legendary": 0.005
     }
-    enchantVal = {
-      "Common": 40.0,
-      "Rare": 100.0,
-      "Epic": 400.0,
-      "Legendary": 1600.0
-    }
+    enchantVal = CARD_VALUES
     disenchantVal = {
       "Common": 5.0,
       "Rare": 20.0,
@@ -321,16 +316,15 @@ while command != "exit":
         cardSet[id][str(amount)] += 1
     
     finalVals = {}
-    value = {"Common": 40, "Rare": 100, "Epic": 400, "Legendary": 1600}
     for id in cardSet:
       try:
         amount = possess[id]
         if (amount == 1) and (cards[id]["rarity"] != "Legendary"):
-          finalVals[id] = cardSet[id]["2"] * value[cards[id]["rarity"]]
+          finalVals[id] = cardSet[id]["2"] * CARD_VALUES[cards[id]["rarity"]]
         else:
           continue
       except:
-        finalVals[id] = (cardSet[id]["1"] + cardSet[id]["2"]) * value[cards[id]["rarity"]]
+        finalVals[id] = (cardSet[id]["1"] + cardSet[id]["2"]) * CARD_VALUES[cards[id]["rarity"]]
 
     print ""
     for i in range(10):

@@ -2,6 +2,7 @@ RARITY_LIST = ["Common", "Rare", "Epic", "Legendary"]
 CLASS_LIST = ["Druid", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"]
 EXPANSION_LIST = ["Classic", "Goblins vs Gnomes", "The Grand Tournament"]
 ADVENTURE_LIST = ["Curse of Naxxramas", "Blackrock Mountain", "League of Explorers"]
+CARD_VALUES = {"Common": 40, "Rare": 100, "Epic": 400, "Legendary": 1600}
 
 cards = {}
 decks = {}
