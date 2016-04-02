@@ -366,6 +366,9 @@ while command != "exit":
   elif command[:11].upper() == "PRINTDECKS ":
 
     Class = command[11:].lower().title()
+    if Class not in CLASS_LIST:
+      print "error: Not a valid class"
+      continue
 
     deckList = []
     for id in decks:
@@ -377,6 +380,34 @@ while command != "exit":
     print ""
     for curDeck in deckList:
       print decks[curDeck]["name"] + ", Cost: " + str(decks[curDeck]["cost"])
+    print ""
+    
+  elif command[:15].upper() == "PRINTDECKSWITH ":
+  
+    name = command[15:].lower().title()
+    cardID = validCard(name)
+    if cardID == None:
+      continue
+      
+    deckList = []
+    for id in contain:
+      ids = id.split(",")
+      if ids[0] == cardID:
+        deckList.append(ids[1])
+        
+    deckList = sortDecks(deckList)
+    
+    print ""
+    curType = ""
+    for curDeck in deckList:
+      if decks[curDeck]["type"] != curType:
+        print ""
+        print decks[curDeck]["type"].lower().title() + " decks"
+        print "----------------"
+        curType = decks[curDeck]["type"]
+      print decks[curDeck]["name"] + ", Class: " + decks[curDeck]["class"] + ", Cost: " + str(decks[curDeck]["cost"])
+        
+
     print ""
 
 
@@ -458,6 +489,7 @@ while command != "exit":
       print "canMake [class name]"
       print "whatToCraft [class name]"
       print "printDecks <class name>"
+      print "printDecksWith <card name>"
       print "printList <deck name>"
       print "editDeck <deck name>"
       print "Use the command 'exit' to exit the program"
