@@ -231,7 +231,7 @@ def cardIsHigher(cardA, cardB):
     else:
       return int(a["mana"]) < int(b["mana"])
   else:
-    return b["class"] == "NULL"
+    return (b["class"] == "NULL") or ( (a["class"] < b["class"]) and (a["class"] != "NULL") )
       
 def sortCards(cardList):
 

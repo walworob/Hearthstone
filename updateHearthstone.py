@@ -101,7 +101,20 @@ while command != "exit":
 
     # Commit
     savePossess()
-
+    
+  elif command.upper() == "PRINTCARDS":
+  
+    cardList = []
+    namesToID = {}
+    for id in possess:
+      cardList.append(id)
+      cardName = cards[id]["name"]
+      namesToID[cardName] = id
+      
+    sortedCards = sortCards(cardList)
+    for id in sortedCards:
+      cardName = cards[id]["name"]
+      print str(possess[namesToID[cardName]]) + "x " + cardName
 
 
   # Add a deck to the users collection
@@ -483,6 +496,7 @@ while command != "exit":
       print "Unrecognized command. Available commands are:"
       print "addCard <card name>"
       print "deleteCard <card name>"
+      print "printCards"
       print "addDeck <deck name>"
       print "deleteDeck <deck name>"
       print "pack"
