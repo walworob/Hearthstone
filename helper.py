@@ -1,6 +1,7 @@
 RARITY_LIST = ["Common", "Rare", "Epic", "Legendary"]
 CLASS_LIST = ["Druid", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior"]
-EXPANSION_LIST = ["Classic", "Goblins vs Gnomes", "The Grand Tournament"]
+EXPANSION_LIST = ["Classic", "Goblins vs Gnomes", "The Grand Tournament", "Whispers of the Old Gods"]
+PACK_LIST = ["Classic", "The Grand Tournament", "Whispers of the Old Gods"]
 ADVENTURE_LIST = ["Curse of Naxxramas", "Blackrock Mountain", "League of Explorers"]
 CARD_VALUES = {"Common": 40, "Rare": 100, "Epic": 400, "Legendary": 1600}
 
@@ -12,7 +13,7 @@ possess = {}
 def saveDecks():
   decksTXT = open("decks.txt", "wb")
   for id in decks:
-    decksTXT.write(id + "~" + decks[id]["name"] + "~" + decks[id]["class"] + "~" + decks[id]["type"] + "~" + str(decks[id]["cost"]) + "~" + decks[id]["lastUpdated"] + '\n')
+    decksTXT.write(id + "~" + decks[id]["name"] + "~" + decks[id]["class"] + "~" + decks[id]["format"] + "~" + decks[id]["type"] + "~" + str(decks[id]["cost"]) + "~" + decks[id]["lastUpdated"] + '\n')
   decksTXT.close()
 
 def saveContain():
@@ -37,13 +38,7 @@ def validCard(name):
 
   print "error: Not a valid card"
   return None
-
-
-
-def getAmount(card):
-  return card["amount"]        
-
-
+  
 
 def getNewDeckID():
   highestID = 0

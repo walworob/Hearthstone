@@ -741,3 +741,137 @@ AT_040~Wildwalker~4~Minion~Common~The Grand Tournament~NULL~Druid~4~4~NULL~NULL~
 AT_027~Wilfred Fizzlebang~6~Minion~Legendary~The Grand Tournament~NULL~Warlock~4~4~NULL~NULL~NULL
 AT_026~Wrathguard~2~Minion~Common~The Grand Tournament~Demon~Warlock~4~3~NULL~NULL~NULL
 AT_116~Wyrmrest Agent~2~Minion~Rare~The Grand Tournament~NULL~Priest~1~4~NULL~NULL~NULL
+OG_086~Forbidden Flame~0~Spell~Epic~Whispers of the Old Gods~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+OG_198~Forbidden Healing~0~Spell~Epic~Whispers of the Old Gods~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+OG_114~Forbidden Ritual~0~Spell~Rare~Whispers of the Old Gods~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+OG_101~Forbidden Shaping~0~Spell~Epic~Whispers of the Old Gods~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+OG_070~Bladed Cultist~1~Minion~Common~Whispers of the Old Gods~NULL~Rogue~1~2~NULL~NULL~NULL
+OG_314~Blood To Ichor~1~Spell~Rare~Whispers of the Old Gods~NULL~Warrior~NULL~NULL~NULL~NULL~NULL
+OG_223~Divine Strength~1~Spell~Common~Whispers of the Old Gods~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+OG_027~Evolve~1~Spell~Rare~Whispers of the Old Gods~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+OG_179~Fiery Bat~1~Minion~Common~Whispers of the Old Gods~Beast~Hunter~2~1~NULL~NULL~NULL
+OG_051~Forbidden Ancient~1~Minion~Epic~Whispers of the Old Gods~NULL~Druid~1~1~NULL~NULL~NULL
+OG_072~Journey Below~1~Spell~Rare~Whispers of the Old Gods~NULL~Rogue~NULL~NULL~NULL~NULL~NULL
+OG_312~N'Zoth's First Mate~1~Minion~Common~Whispers of the Old Gods~Pirate~Warrior~1~1~NULL~NULL~NULL
+OG_061~On the Hunt~1~Spell~Common~Whispers of the Old Gods~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+OG_241~Possessed Villager~1~Minion~Common~Whispers of the Old Gods~NULL~Warlock~1~1~NULL~NULL~NULL
+OG_023~Primal Fusion~1~Spell~Common~Whispers of the Old Gods~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+OG_221~Selfless Hero~1~Minion~Rare~Whispers of the Old Gods~NULL~Paladin~2~1~NULL~NULL~NULL
+OG_123~Shifter Zerus~1~Minion~Legendary~Whispers of the Old Gods~NULL~NULL~1~1~NULL~NULL~NULL
+OG_151~Tentacle of N'Zoth~1~Minion~Common~Whispers of the Old Gods~NULL~NULL~1~1~NULL~NULL~NULL
+OG_006~Vilefin Inquisitor~1~Minion~Epic~Whispers of the Old Gods~Murloc~Paladin~1~3~NULL~NULL~NULL
+OG_158~Zealous Initiate~1~Minion~Common~Whispers of the Old Gods~NULL~NULL~1~1~NULL~NULL~NULL
+OG_311~A Light in the Darkness~2~Spell~Common~Whispers of the Old Gods~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+OG_281~Beckoner of Evil~2~Minion~Common~Whispers of the Old Gods~NULL~NULL~2~3~NULL~Unlocked when opening a Whispers of the Old Gods pack.~Crafting unlocked after opening a Whispers of the Old Gods pack.
+OG_156~Bilefin Tidehunter~2~Minion~Common~Whispers of the Old Gods~Murloc~NULL~2~1~NULL~NULL~NULL
+OG_303~Cult Sorcerer~2~Minion~Rare~Whispers of the Old Gods~NULL~Mage~3~2~NULL~NULL~NULL
+OG_109~Darkshire Librarian~2~Minion~Rare~Whispers of the Old Gods~NULL~Warlock~3~2~NULL~NULL~NULL
+OG_326~Duskboar~2~Minion~Common~Whispers of the Old Gods~Beast~NULL~4~1~NULL~NULL~NULL
+OG_104~Embrace the Shadow~2~Spell~Epic~Whispers of the Old Gods~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+OG_026~Eternal Sentinel~2~Minion~Epic~Whispers of the Old Gods~NULL~Shaman~3~2~NULL~NULL~NULL
+OG_048~Mark of Y'Shaarj~2~Spell~Common~Whispers of the Old Gods~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+OG_338~Nat, the Darkfisher~2~Minion~Legendary~Whispers of the Old Gods~NULL~NULL~2~4~NULL~NULL~NULL
+OG_118~Renounce Darkness~2~Spell~Epic~Whispers of the Old Gods~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+OG_081~Shatter~2~Spell~Common~Whispers of the Old Gods~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+OG_206~Stormcrack~2~Spell~Common~Whispers of the Old Gods~NULL~Shaman~NULL~NULL~NULL~NULL~NULL
+OG_284~Twilight Geomancer~2~Minion~Common~Whispers of the Old Gods~NULL~NULL~1~4~NULL~NULL~NULL
+OG_247~Twisted Worgen~2~Minion~Common~Whispers of the Old Gods~NULL~NULL~3~1~NULL~NULL~NULL
+OG_330~Undercity Huckster~2~Minion~Rare~Whispers of the Old Gods~NULL~Rogue~2~2~NULL~NULL~NULL
+OG_313~Addled Grizzly~3~Minion~Rare~Whispers of the Old Gods~Beast~Druid~2~2~NULL~NULL~NULL
+OG_248~Am'gam Rager~3~Minion~Common~Whispers of the Old Gods~NULL~NULL~1~5~NULL~NULL~NULL
+OG_276~Blood Warriors~3~Spell~Epic~Whispers of the Old Gods~NULL~Warrior~NULL~NULL~NULL~NULL~NULL
+OG_315~Bloodsail Cultist~3~Minion~Rare~Whispers of the Old Gods~Pirate~Warrior~3~4~NULL~NULL~NULL
+OG_325~Carrion Grub~3~Minion~Common~Whispers of the Old Gods~Beast~Hunter~2~5~NULL~NULL~NULL
+OG_113~Darkshire Councilman~3~Minion~Common~Whispers of the Old Gods~NULL~Warlock~1~5~NULL~NULL~NULL
+OG_162~Disciple of C'Thun~3~Minion~Rare~Whispers of the Old Gods~NULL~NULL~2~1~NULL~NULL~NULL
+OG_047~Feral Rage~3~Spell~Common~Whispers of the Old Gods~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+OG_292~Forlorn Stalker~3~Minion~Rare~Whispers of the Old Gods~NULL~Hunter~4~2~NULL~NULL~NULL
+OG_045~Infest~3~Spell~Rare~Whispers of the Old Gods~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+OG_222~Rallying Blade~3~Weapon~Rare~Whispers of the Old Gods~NULL~Paladin~3~NULL~2~NULL~NULL
+OG_149~Ravaging Ghoul~3~Minion~Common~Whispers of the Old Gods~NULL~Warrior~3~3~NULL~NULL~NULL
+OG_176~Shadow Strike~3~Spell~Common~Whispers of the Old Gods~NULL~Rogue~NULL~NULL~NULL~NULL~NULL
+OG_034~Silithid Swarmer~3~Minion~Rare~Whispers of the Old Gods~NULL~NULL~3~5~NULL~NULL~NULL
+OG_256~Spawn of N'Zoth~3~Minion~Common~Whispers of the Old Gods~NULL~NULL~2~2~NULL~NULL~NULL
+OG_116~Spreading Madness~3~Spell~Rare~Whispers of the Old Gods~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+OG_327~Squirming Tentacle~3~Minion~Common~Whispers of the Old Gods~NULL~NULL~2~4~NULL~NULL~NULL
+OG_310~Steward of Darkshire~3~Minion~Rare~Whispers of the Old Gods~NULL~Paladin~3~3~NULL~NULL~NULL
+OG_286~Twilight Elder~3~Minion~Common~Whispers of the Old Gods~NULL~NULL~3~4~NULL~NULL~NULL
+OG_083~Twilight Flamecaller~3~Minion~Common~Whispers of the Old Gods~NULL~Mage~2~2~NULL~NULL~NULL
+OG_150~Aberrant Berserker~4~Minion~Common~Whispers of the Old Gods~NULL~NULL~3~5~NULL~NULL~NULL
+OG_322~Blackwater Pirate~4~Minion~Rare~Whispers of the Old Gods~Pirate~NULL~2~5~NULL~NULL~NULL
+OG_218~Bloodhoof Brave~4~Minion~Common~Whispers of the Old Gods~NULL~Warrior~2~6~NULL~NULL~NULL
+OG_283~C'Thun's Chosen~4~Minion~Common~Whispers of the Old Gods~NULL~NULL~4~2~NULL~NULL~NULL
+OG_337~Cyclopian Horror~4~Minion~Epic~Whispers of the Old Gods~NULL~NULL~3~3~NULL~NULL~NULL
+OG_085~Demented Frostcaller~4~Minion~Rare~Whispers of the Old Gods~NULL~Mage~2~4~NULL~NULL~NULL
+OG_254~Eater of Secrets~4~Minion~Rare~Whispers of the Old Gods~NULL~NULL~2~4~NULL~NULL~NULL
+OG_082~Evolved Kobold~4~Minion~Common~Whispers of the Old Gods~NULL~NULL~2~2~NULL~NULL~NULL
+OG_174~Faceless Shambler~4~Minion~Epic~Whispers of the Old Gods~NULL~NULL~1~1~NULL~NULL~NULL
+OG_044~Fandral Staghelm~4~Minion~Legendary~Whispers of the Old Gods~NULL~Druid~3~5~NULL~NULL~NULL
+OG_024~Flamewreathed Faceless~4~Minion~Common~Whispers of the Old Gods~NULL~Shaman~7~7~NULL~NULL~NULL
+OG_334~Hooded Acolyte~4~Minion~Common~Whispers of the Old Gods~NULL~Priest~3~6~NULL~NULL~NULL
+OG_249~Infested Tauren~4~Minion~Common~Whispers of the Old Gods~NULL~NULL~2~3~NULL~NULL~NULL
+OG_216~Infested Wolf~4~Minion~Rare~Whispers of the Old Gods~Beast~Hunter~3~3~NULL~NULL~NULL
+OG_188~Klaxxi Amber-Weaver~4~Minion~Rare~Whispers of the Old Gods~NULL~Druid~4~5~NULL~NULL~NULL
+OG_328~Master of Evolution~4~Minion~Rare~Whispers of the Old Gods~NULL~Shaman~4~5~NULL~NULL~NULL
+OG_320~Midnight Drake~4~Minion~Rare~Whispers of the Old Gods~Dragon~NULL~1~4~NULL~NULL~NULL
+OG_202~Mire Keeper~4~Minion~Rare~Whispers of the Old Gods~NULL~Druid~3~3~NULL~NULL~NULL
+OG_323~Polluted Hoarder~4~Minion~Common~Whispers of the Old Gods~NULL~NULL~4~2~NULL~NULL~NULL
+OG_100~Shadow Word: Horror~4~Spell~Rare~Whispers of the Old Gods~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+OG_335~Shifting Shade~4~Minion~Rare~Whispers of the Old Gods~NULL~Priest~4~3~NULL~NULL~NULL
+OG_267~Southsea Squidface~4~Minion~Common~Whispers of the Old Gods~Pirate~Rogue~4~4~NULL~NULL~NULL
+OG_272~Twilight Summoner~4~Minion~Epic~Whispers of the Old Gods~NULL~NULL~1~1~NULL~NULL~NULL
+OG_080~Xaril, Poisoned Mind~4~Minion~Legendary~Whispers of the Old Gods~NULL~Rogue~3~2~NULL~NULL~NULL
+OG_090~Cabalist's Tome~5~Spell~Epic~Whispers of the Old Gods~NULL~Mage~NULL~NULL~NULL~NULL~NULL
+OG_147~Corrupted Healbot~5~Minion~Rare~Whispers of the Old Gods~Mech~NULL~6~6~NULL~NULL~NULL
+OG_321~Crazed Worshipper~5~Minion~Epic~Whispers of the Old Gods~NULL~NULL~3~6~NULL~NULL~NULL
+OG_295~Cult Apothecary~5~Minion~Common~Whispers of the Old Gods~NULL~NULL~4~4~NULL~NULL~NULL
+OG_234~Darkshire Alchemist~5~Minion~Common~Whispers of the Old Gods~NULL~Priest~4~5~NULL~NULL~NULL
+OG_102~Darkspeaker~5~Minion~Epic~Whispers of the Old Gods~NULL~NULL~3~6~NULL~NULL~NULL
+OG_209~Hallazeal the Ascended~5~Minion~Legendary~Whispers of the Old Gods~NULL~Shaman~4~6~NULL~NULL~NULL
+OG_031~Hammer of Twilight~5~Weapon~Epic~Whispers of the Old Gods~NULL~Shaman~4~NULL~2~NULL~NULL
+OG_094~Power Word: Tentacles~5~Spell~Common~Whispers of the Old Gods~NULL~Priest~NULL~NULL~NULL~NULL~NULL
+OG_309~Princess Huhuran~5~Minion~Legendary~Whispers of the Old Gods~Beast~Hunter~6~5~NULL~NULL~NULL
+OG_145~Psych-o-Tron~5~Minion~Common~Whispers of the Old Gods~Mech~NULL~3~4~NULL~NULL~NULL
+OG_087~Servant of Yogg-Saron~5~Minion~Rare~Whispers of the Old Gods~NULL~Mage~5~4~NULL~NULL~NULL
+OG_291~Shadowcaster~5~Minion~Epic~Whispers of the Old Gods~NULL~Rogue~4~4~NULL~NULL~NULL
+OG_273~Stand Against Darkness~5~Spell~Common~Whispers of the Old Gods~NULL~Paladin~NULL~NULL~NULL~NULL~NULL
+OG_033~Tentacles for Arms~5~Weapon~Epic~Whispers of the Old Gods~NULL~Warrior~2~NULL~2~NULL~NULL
+OG_096~Twilight Darkmender~5~Minion~Rare~Whispers of the Old Gods~NULL~Priest~6~5~NULL~NULL~NULL
+OG_302~Usher of Souls~5~Minion~Common~Whispers of the Old Gods~NULL~Warlock~5~6~NULL~NULL~NULL
+OG_200~Validated Doomsayer~5~Minion~Epic~Whispers of the Old Gods~NULL~NULL~0~7~NULL~NULL~NULL
+OG_290~Ancient Harbinger~6~Minion~Epic~Whispers of the Old Gods~NULL~NULL~4~6~NULL~NULL~NULL
+OG_161~Corrupted Seer~6~Minion~Rare~Whispers of the Old Gods~Murloc~NULL~2~3~NULL~NULL~NULL
+OG_293~Dark Arakkoa~6~Minion~Common~Whispers of the Old Gods~NULL~Druid~5~7~NULL~NULL~NULL
+OG_207~Faceless Summoner~6~Minion~Common~Whispers of the Old Gods~NULL~Mage~5~5~NULL~NULL~NULL
+OG_316~Herald Volazj~6~Minion~Legendary~Whispers of the Old Gods~NULL~Priest~5~5~NULL~NULL~NULL
+OG_122~Mukla, Tyrant of the Vale~6~Minion~Legendary~Whispers of the Old Gods~Beast~NULL~5~5~NULL~NULL~NULL
+OG_138~Nerubian Prophet~6~Minion~Common~Whispers of the Old Gods~NULL~NULL~4~4~NULL~NULL~NULL
+OG_271~Scaled Nightmare~6~Minion~Epic~Whispers of the Old Gods~Dragon~NULL~2~8~NULL~NULL~NULL
+OG_339~Skeram Cultist~6~Minion~Rare~Whispers of the Old Gods~NULL~NULL~7~6~NULL~NULL~NULL
+OG_028~Thing from Below~6~Minion~Rare~Whispers of the Old Gods~NULL~Shaman~5~5~NULL~NULL~NULL
+OG_073~Thistle Tea~6~Spell~Rare~Whispers of the Old Gods~NULL~Rogue~NULL~NULL~NULL~NULL~NULL
+OG_301~Ancient Shieldbearer~7~Minion~Rare~Whispers of the Old Gods~NULL~Warrior~6~6~NULL~NULL~NULL
+OG_153~Bog Creeper~7~Minion~Common~Whispers of the Old Gods~NULL~NULL~6~8~NULL~NULL~NULL
+OG_121~Cho'gall~7~Minion~Legendary~Whispers of the Old Gods~NULL~Warlock~7~7~NULL~NULL~NULL
+OG_152~Grotesque Dragonhawk~7~Minion~Common~Whispers of the Old Gods~Beast~NULL~5~5~NULL~NULL~NULL
+OG_318~Hogger, Doom of Elwynn~7~Minion~Legendary~Whispers of the Old Gods~NULL~NULL~6~6~NULL~NULL~NULL
+OG_220~Malkorok~7~Minion~Legendary~Whispers of the Old Gods~NULL~Warrior~6~5~NULL~NULL~NULL
+OG_131~Twin Emperor Vek'lor~7~Minion~Legendary~Whispers of the Old Gods~NULL~NULL~4~6~NULL~NULL~NULL
+OG_195~Wisps of the Old Gods~7~Spell~Epic~Whispers of the Old Gods~NULL~Druid~NULL~NULL~NULL~NULL~NULL
+OG_120~Anomalus~8~Minion~Legendary~Whispers of the Old Gods~NULL~Mage~8~6~NULL~NULL~NULL
+OG_211~Call of the Wild~8~Spell~Epic~Whispers of the Old Gods~NULL~Hunter~NULL~NULL~NULL~NULL~NULL
+OG_255~Doomcaller~8~Minion~Rare~Whispers of the Old Gods~NULL~NULL~7~9~NULL~NULL~NULL
+OG_142~Eldritch Horror~8~Minion~Common~Whispers of the Old Gods~NULL~NULL~6~10~NULL~NULL~NULL
+OG_308~Giant Sand Worm~8~Minion~Epic~Whispers of the Old Gods~Beast~Hunter~8~8~NULL~NULL~NULL
+OG_229~Ragnaros, Lightlord~8~Minion~Legendary~Whispers of the Old Gods~NULL~Paladin~8~8~NULL~NULL~NULL
+OG_300~The Boogeymonster~8~Minion~Legendary~Whispers of the Old Gods~NULL~NULL~6~7~NULL~NULL~NULL
+OG_282~Blade of C'Thun~9~Minion~Epic~Whispers of the Old Gods~NULL~Rogue~4~4~NULL~NULL~NULL
+OG_173~Blood of The Ancient One~9~Minion~Epic~Whispers of the Old Gods~NULL~NULL~9~9~NULL~NULL~NULL
+OG_340~Soggoth the Slitherer~9~Minion~Legendary~Whispers of the Old Gods~NULL~NULL~5~9~NULL~NULL~NULL
+OG_280~C'Thun~10~Minion~Legendary~Whispers of the Old Gods~NULL~NULL~6~6~NULL~Unlocked when opening a Whispers of the Old Gods pack.~Crafting unlocked after opening a Whispers of the Old Gods pack.
+OG_317~Deathwing, Dragonlord~10~Minion~Legendary~Whispers of the Old Gods~Dragon~NULL~12~12~NULL~NULL~NULL
+OG_239~DOOM!~10~Spell~Epic~Whispers of the Old Gods~NULL~Warlock~NULL~NULL~NULL~NULL~NULL
+OG_141~Faceless Behemoth~10~Minion~Common~Whispers of the Old Gods~NULL~NULL~10~10~NULL~NULL~NULL
+OG_133~N'Zoth, the Corruptor~10~Minion~Legendary~Whispers of the Old Gods~NULL~NULL~5~7~NULL~NULL~NULL
+OG_042~Y'Shaarj, Rage Unbound~10~Minion~Legendary~Whispers of the Old Gods~NULL~NULL~10~10~NULL~NULL~NULL
+OG_134~Yogg-Saron, Hope's End~10~Minion~Legendary~Whispers of the Old Gods~NULL~NULL~7~5~NULL~NULL~NULL

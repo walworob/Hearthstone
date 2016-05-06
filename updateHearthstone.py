@@ -16,7 +16,7 @@ for line in decksTXT:
     continue
   list = line.split("~")
   id = list[0]
-  info = {"name": list[1], "class": list[2], "type": list[3], "cost": int(list[4]), "lastUpdated": list[5]}
+  info = {"name": list[1], "class": list[2], "format": list[3], "type": list[4], "cost": int(list[5]), "lastUpdated": list[6]}
   decks[id] = info
 decksTXT.close()
 
@@ -39,8 +39,6 @@ command = ''
 while command != "exit":
 
   command = raw_input(">>> ")
-
-
 
   # Add a card to the collection
   if command[:8].upper() == "ADDCARD ":
@@ -125,11 +123,12 @@ while command != "exit":
     if Class not in CLASS_LIST:
       print "error: Not a valid class"
       continue
+    format = raw_input("Format: ").upper()
     type = raw_input("Type: ").upper()
 
     # Insert new deck information into memory
     deckID = getNewDeckID()
-    info = {"name": name, "class": Class, "type": type, "cost": 0, "lastUpdated": datetime.today().strftime("%Y/%m/%d")}
+    info = {"name": name, "class": Class, "format": format, "type": type, "cost": 0, "lastUpdated": datetime.today().strftime("%Y/%m/%d")}
     decks[deckID] = info;
 
     # Ask for cards until the total number of cards is equal to 30
@@ -213,7 +212,7 @@ while command != "exit":
 
     all = {}
     miss = {}
-    for curExp in EXPANSION_LIST:
+    for curExp in PACK_LIST:
 
       # Get count of all cards
       results = {
@@ -383,15 +382,29 @@ while command != "exit":
       print "error: Not a valid class"
       continue
 
-    deckList = []
+    standardDecks = []
+    wildDecks = []
     for id in decks:
       if decks[id]["class"] == Class:
-        deckList.append(id)
+        if decks[id]["format"] == "STANDARD":
+          standardDecks.append(id)
+        elif decks[id]["format"] == "WILD":
+          wildDecks.append(id)
+        else:
+          print "error: Unrecognized format: " + decks[id]["format"]
         
-    deckList = sortDecks(deckList)
+    standardDecks = sortDecks(standardDecks)
+    wildDecks = sortDecks(wildDecks)
 
     print ""
-    for curDeck in deckList:
+    print "Standard Decks"
+    print "-----------------"
+    for curDeck in standardDecks:
+      print decks[curDeck]["name"] + ", Cost: " + str(decks[curDeck]["cost"])
+    print ""
+    print "Wild Decks"
+    print "-------------"
+    for curDeck in wildDecks:
       print decks[curDeck]["name"] + ", Cost: " + str(decks[curDeck]["cost"])
     print ""
     
