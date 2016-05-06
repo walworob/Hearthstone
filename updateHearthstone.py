@@ -278,11 +278,9 @@ while command != "exit":
     if not deckList:
       print "error: Not a valid class"
       continue
-      
-    deckList = SortDecks(deckList)
 
-    print ""
-    curType = ""
+    canmakeList = []
+    
     for curDeck in deckList:
       completeDeck = True
       for ids in contain:
@@ -297,15 +295,9 @@ while command != "exit":
             break
           
       if completeDeck:
-        if decks[curDeck]["type"] != curType:
-          print ""
-          print decks[curDeck]["type"].lower().title() + " decks"
-          print "----------------"
-          curType = decks[curDeck]["type"]
-        print decks[curDeck]["name"] + ", Class: " + decks[curDeck]["class"] + ", Cost: " + str(decks[curDeck]["cost"])
-
-    print ""
-
+        canmakeList.append(curDeck)
+        
+    PrintDecks(canmakeList)
 
   # Find the best card to craft
   elif command.upper() == "WHATTOCRAFT" or command[:12].upper() == "WHATTOCRAFT ":
@@ -391,31 +383,12 @@ while command != "exit":
       print "error: Not a valid class"
       continue
 
-    standardDecks = []
-    wildDecks = []
+    deckList = []
     for id in decks:
       if decks[id]["class"] == Class:
-        if decks[id]["format"] == "STANDARD":
-          standardDecks.append(id)
-        elif decks[id]["format"] == "WILD":
-          wildDecks.append(id)
-        else:
-          print "error: Unrecognized format: " + decks[id]["format"]
+        deckList.append(id)
         
-    standardDecks = SortDecks(standardDecks)
-    wildDecks = SortDecks(wildDecks)
-
-    print ""
-    print "Standard Decks"
-    print "-----------------"
-    for curDeck in standardDecks:
-      print decks[curDeck]["name"] + ", Cost: " + str(decks[curDeck]["cost"])
-    print ""
-    print "Wild Decks"
-    print "-------------"
-    for curDeck in wildDecks:
-      print decks[curDeck]["name"] + ", Cost: " + str(decks[curDeck]["cost"])
-    print ""
+    PrintDecks(deckList)
     
   elif command[:15].upper() == "PRINTDECKSWITH ":
   
@@ -430,21 +403,7 @@ while command != "exit":
       if ids[0] == cardID:
         deckList.append(ids[1])
         
-    deckList = SortDecks(deckList)
-    
-    print ""
-    curType = ""
-    for curDeck in deckList:
-      if decks[curDeck]["type"] != curType:
-        print ""
-        print decks[curDeck]["type"].lower().title() + " decks"
-        print "----------------"
-        curType = decks[curDeck]["type"]
-      print decks[curDeck]["name"] + ", Class: " + decks[curDeck]["class"] + ", Cost: " + str(decks[curDeck]["cost"])
-        
-
-    print ""
-
+    PrintDecks(deckList)
 
   elif command[:9].upper() == "EDITDECK ":
 
@@ -510,7 +469,6 @@ while command != "exit":
   # New line
   elif command == "":
     continue
-
 
   # Unrecognized command
   else:

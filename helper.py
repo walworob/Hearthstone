@@ -3,6 +3,7 @@ CLASS_LIST = ["Druid", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman",
 EXPANSION_LIST = ["Classic", "Goblins vs Gnomes", "The Grand Tournament", "Whispers of the Old Gods"]
 PACK_LIST = ["Classic", "The Grand Tournament", "Whispers of the Old Gods"]
 ADVENTURE_LIST = ["Curse of Naxxramas", "Blackrock Mountain", "League of Explorers"]
+STANDARD_EXPANSIONS = ["Classic", "Blackrock Mountain", "The Grand Tournament", "League of Explorers", "Whispers of the Old Gods"]
 CARD_VALUES = {"Common": 40, "Rare": 100, "Epic": 400, "Legendary": 1600}
 
 cards = {}
@@ -111,6 +112,13 @@ def CanInsertCard(cardID, deckID):
     deckClass = decks[deckID]["class"]
     if cardClass != deckClass:
       print "error: " + cards[cardID]["name"] + " not in the same class as this deck"
+      return False
+      
+  # Check if the card is valid for this format
+  deckFormat = decks[deckID]["format"]
+  if deckFormat == "STANDARD":
+    if cards[cardID]["expansion"] not in STANDARD_EXPANSIONS:
+      print "error: Card not valid for this deck format"
       return False
 
   # Check if the card is already in the deck
@@ -241,3 +249,50 @@ def SortCards(cardList):
     cardList[curBest] = temp
 
   return cardList
+
+def PrintDeck(deck):
+  print decks[deck]["name"] + ", Class: " + decks[deck]["class"] + ", Cost: " + str(decks[deck]["cost"])
+  return
+  
+def PrintDecks(deckList):
+
+  standardDecks = []
+  wildDecks = []
+  for curDeck in deckList:
+    if decks[curDeck]["format"] == "STANDARD":
+      standardDecks.append(curDeck)
+    elif decks[curDeck]["format"] == "WILD":
+      wildDecks.append(curDeck)
+    else:
+      print "error: Unknown format " + decks[curDeck]["format"]
+      continue
+      
+  standardDecks = SortDecks(standardDecks)
+  wildDecks = SortDecks(wildDecks)
+  curType = ""
+  
+  print ""
+  print "Standard Decks"
+  print "-----------------"
+  for curDeck in standardDecks:
+    if decks[curDeck]["type"] != curType:
+      print ""
+      print "  " + decks[curDeck]["type"] + " Decks"
+      print "  --------------------------"
+      curType = decks[curDeck]["type"]
+    PrintDeck(curDeck)
+  curType = ""
+  print ""
+  print "Wild Decks"
+  print "-------------"
+  for curDeck in wildDecks:
+    if decks[curDeck]["type"] != curType:
+      print ""
+      print "  " + decks[curDeck]["type"] + " Decks"
+      print "  --------------------------"
+      curType = decks[curDeck]["type"]
+    PrintDeck(curDeck)
+  print ""
+  
+  return
+  
