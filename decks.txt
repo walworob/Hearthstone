@@ -1,13 +1,23 @@
 133~Legendary Control~Warrior~WILD~META~10240~2016/05/05
+
 132~Legendary Grim Patron Midrange~Warrior~WILD~META~4040~2016/05/05
+
 131~Mid Budget Handlock~Warlock~WILD~BUDGET~3280~2016/05/05
+
 130~Low Budget Zoo~Warlock~WILD~BUDGET~1320~2016/05/05
+
 137~Legendary Fatigue Control~Warrior~WILD~UNIQUE~12760~2016/05/05
+
 136~Legendary Reno Jackson Highlander Control~Warrior~WILD~UNIQUE~13340~2016/05/05
+
 135~Patron/Worgen Hybrid~Warrior~WILD~UNIQUE~920~2016/05/05
+
 134~Legendary Elise Control~Warrior~WILD~META~9520~2016/05/05
+
 139~Legendary Dragon~Warrior~WILD~UNIQUE~10640~2016/05/05
+
 138~Mech Aggro/Rush~Warrior~WILD~UNIQUE~1760~2016/05/05
+
 24~Legendary Fast~Druid~WILD~META~6020~2016/04/29
 
 25~Legendary Ramp~Druid~WILD~META~5720~2016/04/29
@@ -32,18 +42,28 @@
 
 8~Legendary Aggro/Rush~Paladin~STANDARD~META~3440~2016/04/29
 
-119~Legendary Zoo Midrange~Warlock~WILD~META~5880~2016/05/05
+87~Legendary Prophet Velen Combo~Priest~WILD~UNIQUE~6780~2016/05/05
+
 120~Zoo~Warlock~WILD~META~2760~2016/05/05
+
 121~Handlock~Warlock~WILD~META~6200~2016/05/05
+
 122~Reno Jackson Highlander Control~Warlock~WILD~META~8400~2016/05/05
+
 123~Flood Zoo~Warlock~WILD~META~5100~2016/05/05
+
 124~Legendary Malygos Dragon~Warlock~WILD~META~3940~2016/05/05
+
 125~Reno Jackson Highlander Combo~Warlock~WILD~META~6880~2016/05/05
+
 126~Reno Jackson Highlander Handlock~Warlock~WILD~UNIQUE~8640~2016/05/05
+
 127~Fast Discard Zoo~Warlock~WILD~UNIQUE~1420~2016/05/05
+
 128~Legendary Demonlock~Warlock~WILD~UNIQUE~8120~2016/05/05
+
 129~Mech Zoo~Warlock~WILD~UNIQUE~1420~2016/05/05
-118~Demon Handlock~Warlock~WILD~META~8800~2016/05/05
+
 59~Miracle Gadgetzan~Mage~WILD~UNIQUE~4160~2016/04/29
 
 58~Legendary Fel Reaver Mech~Mage~WILD~UNIQUE~5080~2016/04/29
@@ -65,7 +85,9 @@
 52~Legendary Freeze~Mage~WILD~META~7280~2016/04/29
 
 115~Cheap~Shaman~WILD~BUDGET~980~2016/05/05
+
 114~Low Budget Midrange~Shaman~WILD~BUDGET~1360~2016/05/05
+
 88~Inner Fire~Priest~WILD~UNIQUE~2060~2016/05/05
 
 89~Randiun Wrynn~Priest~WILD~UNIQUE~18660~2016/05/05
@@ -75,7 +97,9 @@
 110~Legendary Midrange Battlecry~Shaman~WILD~UNIQUE~2460~2016/05/05
 
 113~Legendary Control~Shaman~WILD~UNIQUE~7600~2016/05/05
+
 112~Legendary Malygos Combo~Shaman~WILD~UNIQUE~4920~2016/05/05
+
 82~Midrange~Priest~WILD~META~5000~2016/05/05
 
 83~Legendary Control~Priest~WILD~META~4120~2016/05/05
@@ -84,9 +108,9 @@
 
 81~Cheap~Paladin~WILD~BUDGET~1000~2016/05/05
 
-86~Grinder/China~Priest~WILD~UNIQUE~5220~2016/05/05
+119~Legendary Zoo Midrange~Warlock~WILD~META~5880~2016/05/05
 
-87~Legendary Prophet Velen Combo~Priest~WILD~UNIQUE~6780~2016/05/05
+118~Demon Handlock~Warlock~WILD~META~8800~2016/05/05
 
 84~Legendary Dragon~Priest~WILD~META~5680~2016/05/05
 
@@ -201,18 +225,25 @@
 18~Reno Jackson Highlander Combo~Warlock~STANDARD~META~8480~2016/04/29
 
 117~Leeroy Zoo~Warlock~WILD~META~5320~2016/05/05
+
 116~Low Budget Fel Reaver Mech~Shaman~WILD~BUDGET~2220~2016/05/05
+
 151~Legendary Tempo~Warrior~STANDARD~META~9080~2016/05/05
+
 150~Bloodlust~Shaman~STANDARD~META~1740~2016/05/05
+
+153~Cheap~Mage~WILD~BUDGET~980~2016/05/05
+152~Cheap~Druid~WILD~BUDGET~1000~2016/05/05
+
 48~Legendary Fast Freeze~Mage~WILD~META~5640~2016/04/29
 
 49~Legendary Mech~Mage~WILD~META~4280~2016/04/29
 
 46~Legendary Beast Midrange~Hunter~WILD~UNIQUE~1480~2016/04/29
 
-47~Legendary Tempo~Mage~WILD~META~4540~2016/04/29
+86~Grinder/China~Priest~WILD~UNIQUE~5220~2016/05/05
 
-44~Mech LoE~Hunter~WILD~UNIQUE~3600~2016/04/29
+44~Mech~Hunter~WILD~UNIQUE~3600~2016/04/29
 
 45~Legendary Control~Hunter~WILD~UNIQUE~9980~2016/04/29
 
@@ -231,15 +262,25 @@
 9~Low Budget Aggro/Rush~Paladin~STANDARD~BUDGET~1520~2016/04/29
 
 146~Legendary Reno Jackson Freeze~Mage~STANDARD~META~8480~2016/05/05
+
 147~Legendary N'Zoth Control~Priest~STANDARD~META~6440~2016/05/05
+
 144~Low Budget Beast Midrange~Druid~STANDARD~BUDGET~1320~2016/05/05
+
 145~Face Aggro/Rush~Hunter~STANDARD~META~2520~2016/05/05
+
 142~Mid Budget Control~Warrior~WILD~BUDGET~6720~2016/05/05
+
 143~Legendary Beast Midrange~Druid~STANDARD~META~2680~2016/05/05
+
 140~Aggro/Rush~Warrior~WILD~UNIQUE~760~2016/05/05
+
 141~Raging Worgen OTK~Warrior~WILD~UNIQUE~1760~2016/05/05
+
 148~Legendary Miracle Southsea Deckhand~Rogue~STANDARD~META~6960~2016/05/05
+
 149~Low Budget Miracle Southsea Deckhand~Rogue~STANDARD~BUDGET~3760~2016/05/05
+
 77~Pirate~Paladin~WILD~UNIQUE~9160~2016/05/05
 
 76~Secrets Anti-Aggro Midrange~Paladin~WILD~UNIQUE~5320~2016/05/05
@@ -259,4 +300,6 @@
 79~Mid Budget Midrange~Paladin~WILD~BUDGET~4020~2016/05/05
 
 78~Hobgoblin Aggro/Rush~Paladin~WILD~UNIQUE~2640~2016/05/05
+
+47~Legendary Tempo~Mage~WILD~META~4540~2016/04/29
 

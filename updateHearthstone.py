@@ -46,7 +46,7 @@ while command != "exit":
     card = command[8:]
 
     # Test for validity
-    id = validCard(card)
+    id = ValidCard(card)
     if id == None:
       continue
 
@@ -67,7 +67,7 @@ while command != "exit":
       possess[id] = 1
 
     # Commit
-    savePossess()
+    SavePossess()
 
 
 
@@ -77,7 +77,7 @@ while command != "exit":
     card = command[11:]
 
     # Test for validity
-    id = validCard(card)
+    id = ValidCard(card)
     if id == None:
       continue
 
@@ -98,7 +98,7 @@ while command != "exit":
       continue
 
     # Commit
-    savePossess()
+    SavePossess()
     
   elif command.upper() == "PRINTCARDS":
   
@@ -109,7 +109,8 @@ while command != "exit":
       cardName = cards[id]["name"]
       namesToID[cardName] = id
       
-    sortedCards = sortCards(cardList)
+    sortedCards = SortCards(cardList)
+    
     for id in sortedCards:
       cardName = cards[id]["name"]
       print str(possess[namesToID[cardName]]) + "x " + cardName
@@ -124,11 +125,21 @@ while command != "exit":
       print "error: Not a valid class"
       continue
     format = raw_input("Format: ").upper()
+    if format not in ["STANDARD", "WILD"]:
+      print "error: Not a valid format"
+      continue
     type = raw_input("Type: ").upper()
 
     # Insert new deck information into memory
-    deckID = getNewDeckID()
-    info = {"name": name, "class": Class, "format": format, "type": type, "cost": 0, "lastUpdated": datetime.today().strftime("%Y/%m/%d")}
+    deckID = GetNewDeckID()
+    info = {
+      "name": name,
+      "class": Class,
+      "format": format,
+      "type": type,
+      "cost": 0,
+      "lastUpdated": datetime.today().strftime("%Y/%m/%d")
+    }
     decks[deckID] = info;
 
     # Ask for cards until the total number of cards is equal to 30
@@ -141,25 +152,25 @@ while command != "exit":
       card = entry[2:]
 
       # Test for validity
-      id = validCard(card)
+      id = ValidCard(card)
       if id == None:
         print "Verify the card name and that you are only inserting one or two"
         continue
 
       # Insert cards into contain, but make sure (if they're inserting two) that both entries are valid
       # before inserting them
-      if not canInsertCard(id, deckID):
+      if not CanInsertCard(id, deckID):
         continue
       if number == 2:
-        if not canInsertCard(id, deckID):
+        if not CanInsertCard(id, deckID):
           continue
         numCards += 1
       numCards += 1
 
     # Update deck cost and then commit
-    updateCost(deckID)
-    saveDecks()
-    saveContain()
+    UpdateCost(deckID)
+    SaveDecks()
+    SaveContain()
 
 
 
@@ -168,7 +179,7 @@ while command != "exit":
 
     name = command[11:]
 
-    deleteDeck = getDeck(name)
+    deleteDeck = GetDeck(name)
     if deleteDeck == None:
       continue
 
@@ -184,11 +195,10 @@ while command != "exit":
       contain.pop(id, 0)
 
     # Commit
-    saveDecks()
-    saveContain()
+    SaveDecks()
+    SaveContain()
 
-
-
+    
   # Find which pack to get
   elif command.upper() == "PACK":
 
@@ -269,8 +279,7 @@ while command != "exit":
       print "error: Not a valid class"
       continue
       
-    deckList = sortDecks(deckList)
-
+    deckList = SortDecks(deckList)
 
     print ""
     curType = ""
@@ -359,7 +368,7 @@ while command != "exit":
 
     name = command[10:]
 
-    deckID = getDeck(name)
+    deckID = GetDeck(name)
     if deckID == None:
       continue
 
@@ -368,8 +377,8 @@ while command != "exit":
       if deckID == ids.split(",")[1]:
         cardList.append(ids.split(",")[0])
 
-    cardList = sortCards(cardList)
-     
+    cardList = SortCards(cardList)
+
     print ""
     for card in cardList:
       print str(contain[card + "," + deckID]) + "x " + cards[card]["name"]
@@ -393,8 +402,8 @@ while command != "exit":
         else:
           print "error: Unrecognized format: " + decks[id]["format"]
         
-    standardDecks = sortDecks(standardDecks)
-    wildDecks = sortDecks(wildDecks)
+    standardDecks = SortDecks(standardDecks)
+    wildDecks = SortDecks(wildDecks)
 
     print ""
     print "Standard Decks"
@@ -411,7 +420,7 @@ while command != "exit":
   elif command[:15].upper() == "PRINTDECKSWITH ":
   
     name = command[15:].lower().title()
-    cardID = validCard(name)
+    cardID = ValidCard(name)
     if cardID == None:
       continue
       
@@ -421,7 +430,7 @@ while command != "exit":
       if ids[0] == cardID:
         deckList.append(ids[1])
         
-    deckList = sortDecks(deckList)
+    deckList = SortDecks(deckList)
     
     print ""
     curType = ""
@@ -440,7 +449,7 @@ while command != "exit":
   elif command[:9].upper() == "EDITDECK ":
 
     name = command[9:]
-    deckID = getDeck(name)
+    deckID = GetDeck(name)
     if deckID == None:
       continue
 
@@ -457,11 +466,11 @@ while command != "exit":
         cmd = raw_input("--- >>> ")
         continue
 
-      toReplace = validCard(toReplace)
+      toReplace = ValidCard(toReplace)
       if toReplace == None:
         cmd = raw_input("--- >>> ")
         continue
-      replacement = validCard(replacement)
+      replacement = ValidCard(replacement)
       if replacement == None:
         cmd = raw_input("--- >>> ")
         continue
@@ -478,7 +487,7 @@ while command != "exit":
         elif amount == 2:
           contain[toReplace + "," + deckID] = 1
 
-        if not canInsertCard(replacement, deckID):
+        if not CanInsertCard(replacement, deckID):
           contain[toReplace + "," + deckID] = amount
           cmd = raw_input("--- >>> ")
           continue
@@ -492,9 +501,9 @@ while command != "exit":
 
     # Commit
     decks[deckID]["lastUpdated"] = datetime.today().strftime("%Y/%m/%d")
-    updateCost(deckID)
-    saveDecks()
-    saveContain()
+    UpdateCost(deckID)
+    SaveDecks()
+    SaveContain()
     print ""        
 
 

@@ -10,20 +10,20 @@ decks = {}
 contain = {}
 possess = {}
 
-def saveDecks():
+def SaveDecks():
   decksTXT = open("decks.txt", "wb")
   for id in decks:
     decksTXT.write(id + "~" + decks[id]["name"] + "~" + decks[id]["class"] + "~" + decks[id]["format"] + "~" + decks[id]["type"] + "~" + str(decks[id]["cost"]) + "~" + decks[id]["lastUpdated"] + '\n')
   decksTXT.close()
 
-def saveContain():
+def SaveContain():
   containTXT = open("contain.txt", "wb")
   for id in contain:
     ids = id.split(",")
     containTXT.write(ids[0] + "," + ids[1] + "~" + str(contain[id]) + "\n")
   containTXT.close()
 
-def savePossess():
+def SavePossess():
   possessTXT = open("possess.txt", "wb")
   for id in possess:
     possessTXT.write(id + "~" + str(possess[id]) + "\n")
@@ -31,7 +31,7 @@ def savePossess():
 
 
 
-def validCard(name):
+def ValidCard(name):
   for id in cards:
     if cards[id]["name"] == name:
       return id
@@ -40,7 +40,7 @@ def validCard(name):
   return None
   
 
-def getNewDeckID():
+def GetNewDeckID():
   highestID = 0
   for id in decks:
     if int(id) > highestID:
@@ -50,7 +50,7 @@ def getNewDeckID():
 
 
 
-def getDeck(deckName):
+def GetDeck(deckName):
 
   # Get decks with that name
   deckList = []
@@ -93,7 +93,7 @@ def getDeck(deckName):
 
 
 
-def canInsertCard(cardID, deckID):
+def CanInsertCard(cardID, deckID):
 
   # Check the deck size
   size = 0
@@ -133,7 +133,7 @@ def canInsertCard(cardID, deckID):
 
 
 
-def updateCost(deckID):
+def UpdateCost(deckID):
 
   cardSet = []
   for id in contain:
@@ -172,7 +172,7 @@ def updateCost(deckID):
 
 # These functions will measure if deckA is higher than deckB and return true or false
 # Ties go to deckA
-def higherType(a, b):
+def HigherType(a, b):
   if a != "META":
     if a != "UNIQUE":
       if a != "BUDGET":
@@ -184,7 +184,7 @@ def higherType(a, b):
   else:
     return True
 
-def deckIsHigher(deckA, deckB):
+def DeckIsHigher(deckA, deckB):
   a = decks[deckA]
   b = decks[deckB]
   if a["type"] == b["type"]:
@@ -196,14 +196,14 @@ def deckIsHigher(deckA, deckB):
     else:
       return a["class"] < b["class"]
   else:
-    return higherType(a["type"].upper(), b["type"].upper())
+    return HigherType(a["type"].upper(), b["type"].upper())
 
-def sortDecks(deckList):
+def SortDecks(deckList):
 
   for x in range(0, len(deckList)):
     curBest = x
     for y in range(x, len(deckList)):
-      if deckIsHigher(deckList[y], deckList[curBest]):
+      if DeckIsHigher(deckList[y], deckList[curBest]):
         curBest = y
 
     temp = deckList[x]
@@ -214,7 +214,7 @@ def sortDecks(deckList):
 
 
 
-def cardIsHigher(cardA, cardB):
+def CardIsHigher(cardA, cardB):
   a = cards[cardA]
   b = cards[cardB]
   if a["class"] == b["class"]:
@@ -227,13 +227,13 @@ def cardIsHigher(cardA, cardB):
       return int(a["mana"]) < int(b["mana"])
   else:
     return (b["class"] == "NULL") or ( (a["class"] < b["class"]) and (a["class"] != "NULL") )
-      
-def sortCards(cardList):
+
+def SortCards(cardList):
 
   for x in range(0, len(cardList)):
     curBest = x
     for y in range(x, len(cardList)):
-      if cardIsHigher(cardList[y], cardList[curBest]):
+      if CardIsHigher(cardList[y], cardList[curBest]):
         curBest = y
 
     temp = cardList[x]
