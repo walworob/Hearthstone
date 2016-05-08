@@ -42,8 +42,6 @@
 
 8~Legendary Aggro/Rush~Paladin~STANDARD~META~3440~2016/04/29
 
-87~Legendary Prophet Velen Combo~Priest~WILD~UNIQUE~6780~2016/05/05
-
 120~Zoo~Warlock~WILD~META~2760~2016/05/05
 
 121~Handlock~Warlock~WILD~META~6200~2016/05/05
@@ -63,6 +61,8 @@
 128~Legendary Demonlock~Warlock~WILD~UNIQUE~8120~2016/05/05
 
 129~Mech Zoo~Warlock~WILD~UNIQUE~1420~2016/05/05
+
+118~Demon Handlock~Warlock~WILD~META~8800~2016/05/05
 
 59~Miracle Gadgetzan~Mage~WILD~UNIQUE~4160~2016/04/29
 
@@ -110,7 +110,7 @@
 
 119~Legendary Zoo Midrange~Warlock~WILD~META~5880~2016/05/05
 
-118~Demon Handlock~Warlock~WILD~META~8800~2016/05/05
+87~Legendary Prophet Velen Combo~Priest~WILD~UNIQUE~6780~2016/05/05
 
 84~Legendary Dragon~Priest~WILD~META~5680~2016/05/05
 
@@ -233,8 +233,14 @@
 150~Bloodlust~Shaman~STANDARD~META~1740~2016/05/05
 
 153~Cheap~Mage~WILD~BUDGET~980~2016/05/05
+
 152~Cheap~Druid~WILD~BUDGET~1000~2016/05/05
 
+155~Legendary Miracle Leeroy Jenkins~Rogue~STANDARD~META~8120~2016/05/08
+154~Legendary Ramp~Druid~STANDARD~META~10180~2016/05/08
+
+157~Legendary Pirate Aggro/Rush~Warrior~STANDARD~META~8040~2016/05/08
+156~C'Thun Renolock~Warlock~STANDARD~META~9040~2016/05/08
 48~Legendary Fast Freeze~Mage~WILD~META~5640~2016/04/29
 
 49~Legendary Mech~Mage~WILD~META~4280~2016/04/29

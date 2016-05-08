@@ -102,7 +102,7 @@ EX1_622~Shadow Word: Death~3~Spell~Basic~Classic~NULL~Priest~NULL~NULL~NULL~Unlo
 CS2_234~Shadow Word: Pain~2~Spell~Basic~Classic~NULL~Priest~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 36.
 EX1_019~Shattered Sun Cleric~3~Minion~Basic~Classic~NULL~NULL~3~2~NULL~NULL~Unlocked at Priest Level 53.
 EX1_606~Shield Block~3~Spell~Basic~Classic~NULL~Warrior~NULL~NULL~NULL~Unlocked at Level 8.~Unlocked at Level 28.
-EX1_278~Shiv~2~Spell~~Basic~Classic~NULL~Rogue~NULL~NULL~NULL~Unlocked at Level 6.~Unlocked at Level 45.
+EX1_278~Shiv~2~Spell~Basic~Classic~NULL~Rogue~NULL~NULL~NULL~Unlocked at Level 6.~Unlocked at Level 45.
 CS2_127~Silverback Patriarch~3~Minion~Basic~Classic~Beast~NULL~1~4~NULL~NULL~Unlocked at Warrior Level 53.
 CS2_075~Sinister Strike~1~Spell~Basic~Classic~NULL~Rogue~NULL~NULL~NULL~Unlocked at Level 1.~Unlocked at Level 15.
 EX1_308~Soulfire~1~Spell~Basic~Classic~NULL~Warlock~NULL~NULL~NULL~Unlocked at Level 6.~Unlocked at Level 28.
