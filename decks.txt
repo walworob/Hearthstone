@@ -1,3 +1,5 @@
+165~Grand Widow Faerlina~Priest~WILD~SOLO~5200~2016/05/08
+
 133~Legendary Control~Warrior~WILD~META~10240~2016/05/05
 
 132~Legendary Grim Patron Midrange~Warrior~WILD~META~4040~2016/05/05
@@ -18,6 +20,8 @@
 
 138~Mech Aggro/Rush~Warrior~WILD~UNIQUE~1760~2016/05/05
 
+166~Grand Widow Faerlina~Warlock~WILD~SOLO~1440~2016/05/08
+
 24~Legendary Fast~Druid~WILD~META~6020~2016/04/29
 
 25~Legendary Ramp~Druid~WILD~META~5720~2016/04/29
@@ -34,13 +38,19 @@
 
 23~Legendary Aggro/Rush~Druid~WILD~META~4880~2016/04/29
 
+160~Noth the Plaguebringer~Priest~WILD~SOLO~4120~2016/05/08
+
 28~Egg Token~Druid~WILD~UNIQUE~820~2016/04/29
 
 29~Fatigue~Druid~WILD~UNIQUE~2560~2016/04/29
 
+161~Anub'Rekhan~Druid~WILD~SOLO~7240~2016/05/08
+
 4~Low Budget Midrange~Hunter~STANDARD~BUDGET~1360~2016/04/29
 
 8~Legendary Aggro/Rush~Paladin~STANDARD~META~3440~2016/04/29
+
+163~Anub'Rekhan~Warlock~WILD~SOLO~4760~2016/05/08
 
 120~Zoo~Warlock~WILD~META~2760~2016/05/05
 
@@ -62,8 +72,6 @@
 
 129~Mech Zoo~Warlock~WILD~UNIQUE~1420~2016/05/05
 
-118~Demon Handlock~Warlock~WILD~META~8800~2016/05/05
-
 59~Miracle Gadgetzan~Mage~WILD~UNIQUE~4160~2016/04/29
 
 58~Legendary Fel Reaver Mech~Mage~WILD~UNIQUE~5080~2016/04/29
@@ -84,6 +92,10 @@
 
 52~Legendary Freeze~Mage~WILD~META~7280~2016/04/29
 
+164~Grand Widow Faerlina~Paladin~WILD~SOLO~3200~2016/05/08
+
+179~Gothik the Harvester~Paladin~WILD~SOLO~3680~2016/05/08
+178~Gothik the Harvester~Druid~WILD~SOLO~1440~2016/05/08
 115~Cheap~Shaman~WILD~BUDGET~980~2016/05/05
 
 114~Low Budget Midrange~Shaman~WILD~BUDGET~1360~2016/05/05
@@ -110,7 +122,7 @@
 
 119~Legendary Zoo Midrange~Warlock~WILD~META~5880~2016/05/05
 
-87~Legendary Prophet Velen Combo~Priest~WILD~UNIQUE~6780~2016/05/05
+118~Demon Handlock~Warlock~WILD~META~8800~2016/05/05
 
 84~Legendary Dragon~Priest~WILD~META~5680~2016/05/05
 
@@ -118,7 +130,10 @@
 
 3~Legendary Midrange~Hunter~STANDARD~META~2120~2016/04/29
 
+177~Instructor Razuvious~Warrior~WILD~SOLO~6360~2016/05/08
 7~Legendary N'Zoth Control~Paladin~STANDARD~META~12020~2016/04/29
+
+92~Mid Budget Control~Priest~WILD~BUDGET~2720~2016/05/05
 
 108~Legnedary Fel Reaver Mech~Shaman~WILD~META~3820~2016/05/05
 
@@ -160,6 +175,7 @@
 
 34~Beast Midrange~Druid~WILD~UNIQUE~3740~2016/04/29
 
+176~Instructor Razuvious~Priest~WILD~SOLO~1240~2016/05/08
 60~Legendary Mech Midrange~Mage~WILD~UNIQUE~7240~2016/04/29
 
 61~Legendary Majordomo Executus BrM~Mage~WILD~UNIQUE~7840~2016/04/29
@@ -180,7 +196,21 @@
 
 69~Legendary Midrange~Paladin~WILD~META~9000~2016/05/05
 
+175~Instructor Razuvious~Paladin~WILD~SOLO~7560~2016/05/08
+174~Loatheb~Warrior~WILD~SOLO~1080~2016/05/08
+
+173~Loatheb~Priest~WILD~SOLO~640~2016/05/08
+
+172~Heigan the Unclean~Warlock~WILD~SOLO~4460~2016/05/08
+
+171~Heigan the Unclean~Priest~WILD~SOLO~800~2016/05/08
+
+170~Heigan the Unclean~Mage~WILD~SOLO~7240~2016/05/08
+
+180~Gothik the Harvester~Priest~WILD~SOLO~3520~2016/05/08
 2~Low Budget Ramp C'Thun~Druid~STANDARD~BUDGET~3840~2016/04/29
+
+162~Anub'Rekhan~Mage~WILD~SOLO~6240~2016/05/08
 
 6~Legendary Fast Freeze~Mage~STANDARD~META~5720~2016/04/29
 
@@ -188,13 +218,17 @@
 
 98~Pirate~Rogue~WILD~UNIQUE~6620~2016/05/05
 
+168~Maexxna~Mage~WILD~SOLO~2940~2016/05/08
+
+169~Maexxna~Paladin~WILD~SOLO~3760~2016/05/08
+
 91~Cheap~Priest~WILD~BUDGET~1000~2016/05/05
 
 90~Mid Budget Midrange~Priest~WILD~BUDGET~1840~2016/05/05
 
 93~Oil~Rogue~WILD~META~4900~2016/05/05
 
-92~Mid Budget Control~Priest~WILD~BUDGET~2720~2016/05/05
+167~Maexxna~Hunter~WILD~SOLO~2660~2016/05/08
 
 95~Legendary Raptor Deathrattle Tempo~Rogue~WILD~META~6120~2016/05/05
 
@@ -237,10 +271,17 @@
 152~Cheap~Druid~WILD~BUDGET~1000~2016/05/05
 
 155~Legendary Miracle Leeroy Jenkins~Rogue~STANDARD~META~8120~2016/05/08
+
 154~Legendary Ramp~Druid~STANDARD~META~10180~2016/05/08
 
 157~Legendary Pirate Aggro/Rush~Warrior~STANDARD~META~8040~2016/05/08
+
 156~C'Thun Renolock~Warlock~STANDARD~META~9040~2016/05/08
+
+159~Noth the Plaguebringer~Mage~WILD~SOLO~7240~2016/05/08
+
+158~Noth the Plaguebringer~Druid~WILD~SOLO~7760~2016/05/08
+
 48~Legendary Fast Freeze~Mage~WILD~META~5640~2016/04/29
 
 49~Legendary Mech~Mage~WILD~META~4280~2016/04/29
@@ -259,7 +300,7 @@
 
 40~Face Aggro/Rush Anti-Aggro~Hunter~WILD~META~1100~2016/04/29
 
-41~Face Aggro/Rush~Hunter~WILD~META~1460~2016/04/29
+87~Legendary Prophet Velen Combo~Priest~WILD~UNIQUE~6780~2016/05/05
 
 1~Legendary Ramp C'Thun~Druid~STANDARD~META~8060~2016/04/29
 
@@ -306,6 +347,8 @@
 79~Mid Budget Midrange~Paladin~WILD~BUDGET~4020~2016/05/05
 
 78~Hobgoblin Aggro/Rush~Paladin~WILD~UNIQUE~2640~2016/05/05
+
+41~Face Aggro/Rush~Hunter~WILD~META~1460~2016/04/29
 
 47~Legendary Tempo~Mage~WILD~META~4540~2016/04/29
 
