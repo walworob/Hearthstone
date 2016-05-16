@@ -72,7 +72,7 @@ def GetDeck(deckName):
       deckCount = 1
 
       for deck in deckList:
-        output = str(deckCount) + ") " + deckName + ", Class: " + decks[deck]["class"] + ", Cost: " + str(decks[deck]["cost"])
+        output = str(deckCount) + ") " + deckName + ", Format: " + decks[deck]["format"].title() + ", Class: " + decks[deck]["class"] + ", Cost: " + str(decks[deck]["cost"])
         print output
         deckCount += 1
 
