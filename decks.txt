@@ -1,13 +1,26 @@
 216~Baron Geddon~Mage~WILD~SOLO~3180~2016/05/18
+
 217~Baron Geddon~Warlock~WILD~SOLO~1800~2016/05/18
+
 214~Garr~Priest~WILD~SOLO~680~2016/05/18
+
 215~Garr~Warrior~WILD~SOLO~1200~2016/05/18
+
 212~Emperor Thaurissan~Priest~WILD~SOLO~1560~2016/05/18
+
 213~Emperor Thaurissan~Warrior~WILD~SOLO~1880~2016/05/18
+
 210~High Justice Grimstone~Mage~WILD~SOLO~5440~2016/05/18
+
 211~High Justice Grimstone~Rogue~WILD~SOLO~2700~2016/05/18
+
+165~Grand Widow Faerlina~Priest~WILD~SOLO~5200~2016/05/08
+
+264~Cheap~Mage~STANDARD~BUDGET~2600~2016/05/21
 218~Ragnaros/Executus~Hunter~WILD~SOLO~3080~2016/05/18
+
 219~Ragnaros/Executus~Paladin~WILD~SOLO~1780~2016/05/18
+
 133~Legendary Control~Warrior~WILD~META~10240~2016/05/05
 
 132~Legendary Grim Patron Midrange~Warrior~WILD~META~4040~2016/05/05
@@ -28,7 +41,7 @@
 
 138~Mech Aggro/Rush~Warrior~WILD~UNIQUE~1760~2016/05/05
 
-93~Oil~Rogue~WILD~META~4900~2016/05/05
+225~Rend Blackhand~Hunter~WILD~SOLO~980~2016/05/18
 
 24~Legendary Fast~Druid~WILD~META~6020~2016/04/29
 
@@ -46,22 +59,24 @@
 
 23~Legendary Aggro/Rush~Druid~WILD~META~4880~2016/04/29
 
-95~Legendary Raptor Deathrattle Tempo~Rogue~WILD~META~6120~2016/05/05
+223~General Drakkisath~Priest~WILD~SOLO~12880~2016/05/18
 
 28~Egg Token~Druid~WILD~UNIQUE~820~2016/04/29
 
 29~Fatigue~Druid~WILD~UNIQUE~2560~2016/04/29
 
-94~Legendary Malygos Miracle~Rogue~WILD~META~6560~2016/05/05
+222~General Drakkisath~Rogue~WILD~SOLO~2240~2016/05/18
 
 4~Low Budget Midrange~Hunter~STANDARD~BUDGET~1360~2016/04/29
 
+161~Anub'Rekhan~Druid~WILD~SOLO~7240~2016/05/08
+
 8~Legendary Aggro/Rush~Paladin~STANDARD~META~3440~2016/04/29
 
-96~Miracle Southsea Deckhand~Rogue~WILD~UNIQUE~3720~2016/05/05
+220~Ragnaros/Executus~Priest~WILD~SOLO~1380~2016/05/18
 
-227~Razorgore the Untamed~Paladin~WILD~SOLO~2520~2016/05/18
-258~Giantfine~Rogue~WILD~SOLO~4920~2016/05/18
+68~Secrets Midrange~Paladin~WILD~META~5380~2016/05/05
+
 120~Zoo~Warlock~WILD~META~2760~2016/05/05
 
 121~Handlock~Warlock~WILD~META~6200~2016/05/05
@@ -81,8 +96,6 @@
 128~Legendary Demonlock~Warlock~WILD~UNIQUE~8120~2016/05/05
 
 129~Mech Zoo~Warlock~WILD~UNIQUE~1420~2016/05/05
-
-69~Legendary Midrange~Paladin~WILD~META~9000~2016/05/05
 
 91~Cheap~Priest~WILD~BUDGET~1000~2016/05/05
 
@@ -106,23 +119,36 @@
 
 52~Legendary Freeze~Mage~WILD~META~7280~2016/04/29
 
-259~Lady Naz'jar~Druid~WILD~SOLO~1920~2016/05/18
-90~Mid Budget Midrange~Priest~WILD~BUDGET~1840~2016/05/05
+63~Legendary Fatigue~Mage~WILD~UNIQUE~3040~2016/04/29
 
-201~Sapphiron~Hunter~WILD~SOLO~2420~2016/05/18
+145~Face Aggro/Rush~Hunter~STANDARD~META~2520~2016/05/05
+
+164~Grand Widow Faerlina~Paladin~WILD~SOLO~3200~2016/05/08
+
+146~Legendary Reno Jackson Freeze~Mage~STANDARD~META~8480~2016/05/05
+
 199~Thaddius~Priest~WILD~SOLO~1380~2016/05/18
-66~Legendary Aggro/Rush~Paladin~WILD~META~3080~2016/05/05
 
-200~Thaddius~Warlock~WILD~SOLO~1220~2016/05/18
+198~Thaddius~Druid~WILD~SOLO~2420~2016/05/18
+
+147~Legendary N'Zoth Control~Priest~STANDARD~META~6440~2016/05/05
+
 195~Gluth~Mage~WILD~SOLO~7640~2016/05/18
+
 194~Grobbulus~Priest~WILD~SOLO~560~2016/05/18
+
 197~Gluth~Warlock~WILD~SOLO~3960~2016/05/18
-67~Secrets Aggro/Rush~Paladin~WILD~META~2260~2016/05/05
+
+178~Gothik the Harvester~Druid~WILD~SOLO~1440~2016/05/08
 
 191~Patchwerk~Priest~WILD~SOLO~1160~2016/05/18
+
 190~Patchwerk~Mage~WILD~SOLO~1680~2016/05/18
+
 193~Grobbulus~Mage~WILD~SOLO~3600~2016/05/18
+
 192~Grobbulus~Druid~WILD~SOLO~720~2016/05/18
+
 115~Cheap~Shaman~WILD~BUDGET~980~2016/05/05
 
 114~Low Budget Midrange~Shaman~WILD~BUDGET~1360~2016/05/05
@@ -155,32 +181,46 @@
 
 85~Legendary Sottle's Dragon~Priest~WILD~META~8480~2016/05/05
 
-251~Temple Escape~Druid~WILD~SOLO~2880~2016/05/18
-198~Thaddius~Druid~WILD~SOLO~2420~2016/05/18
-256~Lord Slitherspear~Priest~WILD~SOLO~2040~2016/05/18
-206~Coren Direbrew~Priest~WILD~SOLO~10940~2016/05/18
+174~Loatheb~Warrior~WILD~SOLO~1080~2016/05/08
+
+140~Aggro/Rush~Warrior~WILD~UNIQUE~760~2016/05/05
+
+173~Loatheb~Priest~WILD~SOLO~640~2016/05/08
+
+141~Raging Worgen OTK~Warrior~WILD~UNIQUE~1760~2016/05/05
+
 226~Rend Blackhand~Priest~WILD~SOLO~2400~2016/05/18
-257~Giantfin~Warrior~WILD~SOLO~1080~2016/05/18
+
+172~Heigan the Unclean~Warlock~WILD~SOLO~4460~2016/05/08
+
 3~Legendary Midrange~Hunter~STANDARD~META~2020~2016/05/18
 
-177~Instructor Razuvious~Warrior~WILD~SOLO~6360~2016/05/08
+171~Heigan the Unclean~Priest~WILD~SOLO~800~2016/05/08
 
-254~Archaedas~Druid~WILD~SOLO~2280~2016/05/18
 7~Legendary N'Zoth Control~Paladin~STANDARD~META~13680~2016/05/16
 
-247~Zinaar~Mage~WILD~SOLO~1280~2016/05/18
-255~Lord Slitherspear~Rogue~WILD~SOLO~3480~2016/05/18
-225~Rend Blackhand~Hunter~WILD~SOLO~980~2016/05/18
+92~Mid Budget Control~Priest~WILD~BUDGET~2720~2016/05/05
+
+170~Heigan the Unclean~Mage~WILD~SOLO~7240~2016/05/08
+
+166~Grand Widow Faerlina~Warlock~WILD~SOLO~1440~2016/05/08
+
 245~Nefarian and Onyxia~Paladin~WILD~SOLO~6520~2016/05/18
+
 244~Atramedes~Mage~WILD~SOLO~2840~2016/05/18
-108~Legnedary Fel Reaver Mech~Shaman~WILD~META~3820~2016/05/05
+
+247~Zinaar~Mage~WILD~SOLO~1280~2016/05/18
 
 109~Mech Aggro~Shaman~WILD~UNIQUE~1960~2016/05/05
 
 241~Maloriak~Warlock~WILD~SOLO~3020~2016/05/18
+
 240~Omnotron Defense System~Shaman~WILD~SOLO~4240~2016/05/18
+
 243~Atramedes~Mage~WILD~SOLO~4240~2016/05/18
+
 242~Atramedes~Mage~WILD~SOLO~1080~2016/05/18
+
 102~Cheap~Rogue~WILD~BUDGET~940~2016/05/05
 
 103~Mid Budget Raptor Deathrattle Tempo~Rogue~WILD~BUDGET~3320~2016/05/05
@@ -211,53 +251,62 @@
 
 37~Mid Budget Ramp~Druid~WILD~BUDGET~2800~2016/04/29
 
-36~Mid Budget Aggro/Rush~Druid~WILD~BUDGET~2440~2016/04/29
+108~Legnedary Fel Reaver Mech~Shaman~WILD~META~3820~2016/05/05
 
 35~Mid Budget Fast~Druid~WILD~BUDGET~2640~2016/04/29
 
 34~Beast Midrange~Druid~WILD~UNIQUE~3740~2016/04/29
 
 246~Nefarian and Onyxia~Priest~WILD~SOLO~920~2016/05/18
+
+162~Anub'Rekhan~Mage~WILD~SOLO~6240~2016/05/08
+
+160~Noth the Plaguebringer~Priest~WILD~SOLO~4120~2016/05/08
+
 252~Chieftain Scarvash~Warrior~WILD~SOLO~5640~2016/05/18
-205~Kel'Thuzad~Priest~WILD~SOLO~720~2016/05/18
-223~General Drakkisath~Priest~WILD~SOLO~12880~2016/05/18
+
+151~Legendary Tempo~Warrior~STANDARD~META~9080~2016/05/05
+
+176~Instructor Razuvious~Priest~WILD~SOLO~1240~2016/05/08
+
 60~Legendary Mech Midrange~Mage~WILD~UNIQUE~7240~2016/04/29
 
 61~Legendary Majordomo Executus BrM~Mage~WILD~UNIQUE~7840~2016/04/29
 
-62~Legendary Duplicate Control~Mage~WILD~UNIQUE~4080~2016/04/29
+258~Giantfine~Rogue~WILD~SOLO~4920~2016/05/18
 
-63~Legendary Fatigue~Mage~WILD~UNIQUE~3040~2016/04/29
+259~Lady Naz'jar~Druid~WILD~SOLO~1920~2016/05/18
 
 64~Low Budget Tempo~Mage~WILD~BUDGET~1780~2016/04/29
 
 65~Low Budget Fel Reaver Mech~Mage~WILD~BUDGET~2320~2016/04/29
 
-179~Gothik the Harvester~Paladin~WILD~SOLO~3680~2016/05/08
+66~Legendary Aggro/Rush~Paladin~WILD~META~3080~2016/05/05
 
-178~Gothik the Harvester~Druid~WILD~SOLO~1440~2016/05/08
+67~Secrets Aggro/Rush~Paladin~WILD~META~2260~2016/05/05
 
-68~Secrets Midrange~Paladin~WILD~META~5380~2016/05/05
+177~Instructor Razuvious~Warrior~WILD~SOLO~6360~2016/05/08
 
-176~Instructor Razuvious~Priest~WILD~SOLO~1240~2016/05/08
+69~Legendary Midrange~Paladin~WILD~META~9000~2016/05/05
 
 175~Instructor Razuvious~Paladin~WILD~SOLO~7560~2016/05/08
 
-174~Loatheb~Warrior~WILD~SOLO~1080~2016/05/08
+251~Temple Escape~Druid~WILD~SOLO~2880~2016/05/18
 
-173~Loatheb~Priest~WILD~SOLO~640~2016/05/08
+256~Lord Slitherspear~Priest~WILD~SOLO~2040~2016/05/18
 
-172~Heigan the Unclean~Warlock~WILD~SOLO~4460~2016/05/08
+257~Giantfin~Warrior~WILD~SOLO~1080~2016/05/18
 
-171~Heigan the Unclean~Priest~WILD~SOLO~800~2016/05/08
+254~Archaedas~Druid~WILD~SOLO~2280~2016/05/18
 
-170~Heigan the Unclean~Mage~WILD~SOLO~7240~2016/05/08
+255~Lord Slitherspear~Rogue~WILD~SOLO~3480~2016/05/18
 
-203~Sapphiron~Warrior~WILD~SOLO~7280~2016/05/18
-222~General Drakkisath~Rogue~WILD~SOLO~2240~2016/05/18
 249~Sun Raider Phaerix~Priest~WILD~SOLO~1100~2016/05/18
+
 253~Archaedas~Warlock~WILD~SOLO~1500~2016/05/18
+
 248~Zinaar~Mage~WILD~SOLO~1020~2016/05/18
+
 182~Reno N'Zoth Combo~Warlock~STANDARD~META~11960~2016/05/16
 
 183~Aggro Zoo~Warlock~STANDARD~META~4720~2016/05/16
@@ -266,48 +315,57 @@
 
 181~Legendary Control~Priest~STANDARD~META~6400~2016/05/16
 
-167~Maexxna~Hunter~WILD~SOLO~2660~2016/05/08
+186~Baron Rivendare~Hunter~WILD~SOLO~1120~2016/05/18
 
 187~Baron Rivendare~Priest~WILD~SOLO~2360~2016/05/18
+
 184~Legendary C'Thun Control~Priest~STANDARD~META~5520~2016/05/18
 
 6~Legendary Fast Freeze~Mage~STANDARD~META~5720~2016/05/16
 
-220~Ragnaros/Executus~Priest~WILD~SOLO~1380~2016/05/18
-186~Baron Rivendare~Hunter~WILD~SOLO~1120~2016/05/18
 188~Baron Rivendare~Warlock~WILD~SOLO~2040~2016/05/18
+
 189~Patchwerk~Druid~WILD~SOLO~1040~2016/05/18
-202~Sapphiron~Mage~WILD~SOLO~5640~2016/05/18
+
+179~Gothik the Harvester~Paladin~WILD~SOLO~3680~2016/05/08
+
 196~Gluth~Paladin~WILD~SOLO~1200~2016/05/18
-221~Highlord Omokk~Warlock~WILD~SOLO~2540~2016/05/18
+
 97~Mill~Rogue~WILD~UNIQUE~3240~2016/05/05
 
 185~Baron Rivendare~Druid~WILD~SOLO~760~2016/05/18
+
+142~Mid Budget Control~Warrior~WILD~BUDGET~6720~2016/05/05
+
 99~Legendary Control~Rogue~WILD~UNIQUE~7720~2016/05/05
 
 98~Pirate~Rogue~WILD~UNIQUE~6620~2016/05/05
+
+163~Anub'Rekhan~Warlock~WILD~SOLO~4760~2016/05/08
 
 168~Maexxna~Mage~WILD~SOLO~2940~2016/05/08
 
 169~Maexxna~Paladin~WILD~SOLO~3760~2016/05/08
 
 229~Razorgore the Untamed~Warlock~WILD~SOLO~3300~2016/05/18
+
 228~Razorgore the Untamed~Priest~WILD~SOLO~2760~2016/05/18
-164~Grand Widow Faerlina~Paladin~WILD~SOLO~3200~2016/05/08
 
-165~Grand Widow Faerlina~Priest~WILD~SOLO~5200~2016/05/08
+227~Razorgore the Untamed~Paladin~WILD~SOLO~2520~2016/05/18
 
-166~Grand Widow Faerlina~Warlock~WILD~SOLO~1440~2016/05/08
+90~Mid Budget Midrange~Priest~WILD~BUDGET~1840~2016/05/05
 
-92~Mid Budget Control~Priest~WILD~BUDGET~2720~2016/05/05
+93~Oil~Rogue~WILD~META~4900~2016/05/05
 
-160~Noth the Plaguebringer~Priest~WILD~SOLO~4120~2016/05/08
+167~Maexxna~Hunter~WILD~SOLO~2660~2016/05/08
 
-161~Anub'Rekhan~Druid~WILD~SOLO~7240~2016/05/08
+95~Legendary Raptor Deathrattle Tempo~Rogue~WILD~META~6120~2016/05/05
 
-162~Anub'Rekhan~Mage~WILD~SOLO~6240~2016/05/08
+94~Legendary Malygos Miracle~Rogue~WILD~META~6560~2016/05/05
 
-163~Anub'Rekhan~Warlock~WILD~SOLO~4760~2016/05/08
+221~Highlord Omokk~Warlock~WILD~SOLO~2540~2016/05/18
+
+96~Miracle Southsea Deckhand~Rogue~WILD~UNIQUE~3720~2016/05/05
 
 11~Low Budget Dragon~Priest~STANDARD~BUDGET~2900~2016/04/29
 
@@ -329,13 +387,13 @@
 
 18~Reno Jackson Highlander Combo~Warlock~STANDARD~META~8500~2016/05/16
 
+143~Legendary Beast Midrange~Druid~STANDARD~META~2680~2016/05/05
+
 117~Leeroy Zoo~Warlock~WILD~META~5320~2016/05/05
 
 116~Low Budget Fel Reaver Mech~Shaman~WILD~BUDGET~2220~2016/05/05
 
-204~Kel'Thuzad~Paladin~WILD~SOLO~3480~2016/05/18
 224~General Drakkisath~Shaman~WILD~SOLO~15780~2016/05/18
-151~Legendary Tempo~Warrior~STANDARD~META~9080~2016/05/05
 
 150~Bloodlust~Shaman~STANDARD~META~1740~2016/05/18
 
@@ -355,17 +413,30 @@
 
 158~Noth the Plaguebringer~Druid~WILD~SOLO~7760~2016/05/08
 
-234~Chromaggus~Mage~WILD~SOLO~4660~2016/05/18
+62~Legendary Duplicate Control~Mage~WILD~UNIQUE~4080~2016/04/29
+
+36~Mid Budget Aggro/Rush~Druid~WILD~BUDGET~2440~2016/04/29
+
 238~Omnotron Defense System~Mage~WILD~SOLO~4040~2016/05/18
+
 239~Omnotron Defense System~Shaman~WILD~SOLO~2240~2016/05/18
-207~Coren Direbrew~Rogue~WILD~SOLO~11180~2016/05/18
+
+234~Chromaggus~Mage~WILD~SOLO~4660~2016/05/18
+
 235~Chromaggus~Priest~WILD~SOLO~2000~2016/05/18
+
 236~Nefarius/Nefarian~Druid~WILD~SOLO~1540~2016/05/18
+
 237~Nefarius/Nefarian~Paladin~WILD~SOLO~3160~2016/05/18
+
 230~Vaelastrasz the Corrupt~Druid~WILD~SOLO~1600~2016/05/18
+
 231~Vaelastrasz the Corrupt~Hunter~WILD~SOLO~1040~2016/05/18
+
 232~Vaelastrasz the Corrupt~Rogue~WILD~SOLO~1700~2016/05/18
+
 233~Chromaggus~Druid~WILD~SOLO~8440~2016/05/18
+
 48~Legendary Fast Freeze~Mage~WILD~META~5640~2016/04/29
 
 49~Legendary Mech~Mage~WILD~META~4280~2016/04/29
@@ -392,24 +463,26 @@
 
 9~Low Budget Aggro/Rush~Paladin~STANDARD~BUDGET~1520~2016/04/29
 
-146~Legendary Reno Jackson Freeze~Mage~STANDARD~META~8480~2016/05/05
+201~Sapphiron~Hunter~WILD~SOLO~2420~2016/05/18
 
-147~Legendary N'Zoth Control~Priest~STANDARD~META~6440~2016/05/05
+200~Thaddius~Warlock~WILD~SOLO~1220~2016/05/18
 
-144~Low Budget Beast Midrange~Druid~STANDARD~BUDGET~1320~2016/05/05
+203~Sapphiron~Warrior~WILD~SOLO~7280~2016/05/18
 
-145~Face Aggro/Rush~Hunter~STANDARD~META~2520~2016/05/05
+202~Sapphiron~Mage~WILD~SOLO~5640~2016/05/18
 
-142~Mid Budget Control~Warrior~WILD~BUDGET~6720~2016/05/05
+205~Kel'Thuzad~Priest~WILD~SOLO~720~2016/05/18
 
-143~Legendary Beast Midrange~Druid~STANDARD~META~2680~2016/05/05
+204~Kel'Thuzad~Paladin~WILD~SOLO~3480~2016/05/18
 
-140~Aggro/Rush~Warrior~WILD~UNIQUE~760~2016/05/05
+207~Coren Direbrew~Rogue~WILD~SOLO~11180~2016/05/18
 
-141~Raging Worgen OTK~Warrior~WILD~UNIQUE~1760~2016/05/05
+206~Coren Direbrew~Priest~WILD~SOLO~10940~2016/05/18
 
 209~High Justice Grimstone~Druid~WILD~SOLO~4880~2016/05/18
+
 208~Coren Direbrew~Shaman~WILD~SOLO~9040~2016/05/18
+
 148~Legendary Miracle Southsea Deckhand~Rogue~STANDARD~META~6960~2016/05/05
 
 149~Low Budget Miracle Southsea Deckhand~Rogue~STANDARD~BUDGET~3760~2016/05/05
@@ -437,11 +510,18 @@
 2~Low Budget Ramp C'Thun~Druid~STANDARD~BUDGET~3840~2016/04/29
 
 263~Rafaam Unleashed~Druid~WILD~SOLO~4200~2016/05/18
+
+144~Low Budget Beast Midrange~Druid~STANDARD~BUDGET~1320~2016/05/05
+
 262~The Steel Sentinel~Paladin~WILD~SOLO~1680~2016/05/18
+
 261~Skelesaurus Hex~Paladin~WILD~SOLO~3040~2016/05/18
+
 250~Temple Escape~Mage~WILD~SOLO~1400~2016/05/18
+
 41~Face Aggro/Rush~Hunter~WILD~META~1460~2016/04/29
 
 260~Lady Naz'jar~Mage~WILD~SOLO~2780~2016/05/18
+
 47~Legendary Tempo~Mage~WILD~META~4540~2016/04/29
 
